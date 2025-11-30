@@ -1,0 +1,63 @@
+================================================================================
+TICKER CARD: STX
+================================================================================
+Generated: 2025-11-30 21:13:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-03  Volume: 12,915,600  (155 days ago)
+  2. 2025-01-22  Volume: 9,814,200  (226 days ago)
+  3. 2024-07-24  Volume: 9,398,100  (408 days ago)
+  4. 2024-03-26  Volume: 7,346,800  (528 days ago)
+  5. 2024-03-15  Volume: 6,079,500  (539 days ago)
+  6. 2024-01-25  Volume: 5,756,700  (589 days ago)
+  7. 2024-01-22  Volume: 4,171,400  (592 days ago)
+  8. 2024-01-16  Volume: 3,012,300  (598 days ago)
+  9. 2024-01-03  Volume: 2,874,600  (611 days ago)
+  10. 2024-01-02  Volume: 2,011,400  (612 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-04-03  Volume: 12,915,600  (155 days ago)  [Also HVE]
+  2. 2025-01-22  Volume: 9,814,200  (226 days ago)
+  3. 2024-10-23  Volume: 8,774,000  (317 days ago)
+  4. 2024-09-20  Volume: 5,499,800  (350 days ago)
+  5. 2024-09-06  Volume: 2,612,500  (364 days ago)
+  6. 2024-09-05  Volume: 1,736,200  (365 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-07  Volume: 32,593,400  (147 days ago)
+  2. 2025-03-31  Volume: 30,332,400  (154 days ago)
+  3. 2023-09-04  Volume: 29,700,900  (728 days ago)
+  4. 2022-10-24  Volume: 27,465,200  (1043 days ago)
+  5. 2022-01-24  Volume: 24,822,500  (1316 days ago)
+  6. 2021-12-13  Volume: 11,183,300  (1358 days ago)
+  7. 2021-12-06  Volume: 9,565,800  (1365 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-04-07  Volume: 32,593,400  (147 days ago)  [Also HVE]
+  2. 2025-03-31  Volume: 30,332,400  (154 days ago)
+  3. 2025-03-03  Volume: 25,294,200  (182 days ago)
+  4. 2025-01-20  Volume: 23,281,900  (224 days ago)
+  5. 2024-12-16  Volume: 19,685,600  (259 days ago)
+  6. 2024-10-21  Volume: 19,591,400  (315 days ago)
+  7. 2024-09-16  Volume: 11,933,000  (350 days ago)
+  8. 2024-09-09  Volume: 10,368,600  (357 days ago)
+  9. 2024-09-02  Volume: 9,935,900  (364 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Total HV1Y events across all timeframes: 15
+Latest volume activity: Weekly (147 days ago)
+
+================================================================================

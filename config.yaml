@@ -1,0 +1,54 @@
+# Configuration file for Highest Volume Ever (HVE) Screener
+# ========================================================
+
+# Data source configuration
+data_source:
+  # Path to metaData_v1 project directory
+  metadata_v1_path: "/home/imagda/_invest2024/python/metaData_v1"
+
+  # Ticker list file from downloadData_v1
+  # This should be a CSV file with ticker symbols
+  # Can be:
+  #   - Absolute path: "/path/to/tickers.csv"
+  #   - Relative path: "test_tickers.csv" (in current directory)
+  #   - File name in metaData_v1/data/tickers: "combined_tickers_choice_0.csv"
+  ticker_file: "test_tickers.csv"  # Testing with specific tickers
+
+  # User choice for ticker selection (used by metaData_v1)
+  user_choice: 0
+
+# Analysis parameters
+analysis:
+  # Limit historical data search to most recent N years
+  limit_hist_search_years: 4
+
+  # Timeframes to analyze
+  timeframes:
+    - daily
+    - weekly
+    - monthly
+
+  # Minimum volume threshold to consider (optional filter)
+  min_volume_threshold: 0
+
+  # Minimum price threshold to consider (optional filter)
+  min_price_threshold: 0.0
+
+# Output configuration
+output:
+  # Base directory for results
+  results_dir: "results"
+
+  # Create subdirectories for each timeframe
+  create_timeframe_subdirs: true
+
+  # Excel export settings
+  excel:
+    include_charts: true
+
+  # Visualization settings
+  visualization:
+    chart_width: 14
+    chart_height: 7
+    show_volume_bars: true
+    highlight_hve_dates: true

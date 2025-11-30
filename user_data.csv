@@ -1,0 +1,89 @@
+# metaVolume Configuration File,,
+# =============================,,
+# Minimal configuration following metaData_v1 patterns,,
+# Only essential fields for data loading and HVE calculation,,
+,,
+# GLOBAL PHASE CONTROL,,
+# ---------------------,,
+BASIC,TRUE,Execute basic HVE processing
+SCREENERS,FALSE,Execute screeners (disabled for now)
+POST_PROCESS,FALSE,Execute post-processing (disabled for now)
+,,
+# TICKER SELECTION,,
+# ----------------,,
+ticker_choice,8,"Ticker combination choice (0-8 or combinations like ""1-2"")"
+batch_size,50,Number of tickers per batch
+,,
+# TICKER GROUP CHOICES (ticker_choice values),,
+# ==========================================,,
+"# Use single numbers or dash-separated combinations (e.g. ""1-2-3"")",,
+# 0: TradingView Universe only,tradingview_universe.csv,Full universe (6348 tickers) - Boolean filtering
+# 1: S&P 500 only,Uses SP500 boolean column,~503 tickers - Boolean filtering
+# 2: NASDAQ 100 only,Uses NASDAQ100 boolean column,~100 tickers - Boolean filtering
+# 3: All NASDAQ stocks,Uses NASDAQComposite boolean column,~3300 tickers - Boolean filtering
+# 4: Russell 1000 (IWM) only,Uses Russell1000 boolean column,~1008 tickers - Boolean filtering
+# 5: Index tickers only,indexes_tickers.csv,16 tickers (QQQ SPY IWM sectors) - Individual file
+# 6: Portfolio tickers only,portofolio_tickers.csv,6 tickers (TSLA NVDA JPM VRT ZS NET) - Individual file
+# 7: ETF tickers only,etf_tickers.csv,23 tickers (major ETFs) - Individual file
+# 8: TEST tickers only,test_tickers.csv,
+"# Examples: ""0"" (full universe) ""2"" (NASDAQ 100) ""1-2"" (S&P 500 + NASDAQ 100) ""5-8"" (indexes + test)",,
+# NOTE: Choices 0-4 use boolean filtering from tradingview_universe.csv,,
+# NOTE: Choices 5-8 use individual ticker files from project root directory,,
+,,
+# ENVIRONMENT DETECTION,,
+# ---------------------,,
+auto_detect_environment,FALSE,Automatically detect environment
+manual_environment_override,colab,Manual override: local | colab
+,,
+# DATA PATHS - LOCAL ENVIRONMENT,,
+# -------------------------------,,
+YF_daily_data_files_local,../downloadData_v1/data/market_data/daily/,Path to daily data files
+YF_weekly_data_files_local,../downloadData_v1/data/market_data/weekly/,Path to weekly data files
+YF_monthly_data_files_local,../downloadData_v1/data/market_data/monthly/,Path to monthly data files
+,,
+# DATA PATHS - COLAB ENVIRONMENT,,
+# -------------------------------,,
+YF_daily_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/daily/,Colab: Path to daily data
+YF_weekly_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/weekly/,Colab: Path to weekly data
+YF_monthly_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/monthly/,Colab: Path to monthly data
+,,
+# TIMEFRAME ENABLE FLAGS,,
+# -----------------------,,
+YF_hist_data,TRUE,Load historical OHLCV data
+YF_daily_data,TRUE,Process daily timeframe
+YF_weekly_data,FALSE,Process weekly timeframe
+YF_monthly_data,FALSE,Process monthly timeframe
+,,
+# Historical Volume Export Configuration,,
+# Two independent export methods:,,
+# - HVE (Highest Volume Ever): Temporal milestones when volume set new records,,
+# - HVD (Highest Volume Days): Top N volume days by magnitude (any period),,
+# Set to TRUE to enable, FALSE to disable. Both can run simultaneously.,
+#,,
+# HVE SPECIFIC SETTINGS,,
+# ----------------------,,
+HVE_enable,TRUE,Enable HVE calculation
+HVE_output_dir,results/hve_results,HVE results output directory
+HVE_limit_years,4,Limit historical search to N years
+HVE_min_volume,0,Minimum volume threshold (0=no filter)
+HVE_min_price,2,Minimum price threshold (0.0=no filter)
+HVE_date_range_mode,fixed,Date range mode: 'rolling' (from now) or 'fixed' (specific dates)
+HVE_start_date,2020-01-01,Start date for fixed range mode (YYYY-MM-DD)
+HVE_end_date,2023-12-31,End date for fixed range mode (YYYY-MM-DD)
+HVE_historical_max_events,10,Number of most recent HVE events to export in historical format
+HVE_historical_export,TRUE,Enable HVE historical format export (TRUE/FALSE)
+HVD_historical_export,TRUE,Enable HVD (Top Volume Days) historical format export (TRUE/FALSE)
+HVD_historical_max_days,10,Number of top volume days to export in historical format
+,,
+# HV1Y SPECIFIC SETTINGS,,
+# -----------------------,,
+HV1Y_enable,TRUE,Enable HV1Y (Highest Volume in 1 Year) calculation
+HV1Y_window_days,365,Rolling window for HV1Y in calendar days
+,,
+# OUTPUT SETTINGS,,
+# ---------------,,
+write_info_file,TRUE,Write detailed info files during processing
+,,
+# TICKER FILES,,
+# ------------,,
+# Ticker file will be specified in code or use combined_tickers_choice_0.csv,,

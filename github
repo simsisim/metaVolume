@@ -1,0 +1,20 @@
+
+
+Step 1: Navigate to the directory
+cd /home/
+Step 2: Initialize Git repository (if not already initialized)
+git init
+Step 3: Add your GitHub remote
+Replace YOUR_USERNAME with your actual GitHub username:
+bash
+git remote add origin https://github.com/YOUR_USERNAME/tradingview_indicator.git
+Step 4: Add all files to staging
+bash
+git add .
+Step 5: Create your first commit
+bash
+git commit -m "Initial commit: Industry Group Strength Indicator improvement"
+Step 6: Push to GitHub
+bash
+git branch -M main
+git push -u origin main

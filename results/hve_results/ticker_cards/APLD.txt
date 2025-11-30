@@ -1,0 +1,34 @@
+================================================================================
+TICKER CARD: APLD
+================================================================================
+Generated: 2025-11-30 22:02:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-07-19  Volume: 131,949,600  (528 days ago)
+  2. 2022-07-18  Volume: 6,803,000  (529 days ago)
+  3. 2022-06-13  Volume: 3,404,100  (564 days ago)
+  4. 2022-04-13  Volume: 3,116,200  (625 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2023-05-16  Volume: 79,376,400  (227 days ago)
+  2. 2023-01-27  Volume: 2,969,200  (336 days ago)
+  3. 2023-01-26  Volume: 1,531,400  (337 days ago)
+  4. 2023-01-13  Volume: 1,512,500  (350 days ago)
+  5. 2023-01-12  Volume: 852,300  (351 days ago)
+  6. 2023-01-09  Volume: 753,900  (354 days ago)
+  7. 2022-12-30  Volume: 479,800  (364 days ago)
+  8. 2022-12-29  Volume: 370,700  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 4
+Total HV1Y events across all timeframes: 8
+Latest volume activity: Daily (528 days ago)
+
+================================================================================

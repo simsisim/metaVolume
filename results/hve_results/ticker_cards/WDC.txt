@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: WDC
+================================================================================
+Generated: 2025-11-30 21:13:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-08-01  Volume: 35,572,692  (400 days ago)
+  2. 2024-01-25  Volume: 31,551,830  (589 days ago)
+  3. 2024-01-22  Volume: 21,794,308  (592 days ago)
+  4. 2024-01-16  Volume: 10,667,084  (598 days ago)
+  5. 2024-01-02  Volume: 9,513,164  (612 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-07-31  Volume: 24,012,700  (36 days ago)
+  2. 2024-10-25  Volume: 23,343,541  (315 days ago)
+  3. 2024-09-26  Volume: 11,688,573  (344 days ago)
+  4. 2024-09-20  Volume: 10,165,403  (350 days ago)
+  5. 2024-09-17  Volume: 6,882,775  (353 days ago)
+  6. 2024-09-16  Volume: 5,943,445  (354 days ago)
+  7. 2024-09-09  Volume: 5,518,233  (361 days ago)
+  8. 2024-09-06  Volume: 5,491,905  (364 days ago)
+  9. 2024-09-05  Volume: 3,064,994  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Total HV1Y events across all timeframes: 9
+Latest volume activity: Daily (400 days ago)
+
+================================================================================

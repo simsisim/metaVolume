@@ -1,0 +1,63 @@
+================================================================================
+TICKER CARD: NVDA
+================================================================================
+Generated: 2025-11-30 21:13:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-08  Volume: 1,142,269,000  (546 days ago)
+  2. 2024-02-22  Volume: 865,100,000  (561 days ago)
+  3. 2024-01-09  Volume: 773,100,000  (605 days ago)
+  4. 2024-01-08  Volume: 642,510,000  (606 days ago)
+  5. 2024-01-05  Volume: 415,039,000  (609 days ago)
+  6. 2024-01-02  Volume: 411,254,000  (612 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-01-27  Volume: 818,830,900  (221 days ago)
+  2. 2024-09-11  Volume: 441,422,400  (359 days ago)
+  3. 2024-09-06  Volume: 413,638,100  (364 days ago)
+  4. 2024-09-05  Volume: 306,850,700  (365 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-04  Volume: 3,469,163,000  (546 days ago)
+  2. 2024-02-19  Volume: 3,073,076,000  (560 days ago)
+  3. 2024-01-08  Volume: 2,899,159,000  (602 days ago)
+  4. 2024-01-01  Volume: 1,453,724,000  (609 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-01-27  Volume: 2,646,704,500  (217 days ago)
+  2. 2024-09-09  Volume: 1,588,029,100  (357 days ago)
+  3. 2024-09-02  Volume: 1,570,114,200  (364 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-04  Volume: 3,469,163,000  (550 days ago)
+  2. 2024-02-19  Volume: 3,073,076,000  (564 days ago)
+  3. 2024-01-08  Volume: 2,899,159,000  (606 days ago)
+  4. 2024-01-01  Volume: 1,453,724,000  (613 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2025-01-27  Volume: 2,646,704,500  (221 days ago)
+  2. 2024-09-09  Volume: 1,588,029,100  (361 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Total HV1Y events across all timeframes: 9
+Latest volume activity: Daily (546 days ago)
+
+================================================================================

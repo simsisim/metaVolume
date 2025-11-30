@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: APLE
+================================================================================
+Generated: 2025-11-30 22:02:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-15  Volume: 42,325,100  (105 days ago)
+  2. 2021-06-25  Volume: 25,727,200  (917 days ago)
+  3. 2020-03-23  Volume: 8,792,300  (1376 days ago)
+  4. 2020-03-20  Volume: 8,114,700  (1379 days ago)
+  5. 2020-03-18  Volume: 6,588,400  (1381 days ago)
+  6. 2020-02-27  Volume: 6,113,500  (1401 days ago)
+  7. 2020-02-25  Volume: 5,274,600  (1403 days ago)
+  8. 2020-02-24  Volume: 2,937,900  (1404 days ago)
+  9. 2020-01-31  Volume: 2,682,800  (1428 days ago)
+  10. 2020-01-06  Volume: 2,367,500  (1453 days ago)
+  11. 2020-01-03  Volume: 1,764,200  (1456 days ago)
+  12. 2020-01-02  Volume: 1,638,400  (1457 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2023-09-15  Volume: 42,325,100  (105 days ago)  [Also HVE]
+  2. 2023-09-05  Volume: 7,291,400  (115 days ago)
+  3. 2023-04-20  Volume: 3,897,900  (253 days ago)
+  4. 2023-03-21  Volume: 3,581,600  (283 days ago)
+  5. 2023-03-17  Volume: 3,404,700  (287 days ago)
+  6. 2023-02-07  Volume: 3,289,000  (325 days ago)
+  7. 2023-01-11  Volume: 2,216,000  (352 days ago)
+  8. 2023-01-04  Volume: 1,394,400  (359 days ago)
+  9. 2022-12-30  Volume: 1,389,900  (364 days ago)
+  10. 2022-12-29  Volume: 864,400  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Total HV1Y events across all timeframes: 10
+Latest volume activity: Daily (105 days ago)
+
+================================================================================

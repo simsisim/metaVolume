@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: ABBV
+================================================================================
+Generated: 2025-11-30 22:02:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-09-01  Volume: 50,943,200  (849 days ago)
+  2. 2021-05-27  Volume: 26,406,000  (946 days ago)
+  3. 2020-11-04  Volume: 25,849,000  (1150 days ago)
+  4. 2020-03-18  Volume: 23,712,800  (1381 days ago)
+  5. 2020-03-17  Volume: 23,205,000  (1382 days ago)
+  6. 2020-03-13  Volume: 21,867,700  (1386 days ago)
+  7. 2020-03-12  Volume: 19,935,700  (1387 days ago)
+  8. 2020-02-07  Volume: 19,090,300  (1421 days ago)
+  9. 2020-01-31  Volume: 13,870,100  (1428 days ago)
+  10. 2020-01-27  Volume: 13,832,000  (1432 days ago)
+  11. 2020-01-21  Volume: 13,552,000  (1438 days ago)
+  12. 2020-01-17  Volume: 10,122,300  (1442 days ago)
+  13. 2020-01-13  Volume: 9,292,200  (1446 days ago)
+  14. 2020-01-10  Volume: 8,581,400  (1449 days ago)
+  15. 2020-01-08  Volume: 7,696,800  (1451 days ago)
+  16. 2020-01-07  Volume: 7,242,500  (1452 days ago)
+  17. 2020-01-06  Volume: 6,786,600  (1453 days ago)
+  18. 2020-01-03  Volume: 5,988,500  (1456 days ago)
+  19. 2020-01-02  Volume: 5,639,200  (1457 days ago)
+
+HV1Y Events (Highest Volume in 1 Year):
+----------------------------------------
+  1. 2023-03-17  Volume: 42,756,400  (287 days ago)
+  2. 2023-02-09  Volume: 12,216,900  (323 days ago)
+  3. 2023-01-17  Volume: 8,507,000  (346 days ago)
+  4. 2023-01-09  Volume: 7,833,000  (354 days ago)
+  5. 2023-01-06  Volume: 5,099,100  (357 days ago)
+  6. 2023-01-03  Volume: 4,937,500  (360 days ago)
+  7. 2022-12-30  Volume: 3,680,400  (364 days ago)
+  8. 2022-12-29  Volume: 3,112,500  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Total HV1Y events across all timeframes: 8
+Latest volume activity: Daily (849 days ago)
+
+================================================================================
