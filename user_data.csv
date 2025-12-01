@@ -11,8 +11,8 @@ POST_PROCESS,FALSE,Execute post-processing (disabled for now)
 ,,
 # TICKER SELECTION,,
 # ----------------,,
-ticker_choice,8,"Ticker combination choice (0-8 or combinations like ""1-2"")"
-batch_size,50,Number of tickers per batch
+ticker_choice,0,"Ticker combination choice (0-8 or combinations like ""1-2"")"
+batch_size,200,Number of tickers per batch
 ,,
 # TICKER GROUP CHOICES (ticker_choice values),,
 # ==========================================,,
