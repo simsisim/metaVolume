@@ -30,9 +30,11 @@ from src.user_defined_data import read_user_data, UserConfiguration
 from src.data_reader import DataReader
 from src.unified_ticker_generator import generate_all_ticker_files
 from src.hve_screener import HVEScreener
+from src.hvd_screener import HVDScreener
 from src.ticker_card_generator import TickerCardGenerator
 from src.hve_historical_exporter import export_all_timeframes_historical
 from src.hvd_historical_exporter import export_all_timeframes_hvd
+from src.vol_daily_checker import VolDailyChecker
 
 # Configure logging
 logging.basicConfig(
@@ -121,7 +123,7 @@ def process_timeframe(
         ticker_list: List of ticker symbols
 
     Returns:
-        DataFrame with combined results for this timeframe, or empty DataFrame
+        Dictionary with 'hve' and 'hvd' DataFrames for this timeframe
     """
     print(f"\n{'='*60}")
     print(f"PROCESSING {timeframe.upper()} TIMEFRAME")
@@ -132,12 +134,23 @@ def process_timeframe(
         output_base = setup_output_directories(config, timeframe)
 
         # Initialize HVE Screener with user configuration
-        screener = HVEScreener(
+        hve_screener = HVEScreener(
             limit_hist_years=user_config.hve_limit_years,
             min_price=user_config.hve_min_price,
             min_volume=user_config.hve_min_volume,
             hv1y_enabled=user_config.hv1y_enable,
             hv1y_window_days=user_config.hv1y_window_days,
+            date_range_mode=user_config.hve_date_range_mode,
+            start_date=user_config.hve_start_date,
+            end_date=user_config.hve_end_date
+        )
+
+        # Initialize HVD Screener with user configuration
+        hvd_screener = HVDScreener(
+            limit_hist_years=user_config.hve_limit_years,  # Use same date filters as HVE for consistency
+            min_price=user_config.hve_min_price,
+            min_volume=user_config.hve_min_volume,
+            max_events=user_config.hvd_historical_max_events,
             date_range_mode=user_config.hve_date_range_mode,
             start_date=user_config.hve_start_date,
             end_date=user_config.hve_end_date
@@ -150,14 +163,68 @@ def process_timeframe(
         # Print data summary
         print_data_summary(data_reader, timeframe)
 
-        # Process in batches
+
+        # ================================================================
+        # PRELOAD BASELINE LOADING
+        # ================================================================
+        # Load pre-computed HVE/HVD max volumes as baselines
+        # This enables incremental detection: only volumes EXCEEDING
+        # historical maxes will be recorded as new HVE events
+        # ================================================================
+        baseline_hve_volumes = {}  # Dict of ticker -> max_volume
+        baseline_hvd_volumes = {}  # Dict of ticker -> max_volume
+        
+        if user_config.preload_hve:
+            print(f"\n📥 Loading preload baselines for {timeframe}...")
+            
+            # Load HVE preload and extract baselines
+            if user_config.hve_enable and user_config.preload_hve_file:
+                try:
+                    from src.hve_preloader import load_hve_preload_data, get_preload_max_volumes
+                    preload_hve_df = load_hve_preload_data(user_config.preload_hve_file, timeframe)
+                    
+                    if not preload_hve_df.empty:
+                        baseline_hve_volumes = get_preload_max_volumes(preload_hve_df)
+                        print(f"   ✓ Loaded baselines for {len(baseline_hve_volumes)} tickers")
+                        print(f"   ℹ️  Will detect only NEW HVE events exceeding historical maxes")
+                    else:
+                        print(f"   ⚠️  No HVE preload baselines found for {timeframe}")
+                        
+                except FileNotFoundError:
+                    print(f"   ⚠️  HVE preload file not found: {user_config.preload_hve_file}")
+                except Exception as e:
+                    print(f"   ⚠️  Failed to load HVE preload baselines: {e}")
+                    logger.error(f"HVE preload error: {e}", exc_info=True)
+                    
+            # Load HVD preload and extract baselines (for future use)
+            if user_config.hvd_historical_export and user_config.preload_hvd_file:
+                try:
+                    from src.hve_preloader import load_hvd_preload_data, get_preload_max_volumes
+                    preload_hvd_df = load_hvd_preload_data(user_config.preload_hvd_file, timeframe)
+                    
+                    if not preload_hvd_df.empty:
+                        baseline_hvd_volumes = get_preload_max_volumes(preload_hvd_df)
+                        print(f"   ✓ Loaded HVD baselines for {len(baseline_hvd_volumes)} tickers")
+                    else:
+                        print(f"   ⚠️  No HVD preload baselines found for {timeframe}")
+                        
+                except FileNotFoundError:
+                    print(f"   ⚠️  HVD preload file not found: {user_config.preload_hvd_file}")
+                except Exception as e:
+                    print(f"   ⚠️  Failed to load HVD preload baselines: {e}")
+                    logger.error(f"HVD preload error: {e}", exc_info=True)
+
+        # Process ALL tickers (don't skip any - we use baselines to filter instead)
         total_tickers = len(ticker_list)
         batch_size = user_config.batch_size
-        total_batches = math.ceil(total_tickers / batch_size)
+        total_batches = math.ceil(total_tickers / batch_size) if total_tickers > 0 else 0
 
-        print(f"\n📦 Processing {total_tickers} tickers in {total_batches} batches of {batch_size}")
+        if total_tickers > 0:
+            print(f"\n📦 Processing {total_tickers} tickers in {total_batches} batches of {batch_size}")
 
-        all_results = []
+        all_hve_results = []
+        all_hvd_results = []
+        all_hv1y_results = []  # NEW: Separate HV1Y results collection
 
         for batch_num in range(total_batches):
             start_idx = batch_num * batch_size
@@ -165,11 +232,16 @@ def process_timeframe(
             batch_tickers = ticker_list[start_idx:end_idx]
             batch_count = batch_num + 1
 
+
             print(f"\n🔄 Processing batch {batch_count}/{total_batches} ({len(batch_tickers)} tickers)")
 
             try:
-                # Read batch data
-                batch_data = data_reader.read_batch_data(batch_tickers, validate=True)
+                # Read batch data with appropriate aggregation
+                batch_data = data_reader.read_batch_data(
+                    batch_tickers,
+                    validate=True,
+                    aggregate_to=timeframe  # Pass timeframe for aggregation
+                )
 
                 if not batch_data:
                     print(f"⚠️  No valid data in batch {batch_count}, skipping...")
@@ -177,15 +249,59 @@ def process_timeframe(
 
                 print(f"✅ Loaded {len(batch_data)} valid tickers from batch {batch_count}")
 
-                # Screen for HVE events
-                print(f"\n🔍 Screening for HVE events...")
-                batch_results = screener.screen_batch(batch_data, timeframe)
+                # Screen for HVE events (with baseline filtering for incremental detection)
+                if user_config.hve_enable:
+                    print(f"\n🔍 Screening for HVE events...")
+                    
+                    # Pass baseline volumes to filter for only NEW events exceeding historical maxes
+                    hve_batch_results = hve_screener.screen_batch(
+                        batch_data,
+                        timeframe,
+                        baseline_volumes=baseline_hve_volumes if baseline_hve_volumes else None
+                    )
 
-                if not batch_results.empty:
-                    print(f"✅ Found {len(batch_results)} tickers with HVE data")
-                    all_results.append(batch_results)
-                else:
-                    print(f"⚠️  No HVE events found in batch {batch_count}")
+                    if not hve_batch_results.empty:
+                        # Extract HV1Y data if HV1Y is enabled
+                        if user_config.hv1y_enable:
+                            hv1y_columns = [
+                                'ticker', 'timeframe',
+                                'hv1y_date', 'hv1y_volume', 'days_since_hv1y',
+                                'hv1y_occ_1y', 'total_hv1y_count',
+                                'is_hv1y_also_hve', 'hv1y_to_hve_ratio',
+                                'all_hv1y_details'
+                            ]
+                            # Check which HV1Y columns actually exist
+                            available_hv1y_cols = [col for col in hv1y_columns if col in hve_batch_results.columns]
+                           
+                            if available_hv1y_cols:
+                                hv1y_batch_results = hve_batch_results[available_hv1y_cols].copy()
+                                all_hv1y_results.append(hv1y_batch_results)
+                            
+                            # Remove HV1Y columns from HVE results
+                            hve_columns = [col for col in hve_batch_results.columns if col not in hv1y_columns or col in ['ticker', 'timeframe']]
+                            hve_batch_results = hve_batch_results[hve_columns]
+                        
+                        if baseline_hve_volumes:
+                            print(f"✅ Found {len(hve_batch_results)} tickers with NEW HVE events (exceeding preload baselines)")
+                        else:
+                            print(f"✅ Found {len(hve_batch_results)} tickers with HVE data")
+                        all_hve_results.append(hve_batch_results)
+                    else:
+                        if baseline_hve_volumes:
+                            print(f"ℹ️  No new HVE events in batch {batch_count} (all volumes within baselines)")
+                        else:
+                            print(f"⚠️  No HVE events found in batch {batch_count}")
+
+                # Screen for HVD events (top volume days by magnitude)
+                if user_config.hvd_historical_export:  # Only run if HVD export is enabled
+                    print(f"\n🔍 Screening for HVD events (top volume days)...")
+                    hvd_batch_results = hvd_screener.screen_batch(batch_data, timeframe)
+
+                    if not hvd_batch_results.empty:
+                        print(f"✅ Found {len(hvd_batch_results)} tickers with HVD data")
+                        all_hvd_results.append(hvd_batch_results)
+                    else:
+                        print(f"⚠️  No HVD events found in batch {batch_count}")
 
             except Exception as e:
                 logger.error(f"Error processing batch {batch_count}: {e}")
@@ -193,33 +309,115 @@ def process_timeframe(
                 continue
 
         # Combine and save results
-        if all_results:
-            combined_results = pd.concat(all_results, ignore_index=True)
-            combined_results = combined_results.sort_values('days_since_hve')
+        result_dict = {'hve': pd.DataFrame(), 'hvd': pd.DataFrame()}
 
-            # Save results
-            results_file = output_base / f'hve_results_{timeframe}.csv'
-            combined_results.to_csv(results_file, index=False)
-            print(f"\n✅ Saved {len(combined_results)} results to {results_file}")
+        # ================================================================
+        # SAVE NEW HVE RESULTS (NO MERGING)
+        # ================================================================
+        # Output only NEW HVE events detected (those exceeding baselines)
+        # Do not re-write old preload data
+        # ================================================================
+        
+        # Process HVE results - save only NEW events
+        if all_hve_results:
+            combined_hve_results = pd.concat(all_hve_results, ignore_index=True)
+            combined_hve_results = combined_hve_results.sort_values('days_since_hve')
 
-            # Print summary
-            print(f"\n📊 {timeframe.upper()} RESULTS SUMMARY:")
-            print(f"   Total tickers with HVE data: {len(combined_results)}")
+            # Save HVE results
+            hve_results_file = output_base / f'hve_results_{timeframe}.csv'
+            combined_hve_results.to_csv(hve_results_file, index=False)
+            
+            print(f"\n✅ Saved {len(combined_hve_results)} NEW HVE results to {hve_results_file}")
+            if baseline_hve_volumes:
+                print(f"   (Detected by exceeding preload baselines for {len(baseline_hve_volumes)} tickers)")
+
+            # Print HVE summary
+            print(f"\n📊 {timeframe.upper()} NEW HVE EVENTS SUMMARY:")
+            print(f"   Total tickers with NEW HVE events: {len(combined_hve_results)}")
             print(f"\n   Top 10 by recent HVE:")
-            for i, row in combined_results.head(10).iterrows():
+            for i, row in combined_hve_results.head(10).iterrows():
                 print(f"   {i+1}. {row['ticker']}: {row['days_since_hve']} days ago "
                       f"({row['hve_date'].strftime('%Y-%m-%d')}, vol={row['hve_volume']:,.0f}, "
                       f"HVE_1Y={row['hve_occ_1y']}, Total={row['total_hve_count']})")
 
-            return combined_results
+            result_dict['hve'] = combined_hve_results
         else:
-            print(f"\n⚠️  No results for {timeframe} timeframe")
-            return pd.DataFrame()
+            if baseline_hve_volumes:
+                print(f"\n✅ No new HVE events detected (all volumes within historical baselines)")
+            else:
+                print(f"\n⚠️  No HVE results for {timeframe} timeframe")
+
+        # Process HVD results - save only NEW events  
+        if all_hvd_results:
+            combined_hvd_results = pd.concat(all_hvd_results, ignore_index=True)
+            combined_hvd_results = combined_hvd_results.sort_values('days_since_hvd')
+
+            # Save HVD results
+            hvd_results_file = output_base / f'hvd_results_{timeframe}.csv'
+            combined_hvd_results.to_csv(hvd_results_file, index=False)
+            
+            print(f"\n✅ Saved {len(combined_hvd_results)} HVD results to {hvd_results_file}")
+
+            # Print HVD summary
+            print(f"\n📊 {timeframe.upper()} HVD RESULTS SUMMARY:")
+            print(f"   Total tickers with HVD data: {len(combined_hvd_results)}")
+            print(f"\n   Top 10 by recent HVD:")
+            for i, row in combined_hvd_results.head(10).iterrows():
+                print(f"   {i+1}. {row['ticker']}: {row['days_since_hvd']} days ago "
+                      f"({row['hvd_date'].strftime('%Y-%m-%d')}, vol={row['hvd_volume']:,.0f}, "
+                      f"Count={row['hvd_count']})")
+
+            result_dict['hvd'] = combined_hvd_results
+        else:
+            print(f"\n⚠️  No HVD results for {timeframe} timeframe")
+
+        # Save HV1Y results separately
+        if all_hv1y_results and user_config.hv1y_enable:
+            combined_hv1y_results = pd.concat(all_hv1y_results, ignore_index=True)
+            combined_hv1y_results = combined_hv1y_results.sort_values('days_since_hv1y')
+
+            # Limit to max events per ticker if configured
+            if user_config.hv1y_max_events > 0:
+                print(f"\n🔧 Limiting to {user_config.hv1y_max_events} most recent HV1Y events per ticker...")
+                limited_results = []
+                for ticker in combined_hv1y_results['ticker'].unique():
+                    ticker_data = combined_hv1y_results[
+                        combined_hv1y_results['ticker'] == ticker
+                    ].head(user_config.hv1y_max_events)
+                    limited_results.append(ticker_data)
+                combined_hv1y_results = pd.concat(limited_results, ignore_index=True)
+                combined_hv1y_results = combined_hv1y_results.sort_values('days_since_hv1y')
+
+            # Save to separate HV1Y file
+            hv1y_results_file = output_base / f'hv1y_results_{timeframe}.csv'
+            combined_hv1y_results.to_csv(hv1y_results_file, index=False)
+            
+            print(f"\n✅ Saved {len(combined_hv1y_results)} HV1Y results to {hv1y_results_file}")
+            if user_config.hv1y_max_events > 0:
+                print(f"   (Limited to {user_config.hv1y_max_events} events per ticker)")
+
+            # Print HV1Y summary
+            print(f"\n📊 {timeframe.upper()} HV1Y  RESULTS SUMMARY:")
+            print(f"   Total HV1Y records: {len(combined_hv1y_results)}")
+            print(f"\n   Top 10 by recent HV1Y:")
+            for i, row in combined_hv1y_results.head(10).iterrows():
+                is_hve = "✓" if row.get('is_hv1y_also_hve', False) else "✗"
+                print(f"   {i+1}. {row['ticker']}: {row['days_since_hv1y']} days ago "
+                      f"({row['hv1y_date'].strftime('%Y-%m-%d')}, vol={row['hv1y_volume']:,.0f}, "
+                      f"Count={row['total_hv1y_count']}, Is_HVE={is_hve})")
+
+            result_dict['hv1y'] = combined_hv1y_results
+        else:
+            if user_config.hv1y_enable:
+                print(f"\n⚠️  No HV1Y results for {timeframe} timeframe")
+
+
+        return result_dict
 
     except Exception as e:
         logger.error(f"Error processing {timeframe}: {e}")
         print(f"❌ Error processing {timeframe}: {e}")
-        return pd.DataFrame()
+        return {'hve': pd.DataFrame(), 'hvd': pd.DataFrame()}
 
 
 def main():
@@ -275,37 +473,34 @@ def main():
         ticker_list = df_tickers['ticker'].tolist()
         print(f"   ✓ Loaded {len(ticker_list)} tickers from choice {ticker_choice}")
 
-        # Determine which timeframes to process
-        timeframes = []
-        if user_config.yf_daily_data:
-            timeframes.append('daily')
-        if user_config.yf_weekly_data:
-            timeframes.append('weekly')
-        if user_config.yf_monthly_data:
-            timeframes.append('monthly')
-
-        if not timeframes:
+        # Determine which timeframes to process from configuration
+        timeframes = user_config.timeframes if hasattr(user_config, 'timeframes') and user_config.timeframes else ['daily']
+        
+        if not timeframes: # This check is technically redundant if default is ['daily'] but good for robustness
             print("\n⚠️  No timeframes enabled in user_data.csv")
-            print("   Set YF_daily_data, YF_weekly_data, or YF_monthly_data to TRUE")
+            print("   Please ensure 'timeframes' is configured or YF_daily_data, YF_weekly_data, or YF_monthly_data are TRUE")
             return
 
         print(f"   ✓ Timeframes to process: {', '.join(timeframes)}")
 
         # Process each timeframe and collect results
-        all_timeframe_results = {}
+        all_hve_results = {}
+        all_hvd_results = {}
         for timeframe in timeframes:
             results = process_timeframe(config, user_config, timeframe, ticker_list)
-            if not results.empty:
-                all_timeframe_results[timeframe] = results
+            if not results['hve'].empty:
+                all_hve_results[timeframe] = results['hve']
+            if not results['hvd'].empty:
+                all_hvd_results[timeframe] = results['hvd']
 
-        # Generate ticker cards
-        if all_timeframe_results:
+        # Generate ticker cards (using HVE results)
+        if all_hve_results:
             print("\n" + "="*60)
             print("GENERATING TICKER CARDS")
             print("="*60)
 
             card_generator = TickerCardGenerator(user_config.hve_output_dir)
-            cards_generated = card_generator.generate_all_cards(all_timeframe_results)
+            cards_generated = card_generator.generate_all_cards(all_hve_results)
 
             print(f"\n✅ Generated {cards_generated} ticker cards")
             print(f"   Location: {card_generator.ticker_cards_dir}")
@@ -335,44 +530,62 @@ def main():
             # ----------------------------------------------------------
             # HVE Historical Export (temporal milestones)
             # ----------------------------------------------------------
-            if user_config.hve_historical_export:
+            if user_config.hve_historical_export and all_hve_results:
                 print("\n" + "="*60)
                 print("EXPORTING HISTORICAL HVE FORMAT")
                 print("="*60)
-                
+
                 hve_exported = export_all_timeframes_historical(
-                    all_timeframe_results,
+                    all_hve_results,  # Use HVE results
                     output_dir,
                     max_events=user_config.hve_historical_max_events
                 )
-                
+
                 print(f"\n✅ Exported {hve_exported} HVE (Highest Volume Ever) files")
                 print(f"   Events per ticker: {user_config.hve_historical_max_events}")
                 print(f"   Date range: {user_config.hve_start_date} to {user_config.hve_end_date}")
+            elif user_config.hve_historical_export:
+                print("\n⚠️  HVE historical export enabled but no HVE results found")
             else:
                 print("\n⏭️  HVE historical export disabled (HVE_historical_export=FALSE)")
-            
+
             # ----------------------------------------------------------
             # HVD Historical Export (top volume days by magnitude)
             # ----------------------------------------------------------
-            if user_config.hvd_historical_export:
+            if user_config.hvd_historical_export and all_hvd_results:
                 print("\n" + "="*60)
                 print("EXPORTING HISTORICAL HVD FORMAT")
                 print("="*60)
-                
+
                 hvd_exported = export_all_timeframes_hvd(
-                    all_timeframe_results,
+                    all_hvd_results,  # Use HVD results (DIFFERENT from HVE!)
                     output_dir,
-                    max_days=user_config.hvd_historical_max_days
+                    max_events=user_config.hvd_historical_max_events
                 )
-                
+
                 print(f"\n✅ Exported {hvd_exported} HVD (Highest Volume Days) files")
-                print(f"   Top days per ticker: {user_config.hvd_historical_max_days}")
+                print(f"   Top events per ticker: {user_config.hvd_historical_max_events}")
                 print(f"   Date range: {user_config.hve_start_date} to {user_config.hve_end_date}")
+            elif user_config.hvd_historical_export:
+                print("\n⚠️  HVD historical export enabled but no HVD results found")
             else:
                 print("\n⏭️  HVD historical export disabled (HVD_historical_export=FALSE)")
         else:
             print("\n⚠️  No results to generate ticker cards")
+
+        # ================================================================
+        # VOL DAILY CHECKER
+        # ================================================================
+        # Reads HVD_historical_daily.csv baseline + TW bulk files.
+        # Flags tickers whose new volume enters the top-N positions.
+        # Runs independently from the HVD pipeline above — no data
+        # download required, no data merging on disk.
+        # ================================================================
+        if user_config.vol_checker_enable:
+            checker = VolDailyChecker(config, user_config)
+            checker.run(since_date_override=user_config.vol_checker_tw_since_date)
+        else:
+            print("\n⏭️  Vol daily checker disabled (VOL_checker_enable=FALSE)")
 
         # Final summary
         print("\n" + "="*60)

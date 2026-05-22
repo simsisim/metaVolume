@@ -159,7 +159,7 @@ def export_all_timeframes_historical(
     exported_count = 0
 
     for timeframe, results_df in all_timeframe_results.items():
-        output_path = output_dir / f'sample_results_HVE_historical_{timeframe}.csv'
+        output_path = output_dir / f'HVE_historical_{timeframe}.csv'
         
         if export_hve_historical(results_df, output_path, max_events, timeframe):
             exported_count += 1

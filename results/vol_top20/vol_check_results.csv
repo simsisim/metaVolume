@@ -1,0 +1,4 @@
+ticker,check_date,new_volume,new_close,entered_top_n,rank,displaced_vol,displaced_date,days_since_top1
+CHTR,2025-09-30,4552185,275.105,True,1,3589100,2020-02-28,0
+PAYX,2025-09-30,6937462,126.76,True,1,5742900,2020-03-12,0
+EA,2025-09-30,8930135,201.7,True,3,7073400,2020-03-18,972

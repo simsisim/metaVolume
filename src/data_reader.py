@@ -246,15 +246,20 @@ class DataReader:
         for i in range(0, len(tickers), self.batch_size):
             yield tickers[i:i + self.batch_size]
     
-    def read_batch_data(self, ticker_batch: List[str], 
-                       validate: bool = True) -> Dict[str, pd.DataFrame]:
+    def read_batch_data(
+        self,
+        ticker_batch: List[str],
+        validate: bool = True,
+        aggregate_to: str = 'daily'  # NEW: 'daily', 'weekly', 'monthly'
+    ) -> Dict[str, pd.DataFrame]:
         """
         Read data for a batch of tickers.
         
         Args:
             ticker_batch: List of ticker symbols
             validate: Whether to validate data quality
-            
+            aggregate_to: Timeframe to aggregate to ('daily', 'weekly', 'monthly')
+        
         Returns:
             Dictionary mapping tickers to their DataFrames
         """
@@ -264,15 +269,24 @@ class DataReader:
             df = self.read_stock_data(ticker)
             
             if df is not None:
+                # Apply aggregation if needed
+                if aggregate_to == 'weekly':
+                    from src.data_aggregator import aggregate_to_weekly
+                    df = aggregate_to_weekly(df)
+                elif aggregate_to == 'monthly':
+                    from src.data_aggregator import aggregate_to_monthly
+                    df = aggregate_to_monthly(df)
+                # else: aggregate_to == 'daily' - no aggregation needed
+                
                 if validate:
                     is_valid, reason = self.validate_stock_data(ticker, df)
                     if is_valid:
                         batch_data[ticker] = df
                     else:
-                        logger.debug(f"Skipping {ticker}: {reason}")
+                        logger.debug(f"{ticker}: {reason}")
                 else:
                     batch_data[ticker] = df
-            
+        
         logger.info(f"Successfully read {len(batch_data)}/{len(ticker_batch)} tickers from batch")
         return batch_data
     

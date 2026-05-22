@@ -1,5 +1,6 @@
 import pandas as pd
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Optional, List
 
 
@@ -851,11 +852,28 @@ class UserConfiguration:
     hve_historical_max_events: int = 10  # Number of HVE events to export
     hve_historical_export: bool = True  # Enable HVE historical export
     hvd_historical_export: bool = True  # Enable HVD (Top Volume Days) historical export
-    hvd_historical_max_days: int = 10  # Number of top volume days to export
+    hvd_historical_max_events: int = 10  # Number of top volume days to export
+    
+    # HVE Preload Configuration
+    preload_hve: bool = False  # Enable HVE/HVD preload from files
+    preload_hve_file: Optional[str] = None  # Resolved path (set at runtime from _local/_colab)
+    preload_hvd_file: Optional[str] = None  # Resolved path (set at runtime from _local/_colab)
+    # Environment-specific preload paths
+    preload_hve_file_local: Optional[str] = None
+    preload_hve_file_colab: Optional[str] = None
+    preload_hvd_file_local: Optional[str] = None
+    preload_hvd_file_colab: Optional[str] = None
 
     # HV1Y (Highest Volume in 1 Year) Configuration
     hv1y_enable: bool = True
     hv1y_window_days: int = 365
+    hv1y_max_events: int = 5  # Maximum number of HV1Y events to save per ticker
+
+    # Vol Daily Checker Configuration
+    vol_checker_enable: bool = False
+    vol_checker_top_n_flag: int = 6
+    vol_checker_tw_files_dir: str = '../downloadData_v1/data/tw_files/daily/'
+    vol_checker_tw_since_date: str = ''
 
 
 def _get_default_ticker_filenames() -> dict:
@@ -928,6 +946,16 @@ def parse_boolean(value: str) -> bool:
 
     value_str = str(value).strip().lower()
     return value_str in ['true', '1', 'yes', 'on']
+
+
+def parse_comma_separated_strings(value):
+    """Parse comma-separated string into list of strings."""
+    if isinstance(value, list):
+        return value
+    if isinstance(value, str):
+        # Split by comma and strip whitespace from each item
+        return [item.strip() for item in value.split(',') if item.strip()]
+    return []
 
 
 def parse_comma_separated_ints(value: str) -> List[int]:
@@ -1151,9 +1179,11 @@ def read_user_data(file_path: str = 'user_data.csv') -> UserConfiguration:
             'models_output_file': ('models_output_file', str),
             'models_config_file': ('models_config_file', str),
             
-            # Database configuration removed
+            # Data Processing Configuration
+            'MAX_WORKERS': ('max_workers', int),
+            'TIMEFRAMES': ('timeframes', parse_comma_separated_strings), # Timeframes to process: daily, weekly, monthly
             
-            # PDF reports configuration
+            # Data Filtering Configuration
             'pdf_reports_enable': ('pdf_reports_enable', parse_boolean),
             'pdf_reports_output_dir': ('pdf_reports_output_dir', str),
             'pdf_reports_include_charts': ('pdf_reports_include_charts', parse_boolean),
@@ -1775,11 +1805,25 @@ def read_user_data(file_path: str = 'user_data.csv') -> UserConfiguration:
             'HVE_historical_max_events': ('hve_historical_max_events', int),
             'HVE_historical_export': ('hve_historical_export', parse_boolean),
             'HVD_historical_export': ('hvd_historical_export', parse_boolean),
-            'HVD_historical_max_days': ('hvd_historical_max_days', int),
+            'HVD_historical_max_events': ('hvd_historical_max_events', int),
+            
+            # HVE Preload Configuration
+            'preload_HVE': ('preload_hve', parse_boolean),
+            'file preload_HVE_local': ('preload_hve_file_local', str),
+            'file preload_HVE_colab': ('preload_hve_file_colab', str),
+            'file preload_HVD_local': ('preload_hvd_file_local', str),
+            'file preload_HVD_colab': ('preload_hvd_file_colab', str),
 
             # HV1Y (Highest Volume in 1 Year) Configuration
             'HV1Y_enable': ('hv1y_enable', parse_boolean),
-            'HV1Y_window_days': ('hv1y_window_days', int)
+            'HV1Y_window_days': ('hv1y_window_days', int),
+            'HVY_max_events': ('hv1y_max_events', int),
+
+            # Vol Daily Checker
+            'VOL_checker_enable': ('vol_checker_enable', parse_boolean),
+            'VOL_checker_top_n_flag': ('vol_checker_top_n_flag', int),
+            'VOL_checker_tw_files_dir': ('vol_checker_tw_files_dir', str),
+            'VOL_checker_tw_since_date': ('vol_checker_tw_since_date', str),
         }
         
         # Process each row in the dataframe
@@ -1795,6 +1839,29 @@ def read_user_data(file_path: str = 'user_data.csv') -> UserConfiguration:
                 except (ValueError, TypeError) as e:
                     print(f"Warning: Invalid value '{value}' for {variable}. Using default. Error: {e}")
         
+        # Resolve environment-specific preload paths (same pattern as YF data paths)
+        env_raw = getattr(config, 'manual_environment_override', None) or ''
+        env = str(env_raw).strip().lower()
+        if env not in ('local', 'colab'):
+            env = 'local'
+
+        _project_root = Path(__file__).resolve().parent.parent
+
+        def _resolve_preload_path(raw: Optional[str]) -> Optional[str]:
+            if not raw or str(raw).strip().lower() in ('', 'nan'):
+                return None
+            p = str(raw).strip()
+            if not p.startswith('/'):
+                p = str(_project_root / p)
+            return p
+
+        config.preload_hve_file = _resolve_preload_path(
+            getattr(config, f'preload_hve_file_{env}', None)
+        )
+        config.preload_hvd_file = _resolve_preload_path(
+            getattr(config, f'preload_hvd_file_{env}', None)
+        )
+
         # Validation for ticker_choice
         try:
             # Parse ticker choice to validate format - handle dash separator

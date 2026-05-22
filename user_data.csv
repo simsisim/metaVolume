@@ -11,8 +11,10 @@ POST_PROCESS,FALSE,Execute post-processing (disabled for now)
 ,,
 # TICKER SELECTION,,
 # ----------------,,
-ticker_choice,0,"Ticker combination choice (0-8 or combinations like ""1-2"")"
-batch_size,200,Number of tickers per batch
+ticker_choice,2,"Ticker combination choice (0-8 or combinations like ""1-2"")"
+BATCH_SIZE,200,Number of tickers to process in each batch
+MAX_WORKERS,4,Maximum number of parallel workers for processing
+TIMEFRAMES,"daily,weekly,monthly",Timeframes to process (comma-separated: daily weekly monthly)
 ,,
 # TICKER GROUP CHOICES (ticker_choice values),,
 # ==========================================,,
@@ -51,15 +53,22 @@ YF_monthly_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downlo
 # -----------------------,,
 YF_hist_data,TRUE,Load historical OHLCV data
 YF_daily_data,TRUE,Process daily timeframe
-YF_weekly_data,FALSE,Process weekly timeframe
-YF_monthly_data,FALSE,Process monthly timeframe
+YF_weekly_data,TRUE,Process weekly timeframe
+YF_monthly_data,TRUE,Process monthly timeframe
 ,,
 # Historical Volume Export Configuration,,
 # Two independent export methods:,,
 # - HVE (Highest Volume Ever): Temporal milestones when volume set new records,,
 # - HVD (Highest Volume Days): Top N volume days by magnitude (any period),,
 # Set to TRUE to enable, FALSE to disable. Both can run simultaneously.,
-#,,
+#Pre-load HVE data,,
+preload_HVE,TRUE,
+# LOCAL paths (relative to project root),,
+file preload_HVE_local,HVE_data_for_preload/HVE_historical_*.csv,Local: path to HVE preload files
+file preload_HVD_local,HVE_data_for_preload/HVD_historical_*.csv,Local: path to HVD preload files
+# COLAB paths (absolute Google Drive paths),,
+file preload_HVE_colab,/content/drive/MyDrive/_invest2024/run_python/metaVolume/HVE_data_for_preload/HVE_historical_*.csv,Colab: path to HVE preload files
+file preload_HVD_colab,/content/drive/MyDrive/_invest2024/run_python/metaVolume/HVE_data_for_preload/HVD_historical_*.csv,Colab: path to HVD preload files
 # HVE SPECIFIC SETTINGS,,
 # ----------------------,,
 HVE_enable,TRUE,Enable HVE calculation
@@ -68,21 +77,29 @@ HVE_limit_years,4,Limit historical search to N years
 HVE_min_volume,0,Minimum volume threshold (0=no filter)
 HVE_min_price,2,Minimum price threshold (0.0=no filter)
 HVE_date_range_mode,fixed,Date range mode: 'rolling' (from now) or 'fixed' (specific dates)
-HVE_start_date,2020-01-01,Start date for fixed range mode (YYYY-MM-DD)
-HVE_end_date,2023-12-31,End date for fixed range mode (YYYY-MM-DD)
+HVE_start_date,2024-01-01,Start date for fixed range mode (YYYY-MM-DD)
+HVE_end_date,2025-10-10,End date for fixed range mode (YYYY-MM-DD)
 HVE_historical_max_events,10,Number of most recent HVE events to export in historical format
 HVE_historical_export,TRUE,Enable HVE historical format export (TRUE/FALSE)
 HVD_historical_export,TRUE,Enable HVD (Top Volume Days) historical format export (TRUE/FALSE)
-HVD_historical_max_days,10,Number of top volume days to export in historical format
+HVD_historical_max_events,20,Maximum number of top volume events to export in historical format
+,,
+# VOL DAILY CHECKER SETTINGS
+# ---------------------------
+# Step 2: compare TW bulk files against stored HVD baseline
+# Run independently from main HVD pipeline (no data download needed)
+VOL_checker_enable,FALSE,Enable daily volume checker
+VOL_checker_top_n_flag,6,Flag tickers whose new volume enters this many top positions
+VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/,Path to TradingView bulk CSV files directory
+VOL_checker_tw_since_date,,Process TW files since this date YYYY-MM-DD (blank=auto from state file)
 ,,
 # HV1Y SPECIFIC SETTINGS,,
 # -----------------------,,
 HV1Y_enable,TRUE,Enable HV1Y (Highest Volume in 1 Year) calculation
-HV1Y_window_days,365,Rolling window for HV1Y in calendar days
-,,
+HV1Y_window_days,365,Rolling window for HV1Y: 365 days = 52 weeks = 12 months (1 year lookback)
 # OUTPUT SETTINGS,,
 # ---------------,,
-write_info_file,TRUE,Write detailed info files during processing
+write_info_file,FALSE,Write detailed info files during processing
 ,,
 # TICKER FILES,,
 # ------------,,

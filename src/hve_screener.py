@@ -53,6 +53,26 @@ class HVEScreener:
         self.start_date = pd.Timestamp(start_date) if start_date else None
         self.end_date = pd.Timestamp(end_date) if end_date else None
 
+    def _get_hv1y_window_periods(self, timeframe: str) -> int:
+        """
+        Convert HV1Y window from days to appropriate periods for timeframe.
+        
+        Args:
+            timeframe: 'daily', 'weekly', or 'monthly'
+        
+        Returns:
+            Number of periods to look back
+            - Daily: 365 days
+            - Weekly: 52 weeks (365 / 7)
+            - Monthly: 12 months (365 / 30)
+        """
+        if timeframe == 'weekly':
+            return self.hv1y_window_days // 7  # ~52 weeks
+        elif timeframe == 'monthly':
+            return self.hv1y_window_days // 30  # ~12 months
+        else:  # daily
+            return self.hv1y_window_days
+
     def find_hve_events(self, df: pd.DataFrame) -> Dict:
         """
         Find all Highest Volume Ever events in the DataFrame.
@@ -153,7 +173,7 @@ class HVEScreener:
             'data_points': 0
         }
 
-    def _calculate_hv1y_metrics(self, df: pd.DataFrame, hve_date, hve_volume) -> Dict:
+    def _calculate_hv1y_metrics(self, df: pd.DataFrame, hve_date, hve_volume, timeframe: str = 'daily') -> Dict:
         """
         Calculate HV1Y (Highest Volume in 1 Year) metrics.
 
@@ -161,10 +181,11 @@ class HVEScreener:
             df: DataFrame with OHLCV data (must have 'Volume' column)
             hve_date: Date of HVE event (for comparison)
             hve_volume: Volume of HVE event (for ratio calculation)
+            timeframe: Timeframe being analyzed ('daily', 'weekly', 'monthly')
 
         Returns:
             Dictionary with HV1Y metrics:
-            - hv1y_date: Date of highest volume in last year
+            - hv1y_date: Date of highest volume in last year (lookback period)
             - hv1y_volume: Highest volume in last year
             - days_since_hv1y: Days since HV1Y event
             - hv1y_occ_1y: Number of HV1Y events in last year
@@ -182,36 +203,44 @@ class HVEScreener:
             # Get the latest date in the dataset
             latest_date = df.index[-1]
 
-            # Define the 1-year window using calendar days
-            one_year_ago = latest_date - pd.DateOffset(days=self.hv1y_window_days)
+            # Convert window days to appropriate periods for timeframe
+            window_periods = self._get_hv1y_window_periods(timeframe)
+            
+            # Define the lookback window
+            # For daily: use calendar days (365 days)
+            # For weekly/monthly: use number of bars (52 weeks, 12 months)
+            if timeframe == 'daily':
+                # Use calendar days for daily data
+                lookback_date = latest_date - pd.DateOffset(days=window_periods)
+                df_window = df[df.index >= lookback_date].copy()
+            else:
+                # Use number of bars for weekly/monthly
+                df_window = df.tail(window_periods).copy()
 
-            # Filter data to last year
-            df_1y = df[df.index >= one_year_ago].copy()
-
-            if len(df_1y) < 2:
+            if len(df_window) < 2:
                 return self._empty_hv1y_result()
 
-            # Calculate cumulative maximum volume within 1-year window
-            df_1y['cummax_volume_1y'] = df_1y['Volume'].cummax()
+            # Calculate cumulative maximum volume within lookback window
+            df_window['cummax_volume_1y'] = df_window['Volume'].cummax()
 
             # Identify HV1Y events (similar to HVE logic)
-            df_1y['is_hv1y'] = df_1y['Volume'] == df_1y['cummax_volume_1y']
-            df_1y['is_new_hv1y'] = (df_1y['is_hv1y']) & (df_1y['Volume'] > df_1y['cummax_volume_1y'].shift(1).fillna(0))
+            df_window['is_hv1y'] = df_window['Volume'] == df_window['cummax_volume_1y']
+            df_window['is_new_hv1y'] = (df_window['is_hv1y']) & (df_window['Volume'] > df_window['cummax_volume_1y'].shift(1).fillna(0))
 
             # Get all HV1Y event dates
-            hv1y_events = df_1y[df_1y['is_new_hv1y']]
+            hv1y_events = df_window[df_window['is_new_hv1y']]
 
-            # Get the absolute highest volume in 1 year
-            max_volume_1y = df_1y['Volume'].max()
-            max_volume_1y_date = df_1y[df_1y['Volume'] == max_volume_1y].index[0]
+            # Get the absolute highest volume in lookback period
+            max_volume_1y = df_window['Volume'].max()
+            max_volume_1y_date = df_window[df_window['Volume'] == max_volume_1y].index[0]
 
             # Calculate days since latest HV1Y
             days_since_hv1y = (latest_date - max_volume_1y_date).days
 
-            # Count HV1Y occurrences in last 1 year (all events are by definition in last year)
+            # Count HV1Y occurrences in lookback period
             hv1y_occ_1y = len(hv1y_events)
 
-            # Total HV1Y count (same as hv1y_occ_1y since we're looking at 1-year window)
+            # Total HV1Y count (same as hv1y_occ_1y since we're looking at lookback window)
             total_hv1y_count = len(hv1y_events)
 
             # Build detailed list of all HV1Y events with dates and volumes
@@ -219,7 +248,7 @@ class HVEScreener:
             for hv1y_date_item in hv1y_events.index:
                 all_hv1y_details.append({
                     'date': hv1y_date_item,
-                    'volume': df_1y.loc[hv1y_date_item, 'Volume']
+                    'volume': df_window.loc[hv1y_date_item, 'Volume']
                 })
             # Sort by date (most recent first)
             all_hv1y_details = sorted(all_hv1y_details, key=lambda x: x['date'], reverse=True)
@@ -258,17 +287,23 @@ class HVEScreener:
             'all_hv1y_details': []
         }
 
-    def screen_batch(self, batch_data: Dict[str, pd.DataFrame],
-                     timeframe: str) -> pd.DataFrame:
+    def screen_batch(
+        self,
+        batch_data: Dict[str, pd.DataFrame],
+        timeframe: str,
+        baseline_volumes: Optional[Dict[str, float]] = None
+    ) -> pd.DataFrame:
         """
         Screen a batch of tickers for HVE events.
 
         Args:
             batch_data: Dictionary mapping ticker -> DataFrame
-            timeframe: Timeframe being analyzed ('daily', 'weekly', 'monthly')
+            timeframe: Timeframe being analyzed('daily', 'weekly', 'monthly')
+            baseline_volumes: Optional dict of ticker -> max_volume from preload.
+                            If provided, only detect NEW HVE events exceeding baseline.
 
         Returns:
-            DataFrame with HVE screening results
+            DataFrame with HVE screening results (only NEW events if baseline provided)
         """
         results = []
 
@@ -308,19 +343,54 @@ class HVEScreener:
                 # Ensure data is sorted by date
                 df = df.sort_index()
 
-                # Calculate cumulative maximum volume (rolling HVE)
-                df['cummax_volume'] = df['Volume'].cummax()
+                # Get baseline for this ticker (if available)
+                baseline_max = baseline_volumes.get(ticker) if baseline_volumes else None
+                
+                if baseline_max is not None:
+                    # INCREMENTAL MODE: Start from preload baseline
+                    # Only detect events exceeding the historical max from preload
+                    logger.debug(f"{ticker}: Using baseline {baseline_max:,.0f} for incremental detection")
+                    
+                    # Calculate cumulative maximum starting from baseline
+                    # We want to find volumes > baseline_max
+                    df['cummax_volume'] = df['Volume'].cummax()
+                    
+                    # Filter for volumes that exceed the baseline
+                    df_above_baseline = df[df['Volume'] > baseline_max].copy()
+                    
+                    if df_above_baseline.empty:
+                        # No new HVE events exceeding baseline
+                        logger.debug(f"{ticker}: No volumes exceed baseline {baseline_max:,.0f}")
+                        continue
+                    
+                    # Find NEW HVE events in the above-baseline data
+                    df_above_baseline['cummax_from_baseline'] = df_above_baseline['Volume'].cummax()
+                    df_above_baseline['is_new_hve'] = (
+                        (df_above_baseline['Volume'] == df_above_baseline['cummax_from_baseline']) &
+                        (df_above_baseline['Volume'] > df_above_baseline['cummax_from_baseline'].shift(1).fillna(baseline_max))
+                    )
+                    
+                    hve_events = df_above_baseline[df_above_baseline['is_new_hve']]
+                    
+                else:
+                    # FULL MODE: Normal HVE detection from zero
+                    # Calculate cumulative maximum volume (rolling HVE)
+                    df['cummax_volume'] = df['Volume'].cummax()
 
-                # Identify all HVE events (when volume equals cumulative max at that point)
-                # An HVE event is when volume reaches a new all-time high
-                df['is_hve'] = df['Volume'] == df['cummax_volume']
+                    # Identify all HVE events (when volume equals cumulative max at that point)
+                    # An HVE event is when volume reaches a new all-time high
+                    df['is_hve'] = df['Volume'] == df['cummax_volume']
 
-                # Also need to filter out consecutive duplicates (same volume stays as max)
-                # Only count it as HVE when it's a NEW maximum
-                df['is_new_hve'] = (df['is_hve']) & (df['Volume'] > df['cummax_volume'].shift(1).fillna(0))
+                    # Also need to filter out consecutive duplicates (same volume stays as max)
+                    # Only count it as HVE when it's a NEW maximum
+                    df['is_new_hve'] = (df['is_hve']) & (df['Volume'] > df['cummax_volume'].shift(1).fillna(0))
 
-                # Get all HVE event dates
-                hve_events = df[df['is_new_hve']]
+                    # Get all HVE event dates
+                    hve_events = df[df['is_new_hve']]
+
+                # Check if we found any HVE events
+                if hve_events.empty:
+                    continue
 
                 # Get the absolute highest volume ever (most recent HVE)
                 max_volume = df['Volume'].max()
@@ -357,8 +427,14 @@ class HVEScreener:
                 volume_ratio = latest_volume / max_volume if max_volume > 0 else 0
 
                 # Calculate HV1Y metrics if enabled
+                hv1y_metrics = {}
                 if self.hv1y_enabled:
-                    hv1y_metrics = self._calculate_hv1y_metrics(df, max_volume_date, max_volume)
+                    hv1y_metrics = self._calculate_hv1y_metrics(
+                        df, 
+                        max_volume_date, 
+                        max_volume,
+                        timeframe  # Pass timeframe for window conversion
+                    )
                 else:
                     hv1y_metrics = self._empty_hv1y_result()
 
@@ -406,10 +482,18 @@ class HVEScreener:
             results_df = pd.DataFrame(results)
             # Sort by days since HVE (most recent first)
             results_df = results_df.sort_values('days_since_hve')
-            logger.info(f"Found {len(results_df)} tickers with HVE data")
+            
+            if baseline_volumes:
+                logger.info(f"Found {len(results_df)} tickers with NEW HVE events (exceeding baseline)")
+            else:
+                logger.info(f"Found {len(results_df)} tickers with HVE data")
+            
             return results_df
         else:
-            logger.info("No HVE events found")
+            if baseline_volumes:
+                logger.info("No new HVE events found (all volumes within baseline)")
+            else:
+                logger.info("No HVE events found")
             return pd.DataFrame()
 
     def calculate_score(self, result: Dict) -> float:
