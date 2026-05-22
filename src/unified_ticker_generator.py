@@ -143,10 +143,7 @@ class UnifiedTickerGenerator:
             print(f"🔄 Removed existing universe data for regeneration")
         
         # Create universe data from root tradingview_universe.csv
-        root_universe = Path('tradingview_universe.csv')
-        import os
-        print(f"🔍 CWD: {os.getcwd()}")
-        print(f"🔍 Looking for: {root_universe.resolve()}")
+        root_universe = Path(__file__).parent.parent / 'tradingview_universe.csv'
         if not root_universe.exists():
             print(f"❌ Missing root TradingView universe file: {root_universe}")
             return False
