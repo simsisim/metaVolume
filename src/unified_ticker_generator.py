@@ -144,10 +144,8 @@ class UnifiedTickerGenerator:
         
         # Create universe data from root tradingview_universe.csv
         root_universe = Path(__file__).parent.parent / 'tradingview_universe.csv'
-        if not root_universe.exists():
-            print(f"❌ Missing root TradingView universe file: {root_universe}")
-            return False
-        
+        print(f"🔍 Loading universe from: {root_universe}")
+
         print(f"🔄 Creating boolean-enhanced universe data...")
         try:
             # Read root universe
