@@ -144,7 +144,10 @@ class UnifiedTickerGenerator:
         
         # Create universe data from root tradingview_universe.csv
         root_universe = Path(__file__).parent.parent / 'tradingview_universe.csv'
-        print(f"🔍 Loading universe from: {root_universe}")
+        import os
+        print(f"🔍 Looking for: {root_universe.resolve()}")
+        print(f"🔍 exists(): {root_universe.exists()}")
+        print(f"🔍 os.path.isfile(): {os.path.isfile(str(root_universe))}")
 
         print(f"🔄 Creating boolean-enhanced universe data...")
         try:
@@ -197,7 +200,7 @@ class UnifiedTickerGenerator:
                 return True
                 
         except Exception as e:
-            print(f"❌ Error creating universe data: {e}")
+            print(f"❌ Error creating universe data: {type(e).__name__}: {e}")
             return False
     
     def _create_boolean_columns(self, df):
