@@ -45,9 +45,9 @@ YF_monthly_data_files_local,../downloadData_v1/data/market_data/monthly/,Path to
 ,,
 # DATA PATHS - COLAB ENVIRONMENT,,
 # -------------------------------,,
-YF_daily_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/daily/,Colab: Path to daily data
-YF_weekly_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/weekly/,Colab: Path to weekly data
-YF_monthly_data_files_colab,/content/drive/MyDrive/_invest2024/run_python/downloadData_v1/data/market_data/monthly/,Colab: Path to monthly data
+YF_daily_data_files_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/downloadData_v1/data/market_data/daily/,Colab: Path to daily data
+YF_weekly_data_files_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/downloadData_v1/data/market_data/weekly/,Colab: Path to weekly data
+YF_monthly_data_files_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/downloadData_v1/data/market_data/monthly/,Colab: Path to monthly data
 ,,
 # TIMEFRAME ENABLE FLAGS,,
 # -----------------------,,
@@ -67,8 +67,8 @@ preload_HVE,TRUE,
 file preload_HVE_local,HVE_data_for_preload/HVE_historical_*.csv,Local: path to HVE preload files
 file preload_HVD_local,HVE_data_for_preload/HVD_historical_*.csv,Local: path to HVD preload files
 # COLAB paths (absolute Google Drive paths),,
-file preload_HVE_colab,/content/drive/MyDrive/_invest2024/run_python/metaVolume/HVE_data_for_preload/HVE_historical_*.csv,Colab: path to HVE preload files
-file preload_HVD_colab,/content/drive/MyDrive/_invest2024/run_python/metaVolume/HVE_data_for_preload/HVD_historical_*.csv,Colab: path to HVD preload files
+file preload_HVE_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume/HVE_data_for_preload/HVE_historical_*.csv,Colab: path to HVE preload files
+file preload_HVD_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume/HVE_data_for_preload/HVD_historical_*.csv,Colab: path to HVD preload files
 # HVE SPECIFIC SETTINGS,,
 # ----------------------,,
 HVE_enable,TRUE,Enable HVE calculation
