@@ -983,15 +983,17 @@ def parse_comma_separated_ints(value: str) -> List[int]:
         return []
 
 
-def read_user_data(file_path: str = 'user_data.csv') -> UserConfiguration:
+def read_user_data(file_path: str = None) -> UserConfiguration:
     """
     Reads user configuration from the restructured CSV file.
-    
+
     The new format uses key-value pairs with format:
     variable_name,value,description
-    
+
     Returns UserConfiguration object with all settings.
     """
+    if file_path is None:
+        file_path = str(Path(__file__).resolve().parent.parent / 'user_input' / 'user_data.csv')
     try:
         # First, read ticker group filenames from comment lines
         ticker_filenames = _read_ticker_filenames(file_path)

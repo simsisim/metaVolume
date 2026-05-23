@@ -35,7 +35,7 @@ TIMEFRAMES,"daily,weekly,monthly",Timeframes to process (comma-separated: daily 
 # ENVIRONMENT DETECTION,,
 # ---------------------,,
 auto_detect_environment,FALSE,Automatically detect environment
-manual_environment_override,colab,Manual override: local | colab
+manual_environment_override,local,Manual override: local | colab
 ,,
 # DATA PATHS - LOCAL ENVIRONMENT,,
 # -------------------------------,,
@@ -62,7 +62,7 @@ YF_monthly_data,TRUE,Process monthly timeframe
 # - HVD (Highest Volume Days): Top N volume days by magnitude (any period),,
 # Set to TRUE to enable, FALSE to disable. Both can run simultaneously.,
 #Pre-load HVE data,,
-preload_HVE,TRUE,
+preload_HVE,FALSE,
 # LOCAL paths (relative to project root),,
 file preload_HVE_local,HVE_data_for_preload/HVE_historical_*.csv,Local: path to HVE preload files
 file preload_HVD_local,HVE_data_for_preload/HVD_historical_*.csv,Local: path to HVD preload files
@@ -71,27 +71,27 @@ file preload_HVE_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/meta
 file preload_HVD_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume/HVE_data_for_preload/HVD_historical_*.csv,Colab: path to HVD preload files
 # HVE SPECIFIC SETTINGS,,
 # ----------------------,,
-HVE_enable,TRUE,Enable HVE calculation
+HVE_enable,FALSE,Enable HVE calculation
 HVE_output_dir,results/hve_results,HVE results output directory
 HVE_limit_years,4,Limit historical search to N years
 HVE_min_volume,0,Minimum volume threshold (0=no filter)
 HVE_min_price,2,Minimum price threshold (0.0=no filter)
 HVE_date_range_mode,fixed,Date range mode: 'rolling' (from now) or 'fixed' (specific dates)
-HVE_start_date,2024-01-01,Start date for fixed range mode (YYYY-MM-DD)
-HVE_end_date,2025-10-10,End date for fixed range mode (YYYY-MM-DD)
+HVE_start_date,2020-01-02,Start date for fixed range mode (YYYY-MM-DD)
+HVE_end_date,,End date for fixed range mode (YYYY-MM-DD) - leave empty to use latest available date
 HVE_historical_max_events,10,Number of most recent HVE events to export in historical format
-HVE_historical_export,TRUE,Enable HVE historical format export (TRUE/FALSE)
-HVD_historical_export,TRUE,Enable HVD (Top Volume Days) historical format export (TRUE/FALSE)
+HVE_historical_export,FALSE,Enable HVE historical format export (TRUE/FALSE)
+HVD_historical_export,FALSE,Enable HVD (Top Volume Days) historical format export (TRUE/FALSE)
 HVD_historical_max_events,20,Maximum number of top volume events to export in historical format
 ,,
-# VOL DAILY CHECKER SETTINGS
-# ---------------------------
-# Step 2: compare TW bulk files against stored HVD baseline
-# Run independently from main HVD pipeline (no data download needed)
-VOL_checker_enable,FALSE,Enable daily volume checker
+# VOL DAILY CHECKER SETTINGS,,
+# ---------------------------,,
+# Step 2: compare TW bulk files against stored HVD baseline,,
+# Run independently from main HVD pipeline (no data download needed),,
+VOL_checker_enable,TRUE,Enable daily volume checker
 VOL_checker_top_n_flag,6,Flag tickers whose new volume enters this many top positions
 VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/,Path to TradingView bulk CSV files directory
-VOL_checker_tw_since_date,,Process TW files since this date YYYY-MM-DD (blank=auto from state file)
+VOL_checker_tw_since_date,2026-05-21,Process TW files since this date YYYY-MM-DD (blank=auto from state file)
 ,,
 # HV1Y SPECIFIC SETTINGS,,
 # -----------------------,,

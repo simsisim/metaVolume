@@ -15,6 +15,8 @@ Usage:
     python main.py
 """
 
+import argparse
+import copy
 import pandas as pd
 import sys
 import logging
@@ -420,8 +422,157 @@ def process_timeframe(
         return {'hve': pd.DataFrame(), 'hvd': pd.DataFrame()}
 
 
-def main():
-    """Main entry point."""
+# ============================================================================
+# PRESETS
+# ============================================================================
+CONFIG_PRESETS = {
+    'preprocess': {
+        'hve_enable':            True,
+        'hvd_historical_export': True,
+        'hve_historical_export': True,
+        'vol_checker_enable':    False,
+    },
+    'preprocess_full': {           # same but forces full universe
+        'hve_enable':            True,
+        'hvd_historical_export': True,
+        'hve_historical_export': True,
+        'vol_checker_enable':    False,
+        'ticker_choice':         '0',
+    },
+    'postprocess': {
+        'hve_enable':            False,
+        'hvd_historical_export': False,
+        'hve_historical_export': False,
+        'vol_checker_enable':    True,
+    },
+}
+
+
+# ============================================================================
+# COMMAND-LINE ARGUMENT PARSER
+# ============================================================================
+def parse_arguments():
+    """Parse command-line arguments. Only explicitly provided args override the CSV."""
+    parser = argparse.ArgumentParser(
+        description='metaVolume — HVE/HVD screener and daily volume checker',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''
+Modes (presets):
+  preprocess       Generate HVE/HVD historical baseline files (run once)
+  preprocess_full  Same as preprocess but forces ticker_choice=0 (full universe)
+  postprocess      Run VOL daily checker only (run every trading day)
+
+Examples:
+  python main.py --preset preprocess_full
+  python main.py --preset postprocess --ticker-choice 2
+  python main.py --preset postprocess --ticker-choice 2 --since-date 2026-05-21
+  python main.py --ticker-choice 2 --no-vol-checker
+
+Ticker choice values:
+  0: TradingView Universe (~6348 tickers)
+  1: S&P 500
+  2: NASDAQ 100
+  3: All NASDAQ stocks
+  4: Russell 1000
+  5: Index tickers (QQQ SPY IWM …)
+  6: Portfolio tickers
+  7: ETF tickers
+  8: Test tickers (AMD TXN NVDA)
+        '''
+    )
+
+    parser.add_argument('--preset', type=str, choices=CONFIG_PRESETS.keys(),
+                        help='Use a predefined mode configuration')
+
+    parser.add_argument('--ticker-choice', type=str, dest='ticker_choice',
+                        help='Ticker group (e.g. "2" for NASDAQ 100, "1-2" for S&P500+NASDAQ100)')
+
+    parser.add_argument('--hve', dest='hve_enable', action='store_true',
+                        help='Enable HVE pre-processor')
+    parser.add_argument('--no-hve', dest='hve_enable', action='store_false',
+                        help='Disable HVE pre-processor')
+
+    parser.add_argument('--hvd-export', dest='hvd_historical_export', action='store_true',
+                        help='Enable HVD historical export')
+    parser.add_argument('--no-hvd-export', dest='hvd_historical_export', action='store_false',
+                        help='Disable HVD historical export')
+
+    parser.add_argument('--vol-checker', dest='vol_checker_enable', action='store_true',
+                        help='Enable VOL daily checker')
+    parser.add_argument('--no-vol-checker', dest='vol_checker_enable', action='store_false',
+                        help='Disable VOL daily checker')
+
+    parser.add_argument('--since-date', type=str, dest='vol_checker_tw_since_date',
+                        help='Force VOL checker to reprocess TW files since YYYY-MM-DD')
+
+    args = parser.parse_args()
+
+    # Only include args that were explicitly provided on the command line
+    flag_to_dest = {
+        '--ticker-choice':   'ticker_choice',
+        '--hve':             'hve_enable',
+        '--no-hve':          'hve_enable',
+        '--hvd-export':      'hvd_historical_export',
+        '--no-hvd-export':   'hvd_historical_export',
+        '--vol-checker':     'vol_checker_enable',
+        '--no-vol-checker':  'vol_checker_enable',
+        '--since-date':      'vol_checker_tw_since_date',
+    }
+    provided = {flag_to_dest[a] for a in sys.argv[1:] if a in flag_to_dest}
+    cli_dict = {k: v for k, v in vars(args).items() if k != 'preset' and k in provided}
+
+    return args.preset, cli_dict
+
+
+# ============================================================================
+# CONFIGURATION MERGING
+# ============================================================================
+def merge_configs(base_config, config_override=None, preset=None, cli_args=None):
+    """
+    Merge settings with priority: CLI args > preset > config_override > CSV base.
+    config_override is a plain dict — used for Colab calls like main(config_override={...}).
+    """
+    merged = copy.deepcopy(base_config)
+
+    # Priority 1: preset
+    if preset:
+        if preset not in CONFIG_PRESETS:
+            print(f"⚠️  Unknown preset '{preset}'. Available: {', '.join(CONFIG_PRESETS)}")
+        else:
+            print(f"   Using preset: {preset}")
+            for key, value in CONFIG_PRESETS[preset].items():
+                if hasattr(merged, key):
+                    setattr(merged, key, value)
+
+    # Priority 2: config_override dict (Colab)
+    if config_override:
+        print(f"   Applying overrides: {list(config_override.keys())}")
+        for key, value in config_override.items():
+            if hasattr(merged, key):
+                setattr(merged, key, value)
+            else:
+                print(f"⚠️  Unknown override key '{key}' — ignored")
+
+    # Priority 3: CLI args (highest priority)
+    if cli_args:
+        print(f"   Applying CLI args: {list(cli_args.keys())}")
+        for key, value in cli_args.items():
+            if hasattr(merged, key):
+                setattr(merged, key, value)
+            else:
+                print(f"⚠️  Unknown CLI arg '{key}' — ignored")
+
+    return merged
+
+
+def main(config_override=None, preset=None):
+    """Main entry point.
+
+    Args:
+        config_override (dict): Key/value overrides for Colab usage, e.g.
+            main(config_override={'ticker_choice': '2', 'vol_checker_enable': True})
+        preset (str): Named preset — 'preprocess', 'preprocess_full', 'postprocess'.
+    """
     print("="*60)
     print("HIGHEST VOLUME EVER (HVE) SCREENER")
     print("="*60)
@@ -432,8 +583,18 @@ def main():
 
         # Load configuration
         print("\n1. Loading configuration...")
-        user_config = read_user_data()
+        base_config = read_user_data()
         config = Config()
+
+        # Parse CLI args (ignored when called from Colab with config_override)
+        cli_preset, cli_args = None, {}
+        if len(sys.argv) > 1:
+            cli_preset, cli_args = parse_arguments()
+
+        # Merge: CLI > preset (CLI or Colab arg) > config_override > CSV base
+        final_preset = cli_preset or preset
+        user_config = merge_configs(base_config, config_override, final_preset, cli_args)
+
         print("   ✓ Configuration loaded")
         print(f"   ✓ Ticker choice: {user_config.ticker_choice}")
         print(f"   ✓ Batch size: {user_config.batch_size}")
@@ -445,8 +606,12 @@ def main():
 
         # Check if HVE is enabled
         if not user_config.hve_enable:
-            print("\n⚠️  HVE processing is disabled in user_data.csv")
-            print("   Set HVE_enable to TRUE to enable")
+            print("\n⚠️  HVE processing is disabled — skipping to VOL checker")
+            if user_config.vol_checker_enable:
+                checker = VolDailyChecker(config, user_config)
+                checker.run(since_date_override=user_config.vol_checker_tw_since_date)
+            else:
+                print("⏭️  Vol daily checker also disabled (VOL_checker_enable=FALSE)")
             return
 
         # Generate ticker files

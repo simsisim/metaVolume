@@ -143,11 +143,7 @@ class UnifiedTickerGenerator:
             print(f"🔄 Removed existing universe data for regeneration")
         
         # Create universe data from root tradingview_universe.csv
-        root_universe = Path(__file__).parent.parent / 'tradingview_universe.csv'
-        import os
-        print(f"🔍 Looking for: {root_universe.resolve()}")
-        print(f"🔍 exists(): {root_universe.exists()}")
-        print(f"🔍 os.path.isfile(): {os.path.isfile(str(root_universe))}")
+        root_universe = Path(__file__).parent.parent / 'user_input' / 'tradingview_universe.csv'
 
         print(f"🔄 Creating boolean-enhanced universe data...")
         try:

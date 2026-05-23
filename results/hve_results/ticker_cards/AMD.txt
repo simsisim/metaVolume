@@ -1,7 +1,7 @@
 ================================================================================
 TICKER CARD: AMD
 ================================================================================
-Generated: 2025-12-10 23:41:53
+Generated: 2026-05-22 15:07:31
 
 
 DAILY TIMEFRAME
@@ -9,11 +9,28 @@ DAILY TIMEFRAME
 
 HVE Events (Highest Volume Ever):
 ----------------------------------------
-  1. 2025-10-06  Volume: 248,859,600  (4 days ago)
+  1. 2025-10-06  Volume: 248,859,600  (226 days ago)
+  2. 2022-05-04  Volume: 225,394,100  (1477 days ago)
+  3. 2021-08-04  Volume: 225,368,700  (1750 days ago)
+  4. 2020-07-24  Volume: 205,314,500  (2126 days ago)
+  5. 2020-03-03  Volume: 141,972,300  (2269 days ago)
+  6. 2020-01-29  Volume: 112,349,900  (2303 days ago)
+  7. 2020-01-02  Volume: 80,331,100  (2330 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-08-01  Volume: 780,433,600  (1757 days ago)
+  2. 2020-03-01  Volume: 560,502,400  (2275 days ago)
+  3. 2020-02-23  Volume: 468,449,900  (2282 days ago)
+  4. 2020-01-26  Volume: 354,354,900  (2310 days ago)
+  5. 2020-01-05  Volume: 280,409,800  (2331 days ago)
 
 Summary:
 ----------------------------------------
-Total HVE events across all timeframes: 1
-Latest volume activity: Daily (4 days ago)
+Total HVE events across all timeframes: 12
+Latest volume activity: Daily (226 days ago)
 
 ================================================================================

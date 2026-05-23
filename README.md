@@ -1,151 +1,365 @@
-# Highest Volume Ever (HVE) Screener
+# metaVolume — Volume Anomaly Screener
 
-A Python tool for identifying stocks that have experienced their highest volume ever within a specified time window. The screener analyzes multiple timeframes (daily, weekly, monthly) and generates comprehensive reports with visualizations.
+## What It Does
 
-## Features
+metaVolume identifies stocks that trade exceptionally high volume — days that stand out historically. It runs in two independent stages:
 
-- **Multi-Timeframe Analysis**: Analyze daily, weekly, and monthly data
-- **HVE Detection**: Identify all instances of highest volume ever for each ticker
-- **Scoring System**: Rank tickers based on recency, frequency, and volume characteristics
-- **Visualizations**: Generate charts showing HVE events on price and volume data
-- **Excel Reports**: Export detailed results with multiple sheets and formatting
-- **Configurable**: Easy-to-use YAML configuration file
+1. **Pre-processor** — reads years of OHLCV history (from `downloadData_v1`) and computes, for every ticker, its top volume days and volume milestones. Results are saved as baseline files.
+2. **Post-processor (daily checker)** — every trading day, compares a new TradingView bulk export against the baseline and flags tickers whose volume enters their historical top positions.
+
+The key design principle: the baseline is **computed once and never modified during daily runs**. New events accumulate in a separate incremental file that is safe to delete and replay.
+
+---
+
+## Data Flow
+
+```
+downloadData_v1/
+  market_data/daily/*.csv          ← one CSV per ticker (OHLCV history)
+          │
+          ▼
+  [PRE-PROCESSOR]  (run once, ticker_choice=0 recommended)
+          │
+          ▼
+  results/hve_results/
+    HVD_historical_daily.csv       ← read-only baseline (VOL checker reads this)
+    HVE_historical_daily.csv
+    HVE_historical_weekly.csv
+    HVE_historical_monthly.csv
+          │
+          │    TW bulk file (daily export from TradingView)
+          │    tw_files/daily/all_stocks_LOHP_YYYY-MM-DD.csv
+          │            │
+          ▼            ▼
+  [POST-PROCESSOR / VOL DAILY CHECKER]  (run every trading day)
+          │
+          ▼
+  results/vol_top20/
+    HVD_incremental.csv            ← new events since baseline (safe to delete)
+    daily_log.csv                  ← every monitored ticker, hit=0/1 per day
+    vol_check_results.csv          ← cumulative hits log
+    daily/vol_check_YYYY-MM-DD.csv ← per-day snapshot
+```
+
+---
 
 ## Project Structure
 
 ```
 metaVolume/
-├── main.py                  # Main execution script
-├── config.yaml              # Configuration file
-├── requirements.txt         # Python dependencies
-├── README.md               # This file
-└── src/
-    ├── data_loader.py      # Data loading from metaData_v1
-    ├── hve_screener.py     # HVE detection logic
-    ├── visualization.py    # Chart generation
-    └── excel_exporter.py   # Excel export functionality
+├── main.py                          ← single entry point
+├── user_input/                      ← ALL user-editable files live here
+│   ├── user_data.csv                ← main configuration
+│   ├── tradingview_universe.csv     ← full ticker universe (~6348 tickers)
+│   ├── test_tickers.csv             ← choice 8: test tickers (AMD TXN NVDA)
+│   ├── indexes_tickers.csv          ← choice 5: QQQ SPY IWM + sectors
+│   ├── portofolio_tickers.csv       ← choice 6: personal holdings
+│   └── etf_tickers.csv              ← choice 7: major ETFs
+├── src/
+│   ├── config.py                    ← path resolution, environment detection
+│   ├── user_defined_data.py         ← user_data.csv parser → UserConfiguration
+│   ├── data_reader.py               ← loads OHLCV CSV files per timeframe
+│   ├── unified_ticker_generator.py  ← builds combined_tickers_*.csv files
+│   ├── hve_screener.py              ← HVE calculation (expanding cummax)
+│   ├── hvd_screener.py              ← HVD calculation (top-N by magnitude)
+│   ├── hve_historical_exporter.py   ← exports HVE_historical_*.csv
+│   ├── hvd_historical_exporter.py   ← exports HVD_historical_daily.csv
+│   ├── vol_daily_checker.py         ← daily TW file vs HVD baseline
+│   └── ticker_card_generator.py     ← text summary cards per ticker
+├── results/
+│   ├── hve_results/                 ← pre-processor output (baseline lives here)
+│   └── vol_top20/                   ← post-processor output
+├── data/
+│   └── tickers/                     ← generated combined_tickers_*.csv files
+└── HVE_data_for_preload/            ← legacy preload files (not used by checker)
 ```
 
-## Installation
+---
 
-1. Install required Python packages:
+## Core Concepts: HVE vs HVD
+
+### HVE — Highest Volume Ever (milestone tracker)
+
+Answers: *"On which days did this stock set a new all-time volume record?"*
+
+- Volume must be higher than **all previous days** (expanding maximum / cummax)
+- HVE events form an **ascending sequence** — each event is larger than the one before
+- Tells you the history of volume milestones: when did volume really break out?
+
+Example (NVDA):
+- 2020-03-18: 200M → new record ✅
+- 2021-11-19: 350M → new record ✅
+- 2023-05-25: 1.54B → new record ✅
+- 2024-06-10: 900M → NOT a record (lower than 1.54B) ❌
+
+### HVD — Highest Volume Days (top-N ranking)
+
+Answers: *"What are the top 20 highest volume days ever for this stock, ranked by size?"*
+
+- Ranks **all days by volume**, keeps the biggest N (e.g. top 20)
+- Includes high-volume days that were **not** new records at the time
+- Used by the daily checker: *"Is today's volume big enough to enter the top 20?"*
+
+Example (NVDA top 5):
+1. 2023-05-25: 1.54B
+2. 2024-03-08: 950M  ← high volume day, NOT an HVE event
+3. 2024-06-10: 900M  ← high volume day, NOT an HVE event
+4. 2022-08-15: 800M
+5. 2021-11-19: 350M
+
+### Key difference
+
+| | HVE | HVD |
+|---|---|---|
+| Question | Was this a new record **at the time**? | Is this one of the **biggest days ever**? |
+| Sequence | Ascending (each beats the last) | Ranked by magnitude |
+| Contains each other? | Partially | HVD contains the largest HVE events, but old small HVE events may be displaced; HVD also contains non-HVE high-volume days |
+
+For the **daily checker**, HVD is the right tool — you want to know if today is one of the biggest days ever by size, not just whether it's a new record.
+
+---
+
+## Run Modes — user_data.csv settings
+
+### Mode 1: Generate historical baseline files (pre-processor only)
+
+Run this **once** (ideally with `ticker_choice=0` for the full universe) to build the HVD/HVE baseline.
+The baseline covers all tickers, so the daily checker can filter to any subset without missing history.
+
+| Setting | Value |
+|---|---|
+| `HVE_enable` | TRUE |
+| `HVD_historical_export` | TRUE |
+| `HVE_historical_export` | TRUE |
+| `VOL_checker_enable` | FALSE |
+| `ticker_choice` | **0** (full universe — do this once and save the file) |
+
+Output (authoritative baseline, read-only after this):
+```
+results/hve_results/HVD_historical_daily.csv   ← VOL checker reads THIS file
+results/hve_results/HVE_historical_daily.csv
+results/hve_results/HVE_historical_weekly.csv
+results/hve_results/HVE_historical_monthly.csv
+```
+
+> **Note:** `HVE_data_for_preload/` contains older copies — the VOL checker does NOT read from there.
+
+---
+
+### Mode 2: Daily checker only (post-processor only)
+
+Run every trading day after dropping a new TradingView bulk export file.
+Set `ticker_choice` to any subset — the full-universe baseline covers all tickers.
+
+| Setting | Value |
+|---|---|
+| `HVE_enable` | FALSE |
+| `HVD_historical_export` | FALSE |
+| `HVE_historical_export` | FALSE |
+| `VOL_checker_enable` | TRUE |
+| `ticker_choice` | any (2 = NASDAQ-100, 1 = S&P500, 0 = full universe, etc.) |
+
+Output:
+```
+results/vol_top20/HVD_incremental.csv    ← new events only, safe to delete and replay
+results/vol_top20/daily_log.csv          ← all monitored tickers, hit=0/1 per day
+results/vol_top20/vol_check_results.csv  ← cumulative hits log
+results/vol_top20/daily/                 ← one snapshot file per trading day
+```
+
+To force reprocess a date: set `VOL_checker_tw_since_date,YYYY-MM-DD` (one day before the target).
+Reset to blank after a successful run.
+
+---
+
+## Ticker Choice Values
+
+| Choice | Tickers | Source | Count |
+|---|---|---|---|
+| 0 | TradingView Universe | `tradingview_universe.csv` | ~6348 |
+| 1 | S&P 500 | boolean column in universe | ~503 |
+| 2 | NASDAQ 100 | boolean column in universe | ~100 |
+| 3 | All NASDAQ | boolean column in universe | ~3300 |
+| 4 | Russell 1000 | boolean column in universe | ~1008 |
+| 5 | Indexes | `indexes_tickers.csv` | 16 |
+| 6 | Portfolio | `portofolio_tickers.csv` | custom |
+| 7 | ETFs | `etf_tickers.csv` | 23 |
+| 8 | Test | `test_tickers.csv` | 3 (AMD TXN NVDA) |
+
+Combinations: `ticker_choice = 1-2` processes S&P 500 + NASDAQ 100 together.
+
+---
+
+## Commands
+
+### Local (terminal)
+
 ```bash
-pip install -r requirements.txt
+# Generate full historical baseline (run once — takes time for choice=0)
+python main.py --preset preprocess_full
+
+# Generate baseline for a specific ticker group
+python main.py --preset preprocess --ticker-choice 2
+
+# Run daily checker for NASDAQ-100
+python main.py --preset postprocess --ticker-choice 2
+
+# Force reprocess a date (e.g. to fix a bad run)
+python main.py --preset postprocess --ticker-choice 2 --since-date 2026-05-21
+
+# Show all options
+python main.py --help
 ```
 
-2. Update `config.yaml` with your paths:
-   - Set `metadata_v1_path` to your metaData_v1 installation
-   - Set `ticker_file` to your ticker list file
+### Colab — shell cells (`!`)
 
-## Configuration
+```python
+# Cell 1: setup
+!git clone https://github.com/simsisim/metaVolume.git
+%cd /content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume
 
-Edit `config.yaml` to customize the analysis:
+# Cell 2: generate baseline
+!python main.py --preset preprocess_full
 
-```yaml
-data_source:
-  metadata_v1_path: "/path/to/metaData_v1"
-  ticker_file: "combined_tickers_choice_0.csv"
-  user_choice: 0
-
-analysis:
-  limit_hist_search_years: 4  # Limit to recent N years
-  timeframes:
-    - daily
-    - weekly
-    - monthly
-
-output:
-  results_dir: "results"
-  create_timeframe_subdirs: true
+# Cell 3: daily checker
+!python main.py --preset postprocess --ticker-choice 2
 ```
 
-## Usage
+### Colab — Python cells (no `!`, more flexible)
 
-Run the screener:
-```bash
-python main.py
+```python
+from main import main
+
+# Generate baseline for NASDAQ-100
+main(preset='preprocess', config_override={'ticker_choice': '2'})
+
+# Daily checker for NASDAQ-100
+main(preset='postprocess', config_override={'ticker_choice': '2'})
+
+# Daily checker and force reprocess a specific date
+main(preset='postprocess', config_override={
+    'ticker_choice': '2',
+    'vol_checker_tw_since_date': '2026-05-21'
+})
 ```
 
-Or specify a custom config file:
-```bash
-python main.py --config my_config.yaml
+### Priority order for settings
+
+```
+CLI args  >  --preset  >  config_override dict  >  user_data.csv
 ```
 
-## Output
+---
 
-The screener generates the following outputs in the `results/` directory:
+## Colab Quick Start (copy-paste notebook)
 
-### For Each Timeframe:
-- `hve_results_{timeframe}.xlsx` - Detailed Excel report with:
-  - HVE_Summary: Overview of all tickers with HVE events
-  - HVE_Details: Detailed information for each HVE event
-  - Statistics: Analysis statistics
+```python
+# ── CELL 1: Mount Drive and navigate ──────────────────────────────────────────
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume
 
-- `hve_summary_{timeframe}.png` - Summary chart showing top tickers
+# ── CELL 2: Install dependencies ──────────────────────────────────────────────
+!pip install -q pandas numpy yfinance mplfinance
 
-- `charts_{timeframe}/` - Individual charts for each ticker showing:
-  - Price history
-  - Volume bars (HVE events highlighted in red)
-  - Annotations for latest HVE
+# ── CELL 3A: FIRST TIME — generate full baseline (slow, run once) ─────────────
+!python main.py --preset preprocess_full
 
-### Combined:
-- `hve_results_combined.xlsx` - All timeframes in a single file
+# ── CELL 3B: EVERY TRADING DAY — run daily checker ────────────────────────────
+# Drop your TradingView export in:
+#   downloadData_v1/data/tw_files/daily/all_stocks_LOHP_YYYY-MM-DD.csv
+# Then run:
+!python main.py --preset postprocess --ticker-choice 2
+
+# ── CELL 4: View results ───────────────────────────────────────────────────────
+import pandas as pd
+
+# Today's hits
+hits = pd.read_csv('results/vol_top20/vol_check_results.csv')
+print(hits[hits['entered_top_n'] == True].tail(20).to_string())
+
+# Full daily log (all monitored tickers, hit=0/1)
+log = pd.read_csv('results/vol_top20/daily_log.csv')
+print(log[log['hit'] == 1].tail(20).to_string())
+```
+
+---
+
+## TradingView Export File
+
+The daily checker reads TradingView bulk export CSV files. Place them in:
+```
+../downloadData_v1/data/tw_files/daily/
+```
+
+Required filename format: `*YYYY-MM-DD*.csv` (date anywhere in filename)
+
+Required columns: `Symbol`, `Open 1 day`, `High 1 day`, `Low 1 day`, `Price`, `Volume 1 day`
+
+Multiple files for the same date are merged (e.g. one for stocks, one for ETFs).
+
+---
+
+## Output Files Reference
+
+| File | Updated by | Purpose |
+|---|---|---|
+| `results/hve_results/HVD_historical_daily.csv` | Pre-processor | HVD baseline — top-N volume days per ticker. **Read-only** during daily runs |
+| `results/hve_results/HVE_historical_*.csv` | Pre-processor | HVE milestones per ticker per timeframe |
+| `results/vol_top20/HVD_incremental.csv` | Daily checker | New events since baseline. Safe to delete |
+| `results/vol_top20/daily_log.csv` | Daily checker | All monitored tickers per day, `hit` column |
+| `results/vol_top20/vol_check_results.csv` | Daily checker | Cumulative hits (beat threshold) |
+| `results/vol_top20/daily/vol_check_YYYY-MM-DD.csv` | Daily checker | Hits for a single day |
+| `results/vol_top20/last_processed.txt` | Daily checker | State: last processed TW date |
+
+---
+
+## Recovering from a Bad Run
+
+If the daily checker produced wrong results (wrong ticker_choice, bug, etc.):
+
+1. Delete the incremental file (baseline is untouched):
+   ```bash
+   rm results/vol_top20/HVD_incremental.csv
+   rm results/vol_top20/vol_check_results.csv
+   rm results/vol_top20/daily_log.csv
+   ```
+
+2. Force reprocess by setting `VOL_checker_tw_since_date` one day before the target date in `user_data.csv`, then re-run.
+
+3. Alternatively use `--since-date`:
+   ```bash
+   python main.py --preset postprocess --ticker-choice 2 --since-date 2026-05-21
+   ```
+
+The HVD baseline (`results/hve_results/HVD_historical_daily.csv`) is **never modified** by the daily checker — it is always safe.
+
+---
 
 ## HVE Screening Logic
 
-1. **HVE Detection**: For each ticker, the screener identifies all dates where volume reached a new all-time high
+1. **HVE Detection**: For each ticker, identifies all dates where volume reached a new all-time high (expanding cummax from `HVE_start_date`)
 
 2. **Metrics Calculated**:
-   - HVE Count: Number of times HVE occurred
-   - Latest HVE Date: Most recent HVE event
-   - Days Since HVE: Days elapsed since latest HVE
-   - Volume Ratio: Current volume as % of max volume
+   - HVE Count: Number of times a new volume record was set
+   - Latest HVE Date: Most recent milestone
+   - Days Since HVE: Days elapsed since latest milestone
+   - HVE_1Y: Whether an HVE event occurred in the last 365 days
 
-3. **Scoring System** (0-100 points):
-   - **Recency Score (0-50 pts)**: Recent HVE events score higher
-     - Within 30 days: 50 points
-     - 30-90 days: 25-50 points (decay)
-     - 90-365 days: 5-25 points (decay)
-     - Beyond 365 days: 0-5 points (decay)
+3. **HV1Y**: Highest volume within a rolling 365-day window — separate from HVE, tracks recent volume peaks even if not all-time records
 
-   - **Frequency Score (0-30 pts)**: More HVE events = higher score
-     - 3 points per HVE event (capped at 30)
+---
 
-   - **Volume Score (0-20 pts)**: Current volume relative to max
-     - Based on current volume as % of max volume
-
-## Example Results
-
-The screener will log progress and display top results:
+## Requirements
 
 ```
-Found 127 tickers with HVE events
-Top 5 by score:
-  1. AAPL: Score=85.23, Days Since HVE=15, HVE Count=8
-  2. MSFT: Score=78.45, Days Since HVE=23, HVE Count=6
-  3. NVDA: Score=72.11, Days Since HVE=8, HVE Count=12
-  ...
+pandas
+numpy
+yfinance
+pathlib (stdlib)
 ```
 
-## Troubleshooting
-
-### No data loaded
-- Verify `metadata_v1_path` is correct in config.yaml
-- Ensure ticker file exists in metaData_v1/data/tickers/
-- Check that market data exists for the specified timeframes
-
-### Import errors
-- Install all requirements: `pip install -r requirements.txt`
-- Ensure metaData_v1 is properly installed
-
-### Chart generation fails
-- Check matplotlib installation
-- Verify write permissions in output directory
-
-## Reference
-
-This tool is inspired by and integrates with the metaData_v1 project structure, particularly the pattern used in `pvb_screener.py`.
-
-## Log File
-
-All execution details are logged to `hve_screener.log` for debugging and audit purposes.
+Install:
+```bash
+pip install pandas numpy yfinance
+```

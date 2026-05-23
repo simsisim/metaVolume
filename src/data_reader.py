@@ -161,9 +161,9 @@ class DataReader:
             # Sort by date
             df = df.sort_index()
 
-            # Filter to business days only (exclude weekends)
-            # This removes Saturday (5) and Sunday (6) data points
-            df = df[df.index.weekday < 5]
+            # Filter to business days only for daily data (weekly/monthly bars land on weekends)
+            if self.timeframe == 'daily':
+                df = df[df.index.weekday < 5]
 
             # Return standard OHLCV columns
             standard_columns = ['Open', 'High', 'Low', 'Close', 'Volume']

@@ -151,7 +151,7 @@ class Config:
         """Define specific file paths."""
         self.paths = {
             # Configuration files
-            "USER_DATA_CONFIG": self.base_dir / "user_data.csv",
+            "USER_DATA_CONFIG": self.base_dir / "user_input" / "user_data.csv",
             
             # Output files (will be updated based on user choice)
             "OVERVIEW_FILE": self.directories["OVERVIEW_DIR"] / "indexes_overview.csv",
@@ -221,16 +221,21 @@ class Config:
         Returns:
             Path or None: Path to the file if found, None otherwise
         """
-        # First check root directory (PRIORITY)
+        # Check user_input/ directory (PRIORITY)
+        user_input_path = self.base_dir / 'user_input' / filename
+        if user_input_path.exists():
+            return user_input_path
+
+        # Fallback: bare relative path (legacy)
         root_path = Path(filename)
         if root_path.exists():
             return root_path
-        
-        # Fallback to data/tickers/ directory
+
+        # Fallback: data/tickers/ directory
         tickers_path = Path(self.directories['TICKERS_DIR']) / filename
         if tickers_path.exists():
             return tickers_path
-        
+
         return None
     
     def get_market_data_dir(self, timeframe='daily'):

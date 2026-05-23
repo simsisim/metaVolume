@@ -75,8 +75,10 @@ class HVDScreener:
         self.min_volume = min_volume
         self.max_events = max_events
         self.date_range_mode = date_range_mode
-        self.start_date = pd.Timestamp(start_date) if start_date else None
-        self.end_date = pd.Timestamp(end_date) if end_date else None
+        def _parse_date(v):
+            return pd.Timestamp(v) if v and str(v).strip().lower() not in ('', 'nan', 'none', 'nat') else None
+        self.start_date = _parse_date(start_date)
+        self.end_date = _parse_date(end_date)
 
     def find_hvd_events(self, df: pd.DataFrame) -> Dict:
         """
@@ -214,9 +216,11 @@ class HVDScreener:
                         continue
 
                 # Apply date range filter based on mode
-                if self.date_range_mode == "fixed" and self.start_date and self.end_date:
-                    # Fixed date range mode: filter to specific start and end dates
-                    df = df[(df.index >= self.start_date) & (df.index <= self.end_date)]
+                if self.date_range_mode == "fixed" and self.start_date:
+                    if self.end_date:
+                        df = df[(df.index >= self.start_date) & (df.index <= self.end_date)]
+                    else:
+                        df = df[df.index >= self.start_date]
                 elif self.limit_hist_years > 0:
                     # Rolling mode: filter from now backwards by N years
                     cutoff_date = pd.Timestamp.now() - pd.DateOffset(years=self.limit_hist_years)
