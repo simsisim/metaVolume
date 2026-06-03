@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: DCO
+================================================================================
+Generated: 2026-05-25 07:57:35
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-16  Volume: 1,202,400  (1102 days ago)
+  2. 2020-02-21  Volume: 939,600  (2282 days ago)
+  3. 2020-01-03  Volume: 393,100  (2331 days ago)
+  4. 2020-01-02  Volume: 326,100  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-14  Volume: 1,775,300  (1106 days ago)
+  2. 2020-02-16  Volume: 1,349,000  (2289 days ago)
+  3. 2020-01-05  Volume: 605,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 4,603,000  (31 days ago)
+  2. 2026-03-31  Volume: 3,986,100  (61 days ago)
+  3. 2025-10-31  Volume: 3,529,900  (212 days ago)
+  4. 2020-03-31  Volume: 3,460,800  (2252 days ago)
+  5. 2020-02-29  Volume: 3,442,900  (2283 days ago)
+  6. 2020-01-31  Volume: 2,618,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

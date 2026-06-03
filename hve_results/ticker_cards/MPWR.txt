@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: MPWR
+================================================================================
+Generated: 2026-05-25 07:57:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-11  Volume: 10,003,300  (1926 days ago)
+  2. 2020-11-30  Volume: 2,944,700  (1999 days ago)
+  3. 2020-04-29  Volume: 850,300  (2214 days ago)
+  4. 2020-02-06  Volume: 765,700  (2297 days ago)
+  5. 2020-01-07  Volume: 645,300  (2327 days ago)
+  6. 2020-01-06  Volume: 339,900  (2328 days ago)
+  7. 2020-01-02  Volume: 333,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-14  Volume: 12,724,400  (1925 days ago)
+  2. 2020-12-06  Volume: 4,621,400  (1995 days ago)
+  3. 2020-03-22  Volume: 2,930,200  (2254 days ago)
+  4. 2020-03-15  Volume: 2,763,800  (2261 days ago)
+  5. 2020-02-09  Volume: 2,343,500  (2296 days ago)
+  6. 2020-01-12  Volume: 1,738,300  (2324 days ago)
+  7. 2020-01-05  Volume: 1,004,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-30  Volume: 27,474,400  (547 days ago)
+  2. 2022-10-31  Volume: 20,070,200  (1308 days ago)
+  3. 2021-02-28  Volume: 18,907,100  (1918 days ago)
+  4. 2020-11-30  Volume: 12,069,300  (2008 days ago)
+  5. 2020-03-31  Volume: 10,886,300  (2252 days ago)
+  6. 2020-02-29  Volume: 7,142,000  (2283 days ago)
+  7. 2020-01-31  Volume: 6,840,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (547 days ago)
+
+================================================================================

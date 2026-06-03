@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: FBNC
+================================================================================
+Generated: 2026-05-25 07:58:03
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-12  Volume: 5,674,400  (2017 days ago)
+  2. 2020-11-06  Volume: 1,546,600  (2023 days ago)
+  3. 2020-07-30  Volume: 758,300  (2122 days ago)
+  4. 2020-07-29  Volume: 677,700  (2123 days ago)
+  5. 2020-06-26  Volume: 324,700  (2156 days ago)
+  6. 2020-06-19  Volume: 316,500  (2163 days ago)
+  7. 2020-03-19  Volume: 248,200  (2255 days ago)
+  8. 2020-01-23  Volume: 208,100  (2311 days ago)
+  9. 2020-01-14  Volume: 167,000  (2320 days ago)
+  10. 2020-01-10  Volume: 94,100  (2324 days ago)
+  11. 2020-01-03  Volume: 78,100  (2331 days ago)
+  12. 2020-01-02  Volume: 65,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-08  Volume: 8,264,100  (2023 days ago)
+  2. 2020-11-01  Volume: 2,112,300  (2030 days ago)
+  3. 2020-07-26  Volume: 1,864,900  (2128 days ago)
+  4. 2020-03-15  Volume: 989,200  (2261 days ago)
+  5. 2020-03-08  Volume: 658,100  (2268 days ago)
+  6. 2020-03-01  Volume: 545,000  (2275 days ago)
+  7. 2020-01-12  Volume: 523,300  (2324 days ago)
+  8. 2020-01-05  Volume: 348,600  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-30  Volume: 12,486,400  (2008 days ago)
+  2. 2020-07-31  Volume: 3,785,700  (2130 days ago)
+  3. 2020-03-31  Volume: 3,386,200  (2252 days ago)
+  4. 2020-01-31  Volume: 1,979,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Monthly (2008 days ago)
+
+================================================================================

@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: SWX
+================================================================================
+Generated: 2026-05-25 07:57:45
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-29  Volume: 4,200,300  (1515 days ago)
+  2. 2021-03-19  Volume: 2,982,700  (1890 days ago)
+  3. 2021-03-12  Volume: 1,927,800  (1897 days ago)
+  4. 2020-04-27  Volume: 1,136,100  (2216 days ago)
+  5. 2020-04-24  Volume: 1,119,200  (2219 days ago)
+  6. 2020-04-15  Volume: 1,053,900  (2228 days ago)
+  7. 2020-03-06  Volume: 915,200  (2268 days ago)
+  8. 2020-02-27  Volume: 806,600  (2276 days ago)
+  9. 2020-01-08  Volume: 593,900  (2326 days ago)
+  10. 2020-01-03  Volume: 405,200  (2331 days ago)
+  11. 2020-01-02  Volume: 393,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-27  Volume: 9,456,400  (1519 days ago)
+  2. 2021-03-14  Volume: 7,480,500  (1897 days ago)
+  3. 2021-03-07  Volume: 4,665,500  (1904 days ago)
+  4. 2020-03-29  Volume: 3,377,300  (2247 days ago)
+  5. 2020-03-22  Volume: 3,351,800  (2254 days ago)
+  6. 2020-03-15  Volume: 3,241,600  (2261 days ago)
+  7. 2020-03-08  Volume: 3,126,700  (2268 days ago)
+  8. 2020-02-23  Volume: 2,859,400  (2282 days ago)
+  9. 2020-01-12  Volume: 2,170,400  (2324 days ago)
+  10. 2020-01-05  Volume: 1,950,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-31  Volume: 19,464,500  (1157 days ago)
+  2. 2021-03-31  Volume: 18,791,500  (1887 days ago)
+  3. 2020-03-31  Volume: 14,087,700  (2252 days ago)
+  4. 2020-01-31  Volume: 8,442,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Monthly (1157 days ago)
+
+================================================================================

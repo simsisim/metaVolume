@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: NTGR
+================================================================================
+Generated: 2026-05-25 07:57:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-15  Volume: 7,467,500  (980 days ago)
+  2. 2021-07-22  Volume: 2,992,100  (1765 days ago)
+  3. 2020-04-23  Volume: 2,350,000  (2220 days ago)
+  4. 2020-02-07  Volume: 973,400  (2296 days ago)
+  5. 2020-02-06  Volume: 879,200  (2297 days ago)
+  6. 2020-02-05  Volume: 501,300  (2298 days ago)
+  7. 2020-01-14  Volume: 364,500  (2320 days ago)
+  8. 2020-01-13  Volume: 345,400  (2321 days ago)
+  9. 2020-01-06  Volume: 343,200  (2328 days ago)
+  10. 2020-01-02  Volume: 309,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-17  Volume: 10,241,400  (980 days ago)
+  2. 2020-10-25  Volume: 4,849,200  (2037 days ago)
+  3. 2020-04-26  Volume: 4,537,000  (2219 days ago)
+  4. 2020-02-09  Volume: 2,968,300  (2296 days ago)
+  5. 2020-01-12  Volume: 1,380,100  (2324 days ago)
+  6. 2020-01-05  Volume: 1,042,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-30  Volume: 18,841,300  (974 days ago)
+  2. 2020-04-30  Volume: 11,585,000  (2222 days ago)
+  3. 2020-03-31  Volume: 10,057,600  (2252 days ago)
+  4. 2020-02-29  Volume: 8,346,300  (2283 days ago)
+  5. 2020-01-31  Volume: 5,427,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (974 days ago)
+
+================================================================================

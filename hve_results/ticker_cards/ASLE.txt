@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: ASLE
+================================================================================
+Generated: 2026-05-25 07:57:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-15  Volume: 3,869,500  (980 days ago)
+  2. 2020-03-12  Volume: 3,825,600  (2262 days ago)
+  3. 2020-02-26  Volume: 610,800  (2277 days ago)
+  4. 2020-01-16  Volume: 238,400  (2318 days ago)
+  5. 2020-01-09  Volume: 131,600  (2325 days ago)
+  6. 2020-01-02  Volume: 14,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-23  Volume: 7,927,300  (427 days ago)
+  2. 2024-03-17  Volume: 7,181,800  (798 days ago)
+  3. 2023-09-17  Volume: 7,016,300  (980 days ago)
+  4. 2023-08-13  Volume: 6,004,400  (1015 days ago)
+  5. 2020-03-15  Volume: 4,784,700  (2261 days ago)
+  6. 2020-03-01  Volume: 1,067,600  (2275 days ago)
+  7. 2020-01-19  Volume: 385,500  (2317 days ago)
+  8. 2020-01-12  Volume: 191,900  (2324 days ago)
+  9. 2020-01-05  Volume: 189,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-31  Volume: 18,221,300  (791 days ago)
+  2. 2023-08-31  Volume: 14,749,700  (1004 days ago)
+  3. 2023-06-30  Volume: 11,028,800  (1066 days ago)
+  4. 2022-11-30  Volume: 8,520,300  (1278 days ago)
+  5. 2021-11-30  Volume: 8,100,700  (1643 days ago)
+  6. 2020-03-31  Volume: 7,214,500  (2252 days ago)
+  7. 2020-02-29  Volume: 1,204,600  (2283 days ago)
+  8. 2020-01-31  Volume: 748,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Weekly (427 days ago)
+
+================================================================================

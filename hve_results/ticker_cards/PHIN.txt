@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: PHIN
+================================================================================
+Generated: 2026-05-25 07:57:32
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-05  Volume: 12,492,100  (1052 days ago)
+  2. 2023-06-28  Volume: 900  (1059 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-16  Volume: 21,649,500  (1043 days ago)
+  2. 2023-07-09  Volume: 17,704,400  (1050 days ago)
+  3. 2023-07-02  Volume: 1,900  (1057 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-31  Volume: 55,476,100  (1035 days ago)
+  2. 2023-06-30  Volume: 1,900  (1066 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Monthly (1035 days ago)
+
+================================================================================

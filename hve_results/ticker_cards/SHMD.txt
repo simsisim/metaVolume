@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: SHMD
+================================================================================
+Generated: 2026-05-25 07:56:44
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-22  Volume: 9,354,500  (212 days ago)
+  2. 2025-10-15  Volume: 348,800  (219 days ago)
+  3. 2025-01-30  Volume: 287,100  (477 days ago)
+  4. 2024-08-05  Volume: 170,300  (655 days ago)
+  5. 2024-05-07  Volume: 164,400  (745 days ago)
+  6. 2024-05-06  Volume: 160,900  (746 days ago)
+  7. 2024-05-02  Volume: 58,500  (750 days ago)
+  8. 2024-05-01  Volume: 45,300  (751 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 14,253,783  (0 days ago)
+  2. 2025-10-26  Volume: 10,070,300  (210 days ago)
+  3. 2025-10-19  Volume: 763,900  (217 days ago)
+  4. 2025-10-12  Volume: 519,100  (224 days ago)
+  5. 2025-02-02  Volume: 443,400  (476 days ago)
+  6. 2024-05-12  Volume: 442,600  (742 days ago)
+  7. 2024-05-05  Volume: 124,500  (749 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

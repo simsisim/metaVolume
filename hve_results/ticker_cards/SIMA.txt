@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: SIMA
+================================================================================
+Generated: 2026-05-25 07:56:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 2,229,200  (52 days ago)
+  2. 2024-09-04  Volume: 1,940,800  (625 days ago)
+  3. 2024-08-30  Volume: 1,501,900  (630 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-05  Volume: 3,122,000  (49 days ago)
+  2. 2024-09-08  Volume: 2,115,800  (623 days ago)
+  3. 2024-09-01  Volume: 1,501,900  (630 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 5,157,000  (608 days ago)
+  2. 2024-08-31  Volume: 1,501,900  (638 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (49 days ago)
+
+================================================================================

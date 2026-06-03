@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: IPI
+================================================================================
+Generated: 2026-05-25 07:58:01
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-12-31  Volume: 2,142,700  (1968 days ago)
+  2. 2020-08-14  Volume: 541,100  (2107 days ago)
+  3. 2020-08-10  Volume: 231,920  (2111 days ago)
+  4. 2020-06-26  Volume: 186,270  (2156 days ago)
+  5. 2020-04-29  Volume: 162,530  (2214 days ago)
+  6. 2020-01-17  Volume: 161,650  (2317 days ago)
+  7. 2020-01-16  Volume: 155,160  (2318 days ago)
+  8. 2020-01-10  Volume: 113,600  (2324 days ago)
+  9. 2020-01-06  Volume: 95,270  (2328 days ago)
+  10. 2020-01-03  Volume: 67,050  (2331 days ago)
+  11. 2020-01-02  Volume: 50,320  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-27  Volume: 5,495,000  (1519 days ago)
+  2. 2022-03-13  Volume: 4,758,500  (1533 days ago)
+  3. 2022-03-06  Volume: 3,375,300  (1540 days ago)
+  4. 2021-01-03  Volume: 2,474,500  (1967 days ago)
+  5. 2020-08-23  Volume: 1,341,600  (2100 days ago)
+  6. 2020-08-16  Volume: 1,073,370  (2107 days ago)
+  7. 2020-05-03  Volume: 531,140  (2212 days ago)
+  8. 2020-01-19  Volume: 523,200  (2317 days ago)
+  9. 2020-01-12  Volume: 389,390  (2324 days ago)
+  10. 2020-01-05  Volume: 253,470  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (1519 days ago)
+
+================================================================================

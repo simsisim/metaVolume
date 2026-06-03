@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: HBB
+================================================================================
+Generated: 2026-05-25 07:57:43
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-24  Volume: 1,353,100  (1428 days ago)
+  2. 2020-07-24  Volume: 566,900  (2128 days ago)
+  3. 2020-06-26  Volume: 161,300  (2156 days ago)
+  4. 2020-05-29  Volume: 147,400  (2184 days ago)
+  5. 2020-02-28  Volume: 123,100  (2275 days ago)
+  6. 2020-01-06  Volume: 78,100  (2328 days ago)
+  7. 2020-01-02  Volume: 59,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-26  Volume: 1,617,200  (1428 days ago)
+  2. 2020-07-26  Volume: 654,700  (2128 days ago)
+  3. 2020-05-17  Volume: 316,400  (2198 days ago)
+  4. 2020-03-22  Volume: 309,200  (2254 days ago)
+  5. 2020-03-15  Volume: 261,000  (2261 days ago)
+  6. 2020-01-12  Volume: 244,900  (2324 days ago)
+  7. 2020-01-05  Volume: 182,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-30  Volume: 2,945,400  (1431 days ago)
+  2. 2022-03-31  Volume: 1,662,000  (1522 days ago)
+  3. 2020-08-31  Volume: 1,384,500  (2099 days ago)
+  4. 2020-07-31  Volume: 1,342,000  (2130 days ago)
+  5. 2020-03-31  Volume: 1,143,800  (2252 days ago)
+  6. 2020-01-31  Volume: 723,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (1428 days ago)
+
+================================================================================

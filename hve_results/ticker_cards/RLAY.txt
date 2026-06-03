@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: RLAY
+================================================================================
+Generated: 2026-05-25 07:57:18
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-09  Volume: 19,068,500  (620 days ago)
+  2. 2023-04-18  Volume: 13,936,800  (1130 days ago)
+  3. 2022-09-13  Volume: 7,544,200  (1347 days ago)
+  4. 2020-07-16  Volume: 7,091,900  (2136 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 78,073,517  (0 days ago)
+  2. 2024-09-15  Volume: 48,059,000  (616 days ago)
+  3. 2023-04-23  Volume: 26,156,000  (1127 days ago)
+  4. 2022-09-18  Volume: 16,156,500  (1344 days ago)
+  5. 2021-10-17  Volume: 14,898,700  (1680 days ago)
+  6. 2021-01-17  Volume: 9,285,000  (1953 days ago)
+  7. 2020-07-19  Volume: 8,053,800  (2135 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 79,390,400  (31 days ago)
+  2. 2024-09-30  Volume: 73,773,000  (608 days ago)
+  3. 2023-04-30  Volume: 47,211,800  (1127 days ago)
+  4. 2022-09-30  Volume: 37,723,100  (1339 days ago)
+  5. 2022-06-30  Volume: 28,935,500  (1431 days ago)
+  6. 2021-10-31  Volume: 27,631,200  (1673 days ago)
+  7. 2021-03-31  Volume: 20,805,400  (1887 days ago)
+  8. 2021-01-31  Volume: 16,850,800  (1946 days ago)
+  9. 2020-07-31  Volume: 14,429,400  (2130 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

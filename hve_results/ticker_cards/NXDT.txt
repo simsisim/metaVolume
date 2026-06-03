@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: NXDT
+================================================================================
+Generated: 2026-05-25 07:57:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 4,270,400  (1064 days ago)
+  2. 2022-12-16  Volume: 2,213,500  (1253 days ago)
+  3. 2022-11-30  Volume: 2,042,800  (1269 days ago)
+  4. 2020-10-15  Volume: 1,767,800  (2045 days ago)
+  5. 2020-03-20  Volume: 1,402,300  (2254 days ago)
+  6. 2020-03-18  Volume: 1,190,200  (2256 days ago)
+  7. 2020-03-13  Volume: 971,000  (2261 days ago)
+  8. 2020-01-15  Volume: 806,700  (2319 days ago)
+  9. 2020-01-03  Volume: 448,800  (2331 days ago)
+  10. 2020-01-02  Volume: 406,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-23  Volume: 5,936,500  (427 days ago)
+  2. 2024-12-22  Volume: 5,538,000  (518 days ago)
+  3. 2023-06-25  Volume: 4,895,700  (1064 days ago)
+  4. 2020-03-22  Volume: 4,774,300  (2254 days ago)
+  5. 2020-03-15  Volume: 2,647,300  (2261 days ago)
+  6. 2020-01-19  Volume: 2,003,200  (2317 days ago)
+  7. 2020-01-05  Volume: 1,463,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 13,885,900  (2252 days ago)
+  2. 2020-01-31  Volume: 5,733,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (427 days ago)
+
+================================================================================

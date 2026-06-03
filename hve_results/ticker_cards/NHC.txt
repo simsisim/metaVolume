@@ -1,0 +1,57 @@
+================================================================================
+TICKER CARD: NHC
+================================================================================
+Generated: 2026-05-25 07:57:27
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-15  Volume: 2,662,000  (889 days ago)
+  2. 2023-03-17  Volume: 873,300  (1162 days ago)
+  3. 2022-03-18  Volume: 530,600  (1526 days ago)
+  4. 2021-06-25  Volume: 331,300  (1792 days ago)
+  5. 2020-03-20  Volume: 223,200  (2254 days ago)
+  6. 2020-03-19  Volume: 134,900  (2255 days ago)
+  7. 2020-03-13  Volume: 129,200  (2261 days ago)
+  8. 2020-03-02  Volume: 116,700  (2272 days ago)
+  9. 2020-02-28  Volume: 109,100  (2275 days ago)
+  10. 2020-02-27  Volume: 92,100  (2276 days ago)
+  11. 2020-01-31  Volume: 76,400  (2303 days ago)
+  12. 2020-01-08  Volume: 58,900  (2326 days ago)
+  13. 2020-01-06  Volume: 53,100  (2328 days ago)
+  14. 2020-01-02  Volume: 36,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-10  Volume: 3,491,700  (896 days ago)
+  2. 2023-03-12  Volume: 1,706,000  (1169 days ago)
+  3. 2022-03-13  Volume: 771,700  (1533 days ago)
+  4. 2020-03-15  Volume: 721,400  (2261 days ago)
+  5. 2020-03-08  Volume: 470,000  (2268 days ago)
+  6. 2020-03-01  Volume: 364,300  (2275 days ago)
+  7. 2020-02-23  Volume: 359,000  (2282 days ago)
+  8. 2020-01-05  Volume: 240,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-31  Volume: 5,944,500  (882 days ago)
+  2. 2023-03-31  Volume: 3,057,300  (1157 days ago)
+  3. 2020-03-31  Volume: 2,058,100  (2252 days ago)
+  4. 2020-02-29  Volume: 873,300  (2283 days ago)
+  5. 2020-01-31  Volume: 693,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 27
+Latest volume activity: Monthly (882 days ago)
+
+================================================================================

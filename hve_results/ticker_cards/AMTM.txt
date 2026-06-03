@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: AMTM
+================================================================================
+Generated: 2026-05-25 07:57:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-20  Volume: 37,788,800  (518 days ago)
+  2. 2024-09-30  Volume: 18,372,600  (599 days ago)
+  3. 2024-09-27  Volume: 163,300  (602 days ago)
+  4. 2024-09-26  Volume: 22,300  (603 days ago)
+  5. 2024-09-25  Volume: 15,100  (604 days ago)
+  6. 2024-09-24  Volume: 11,200  (605 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-22  Volume: 55,823,000  (518 days ago)
+  2. 2024-10-06  Volume: 47,546,300  (595 days ago)
+  3. 2024-09-29  Volume: 211,900  (602 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 89,336,200  (516 days ago)
+  2. 2024-10-31  Volume: 70,555,800  (577 days ago)
+  3. 2024-09-30  Volume: 18,584,500  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (516 days ago)
+
+================================================================================

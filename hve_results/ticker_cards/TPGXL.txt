@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: TPGXL
+================================================================================
+Generated: 2026-05-25 07:57:23
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-28  Volume: 2,274,100  (785 days ago)
+  2. 2024-03-26  Volume: 574,700  (787 days ago)
+  3. 2024-03-06  Volume: 571,100  (807 days ago)
+  4. 2024-03-05  Volume: 171,600  (808 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-31  Volume: 3,396,900  (784 days ago)
+  2. 2024-03-17  Volume: 1,582,600  (798 days ago)
+  3. 2024-03-10  Volume: 1,380,200  (805 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-31  Volume: 7,197,600  (791 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (784 days ago)
+
+================================================================================

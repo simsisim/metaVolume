@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: SDRL
+================================================================================
+Generated: 2026-05-25 07:57:32
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 8,437,100  (1064 days ago)
+  2. 2023-01-20  Volume: 2,350,800  (1218 days ago)
+  3. 2023-01-19  Volume: 1,159,000  (1219 days ago)
+  4. 2023-01-17  Volume: 1,145,500  (1221 days ago)
+  5. 2022-11-29  Volume: 904,500  (1270 days ago)
+  6. 2022-10-24  Volume: 186,200  (1306 days ago)
+  7. 2022-10-14  Volume: 80,500  (1316 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-25  Volume: 11,585,700  (1064 days ago)
+  2. 2023-01-22  Volume: 5,290,300  (1218 days ago)
+  3. 2022-12-04  Volume: 1,190,500  (1267 days ago)
+  4. 2022-10-30  Volume: 500,800  (1302 days ago)
+  5. 2022-10-16  Volume: 80,500  (1316 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 29,241,900  (608 days ago)
+  2. 2023-07-31  Volume: 25,929,700  (1035 days ago)
+  3. 2023-06-30  Volume: 19,618,100  (1066 days ago)
+  4. 2023-01-31  Volume: 9,424,700  (1216 days ago)
+  5. 2022-11-30  Volume: 1,945,100  (1278 days ago)
+  6. 2022-10-31  Volume: 662,200  (1308 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

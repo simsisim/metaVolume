@@ -1,0 +1,59 @@
+================================================================================
+TICKER CARD: DLB
+================================================================================
+Generated: 2026-05-25 07:57:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-21  Volume: 11,148,000  (1005 days ago)
+  2. 2023-08-18  Volume: 3,180,900  (1008 days ago)
+  3. 2022-10-24  Volume: 1,943,200  (1306 days ago)
+  4. 2022-03-23  Volume: 1,840,300  (1521 days ago)
+  5. 2021-05-05  Volume: 1,737,300  (1843 days ago)
+  6. 2020-12-15  Volume: 1,579,500  (1984 days ago)
+  7. 2020-11-02  Volume: 1,199,500  (2027 days ago)
+  8. 2020-05-20  Volume: 1,170,200  (2193 days ago)
+  9. 2020-04-02  Volume: 1,057,700  (2241 days ago)
+  10. 2020-03-20  Volume: 974,900  (2254 days ago)
+  11. 2020-02-03  Volume: 947,000  (2300 days ago)
+  12. 2020-01-30  Volume: 908,300  (2304 days ago)
+  13. 2020-01-06  Volume: 558,300  (2328 days ago)
+  14. 2020-01-03  Volume: 335,800  (2331 days ago)
+  15. 2020-01-02  Volume: 315,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-27  Volume: 14,276,400  (1001 days ago)
+  2. 2021-05-09  Volume: 5,297,300  (1841 days ago)
+  3. 2020-11-08  Volume: 4,057,800  (2023 days ago)
+  4. 2020-03-22  Volume: 3,405,500  (2254 days ago)
+  5. 2020-03-01  Volume: 3,236,300  (2275 days ago)
+  6. 2020-02-09  Volume: 3,044,700  (2296 days ago)
+  7. 2020-02-02  Volume: 2,893,900  (2303 days ago)
+  8. 2020-01-12  Volume: 1,835,400  (2324 days ago)
+  9. 2020-01-05  Volume: 1,245,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-31  Volume: 25,362,000  (1004 days ago)
+  2. 2020-11-30  Volume: 14,344,000  (2008 days ago)
+  3. 2020-03-31  Volume: 12,195,200  (2252 days ago)
+  4. 2020-02-29  Volume: 9,939,200  (2283 days ago)
+  5. 2020-01-31  Volume: 7,859,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 29
+Latest volume activity: Weekly (1001 days ago)
+
+================================================================================

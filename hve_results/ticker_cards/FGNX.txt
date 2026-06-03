@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: FGNX
+================================================================================
+Generated: 2026-05-25 07:56:47
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-17  Volume: 6,851,496  (247 days ago)
+  2. 2025-07-30  Volume: 2,325,840  (296 days ago)
+  3. 2021-11-03  Volume: 355,448  (1661 days ago)
+  4. 2020-12-30  Volume: 205,027  (1969 days ago)
+  5. 2020-11-24  Volume: 28,733  (2005 days ago)
+  6. 2020-03-17  Volume: 19,015  (2257 days ago)
+  7. 2020-01-16  Volume: 2,232  (2318 days ago)
+  8. 2020-01-02  Volume: 977  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-21  Volume: 9,326,066  (154 days ago)
+  2. 2025-10-19  Volume: 9,194,505  (217 days ago)
+  3. 2025-09-21  Volume: 9,064,620  (245 days ago)
+  4. 2025-08-03  Volume: 4,275,468  (294 days ago)
+  5. 2021-11-07  Volume: 676,259  (1659 days ago)
+  6. 2021-01-03  Volume: 371,300  (1967 days ago)
+  7. 2020-11-29  Volume: 31,401  (2002 days ago)
+  8. 2020-03-22  Volume: 19,359  (2254 days ago)
+  9. 2020-02-23  Volume: 3,160  (2282 days ago)
+  10. 2020-01-19  Volume: 2,799  (2317 days ago)
+  11. 2020-01-05  Volume: 1,990  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (154 days ago)
+
+================================================================================

@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: ENOV
+================================================================================
+Generated: 2026-05-25 07:57:12
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-13  Volume: 10,728,800  (494 days ago)
+  2. 2021-03-17  Volume: 4,820,557  (1892 days ago)
+  3. 2020-03-19  Volume: 3,237,971  (2255 days ago)
+  4. 2020-03-18  Volume: 2,223,836  (2256 days ago)
+  5. 2020-03-09  Volume: 1,741,257  (2265 days ago)
+  6. 2020-02-21  Volume: 1,632,959  (2282 days ago)
+  7. 2020-01-07  Volume: 1,422,172  (2327 days ago)
+  8. 2020-01-02  Volume: 646,246  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-29  Volume: 14,053,300  (329 days ago)
+  2. 2025-01-19  Volume: 13,896,000  (490 days ago)
+  3. 2020-03-22  Volume: 11,604,545  (2254 days ago)
+  4. 2020-03-01  Volume: 6,541,712  (2275 days ago)
+  5. 2020-01-12  Volume: 3,370,847  (2324 days ago)
+  6. 2020-01-05  Volume: 2,365,018  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 35,392,200  (335 days ago)
+  2. 2020-03-31  Volume: 32,025,415  (2252 days ago)
+  3. 2020-02-29  Volume: 14,003,495  (2283 days ago)
+  4. 2020-01-31  Volume: 13,232,450  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (329 days ago)
+
+================================================================================

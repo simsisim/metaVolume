@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: MBNKO
+================================================================================
+Generated: 2026-05-25 07:56:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-01  Volume: 227,400  (325 days ago)
+  2. 2025-05-27  Volume: 71,800  (360 days ago)
+  3. 2025-05-23  Volume: 58,600  (364 days ago)
+  4. 2025-05-22  Volume: 47,900  (365 days ago)
+  5. 2025-05-21  Volume: 3,200  (366 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-06  Volume: 347,100  (322 days ago)
+  2. 2025-06-01  Volume: 143,400  (357 days ago)
+  3. 2025-05-25  Volume: 109,700  (364 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-31  Volume: 498,200  (304 days ago)
+  2. 2025-06-30  Volume: 263,700  (335 days ago)
+  3. 2025-05-31  Volume: 253,100  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (304 days ago)
+
+================================================================================

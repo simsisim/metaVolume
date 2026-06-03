@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: PNTG
+================================================================================
+Generated: 2026-05-25 07:57:36
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-17  Volume: 6,678,500  (1162 days ago)
+  2. 2021-12-01  Volume: 2,400,200  (1633 days ago)
+  3. 2021-11-02  Volume: 995,700  (1662 days ago)
+  4. 2020-08-12  Volume: 982,500  (2109 days ago)
+  5. 2020-06-26  Volume: 851,300  (2156 days ago)
+  6. 2020-03-13  Volume: 399,400  (2261 days ago)
+  7. 2020-03-09  Volume: 386,100  (2265 days ago)
+  8. 2020-03-05  Volume: 341,800  (2269 days ago)
+  9. 2020-02-07  Volume: 265,300  (2296 days ago)
+  10. 2020-01-22  Volume: 264,400  (2312 days ago)
+  11. 2020-01-02  Volume: 184,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-19  Volume: 8,171,400  (1162 days ago)
+  2. 2021-12-05  Volume: 3,127,300  (1631 days ago)
+  3. 2020-08-16  Volume: 1,863,100  (2107 days ago)
+  4. 2020-03-15  Volume: 1,677,800  (2261 days ago)
+  5. 2020-03-08  Volume: 786,800  (2268 days ago)
+  6. 2020-02-09  Volume: 738,700  (2296 days ago)
+  7. 2020-01-19  Volume: 684,100  (2317 days ago)
+  8. 2020-01-05  Volume: 617,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-31  Volume: 15,141,300  (1157 days ago)
+  2. 2021-12-31  Volume: 7,025,100  (1612 days ago)
+  3. 2020-03-31  Volume: 4,772,400  (2252 days ago)
+  4. 2020-01-31  Volume: 2,746,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (1157 days ago)
+
+================================================================================

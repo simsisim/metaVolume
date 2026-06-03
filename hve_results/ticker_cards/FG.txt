@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: FG
+================================================================================
+Generated: 2026-05-25 07:56:26
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-18  Volume: 7,565,500  (4 days ago)
+  2. 2025-12-31  Volume: 3,051,500  (142 days ago)
+  3. 2022-12-01  Volume: 2,911,000  (1268 days ago)
+  4. 2022-11-22  Volume: 116,500  (1277 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 13,959,784  (0 days ago)
+  2. 2026-01-11  Volume: 8,191,200  (133 days ago)
+  3. 2026-01-04  Volume: 7,458,700  (140 days ago)
+  4. 2022-12-11  Volume: 5,494,300  (1260 days ago)
+  5. 2022-12-04  Volume: 4,316,100  (1267 days ago)
+  6. 2022-11-27  Volume: 126,000  (1274 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-31  Volume: 20,274,900  (120 days ago)
+  2. 2022-12-31  Volume: 14,322,700  (1247 days ago)
+  3. 2022-11-30  Volume: 130,000  (1278 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

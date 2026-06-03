@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: FSHP
+================================================================================
+Generated: 2026-05-25 07:57:18
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-11  Volume: 695,700  (618 days ago)
+  2. 2024-08-27  Volume: 376,600  (633 days ago)
+  3. 2024-08-15  Volume: 232,900  (645 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-15  Volume: 1,614,500  (616 days ago)
+  2. 2024-09-01  Volume: 409,500  (630 days ago)
+  3. 2024-08-18  Volume: 248,000  (644 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 2,291,600  (608 days ago)
+  2. 2024-08-31  Volume: 734,900  (638 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

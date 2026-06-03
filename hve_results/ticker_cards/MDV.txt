@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: MDV
+================================================================================
+Generated: 2026-05-25 07:57:02
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-27  Volume: 1,230,500  (329 days ago)
+  2. 2022-02-18  Volume: 247,899  (1554 days ago)
+  3. 2022-02-15  Volume: 150,645  (1557 days ago)
+  4. 2022-02-11  Volume: 50,360  (1561 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-29  Volume: 1,474,100  (329 days ago)
+  2. 2022-02-20  Volume: 565,976  (1554 days ago)
+  3. 2022-02-13  Volume: 50,360  (1561 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 2,193,700  (335 days ago)
+  2. 2025-05-31  Volume: 1,096,900  (365 days ago)
+  3. 2022-03-31  Volume: 1,027,551  (1522 days ago)
+  4. 2022-02-28  Volume: 859,253  (1553 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Daily (329 days ago)
+
+================================================================================

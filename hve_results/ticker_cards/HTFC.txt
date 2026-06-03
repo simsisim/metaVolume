@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: HTFC
+================================================================================
+Generated: 2026-05-25 07:57:07
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-02  Volume: 36,900  (415 days ago)
+  2. 2025-04-01  Volume: 35,000  (416 days ago)
+  3. 2022-06-30  Volume: 34,500  (1422 days ago)
+  4. 2022-06-28  Volume: 15,500  (1424 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-06  Volume: 85,900  (413 days ago)
+  2. 2022-07-03  Volume: 61,700  (1421 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-30  Volume: 142,000  (396 days ago)
+  2. 2022-10-31  Volume: 140,700  (1308 days ago)
+  3. 2022-09-30  Volume: 125,100  (1339 days ago)
+  4. 2022-07-31  Volume: 120,900  (1400 days ago)
+  5. 2022-06-30  Volume: 57,600  (1431 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (396 days ago)
+
+================================================================================

@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: NMT
+================================================================================
+Generated: 2026-05-25 07:56:39
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-22  Volume: 164,800  (151 days ago)
+  2. 2022-03-14  Volume: 155,900  (1530 days ago)
+  3. 2022-02-24  Volume: 106,900  (1548 days ago)
+  4. 2020-03-17  Volume: 99,500  (2257 days ago)
+  5. 2020-03-12  Volume: 33,600  (2262 days ago)
+  6. 2020-02-10  Volume: 28,700  (2293 days ago)
+  7. 2020-01-23  Volume: 27,100  (2311 days ago)
+  8. 2020-01-13  Volume: 24,700  (2321 days ago)
+  9. 2020-01-08  Volume: 15,000  (2326 days ago)
+  10. 2020-01-06  Volume: 10,200  (2328 days ago)
+  11. 2020-01-03  Volume: 5,600  (2331 days ago)
+  12. 2020-01-02  Volume: 4,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-12-25  Volume: 277,200  (1246 days ago)
+  2. 2022-03-13  Volume: 237,600  (1533 days ago)
+  3. 2020-03-15  Volume: 235,700  (2261 days ago)
+  4. 2020-03-08  Volume: 118,800  (2268 days ago)
+  5. 2020-01-12  Volume: 79,900  (2324 days ago)
+  6. 2020-01-05  Volume: 35,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 804,700  (516 days ago)
+  2. 2022-12-31  Volume: 788,300  (1247 days ago)
+  3. 2020-03-31  Volume: 622,500  (2252 days ago)
+  4. 2020-01-31  Volume: 234,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (151 days ago)
+
+================================================================================

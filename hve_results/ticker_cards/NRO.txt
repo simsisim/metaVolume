@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: NRO
+================================================================================
+Generated: 2026-05-25 07:58:01
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-04  Volume: 1,780,971  (1964 days ago)
+  2. 2020-03-12  Volume: 913,227  (2262 days ago)
+  3. 2020-02-28  Volume: 908,826  (2275 days ago)
+  4. 2020-02-27  Volume: 867,325  (2276 days ago)
+  5. 2020-02-25  Volume: 481,346  (2278 days ago)
+  6. 2020-02-24  Volume: 345,316  (2279 days ago)
+  7. 2020-01-13  Volume: 344,268  (2321 days ago)
+  8. 2020-01-10  Volume: 262,105  (2324 days ago)
+  9. 2020-01-02  Volume: 246,175  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 3,602,710  (2254 days ago)
+  2. 2020-03-15  Volume: 3,253,306  (2261 days ago)
+  3. 2020-03-01  Volume: 2,839,032  (2275 days ago)
+  4. 2020-01-19  Volume: 1,091,492  (2317 days ago)
+  5. 2020-01-12  Volume: 1,036,472  (2324 days ago)
+  6. 2020-01-05  Volume: 712,430  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 13,327,417  (2252 days ago)
+  2. 2020-02-29  Volume: 5,151,024  (2283 days ago)
+  3. 2020-01-31  Volume: 3,758,443  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (1964 days ago)
+
+================================================================================

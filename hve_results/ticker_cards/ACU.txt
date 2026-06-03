@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: ACU
+================================================================================
+Generated: 2026-05-25 07:57:00
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-27  Volume: 408,400  (329 days ago)
+  2. 2021-04-21  Volume: 272,300  (1857 days ago)
+  3. 2020-11-16  Volume: 102,600  (2013 days ago)
+  4. 2020-06-01  Volume: 48,000  (2181 days ago)
+  5. 2020-05-26  Volume: 42,300  (2187 days ago)
+  6. 2020-04-06  Volume: 35,600  (2237 days ago)
+  7. 2020-03-12  Volume: 33,500  (2262 days ago)
+  8. 2020-02-26  Volume: 31,300  (2277 days ago)
+  9. 2020-02-19  Volume: 29,000  (2284 days ago)
+  10. 2020-01-06  Volume: 20,500  (2328 days ago)
+  11. 2020-01-03  Volume: 11,600  (2331 days ago)
+  12. 2020-01-02  Volume: 2,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-04-18  Volume: 542,700  (1862 days ago)
+  2. 2020-11-15  Volume: 350,100  (2016 days ago)
+  3. 2020-04-26  Volume: 110,800  (2219 days ago)
+  4. 2020-03-08  Volume: 85,500  (2268 days ago)
+  5. 2020-02-23  Volume: 72,500  (2282 days ago)
+  6. 2020-01-05  Volume: 65,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-04-30  Volume: 892,000  (1857 days ago)
+  2. 2020-11-30  Volume: 537,000  (2008 days ago)
+  3. 2020-05-31  Volume: 342,200  (2191 days ago)
+  4. 2020-04-30  Volume: 335,600  (2222 days ago)
+  5. 2020-03-31  Volume: 308,600  (2252 days ago)
+  6. 2020-01-31  Volume: 189,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (329 days ago)
+
+================================================================================

@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: HPS
+================================================================================
+Generated: 2026-05-25 07:57:28
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-10  Volume: 694,600  (924 days ago)
+  2. 2020-02-28  Volume: 461,500  (2275 days ago)
+  3. 2020-02-27  Volume: 390,800  (2276 days ago)
+  4. 2020-02-25  Volume: 208,400  (2278 days ago)
+  5. 2020-01-31  Volume: 101,600  (2303 days ago)
+  6. 2020-01-22  Volume: 82,900  (2312 days ago)
+  7. 2020-01-07  Volume: 71,700  (2327 days ago)
+  8. 2020-01-03  Volume: 59,100  (2331 days ago)
+  9. 2020-01-02  Volume: 55,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 1,547,400  (2254 days ago)
+  2. 2020-03-01  Volume: 1,326,200  (2275 days ago)
+  3. 2020-01-05  Volume: 343,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 5,042,100  (2252 days ago)
+  2. 2020-02-29  Volume: 2,105,100  (2283 days ago)
+  3. 2020-01-31  Volume: 1,277,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Daily (924 days ago)
+
+================================================================================

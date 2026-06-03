@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: CPAC
+================================================================================
+Generated: 2026-05-25 07:56:40
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-16  Volume: 3,340,600  (157 days ago)
+  2. 2021-08-26  Volume: 235,700  (1730 days ago)
+  3. 2021-06-18  Volume: 189,700  (1799 days ago)
+  4. 2021-06-17  Volume: 184,800  (1800 days ago)
+  5. 2021-06-15  Volume: 120,800  (1802 days ago)
+  6. 2020-01-16  Volume: 105,000  (2318 days ago)
+  7. 2020-01-13  Volume: 53,400  (2321 days ago)
+  8. 2020-01-10  Volume: 7,200  (2324 days ago)
+  9. 2020-01-06  Volume: 1,900  (2328 days ago)
+  10. 2020-01-02  Volume: 1,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-21  Volume: 3,689,600  (154 days ago)
+  2. 2021-06-20  Volume: 662,000  (1799 days ago)
+  3. 2021-06-13  Volume: 272,700  (1806 days ago)
+  4. 2020-01-19  Volume: 158,900  (2317 days ago)
+  5. 2020-01-12  Volume: 11,700  (2324 days ago)
+  6. 2020-01-05  Volume: 3,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 4,090,800  (151 days ago)
+  2. 2021-06-30  Volume: 1,496,000  (1796 days ago)
+  3. 2020-01-31  Volume: 240,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: XOMAP
+================================================================================
+Generated: 2026-05-25 07:58:02
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-12-17  Volume: 52,000  (1982 days ago)
+  2. 2020-12-16  Volume: 29,400  (1983 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-12-20  Volume: 96,200  (1981 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-04-30  Volume: 231,300  (1857 days ago)
+  2. 2020-12-31  Volume: 206,000  (1977 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Monthly (1857 days ago)
+
+================================================================================

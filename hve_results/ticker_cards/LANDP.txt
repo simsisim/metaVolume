@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: LANDP
+================================================================================
+Generated: 2026-05-25 07:57:34
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-13  Volume: 187,300  (1074 days ago)
+  2. 2023-06-08  Volume: 75,500  (1079 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-18  Volume: 488,700  (1071 days ago)
+  2. 2023-06-11  Volume: 117,300  (1078 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-30  Volume: 940,600  (1066 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Monthly (1066 days ago)
+
+================================================================================

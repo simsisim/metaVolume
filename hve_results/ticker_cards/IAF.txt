@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: IAF
+================================================================================
+Generated: 2026-05-25 07:57:43
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-17  Volume: 143,333  (1435 days ago)
+  2. 2021-07-12  Volume: 112,233  (1775 days ago)
+  3. 2020-02-28  Volume: 107,667  (2275 days ago)
+  4. 2020-02-27  Volume: 72,000  (2276 days ago)
+  5. 2020-02-10  Volume: 50,300  (2293 days ago)
+  6. 2020-01-13  Volume: 35,033  (2321 days ago)
+  7. 2020-01-10  Volume: 31,533  (2324 days ago)
+  8. 2020-01-08  Volume: 27,600  (2326 days ago)
+  9. 2020-01-07  Volume: 26,633  (2327 days ago)
+  10. 2020-01-06  Volume: 25,800  (2328 days ago)
+  11. 2020-01-02  Volume: 18,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 401,520  (0 days ago)
+  2. 2026-03-22  Volume: 351,100  (63 days ago)
+  3. 2020-02-23  Volume: 306,800  (2282 days ago)
+  4. 2020-01-05  Volume: 135,799  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 1,169,700  (61 days ago)
+  2. 2022-01-31  Volume: 734,365  (1581 days ago)
+  3. 2021-07-31  Volume: 721,197  (1765 days ago)
+  4. 2020-03-31  Volume: 697,400  (2252 days ago)
+  5. 2020-02-29  Volume: 565,134  (2283 days ago)
+  6. 2020-01-31  Volume: 451,598  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

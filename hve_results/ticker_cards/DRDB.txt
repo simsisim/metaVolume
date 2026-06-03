@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: DRDB
+================================================================================
+Generated: 2026-05-25 07:56:34
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-27  Volume: 4,315,800  (84 days ago)
+  2. 2025-04-07  Volume: 1,136,500  (410 days ago)
+  3. 2025-03-27  Volume: 827,100  (421 days ago)
+  4. 2025-02-04  Volume: 527,800  (472 days ago)
+  5. 2025-02-03  Volume: 277,900  (473 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 4,397,900  (84 days ago)
+  2. 2025-05-04  Volume: 2,390,100  (385 days ago)
+  3. 2025-04-13  Volume: 1,735,900  (406 days ago)
+  4. 2025-02-09  Volume: 1,095,900  (469 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 5,264,500  (61 days ago)
+  2. 2025-04-30  Volume: 3,862,500  (396 days ago)
+  3. 2025-02-28  Volume: 2,905,800  (457 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

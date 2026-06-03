@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: AVK
+================================================================================
+Generated: 2026-05-25 07:57:20
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-19  Volume: 1,239,384  (672 days ago)
+  2. 2020-02-28  Volume: 818,724  (2275 days ago)
+  3. 2020-02-27  Volume: 480,225  (2276 days ago)
+  4. 2020-02-25  Volume: 288,587  (2278 days ago)
+  5. 2020-02-24  Volume: 205,708  (2279 days ago)
+  6. 2020-01-07  Volume: 182,395  (2327 days ago)
+  7. 2020-01-06  Volume: 158,569  (2328 days ago)
+  8. 2020-01-02  Volume: 157,747  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 2,352,139  (2254 days ago)
+  2. 2020-03-01  Volume: 1,983,752  (2275 days ago)
+  3. 2020-01-12  Volume: 710,582  (2324 days ago)
+  4. 2020-01-05  Volume: 371,877  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 7,639,134  (2252 days ago)
+  2. 2020-02-29  Volume: 3,517,062  (2283 days ago)
+  3. 2020-01-31  Volume: 2,605,499  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Daily (672 days ago)
+
+================================================================================

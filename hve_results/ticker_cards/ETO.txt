@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: ETO
+================================================================================
+Generated: 2026-05-25 07:57:41
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-17  Volume: 495,500  (1374 days ago)
+  2. 2022-03-17  Volume: 375,700  (1527 days ago)
+  3. 2020-03-23  Volume: 347,600  (2251 days ago)
+  4. 2020-03-18  Volume: 281,400  (2256 days ago)
+  5. 2020-03-12  Volume: 273,800  (2262 days ago)
+  6. 2020-02-28  Volume: 247,700  (2275 days ago)
+  7. 2020-02-27  Volume: 221,000  (2276 days ago)
+  8. 2020-02-25  Volume: 156,200  (2278 days ago)
+  9. 2020-02-24  Volume: 139,200  (2279 days ago)
+  10. 2020-01-22  Volume: 91,800  (2312 days ago)
+  11. 2020-01-13  Volume: 79,600  (2321 days ago)
+  12. 2020-01-08  Volume: 52,700  (2326 days ago)
+  13. 2020-01-06  Volume: 48,600  (2328 days ago)
+  14. 2020-01-03  Volume: 37,200  (2331 days ago)
+  15. 2020-01-02  Volume: 31,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 1,091,700  (2254 days ago)
+  2. 2020-03-01  Volume: 861,900  (2275 days ago)
+  3. 2020-01-19  Volume: 280,500  (2317 days ago)
+  4. 2020-01-12  Volume: 220,300  (2324 days ago)
+  5. 2020-01-05  Volume: 145,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 3,663,000  (2252 days ago)
+  2. 2020-02-29  Volume: 1,562,500  (2283 days ago)
+  3. 2020-01-31  Volume: 1,035,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (1374 days ago)
+
+================================================================================

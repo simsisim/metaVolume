@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: EPRT
+================================================================================
+Generated: 2026-05-25 07:56:35
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-18  Volume: 8,186,100  (93 days ago)
+  2. 2024-06-21  Volume: 6,799,400  (700 days ago)
+  3. 2020-01-10  Volume: 6,347,700  (2324 days ago)
+  4. 2020-01-03  Volume: 1,618,700  (2331 days ago)
+  5. 2020-01-02  Volume: 712,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 16,951,200  (2254 days ago)
+  2. 2020-01-12  Volume: 9,226,000  (2324 days ago)
+  3. 2020-01-05  Volume: 3,519,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 51,877,200  (31 days ago)
+  2. 2020-03-31  Volume: 48,685,200  (2252 days ago)
+  3. 2020-01-31  Volume: 27,044,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

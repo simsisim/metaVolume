@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: DRIO
+================================================================================
+Generated: 2026-05-25 07:56:46
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-25  Volume: 1,623,700  (239 days ago)
+  2. 2025-01-14  Volume: 832,690  (493 days ago)
+  3. 2020-07-31  Volume: 286,610  (2121 days ago)
+  4. 2020-06-11  Volume: 50,500  (2171 days ago)
+  5. 2020-04-27  Volume: 15,180  (2216 days ago)
+  6. 2020-04-24  Volume: 10,800  (2219 days ago)
+  7. 2020-01-17  Volume: 4,490  (2317 days ago)
+  8. 2020-01-06  Volume: 3,485  (2328 days ago)
+  9. 2020-01-03  Volume: 430  (2331 days ago)
+  10. 2020-01-02  Volume: 230  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-28  Volume: 1,955,300  (238 days ago)
+  2. 2025-01-19  Volume: 973,120  (490 days ago)
+  3. 2020-08-02  Volume: 304,240  (2121 days ago)
+  4. 2020-06-14  Volume: 62,690  (2170 days ago)
+  5. 2020-05-03  Volume: 42,545  (2212 days ago)
+  6. 2020-04-26  Volume: 16,135  (2219 days ago)
+  7. 2020-01-12  Volume: 8,805  (2324 days ago)
+  8. 2020-01-05  Volume: 6,145  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (238 days ago)
+
+================================================================================

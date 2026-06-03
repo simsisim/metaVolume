@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: ODC
+================================================================================
+Generated: 2026-05-25 07:57:43
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-24  Volume: 1,581,600  (1428 days ago)
+  2. 2020-12-18  Volume: 238,600  (1981 days ago)
+  3. 2020-04-21  Volume: 133,200  (2222 days ago)
+  4. 2020-04-14  Volume: 77,800  (2229 days ago)
+  5. 2020-03-20  Volume: 77,600  (2254 days ago)
+  6. 2020-03-12  Volume: 69,600  (2262 days ago)
+  7. 2020-01-03  Volume: 58,000  (2331 days ago)
+  8. 2020-01-02  Volume: 11,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-19  Volume: 1,932,200  (1435 days ago)
+  2. 2022-06-12  Volume: 719,800  (1442 days ago)
+  3. 2022-06-05  Volume: 618,600  (1449 days ago)
+  4. 2022-04-10  Volume: 538,400  (1505 days ago)
+  5. 2022-04-03  Volume: 526,600  (1512 days ago)
+  6. 2022-03-13  Volume: 451,800  (1533 days ago)
+  7. 2020-12-13  Volume: 400,800  (1988 days ago)
+  8. 2020-03-15  Volume: 313,000  (2261 days ago)
+  9. 2020-03-08  Volume: 226,400  (2268 days ago)
+  10. 2020-01-12  Volume: 142,200  (2324 days ago)
+  11. 2020-01-05  Volume: 96,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-30  Volume: 3,914,800  (1431 days ago)
+  2. 2022-04-30  Volume: 2,003,000  (1492 days ago)
+  3. 2022-03-31  Volume: 1,488,400  (1522 days ago)
+  4. 2022-01-31  Volume: 1,306,000  (1581 days ago)
+  5. 2020-04-30  Volume: 1,103,400  (2222 days ago)
+  6. 2020-03-31  Volume: 999,800  (2252 days ago)
+  7. 2020-01-31  Volume: 522,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Daily (1428 days ago)
+
+================================================================================

@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: SF
+================================================================================
+Generated: 2026-05-25 07:57:53
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 13,762,400  (1792 days ago)
+  2. 2020-12-18  Volume: 2,307,700  (1981 days ago)
+  3. 2020-09-10  Volume: 2,085,000  (2080 days ago)
+  4. 2020-03-10  Volume: 1,665,900  (2264 days ago)
+  5. 2020-01-30  Volume: 1,585,800  (2304 days ago)
+  6. 2020-01-23  Volume: 1,292,400  (2311 days ago)
+  7. 2020-01-09  Volume: 957,900  (2325 days ago)
+  8. 2020-01-02  Volume: 704,250  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-20  Volume: 17,835,400  (1799 days ago)
+  2. 2020-03-08  Volume: 7,312,650  (2268 days ago)
+  3. 2020-03-01  Volume: 5,994,750  (2275 days ago)
+  4. 2020-01-26  Volume: 4,766,700  (2310 days ago)
+  5. 2020-01-05  Volume: 3,176,850  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 33,039,200  (61 days ago)
+  2. 2021-06-30  Volume: 32,142,700  (1796 days ago)
+  3. 2020-03-31  Volume: 27,407,400  (2252 days ago)
+  4. 2020-01-31  Volume: 15,178,050  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

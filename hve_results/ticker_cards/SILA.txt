@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: SILA
+================================================================================
+Generated: 2026-05-25 07:56:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-20  Volume: 9,912,700  (32 days ago)
+  2. 2025-06-27  Volume: 9,002,900  (329 days ago)
+  3. 2024-09-20  Volume: 7,612,700  (609 days ago)
+  4. 2024-06-14  Volume: 2,631,100  (707 days ago)
+  5. 2024-06-13  Volume: 1,796,100  (708 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-26  Volume: 17,624,600  (28 days ago)
+  2. 2024-09-22  Volume: 11,831,500  (609 days ago)
+  3. 2024-06-23  Volume: 5,878,100  (700 days ago)
+  4. 2024-06-16  Volume: 4,427,200  (707 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 23,757,800  (31 days ago)
+  2. 2024-09-30  Volume: 23,687,400  (608 days ago)
+  3. 2024-08-31  Volume: 16,957,800  (638 days ago)
+  4. 2024-07-31  Volume: 14,864,600  (669 days ago)
+  5. 2024-06-30  Volume: 14,560,000  (700 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Weekly (28 days ago)
+
+================================================================================

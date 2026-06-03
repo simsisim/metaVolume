@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: WERN
+================================================================================
+Generated: 2026-05-25 07:57:21
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-21  Volume: 12,667,900  (700 days ago)
+  2. 2020-06-04  Volume: 7,781,400  (2178 days ago)
+  3. 2020-04-29  Volume: 2,000,800  (2214 days ago)
+  4. 2020-03-25  Volume: 1,706,300  (2249 days ago)
+  5. 2020-03-17  Volume: 1,510,700  (2257 days ago)
+  6. 2020-03-12  Volume: 1,126,900  (2262 days ago)
+  7. 2020-03-10  Volume: 893,600  (2264 days ago)
+  8. 2020-02-06  Volume: 874,300  (2297 days ago)
+  9. 2020-01-14  Volume: 690,000  (2320 days ago)
+  10. 2020-01-13  Volume: 513,600  (2321 days ago)
+  11. 2020-01-02  Volume: 437,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-05-31  Volume: 17,574,600  (2184 days ago)
+  2. 2020-03-22  Volume: 5,837,600  (2254 days ago)
+  3. 2020-03-15  Volume: 5,469,600  (2261 days ago)
+  4. 2020-03-08  Volume: 4,296,400  (2268 days ago)
+  5. 2020-01-12  Volume: 2,837,800  (2324 days ago)
+  6. 2020-01-05  Volume: 1,902,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 44,057,400  (2161 days ago)
+  2. 2020-03-31  Volume: 20,099,200  (2252 days ago)
+  3. 2020-01-31  Volume: 8,866,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (700 days ago)
+
+================================================================================

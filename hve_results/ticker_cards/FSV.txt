@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: FSV
+================================================================================
+Generated: 2026-05-25 07:56:43
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 777,700  (203 days ago)
+  2. 2025-07-29  Volume: 524,800  (297 days ago)
+  3. 2025-03-31  Volume: 490,900  (417 days ago)
+  4. 2025-03-13  Volume: 449,100  (435 days ago)
+  5. 2022-10-06  Volume: 383,300  (1324 days ago)
+  6. 2020-01-02  Volume: 363,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 2,877,148  (0 days ago)
+  2. 2025-11-02  Volume: 2,183,100  (203 days ago)
+  3. 2025-10-26  Volume: 1,460,800  (210 days ago)
+  4. 2025-08-03  Volume: 1,335,100  (294 days ago)
+  5. 2025-03-16  Volume: 1,151,600  (434 days ago)
+  6. 2020-11-15  Volume: 1,072,300  (2016 days ago)
+  7. 2020-11-01  Volume: 669,300  (2030 days ago)
+  8. 2020-03-15  Volume: 656,100  (2261 days ago)
+  9. 2020-01-05  Volume: 612,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 5,277,900  (212 days ago)
+  2. 2025-03-31  Volume: 4,172,800  (426 days ago)
+  3. 2025-02-28  Volume: 2,597,400  (457 days ago)
+  4. 2020-03-31  Volume: 2,469,100  (2252 days ago)
+  5. 2020-01-31  Volume: 2,391,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: CDLR
+================================================================================
+Generated: 2026-05-25 07:56:41
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-02  Volume: 1,938,200  (171 days ago)
+  2. 2025-03-11  Volume: 985,100  (437 days ago)
+  3. 2023-12-20  Volume: 604,400  (884 days ago)
+  4. 2023-12-19  Volume: 2,500  (885 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-07  Volume: 2,968,400  (168 days ago)
+  2. 2023-12-24  Volume: 1,459,200  (882 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 5,499,400  (151 days ago)
+  2. 2024-05-31  Volume: 5,160,200  (730 days ago)
+  3. 2024-01-31  Volume: 3,122,600  (851 days ago)
+  4. 2023-12-31  Volume: 2,063,900  (882 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

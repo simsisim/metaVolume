@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: FUFU
+================================================================================
+Generated: 2026-05-25 07:56:50
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-15  Volume: 13,011,900  (280 days ago)
+  2. 2024-03-04  Volume: 7,585,700  (809 days ago)
+  3. 2023-05-03  Volume: 600,100  (1115 days ago)
+  4. 2021-12-10  Volume: 552,900  (1624 days ago)
+  5. 2021-12-09  Volume: 406,400  (1625 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-17  Volume: 13,759,400  (280 days ago)
+  2. 2024-03-10  Volume: 8,925,800  (805 days ago)
+  3. 2023-05-07  Volume: 1,124,300  (1113 days ago)
+  4. 2021-12-12  Volume: 959,300  (1624 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-31  Volume: 17,919,500  (273 days ago)
+  2. 2024-03-31  Volume: 11,520,800  (791 days ago)
+  3. 2023-05-31  Volume: 2,362,300  (1096 days ago)
+  4. 2021-12-31  Volume: 1,417,700  (1612 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (273 days ago)
+
+================================================================================

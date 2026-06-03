@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: PFXNZ
+================================================================================
+Generated: 2026-05-25 07:56:28
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-27  Volume: 291,300  (25 days ago)
+  2. 2021-11-19  Volume: 126,400  (1645 days ago)
+  3. 2021-11-16  Volume: 90,800  (1648 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-03  Volume: 294,000  (21 days ago)
+  2. 2021-11-21  Volume: 250,400  (1645 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 319,800  (31 days ago)
+  2. 2021-11-30  Volume: 308,100  (1643 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (21 days ago)
+
+================================================================================

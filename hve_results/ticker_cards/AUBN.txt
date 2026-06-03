@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: AUBN
+================================================================================
+Generated: 2026-05-25 07:57:54
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 308,600  (1792 days ago)
+  2. 2020-06-26  Volume: 294,900  (2156 days ago)
+  3. 2020-06-25  Volume: 35,200  (2157 days ago)
+  4. 2020-03-19  Volume: 33,400  (2255 days ago)
+  5. 2020-02-18  Volume: 13,300  (2285 days ago)
+  6. 2020-01-22  Volume: 12,900  (2312 days ago)
+  7. 2020-01-14  Volume: 5,600  (2320 days ago)
+  8. 2020-01-06  Volume: 5,400  (2328 days ago)
+  9. 2020-01-03  Volume: 5,300  (2331 days ago)
+  10. 2020-01-02  Volume: 1,100  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-21  Volume: 388,300  (2163 days ago)
+  2. 2020-03-15  Volume: 56,900  (2261 days ago)
+  3. 2020-01-19  Volume: 34,900  (2317 days ago)
+  4. 2020-01-05  Volume: 17,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 541,000  (2161 days ago)
+  2. 2020-03-31  Volume: 106,700  (2252 days ago)
+  3. 2020-01-31  Volume: 93,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Daily (1792 days ago)
+
+================================================================================

@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: EYPT
+================================================================================
+Generated: 2026-05-25 07:57:35
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-04-21  Volume: 22,708,600  (1127 days ago)
+  2. 2021-11-15  Volume: 16,604,100  (1649 days ago)
+  3. 2020-08-21  Volume: 7,639,050  (2100 days ago)
+  4. 2020-06-19  Volume: 1,128,060  (2163 days ago)
+  5. 2020-02-21  Volume: 750,000  (2282 days ago)
+  6. 2020-01-23  Volume: 268,890  (2311 days ago)
+  7. 2020-01-22  Volume: 109,350  (2312 days ago)
+  8. 2020-01-16  Volume: 64,970  (2318 days ago)
+  9. 2020-01-14  Volume: 62,470  (2320 days ago)
+  10. 2020-01-10  Volume: 51,650  (2324 days ago)
+  11. 2020-01-08  Volume: 38,660  (2326 days ago)
+  12. 2020-01-03  Volume: 29,960  (2331 days ago)
+  13. 2020-01-02  Volume: 29,460  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-10  Volume: 45,482,600  (896 days ago)
+  2. 2021-11-21  Volume: 33,972,500  (1645 days ago)
+  3. 2020-08-23  Volume: 8,602,130  (2100 days ago)
+  4. 2020-06-21  Volume: 1,640,920  (2163 days ago)
+  5. 2020-02-23  Volume: 869,050  (2282 days ago)
+  6. 2020-01-26  Volume: 487,800  (2310 days ago)
+  7. 2020-01-19  Volume: 242,120  (2317 days ago)
+  8. 2020-01-12  Volume: 175,390  (2324 days ago)
+  9. 2020-01-05  Volume: 123,340  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Weekly (896 days ago)
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: KRNY
+================================================================================
+Generated: 2026-05-25 07:57:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-20  Volume: 1,904,100  (518 days ago)
+  2. 2024-09-20  Volume: 1,865,400  (609 days ago)
+  3. 2021-03-19  Volume: 1,769,900  (1890 days ago)
+  4. 2020-12-18  Volume: 1,255,900  (1981 days ago)
+  5. 2020-07-10  Volume: 1,187,900  (2142 days ago)
+  6. 2020-03-10  Volume: 1,130,100  (2264 days ago)
+  7. 2020-01-31  Volume: 1,061,800  (2303 days ago)
+  8. 2020-01-14  Volume: 344,000  (2320 days ago)
+  9. 2020-01-13  Volume: 312,500  (2321 days ago)
+  10. 2020-01-06  Volume: 250,500  (2328 days ago)
+  11. 2020-01-02  Volume: 229,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-11  Volume: 4,196,700  (833 days ago)
+  2. 2020-03-15  Volume: 4,026,700  (2261 days ago)
+  3. 2020-03-08  Volume: 2,427,500  (2268 days ago)
+  4. 2020-03-01  Volume: 2,224,800  (2275 days ago)
+  5. 2020-02-09  Volume: 1,769,000  (2296 days ago)
+  6. 2020-02-02  Volume: 1,760,900  (2303 days ago)
+  7. 2020-01-19  Volume: 1,424,400  (2317 days ago)
+  8. 2020-01-12  Volume: 1,011,700  (2324 days ago)
+  9. 2020-01-05  Volume: 838,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 13,892,500  (2252 days ago)
+  2. 2020-02-29  Volume: 6,270,800  (2283 days ago)
+  3. 2020-01-31  Volume: 5,731,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (518 days ago)
+
+================================================================================

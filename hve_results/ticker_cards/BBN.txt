@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: BBN
+================================================================================
+Generated: 2026-05-25 07:56:39
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-26  Volume: 1,950,700  (147 days ago)
+  2. 2020-03-18  Volume: 1,318,500  (2256 days ago)
+  3. 2020-03-12  Volume: 1,156,100  (2262 days ago)
+  4. 2020-02-28  Volume: 1,014,500  (2275 days ago)
+  5. 2020-02-27  Volume: 543,500  (2276 days ago)
+  6. 2020-01-23  Volume: 518,300  (2311 days ago)
+  7. 2020-01-02  Volume: 288,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 4,370,700  (2254 days ago)
+  2. 2020-03-15  Volume: 4,116,700  (2261 days ago)
+  3. 2020-03-01  Volume: 2,508,800  (2275 days ago)
+  4. 2020-01-26  Volume: 1,012,900  (2310 days ago)
+  5. 2020-01-12  Volume: 957,700  (2324 days ago)
+  6. 2020-01-05  Volume: 886,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 14,522,300  (2252 days ago)
+  2. 2020-01-31  Volume: 4,400,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Daily (147 days ago)
+
+================================================================================

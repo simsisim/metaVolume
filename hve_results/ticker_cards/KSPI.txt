@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: KSPI
+================================================================================
+Generated: 2026-05-25 07:57:18
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-19  Volume: 5,114,700  (610 days ago)
+  2. 2024-01-19  Volume: 3,410,500  (854 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-22  Volume: 8,709,600  (609 days ago)
+  2. 2024-04-07  Volume: 4,255,300  (777 days ago)
+  3. 2024-01-21  Volume: 3,410,500  (854 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 17,595,700  (212 days ago)
+  2. 2024-09-30  Volume: 14,257,800  (608 days ago)
+  3. 2024-04-30  Volume: 10,286,200  (761 days ago)
+  4. 2024-01-31  Volume: 6,976,200  (851 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: POWWP
+================================================================================
+Generated: 2026-05-25 07:57:55
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-10  Volume: 259,400  (1807 days ago)
+  2. 2021-05-25  Volume: 50,600  (1823 days ago)
+  3. 2021-05-21  Volume: 28,500  (1827 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-13  Volume: 357,200  (1806 days ago)
+  2. 2021-05-30  Volume: 132,700  (1820 days ago)
+  3. 2021-05-23  Volume: 28,500  (1827 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-30  Volume: 771,400  (1796 days ago)
+  2. 2021-05-31  Volume: 161,200  (1826 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (1796 days ago)
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: KEYS
+================================================================================
+Generated: 2026-05-25 07:58:09
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-05-29  Volume: 9,318,600  (2184 days ago)
+  2. 2020-05-27  Volume: 4,926,900  (2186 days ago)
+  3. 2020-02-25  Volume: 4,298,900  (2278 days ago)
+  4. 2020-01-29  Volume: 3,420,500  (2305 days ago)
+  5. 2020-01-21  Volume: 2,088,800  (2313 days ago)
+  6. 2020-01-14  Volume: 1,954,200  (2320 days ago)
+  7. 2020-01-13  Volume: 1,475,500  (2321 days ago)
+  8. 2020-01-07  Volume: 1,259,600  (2327 days ago)
+  9. 2020-01-02  Volume: 1,231,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 25,363,597  (0 days ago)
+  2. 2020-05-31  Volume: 20,672,600  (2184 days ago)
+  3. 2020-03-01  Volume: 17,624,600  (2275 days ago)
+  4. 2020-02-02  Volume: 10,726,600  (2303 days ago)
+  5. 2020-01-19  Volume: 7,778,600  (2317 days ago)
+  6. 2020-01-12  Volume: 5,787,100  (2324 days ago)
+  7. 2020-01-05  Volume: 4,176,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 56,174,900  (2252 days ago)
+  2. 2020-02-29  Volume: 40,262,100  (2283 days ago)
+  3. 2020-01-31  Volume: 33,445,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

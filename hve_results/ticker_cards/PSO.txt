@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: PSO
+================================================================================
+Generated: 2026-05-25 07:57:50
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-03  Volume: 5,553,800  (1661 days ago)
+  2. 2021-11-02  Volume: 3,401,500  (1662 days ago)
+  3. 2020-01-16  Volume: 1,863,600  (2318 days ago)
+  4. 2020-01-14  Volume: 449,700  (2320 days ago)
+  5. 2020-01-13  Volume: 349,800  (2321 days ago)
+  6. 2020-01-10  Volume: 253,700  (2324 days ago)
+  7. 2020-01-03  Volume: 233,900  (2331 days ago)
+  8. 2020-01-02  Volume: 176,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-31  Volume: 10,506,500  (1666 days ago)
+  2. 2020-03-01  Volume: 5,740,100  (2275 days ago)
+  3. 2020-01-12  Volume: 4,112,000  (2324 days ago)
+  4. 2020-01-05  Volume: 967,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 26,776,100  (61 days ago)
+  2. 2020-03-31  Volume: 23,656,900  (2252 days ago)
+  3. 2020-02-29  Volume: 9,878,300  (2283 days ago)
+  4. 2020-01-31  Volume: 8,828,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

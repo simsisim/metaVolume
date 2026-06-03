@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: BRW
+================================================================================
+Generated: 2026-05-25 07:56:45
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-01  Volume: 1,814,100  (233 days ago)
+  2. 2025-01-17  Volume: 1,655,000  (490 days ago)
+  3. 2020-09-30  Volume: 1,566,950  (2060 days ago)
+  4. 2020-01-08  Volume: 1,309,450  (2326 days ago)
+  5. 2020-01-07  Volume: 561,450  (2327 days ago)
+  6. 2020-01-02  Volume: 385,750  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-28  Volume: 4,035,800  (238 days ago)
+  2. 2020-02-23  Volume: 3,214,900  (2282 days ago)
+  3. 2020-01-05  Volume: 2,585,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 10,810,700  (212 days ago)
+  2. 2020-03-31  Volume: 10,017,850  (2252 days ago)
+  3. 2020-01-31  Volume: 8,339,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

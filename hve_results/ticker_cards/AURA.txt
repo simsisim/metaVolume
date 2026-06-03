@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: AURA
+================================================================================
+Generated: 2026-05-25 07:56:27
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-05  Volume: 5,880,600  (17 days ago)
+  2. 2023-11-07  Volume: 3,894,600  (927 days ago)
+  3. 2021-10-29  Volume: 1,573,600  (1666 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-10  Volume: 10,186,900  (14 days ago)
+  2. 2023-11-12  Volume: 5,230,600  (924 days ago)
+  3. 2022-06-26  Volume: 2,265,700  (1428 days ago)
+  4. 2021-11-07  Volume: 1,670,400  (1659 days ago)
+  5. 2021-10-31  Volume: 1,573,600  (1666 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-31  Volume: 15,181,989  (0 days ago)
+  2. 2025-03-31  Volume: 8,042,700  (426 days ago)
+  3. 2023-11-30  Volume: 7,776,800  (913 days ago)
+  4. 2022-06-30  Volume: 4,649,100  (1431 days ago)
+  5. 2021-11-30  Volume: 3,928,700  (1643 days ago)
+  6. 2021-10-31  Volume: 1,573,600  (1673 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Monthly (0 days ago)
+
+================================================================================

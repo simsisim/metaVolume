@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: BWXT
+================================================================================
+Generated: 2026-05-25 07:57:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-16  Volume: 15,142,700  (1071 days ago)
+  2. 2021-12-01  Volume: 4,265,200  (1633 days ago)
+  3. 2020-03-13  Volume: 1,967,600  (2261 days ago)
+  4. 2020-02-25  Volume: 1,937,000  (2278 days ago)
+  5. 2020-01-06  Volume: 910,200  (2328 days ago)
+  6. 2020-01-03  Volume: 537,600  (2331 days ago)
+  7. 2020-01-02  Volume: 342,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-18  Volume: 19,392,400  (1071 days ago)
+  2. 2021-12-05  Volume: 10,224,500  (1631 days ago)
+  3. 2020-03-15  Volume: 7,328,500  (2261 days ago)
+  4. 2020-03-01  Volume: 6,210,400  (2275 days ago)
+  5. 2020-01-12  Volume: 2,572,000  (2324 days ago)
+  6. 2020-01-05  Volume: 1,555,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-30  Volume: 33,205,200  (1066 days ago)
+  2. 2020-03-31  Volume: 23,837,100  (2252 days ago)
+  3. 2020-02-29  Volume: 11,775,300  (2283 days ago)
+  4. 2020-01-31  Volume: 9,132,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Monthly (1066 days ago)
+
+================================================================================

@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: CUZ
+================================================================================
+Generated: 2026-05-25 07:57:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-10  Volume: 6,458,300  (1169 days ago)
+  2. 2020-12-18  Volume: 3,520,600  (1981 days ago)
+  3. 2020-06-19  Volume: 3,292,100  (2163 days ago)
+  4. 2020-06-03  Volume: 2,875,500  (2179 days ago)
+  5. 2020-03-12  Volume: 2,728,000  (2262 days ago)
+  6. 2020-02-28  Volume: 2,251,500  (2275 days ago)
+  7. 2020-01-17  Volume: 1,856,200  (2317 days ago)
+  8. 2020-01-16  Volume: 982,900  (2318 days ago)
+  9. 2020-01-02  Volume: 825,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-15  Volume: 19,271,100  (98 days ago)
+  2. 2023-03-19  Volume: 16,056,700  (1162 days ago)
+  3. 2023-03-12  Volume: 14,693,400  (1169 days ago)
+  4. 2023-03-05  Volume: 12,783,100  (1176 days ago)
+  5. 2020-12-13  Volume: 9,325,200  (1988 days ago)
+  6. 2020-05-31  Volume: 9,187,900  (2184 days ago)
+  7. 2020-03-15  Volume: 9,172,300  (2261 days ago)
+  8. 2020-03-08  Volume: 8,328,500  (2268 days ago)
+  9. 2020-03-01  Volume: 5,957,100  (2275 days ago)
+  10. 2020-02-23  Volume: 5,534,500  (2282 days ago)
+  11. 2020-01-12  Volume: 4,688,100  (2324 days ago)
+  12. 2020-01-05  Volume: 3,035,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-31  Volume: 56,926,000  (1157 days ago)
+  2. 2020-06-30  Volume: 31,992,600  (2161 days ago)
+  3. 2020-03-31  Volume: 31,963,500  (2252 days ago)
+  4. 2020-01-31  Volume: 15,531,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Weekly (98 days ago)
+
+================================================================================

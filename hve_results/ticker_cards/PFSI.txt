@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: PFSI
+================================================================================
+Generated: 2026-05-25 07:56:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-30  Volume: 5,227,400  (112 days ago)
+  2. 2020-06-26  Volume: 3,939,800  (2156 days ago)
+  3. 2020-02-13  Volume: 3,724,700  (2290 days ago)
+  4. 2020-02-07  Volume: 1,228,400  (2296 days ago)
+  5. 2020-02-05  Volume: 724,900  (2298 days ago)
+  6. 2020-01-14  Volume: 701,800  (2320 days ago)
+  7. 2020-01-13  Volume: 493,100  (2321 days ago)
+  8. 2020-01-02  Volume: 396,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 11,633,700  (2254 days ago)
+  2. 2020-03-15  Volume: 7,832,900  (2261 days ago)
+  3. 2020-02-16  Volume: 6,520,000  (2289 days ago)
+  4. 2020-02-09  Volume: 3,092,300  (2296 days ago)
+  5. 2020-01-19  Volume: 2,544,800  (2317 days ago)
+  6. 2020-01-12  Volume: 1,507,400  (2324 days ago)
+  7. 2020-01-05  Volume: 1,106,600  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 32,521,600  (2252 days ago)
+  2. 2020-02-29  Volume: 18,560,600  (2283 days ago)
+  3. 2020-01-31  Volume: 7,835,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (112 days ago)
+
+================================================================================

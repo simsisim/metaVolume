@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: HYAC
+================================================================================
+Generated: 2026-05-25 07:56:44
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-16  Volume: 2,659,900  (217 days ago)
+  2. 2024-08-26  Volume: 1,590,000  (541 days ago)
+  3. 2024-05-21  Volume: 1,294,900  (638 days ago)
+  4. 2023-09-19  Volume: 886,700  (883 days ago)
+  5. 2023-09-15  Volume: 456,400  (887 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-20  Volume: 4,481,100  (210 days ago)
+  2. 2024-09-01  Volume: 1,679,200  (532 days ago)
+  3. 2023-09-24  Volume: 1,395,600  (875 days ago)
+  4. 2023-09-17  Volume: 456,400  (882 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-31  Volume: 8,397,600  (212 days ago)
+  2. 2024-08-31  Volume: 3,245,500  (546 days ago)
+  3. 2024-07-31  Volume: 2,567,900  (577 days ago)
+  4. 2023-10-31  Volume: 2,506,500  (851 days ago)
+  5. 2023-09-30  Volume: 2,033,900  (882 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Weekly (210 days ago)
+
+================================================================================

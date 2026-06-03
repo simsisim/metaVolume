@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: DMAA
+================================================================================
+Generated: 2026-05-25 07:56:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-15  Volume: 2,912,700  (37 days ago)
+  2. 2025-03-05  Volume: 1,797,600  (443 days ago)
+  3. 2025-02-25  Volume: 1,729,400  (451 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-09  Volume: 3,603,500  (441 days ago)
+  2. 2025-03-02  Volume: 1,832,800  (448 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 5,662,900  (31 days ago)
+  2. 2025-03-31  Volume: 5,502,300  (426 days ago)
+  3. 2025-02-28  Volume: 1,832,800  (457 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

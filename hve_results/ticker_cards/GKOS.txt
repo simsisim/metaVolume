@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: GKOS
+================================================================================
+Generated: 2026-05-25 07:58:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-12  Volume: 9,501,500  (2262 days ago)
+  2. 2020-02-28  Volume: 5,813,800  (2275 days ago)
+  3. 2020-02-27  Volume: 948,700  (2276 days ago)
+  4. 2020-01-08  Volume: 756,600  (2326 days ago)
+  5. 2020-01-06  Volume: 614,100  (2328 days ago)
+  6. 2020-01-02  Volume: 423,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 15,891,200  (2261 days ago)
+  2. 2020-03-01  Volume: 8,032,000  (2275 days ago)
+  3. 2020-01-12  Volume: 2,671,400  (2324 days ago)
+  4. 2020-01-05  Volume: 1,407,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 34,254,100  (2252 days ago)
+  2. 2020-02-29  Volume: 15,108,300  (2283 days ago)
+  3. 2020-01-31  Volume: 7,696,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (2252 days ago)
+
+================================================================================

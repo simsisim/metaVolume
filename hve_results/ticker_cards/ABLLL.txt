@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: ABLLL
+================================================================================
+Generated: 2026-05-25 07:57:08
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-31  Volume: 485,530  (417 days ago)
+  2. 2024-12-31  Volume: 442,545  (507 days ago)
+  3. 2024-12-27  Volume: 143,982  (511 days ago)
+  4. 2024-12-19  Volume: 73,615  (519 days ago)
+  5. 2024-12-18  Volume: 66,995  (520 days ago)
+  6. 2024-02-09  Volume: 42,676  (833 days ago)
+  7. 2023-12-05  Volume: 17,874  (899 days ago)
+  8. 2023-12-01  Volume: 4,012  (903 days ago)
+  9. 2023-11-28  Volume: 3,259  (906 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-06  Volume: 804,429  (413 days ago)
+  2. 2025-01-05  Volume: 713,550  (504 days ago)
+  3. 2024-12-29  Volume: 249,724  (511 days ago)
+  4. 2024-12-22  Volume: 155,554  (518 days ago)
+  5. 2024-02-18  Volume: 89,578  (826 days ago)
+  6. 2024-02-11  Volume: 47,779  (833 days ago)
+  7. 2023-12-10  Volume: 26,651  (896 days ago)
+  8. 2023-12-03  Volume: 10,754  (903 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 1,017,408  (516 days ago)
+  2. 2024-02-29  Volume: 178,152  (822 days ago)
+  3. 2023-12-31  Volume: 73,218  (882 days ago)
+  4. 2023-11-30  Volume: 6,742  (913 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (413 days ago)
+
+================================================================================

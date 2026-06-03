@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: DSU
+================================================================================
+Generated: 2026-05-25 07:56:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-16  Volume: 1,342,800  (126 days ago)
+  2. 2020-03-20  Volume: 1,216,500  (2254 days ago)
+  3. 2020-03-18  Volume: 1,073,700  (2256 days ago)
+  4. 2020-02-28  Volume: 779,100  (2275 days ago)
+  5. 2020-02-24  Volume: 409,100  (2279 days ago)
+  6. 2020-01-02  Volume: 293,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 4,151,700  (2261 days ago)
+  2. 2020-03-08  Volume: 2,131,800  (2268 days ago)
+  3. 2020-02-23  Volume: 2,072,300  (2282 days ago)
+  4. 2020-01-05  Volume: 995,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 11,507,900  (2252 days ago)
+  2. 2020-02-29  Volume: 3,896,400  (2283 days ago)
+  3. 2020-01-31  Volume: 3,426,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Daily (126 days ago)
+
+================================================================================

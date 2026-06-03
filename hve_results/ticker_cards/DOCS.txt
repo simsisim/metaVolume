@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: DOCS
+================================================================================
+Generated: 2026-05-25 07:56:26
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-14  Volume: 25,491,400  (8 days ago)
+  2. 2026-02-06  Volume: 23,126,300  (105 days ago)
+  3. 2023-06-16  Volume: 21,385,600  (1071 days ago)
+  4. 2021-11-12  Volume: 19,513,900  (1652 days ago)
+  5. 2021-06-24  Volume: 17,305,900  (1793 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-17  Volume: 57,994,700  (7 days ago)
+  2. 2026-02-08  Volume: 47,136,900  (105 days ago)
+  3. 2022-05-22  Volume: 35,305,400  (1463 days ago)
+  4. 2021-11-14  Volume: 32,842,400  (1652 days ago)
+  5. 2021-06-27  Volume: 22,310,100  (1792 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-31  Volume: 95,960,201  (0 days ago)
+  2. 2022-05-31  Volume: 76,523,700  (1461 days ago)
+  3. 2021-11-30  Volume: 73,790,000  (1643 days ago)
+  4. 2021-08-31  Volume: 49,123,800  (1734 days ago)
+  5. 2021-06-30  Volume: 32,938,000  (1796 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Monthly (0 days ago)
+
+================================================================================

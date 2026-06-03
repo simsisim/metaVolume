@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: POLE
+================================================================================
+Generated: 2026-05-25 07:56:41
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-03  Volume: 2,494,700  (170 days ago)
+  2. 2024-12-18  Volume: 1,488,500  (520 days ago)
+  3. 2024-10-30  Volume: 801,600  (569 days ago)
+  4. 2024-10-28  Volume: 446,000  (571 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-07  Volume: 2,554,400  (168 days ago)
+  2. 2024-12-22  Volume: 1,991,900  (518 days ago)
+  3. 2024-11-03  Volume: 1,939,100  (567 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 3,029,000  (151 days ago)
+  2. 2024-12-31  Volume: 2,847,900  (516 days ago)
+  3. 2024-11-30  Volume: 2,656,400  (547 days ago)
+  4. 2024-10-31  Volume: 1,503,100  (577 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

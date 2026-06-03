@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: KRYS
+================================================================================
+Generated: 2026-05-25 07:57:49
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-29  Volume: 8,480,400  (1635 days ago)
+  2. 2020-05-19  Volume: 1,344,500  (2194 days ago)
+  3. 2020-01-23  Volume: 562,700  (2311 days ago)
+  4. 2020-01-22  Volume: 335,300  (2312 days ago)
+  5. 2020-01-14  Volume: 261,100  (2320 days ago)
+  6. 2020-01-02  Volume: 244,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-05  Volume: 14,063,700  (1631 days ago)
+  2. 2020-05-24  Volume: 2,350,200  (2191 days ago)
+  3. 2020-01-26  Volume: 1,178,800  (2310 days ago)
+  4. 2020-01-19  Volume: 909,500  (2317 days ago)
+  5. 2020-01-05  Volume: 854,600  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-30  Volume: 14,879,900  (1643 days ago)
+  2. 2020-05-31  Volume: 4,971,100  (2191 days ago)
+  3. 2020-03-31  Volume: 4,062,700  (2252 days ago)
+  4. 2020-01-31  Volume: 3,837,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (1631 days ago)
+
+================================================================================

@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: NCV
+================================================================================
+Generated: 2026-05-25 07:57:20
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-19  Volume: 872,200  (672 days ago)
+  2. 2022-07-15  Volume: 750,000  (1407 days ago)
+  3. 2020-09-02  Volume: 701,900  (2088 days ago)
+  4. 2020-08-24  Volume: 562,825  (2097 days ago)
+  5. 2020-01-02  Volume: 493,325  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-06  Volume: 2,027,225  (2086 days ago)
+  2. 2020-08-30  Volume: 2,014,875  (2093 days ago)
+  3. 2020-03-01  Volume: 1,483,925  (2275 days ago)
+  4. 2020-01-05  Volume: 1,215,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 5,194,950  (2252 days ago)
+  2. 2020-01-31  Volume: 2,719,275  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Daily (672 days ago)
+
+================================================================================

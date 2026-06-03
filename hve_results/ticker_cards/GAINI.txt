@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: GAINI
+================================================================================
+Generated: 2026-05-25 07:57:12
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 862,900  (507 days ago)
+  2. 2024-12-18  Volume: 132,400  (520 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-05  Volume: 1,051,700  (504 days ago)
+  2. 2024-12-22  Volume: 235,600  (518 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 1,247,200  (516 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Weekly (504 days ago)
+
+================================================================================

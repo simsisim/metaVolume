@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: MATX
+================================================================================
+Generated: 2026-05-25 07:57:26
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-15  Volume: 3,283,300  (889 days ago)
+  2. 2020-07-10  Volume: 2,593,400  (2142 days ago)
+  3. 2020-02-26  Volume: 792,500  (2277 days ago)
+  4. 2020-01-23  Volume: 272,800  (2311 days ago)
+  5. 2020-01-03  Volume: 194,000  (2331 days ago)
+  6. 2020-01-02  Volume: 130,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-03  Volume: 4,958,500  (1512 days ago)
+  2. 2022-03-13  Volume: 3,538,700  (1533 days ago)
+  3. 2022-01-30  Volume: 3,331,400  (1575 days ago)
+  4. 2020-07-05  Volume: 3,247,400  (2149 days ago)
+  5. 2020-02-23  Volume: 1,946,300  (2282 days ago)
+  6. 2020-01-26  Volume: 989,000  (2310 days ago)
+  7. 2020-01-19  Volume: 778,100  (2317 days ago)
+  8. 2020-01-12  Volume: 581,600  (2324 days ago)
+  9. 2020-01-05  Volume: 496,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-30  Volume: 13,770,200  (1492 days ago)
+  2. 2022-03-31  Volume: 10,262,300  (1522 days ago)
+  3. 2022-02-28  Volume: 10,215,900  (1553 days ago)
+  4. 2021-03-31  Volume: 8,017,400  (1887 days ago)
+  5. 2020-07-31  Volume: 7,290,900  (2130 days ago)
+  6. 2020-03-31  Volume: 6,296,300  (2252 days ago)
+  7. 2020-02-29  Volume: 3,420,600  (2283 days ago)
+  8. 2020-01-31  Volume: 3,170,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (889 days ago)
+
+================================================================================

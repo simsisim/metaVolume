@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: SWKHL
+================================================================================
+Generated: 2026-05-25 07:57:10
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-18  Volume: 199,700  (458 days ago)
+  2. 2025-02-14  Volume: 45,900  (462 days ago)
+  3. 2025-02-13  Volume: 45,300  (463 days ago)
+  4. 2023-10-11  Volume: 27,000  (954 days ago)
+  5. 2023-10-04  Volume: 24,300  (961 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-23  Volume: 302,600  (455 days ago)
+  2. 2025-02-16  Volume: 92,800  (462 days ago)
+  3. 2023-10-15  Volume: 69,800  (952 days ago)
+  4. 2023-10-08  Volume: 34,700  (959 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-28  Volume: 453,400  (457 days ago)
+  2. 2023-10-31  Volume: 157,800  (943 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Weekly (455 days ago)
+
+================================================================================

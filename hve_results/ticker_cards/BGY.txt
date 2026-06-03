@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: BGY
+================================================================================
+Generated: 2026-05-25 07:57:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-01-20  Volume: 2,188,700  (1218 days ago)
+  2. 2022-07-15  Volume: 1,839,900  (1407 days ago)
+  3. 2020-03-18  Volume: 1,310,800  (2256 days ago)
+  4. 2020-03-12  Volume: 1,112,600  (2262 days ago)
+  5. 2020-02-28  Volume: 738,300  (2275 days ago)
+  6. 2020-01-06  Volume: 556,700  (2328 days ago)
+  7. 2020-01-03  Volume: 326,100  (2331 days ago)
+  8. 2020-01-02  Volume: 248,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-18  Volume: 3,893,600  (126 days ago)
+  2. 2023-01-22  Volume: 3,615,500  (1218 days ago)
+  3. 2022-07-17  Volume: 3,354,300  (1407 days ago)
+  4. 2020-03-22  Volume: 3,338,900  (2254 days ago)
+  5. 2020-03-15  Volume: 3,209,500  (2261 days ago)
+  6. 2020-03-01  Volume: 2,276,600  (2275 days ago)
+  7. 2020-01-12  Volume: 1,834,100  (2324 days ago)
+  8. 2020-01-05  Volume: 1,145,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 12,535,000  (2252 days ago)
+  2. 2020-02-29  Volume: 6,274,700  (2283 days ago)
+  3. 2020-01-31  Volume: 6,243,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (126 days ago)
+
+================================================================================

@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: VGI
+================================================================================
+Generated: 2026-05-25 07:57:40
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-10-03  Volume: 365,800  (1327 days ago)
+  2. 2020-05-01  Volume: 349,000  (2212 days ago)
+  3. 2020-02-28  Volume: 335,700  (2275 days ago)
+  4. 2020-02-25  Volume: 276,900  (2278 days ago)
+  5. 2020-02-24  Volume: 212,000  (2279 days ago)
+  6. 2020-02-03  Volume: 173,100  (2300 days ago)
+  7. 2020-01-21  Volume: 136,500  (2313 days ago)
+  8. 2020-01-16  Volume: 125,800  (2318 days ago)
+  9. 2020-01-06  Volume: 112,300  (2328 days ago)
+  10. 2020-01-03  Volume: 84,600  (2331 days ago)
+  11. 2020-01-02  Volume: 74,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 1,079,600  (2275 days ago)
+  2. 2020-02-09  Volume: 594,600  (2296 days ago)
+  3. 2020-01-19  Volume: 489,300  (2317 days ago)
+  4. 2020-01-05  Volume: 464,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 2,859,900  (2252 days ago)
+  2. 2020-02-29  Volume: 2,493,800  (2283 days ago)
+  3. 2020-01-31  Volume: 1,685,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (1327 days ago)
+
+================================================================================

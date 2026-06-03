@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: RNAC
+================================================================================
+Generated: 2026-05-25 07:56:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-09  Volume: 2,932,300  (74 days ago)
+  2. 2024-07-02  Volume: 1,449,000  (689 days ago)
+  3. 2020-06-12  Volume: 781,260  (2170 days ago)
+  4. 2020-03-12  Volume: 86,670  (2262 days ago)
+  5. 2020-01-07  Volume: 73,033  (2327 days ago)
+  6. 2020-01-03  Volume: 8,267  (2331 days ago)
+  7. 2020-01-02  Volume: 3,830  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-15  Volume: 3,763,400  (70 days ago)
+  2. 2024-07-07  Volume: 2,242,100  (686 days ago)
+  3. 2020-06-21  Volume: 1,442,876  (2163 days ago)
+  4. 2020-06-14  Volume: 958,443  (2170 days ago)
+  5. 2020-03-22  Volume: 220,880  (2254 days ago)
+  6. 2020-03-15  Volume: 204,983  (2261 days ago)
+  7. 2020-02-09  Volume: 179,920  (2296 days ago)
+  8. 2020-01-12  Volume: 124,597  (2324 days ago)
+  9. 2020-01-05  Volume: 34,024  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Weekly (70 days ago)
+
+================================================================================

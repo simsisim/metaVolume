@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: IGI
+================================================================================
+Generated: 2026-05-25 07:57:25
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-28  Volume: 778,100  (814 days ago)
+  2. 2022-04-01  Volume: 186,300  (1512 days ago)
+  3. 2020-09-03  Volume: 117,500  (2087 days ago)
+  4. 2020-08-31  Volume: 110,100  (2090 days ago)
+  5. 2020-08-25  Volume: 85,300  (2096 days ago)
+  6. 2020-08-14  Volume: 82,700  (2107 days ago)
+  7. 2020-03-23  Volume: 80,200  (2251 days ago)
+  8. 2020-03-13  Volume: 73,300  (2261 days ago)
+  9. 2020-03-10  Volume: 53,900  (2264 days ago)
+  10. 2020-02-19  Volume: 47,600  (2284 days ago)
+  11. 2020-01-10  Volume: 45,800  (2324 days ago)
+  12. 2020-01-09  Volume: 39,700  (2325 days ago)
+  13. 2020-01-02  Volume: 31,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-03  Volume: 859,200  (812 days ago)
+  2. 2022-04-10  Volume: 325,400  (1505 days ago)
+  3. 2020-09-06  Volume: 325,100  (2086 days ago)
+  4. 2020-03-15  Volume: 269,700  (2261 days ago)
+  5. 2020-03-01  Volume: 168,900  (2275 days ago)
+  6. 2020-01-12  Volume: 165,000  (2324 days ago)
+  7. 2020-01-05  Volume: 100,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-29  Volume: 1,222,800  (822 days ago)
+  2. 2022-03-31  Volume: 933,600  (1522 days ago)
+  3. 2020-03-31  Volume: 855,800  (2252 days ago)
+  4. 2020-01-31  Volume: 529,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Weekly (812 days ago)
+
+================================================================================

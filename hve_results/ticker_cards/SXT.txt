@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: SXT
+================================================================================
+Generated: 2026-05-25 07:57:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-15  Volume: 8,000,700  (980 days ago)
+  2. 2020-04-22  Volume: 1,838,000  (2221 days ago)
+  3. 2020-03-20  Volume: 1,481,100  (2254 days ago)
+  4. 2020-02-21  Volume: 1,336,000  (2282 days ago)
+  5. 2020-02-14  Volume: 785,900  (2289 days ago)
+  6. 2020-01-23  Volume: 499,500  (2311 days ago)
+  7. 2020-01-10  Volume: 303,900  (2324 days ago)
+  8. 2020-01-03  Volume: 255,100  (2331 days ago)
+  9. 2020-01-02  Volume: 192,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-10  Volume: 9,067,300  (987 days ago)
+  2. 2020-04-19  Volume: 4,553,200  (2226 days ago)
+  3. 2020-03-15  Volume: 3,484,600  (2261 days ago)
+  4. 2020-02-16  Volume: 2,957,600  (2289 days ago)
+  5. 2020-02-09  Volume: 1,560,400  (2296 days ago)
+  6. 2020-01-26  Volume: 1,447,000  (2310 days ago)
+  7. 2020-01-19  Volume: 1,002,700  (2317 days ago)
+  8. 2020-01-05  Volume: 963,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-30  Volume: 14,327,400  (2222 days ago)
+  2. 2020-03-31  Volume: 11,436,200  (2252 days ago)
+  3. 2020-02-29  Volume: 7,929,500  (2283 days ago)
+  4. 2020-01-31  Volume: 4,804,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (980 days ago)
+
+================================================================================

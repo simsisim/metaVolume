@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: DBD
+================================================================================
+Generated: 2026-05-25 07:56:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-09  Volume: 6,485,200  (43 days ago)
+  2. 2024-06-28  Volume: 4,263,000  (693 days ago)
+  3. 2023-12-15  Volume: 2,494,400  (889 days ago)
+  4. 2023-12-14  Volume: 754,800  (890 days ago)
+  5. 2023-12-04  Volume: 623,500  (900 days ago)
+  6. 2023-08-14  Volume: 485,400  (1012 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-12  Volume: 9,361,800  (42 days ago)
+  2. 2024-06-30  Volume: 5,482,200  (693 days ago)
+  3. 2023-12-17  Volume: 4,109,200  (889 days ago)
+  4. 2023-12-10  Volume: 1,592,100  (896 days ago)
+  5. 2023-08-20  Volume: 1,355,600  (1008 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 15,363,600  (31 days ago)
+  2. 2024-06-30  Volume: 7,734,700  (700 days ago)
+  3. 2023-12-31  Volume: 7,160,900  (882 days ago)
+  4. 2023-08-31  Volume: 2,493,700  (1004 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

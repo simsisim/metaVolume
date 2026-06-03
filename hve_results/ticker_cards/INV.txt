@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: INV
+================================================================================
+Generated: 2026-05-25 07:56:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-20  Volume: 7,117,100  (32 days ago)
+  2. 2025-08-04  Volume: 6,825,200  (291 days ago)
+  3. 2024-04-05  Volume: 2,316,300  (777 days ago)
+  4. 2023-02-07  Volume: 1,818,800  (1200 days ago)
+  5. 2022-05-23  Volume: 970,000  (1460 days ago)
+  6. 2022-05-05  Volume: 705,000  (1478 days ago)
+  7. 2022-04-05  Volume: 391,000  (1508 days ago)
+  8. 2021-12-14  Volume: 363,200  (1620 days ago)
+  9. 2021-12-08  Volume: 700  (1626 days ago)
+  10. 2021-11-29  Volume: 200  (1635 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 22,025,720  (0 days ago)
+  2. 2026-04-26  Volume: 19,626,600  (28 days ago)
+  3. 2026-01-18  Volume: 14,750,500  (126 days ago)
+  4. 2026-01-11  Volume: 11,348,300  (133 days ago)
+  5. 2025-11-23  Volume: 11,016,600  (182 days ago)
+  6. 2025-08-10  Volume: 7,659,700  (287 days ago)
+  7. 2023-10-08  Volume: 3,181,000  (959 days ago)
+  8. 2023-02-12  Volume: 1,827,400  (1197 days ago)
+  9. 2022-05-29  Volume: 970,000  (1456 days ago)
+  10. 2022-05-08  Volume: 705,000  (1477 days ago)
+  11. 2022-04-10  Volume: 566,500  (1505 days ago)
+  12. 2021-12-19  Volume: 546,200  (1617 days ago)
+  13. 2021-12-12  Volume: 1,000  (1624 days ago)
+  14. 2021-12-05  Volume: 200  (1631 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

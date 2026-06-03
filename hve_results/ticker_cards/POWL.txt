@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: POWL
+================================================================================
+Generated: 2026-05-25 07:57:19
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-31  Volume: 1,759,900  (660 days ago)
+  2. 2024-03-15  Volume: 1,628,300  (798 days ago)
+  3. 2024-01-31  Volume: 1,570,000  (842 days ago)
+  4. 2023-12-15  Volume: 1,027,500  (889 days ago)
+  5. 2023-08-02  Volume: 787,200  (1024 days ago)
+  6. 2021-09-17  Volume: 587,900  (1708 days ago)
+  7. 2020-02-05  Volume: 396,300  (2298 days ago)
+  8. 2020-01-31  Volume: 159,900  (2303 days ago)
+  9. 2020-01-13  Volume: 148,900  (2321 days ago)
+  10. 2020-01-03  Volume: 96,800  (2331 days ago)
+  11. 2020-01-02  Volume: 82,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-10  Volume: 5,306,800  (14 days ago)
+  2. 2026-02-15  Volume: 4,908,900  (98 days ago)
+  3. 2024-07-28  Volume: 4,035,000  (665 days ago)
+  4. 2024-03-10  Volume: 3,179,400  (805 days ago)
+  5. 2024-01-28  Volume: 3,069,200  (847 days ago)
+  6. 2023-12-10  Volume: 2,007,900  (896 days ago)
+  7. 2023-07-30  Volume: 1,415,500  (1029 days ago)
+  8. 2022-12-11  Volume: 968,700  (1260 days ago)
+  9. 2020-02-02  Volume: 833,700  (2303 days ago)
+  10. 2020-01-12  Volume: 542,200  (2324 days ago)
+  11. 2020-01-05  Volume: 352,200  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Weekly (14 days ago)
+
+================================================================================

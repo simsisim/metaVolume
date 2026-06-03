@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: RFI
+================================================================================
+Generated: 2026-05-25 07:57:15
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-25  Volume: 478,100  (574 days ago)
+  2. 2021-01-04  Volume: 438,700  (1964 days ago)
+  3. 2020-03-23  Volume: 389,600  (2251 days ago)
+  4. 2020-02-27  Volume: 316,700  (2276 days ago)
+  5. 2020-01-13  Volume: 153,600  (2321 days ago)
+  6. 2020-01-06  Volume: 111,300  (2328 days ago)
+  7. 2020-01-03  Volume: 73,700  (2331 days ago)
+  8. 2020-01-02  Volume: 69,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 1,335,500  (2254 days ago)
+  2. 2020-03-15  Volume: 1,041,000  (2261 days ago)
+  3. 2020-03-08  Volume: 971,700  (2268 days ago)
+  4. 2020-02-23  Volume: 963,200  (2282 days ago)
+  5. 2020-01-12  Volume: 532,600  (2324 days ago)
+  6. 2020-01-05  Volume: 433,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 4,251,500  (2252 days ago)
+  2. 2020-02-29  Volume: 2,000,700  (2283 days ago)
+  3. 2020-01-31  Volume: 1,845,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Daily (574 days ago)
+
+================================================================================

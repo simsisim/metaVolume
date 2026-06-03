@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: ATMU
+================================================================================
+Generated: 2026-05-25 07:57:24
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-20  Volume: 14,939,200  (793 days ago)
+  2. 2024-03-18  Volume: 14,118,900  (795 days ago)
+  3. 2024-03-14  Volume: 12,228,100  (799 days ago)
+  4. 2024-03-11  Volume: 9,499,400  (802 days ago)
+  5. 2024-03-07  Volume: 9,157,300  (806 days ago)
+  6. 2023-05-26  Volume: 6,277,900  (1092 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-24  Volume: 62,222,500  (791 days ago)
+  2. 2024-03-17  Volume: 43,440,000  (798 days ago)
+  3. 2024-03-10  Volume: 28,763,100  (805 days ago)
+  4. 2024-03-03  Volume: 15,709,500  (812 days ago)
+  5. 2024-02-18  Volume: 14,755,700  (826 days ago)
+  6. 2023-09-17  Volume: 6,845,300  (980 days ago)
+  7. 2023-05-28  Volume: 6,277,900  (1092 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-31  Volume: 152,959,500  (791 days ago)
+  2. 2024-02-29  Volume: 39,127,500  (822 days ago)
+  3. 2023-09-30  Volume: 16,061,000  (974 days ago)
+  4. 2023-06-30  Volume: 12,177,600  (1066 days ago)
+  5. 2023-05-31  Volume: 7,965,800  (1096 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (791 days ago)
+
+================================================================================

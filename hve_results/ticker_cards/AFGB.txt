@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: AFGB
+================================================================================
+Generated: 2026-05-25 07:57:36
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-31  Volume: 144,800  (1148 days ago)
+  2. 2021-01-13  Volume: 130,900  (1955 days ago)
+  3. 2021-01-12  Volume: 81,900  (1956 days ago)
+  4. 2020-11-16  Volume: 60,900  (2013 days ago)
+  5. 2020-04-28  Volume: 45,900  (2215 days ago)
+  6. 2020-04-01  Volume: 43,800  (2242 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-17  Volume: 317,500  (1953 days ago)
+  2. 2020-05-03  Volume: 121,000  (2212 days ago)
+  3. 2020-04-19  Volume: 109,200  (2226 days ago)
+  4. 2020-04-05  Volume: 80,800  (2240 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-04-30  Volume: 492,200  (1127 days ago)
+  2. 2021-01-31  Volume: 463,100  (1946 days ago)
+  3. 2020-04-30  Volume: 459,700  (2222 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (1127 days ago)
+
+================================================================================

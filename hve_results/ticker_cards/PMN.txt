@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: PMN
+================================================================================
+Generated: 2026-05-25 07:56:54
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-21  Volume: 11,615,944  (305 days ago)
+  2. 2025-07-14  Volume: 3,901,180  (312 days ago)
+  3. 2023-07-17  Volume: 559,040  (1040 days ago)
+  4. 2022-07-08  Volume: 2,964  (1414 days ago)
+  5. 2021-03-25  Volume: 1,918  (1884 days ago)
+  6. 2021-02-10  Volume: 999  (1927 days ago)
+  7. 2021-01-06  Volume: 890  (1962 days ago)
+  8. 2020-06-17  Volume: 784  (2165 days ago)
+  9. 2020-01-13  Volume: 735  (2321 days ago)
+  10. 2020-01-02  Volume: 295  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-27  Volume: 12,765,344  (301 days ago)
+  2. 2025-07-20  Volume: 4,140,360  (308 days ago)
+  3. 2023-07-23  Volume: 614,440  (1036 days ago)
+  4. 2022-07-17  Volume: 3,348  (1407 days ago)
+  5. 2022-07-10  Volume: 3,116  (1414 days ago)
+  6. 2021-03-28  Volume: 3,103  (1883 days ago)
+  7. 2021-02-14  Volume: 1,892  (1925 days ago)
+  8. 2020-01-19  Volume: 1,483  (2317 days ago)
+  9. 2020-01-05  Volume: 936  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (301 days ago)
+
+================================================================================

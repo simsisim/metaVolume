@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: JGH
+================================================================================
+Generated: 2026-05-25 07:58:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-20  Volume: 1,169,200  (2254 days ago)
+  2. 2020-03-19  Volume: 502,800  (2255 days ago)
+  3. 2020-03-18  Volume: 204,000  (2256 days ago)
+  4. 2020-02-27  Volume: 191,000  (2276 days ago)
+  5. 2020-02-25  Volume: 150,300  (2278 days ago)
+  6. 2020-02-12  Volume: 102,600  (2291 days ago)
+  7. 2020-02-05  Volume: 93,600  (2298 days ago)
+  8. 2020-01-16  Volume: 79,400  (2318 days ago)
+  9. 2020-01-03  Volume: 65,600  (2331 days ago)
+  10. 2020-01-02  Volume: 61,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 2,165,200  (2254 days ago)
+  2. 2020-03-01  Volume: 653,300  (2275 days ago)
+  3. 2020-02-16  Volume: 347,800  (2289 days ago)
+  4. 2020-01-19  Volume: 300,000  (2317 days ago)
+  5. 2020-01-12  Volume: 251,600  (2324 days ago)
+  6. 2020-01-05  Volume: 247,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 4,295,900  (2252 days ago)
+  2. 2020-02-29  Volume: 1,490,700  (2283 days ago)
+  3. 2020-01-31  Volume: 1,029,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (2252 days ago)
+
+================================================================================

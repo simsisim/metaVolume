@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: LOAN
+================================================================================
+Generated: 2026-05-25 07:57:53
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-07  Volume: 1,048,500  (1780 days ago)
+  2. 2020-02-28  Volume: 181,000  (2275 days ago)
+  3. 2020-02-25  Volume: 66,600  (2278 days ago)
+  4. 2020-02-24  Volume: 58,500  (2279 days ago)
+  5. 2020-02-11  Volume: 46,000  (2292 days ago)
+  6. 2020-01-02  Volume: 35,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-04  Volume: 1,483,400  (1785 days ago)
+  2. 2020-03-22  Volume: 441,300  (2254 days ago)
+  3. 2020-03-15  Volume: 426,900  (2261 days ago)
+  4. 2020-03-01  Volume: 408,200  (2275 days ago)
+  5. 2020-02-23  Volume: 370,300  (2282 days ago)
+  6. 2020-02-09  Volume: 137,100  (2296 days ago)
+  7. 2020-01-12  Volume: 105,500  (2324 days ago)
+  8. 2020-01-05  Volume: 63,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-31  Volume: 2,498,700  (1765 days ago)
+  2. 2020-03-31  Volume: 1,677,300  (2252 days ago)
+  3. 2020-02-29  Volume: 700,600  (2283 days ago)
+  4. 2020-01-31  Volume: 362,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Monthly (1765 days ago)
+
+================================================================================

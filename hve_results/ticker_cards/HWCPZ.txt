@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: HWCPZ
+================================================================================
+Generated: 2026-05-25 07:58:07
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 501,500  (2152 days ago)
+  2. 2020-06-23  Volume: 211,200  (2159 days ago)
+  3. 2020-06-17  Volume: 163,800  (2165 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-07-05  Volume: 828,800  (2149 days ago)
+  2. 2020-06-28  Volume: 640,600  (2156 days ago)
+  3. 2020-06-21  Volume: 448,000  (2163 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 1,796,300  (2161 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (2149 days ago)
+
+================================================================================

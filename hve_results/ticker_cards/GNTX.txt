@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: GNTX
+================================================================================
+Generated: 2026-05-25 07:56:44
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-20  Volume: 10,698,300  (214 days ago)
+  2. 2025-04-09  Volume: 7,402,000  (408 days ago)
+  3. 2021-09-17  Volume: 6,328,200  (1708 days ago)
+  4. 2021-03-19  Volume: 4,877,100  (1890 days ago)
+  5. 2020-12-18  Volume: 4,201,000  (1981 days ago)
+  6. 2020-06-19  Volume: 4,149,800  (2163 days ago)
+  7. 2020-03-20  Volume: 4,144,400  (2254 days ago)
+  8. 2020-03-19  Volume: 3,967,500  (2255 days ago)
+  9. 2020-03-13  Volume: 3,533,600  (2261 days ago)
+  10. 2020-02-28  Volume: 3,530,000  (2275 days ago)
+  11. 2020-01-08  Volume: 3,031,500  (2326 days ago)
+  12. 2020-01-06  Volume: 2,129,200  (2328 days ago)
+  13. 2020-01-02  Volume: 1,885,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-19  Volume: 29,150,400  (217 days ago)
+  2. 2025-04-06  Volume: 19,844,300  (413 days ago)
+  3. 2020-03-15  Volume: 16,216,200  (2261 days ago)
+  4. 2020-03-08  Volume: 15,695,400  (2268 days ago)
+  5. 2020-01-05  Volume: 10,112,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 77,123,100  (212 days ago)
+  2. 2025-07-31  Volume: 62,816,600  (304 days ago)
+  3. 2020-03-31  Volume: 60,298,700  (2252 days ago)
+  4. 2020-01-31  Volume: 35,486,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

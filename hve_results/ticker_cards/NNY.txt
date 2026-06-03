@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: NNY
+================================================================================
+Generated: 2026-05-25 07:57:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-01-09  Volume: 765,100  (1229 days ago)
+  2. 2022-08-01  Volume: 213,300  (1390 days ago)
+  3. 2022-04-27  Volume: 169,600  (1486 days ago)
+  4. 2020-03-30  Volume: 146,900  (2244 days ago)
+  5. 2020-03-16  Volume: 133,300  (2258 days ago)
+  6. 2020-03-12  Volume: 70,500  (2262 days ago)
+  7. 2020-02-28  Volume: 64,400  (2275 days ago)
+  8. 2020-01-08  Volume: 56,900  (2326 days ago)
+  9. 2020-01-06  Volume: 38,000  (2328 days ago)
+  10. 2020-01-02  Volume: 9,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-01-08  Volume: 1,065,100  (1232 days ago)
+  2. 2022-12-25  Volume: 481,900  (1246 days ago)
+  3. 2020-03-15  Volume: 452,500  (2261 days ago)
+  4. 2020-03-08  Volume: 253,100  (2268 days ago)
+  5. 2020-01-05  Volume: 222,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 2,779,700  (516 days ago)
+  2. 2022-12-31  Volume: 1,739,100  (1247 days ago)
+  3. 2020-03-31  Volume: 1,324,400  (2252 days ago)
+  4. 2020-01-31  Volume: 564,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (516 days ago)
+
+================================================================================

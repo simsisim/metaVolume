@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: WLDN
+================================================================================
+Generated: 2026-05-25 07:56:27
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-11  Volume: 1,746,500  (11 days ago)
+  2. 2021-12-30  Volume: 1,249,400  (1604 days ago)
+  3. 2021-06-18  Volume: 599,100  (1799 days ago)
+  4. 2020-06-19  Volume: 478,500  (2163 days ago)
+  5. 2020-03-06  Volume: 322,900  (2268 days ago)
+  6. 2020-02-04  Volume: 229,300  (2299 days ago)
+  7. 2020-01-28  Volume: 140,000  (2306 days ago)
+  8. 2020-01-27  Volume: 135,100  (2307 days ago)
+  9. 2020-01-23  Volume: 124,500  (2311 days ago)
+  10. 2020-01-22  Volume: 116,500  (2312 days ago)
+  11. 2020-01-13  Volume: 99,100  (2321 days ago)
+  12. 2020-01-02  Volume: 75,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-17  Volume: 4,452,400  (7 days ago)
+  2. 2025-08-10  Volume: 3,339,800  (287 days ago)
+  3. 2025-07-13  Volume: 2,222,200  (315 days ago)
+  4. 2022-01-02  Volume: 2,200,200  (1603 days ago)
+  5. 2021-12-26  Volume: 909,900  (1610 days ago)
+  6. 2021-04-04  Volume: 858,900  (1876 days ago)
+  7. 2021-03-28  Volume: 829,300  (1883 days ago)
+  8. 2020-03-08  Volume: 759,400  (2268 days ago)
+  9. 2020-02-02  Volume: 559,800  (2303 days ago)
+  10. 2020-01-26  Volume: 441,500  (2310 days ago)
+  11. 2020-01-05  Volume: 440,900  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Weekly (7 days ago)
+
+================================================================================

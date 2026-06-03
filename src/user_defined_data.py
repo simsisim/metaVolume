@@ -874,6 +874,10 @@ class UserConfiguration:
     vol_checker_top_n_flag: int = 6
     vol_checker_tw_files_dir: str = '../downloadData_v1/data/tw_files/daily/'
     vol_checker_tw_since_date: str = ''
+    vol_checker_data_source: str = 'tradingview'
+    vol_checker_yahoo_data_dir_local: Optional[str] = None
+    vol_checker_yahoo_data_dir_colab: Optional[str] = None
+    vol_checker_yahoo_data_dir: Optional[str] = None  # Resolved at runtime from _local/_colab
 
 
 def _get_default_ticker_filenames() -> dict:
@@ -1826,6 +1830,9 @@ def read_user_data(file_path: str = None) -> UserConfiguration:
             'VOL_checker_top_n_flag': ('vol_checker_top_n_flag', int),
             'VOL_checker_tw_files_dir': ('vol_checker_tw_files_dir', str),
             'VOL_checker_tw_since_date': ('vol_checker_tw_since_date', str),
+            'VOL_checker_data_source': ('vol_checker_data_source', str),
+            'VOL_checker_yahoo_data_dir_local': ('vol_checker_yahoo_data_dir_local', str),
+            'VOL_checker_yahoo_data_dir_colab': ('vol_checker_yahoo_data_dir_colab', str),
         }
         
         # Process each row in the dataframe
@@ -1863,6 +1870,10 @@ def read_user_data(file_path: str = None) -> UserConfiguration:
         config.preload_hvd_file = _resolve_preload_path(
             getattr(config, f'preload_hvd_file_{env}', None)
         )
+
+        # Resolve Yahoo data directory for vol_checker (same _local/_colab pattern)
+        yahoo_raw = getattr(config, f'vol_checker_yahoo_data_dir_{env}', None)
+        config.vol_checker_yahoo_data_dir = _resolve_preload_path(yahoo_raw)
 
         # Validation for ticker_choice
         try:

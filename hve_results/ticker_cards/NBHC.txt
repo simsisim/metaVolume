@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: NBHC
+================================================================================
+Generated: 2026-05-25 07:56:32
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-20  Volume: 3,927,200  (63 days ago)
+  2. 2022-12-16  Volume: 2,155,000  (1253 days ago)
+  3. 2020-02-21  Volume: 883,400  (2282 days ago)
+  4. 2020-01-03  Volume: 437,700  (2331 days ago)
+  5. 2020-01-02  Volume: 386,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-22  Volume: 7,190,700  (63 days ago)
+  2. 2022-12-18  Volume: 4,460,300  (1253 days ago)
+  3. 2020-03-22  Volume: 2,267,400  (2254 days ago)
+  4. 2020-03-01  Volume: 1,719,000  (2275 days ago)
+  5. 2020-02-23  Volume: 1,549,200  (2282 days ago)
+  6. 2020-01-05  Volume: 1,209,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 16,463,700  (61 days ago)
+  2. 2022-12-31  Volume: 9,694,600  (1247 days ago)
+  3. 2020-03-31  Volume: 6,719,800  (2252 days ago)
+  4. 2020-02-29  Volume: 4,810,700  (2283 days ago)
+  5. 2020-01-31  Volume: 3,901,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

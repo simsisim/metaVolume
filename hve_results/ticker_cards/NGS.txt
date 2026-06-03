@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: NGS
+================================================================================
+Generated: 2026-05-25 07:57:21
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-28  Volume: 1,553,200  (693 days ago)
+  2. 2020-06-26  Volume: 1,370,200  (2156 days ago)
+  3. 2020-04-20  Volume: 396,200  (2223 days ago)
+  4. 2020-03-19  Volume: 273,600  (2255 days ago)
+  5. 2020-02-28  Volume: 156,100  (2275 days ago)
+  6. 2020-01-17  Volume: 112,700  (2317 days ago)
+  7. 2020-01-16  Volume: 92,700  (2318 days ago)
+  8. 2020-01-07  Volume: 61,500  (2327 days ago)
+  9. 2020-01-03  Volume: 38,000  (2331 days ago)
+  10. 2020-01-02  Volume: 36,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-28  Volume: 1,948,100  (2156 days ago)
+  2. 2020-03-22  Volume: 782,900  (2254 days ago)
+  3. 2020-03-01  Volume: 425,300  (2275 days ago)
+  4. 2020-02-09  Volume: 316,100  (2296 days ago)
+  5. 2020-01-19  Volume: 310,900  (2317 days ago)
+  6. 2020-01-12  Volume: 208,800  (2324 days ago)
+  7. 2020-01-05  Volume: 202,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 3,908,900  (2161 days ago)
+  2. 2020-03-31  Volume: 2,343,000  (2252 days ago)
+  3. 2020-02-29  Volume: 1,068,800  (2283 days ago)
+  4. 2020-01-31  Volume: 972,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (693 days ago)
+
+================================================================================

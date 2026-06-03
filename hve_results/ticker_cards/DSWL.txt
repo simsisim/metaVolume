@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: DSWL
+================================================================================
+Generated: 2026-05-25 07:58:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-29  Volume: 551,600  (2061 days ago)
+  2. 2020-06-23  Volume: 131,800  (2159 days ago)
+  3. 2020-01-14  Volume: 100,600  (2320 days ago)
+  4. 2020-01-07  Volume: 26,700  (2327 days ago)
+  5. 2020-01-02  Volume: 17,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-27  Volume: 590,000  (2065 days ago)
+  2. 2020-06-21  Volume: 199,800  (2163 days ago)
+  3. 2020-01-12  Volume: 142,000  (2324 days ago)
+  4. 2020-01-05  Volume: 42,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-30  Volume: 1,218,100  (1796 days ago)
+  2. 2020-09-30  Volume: 747,400  (2069 days ago)
+  3. 2020-06-30  Volume: 353,800  (2161 days ago)
+  4. 2020-03-31  Volume: 321,100  (2252 days ago)
+  5. 2020-01-31  Volume: 256,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Monthly (1796 days ago)
+
+================================================================================

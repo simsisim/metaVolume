@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: VRM
+================================================================================
+Generated: 2026-05-25 07:56:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-10  Volume: 216,600  (73 days ago)
+  2. 2025-06-27  Volume: 118,100  (329 days ago)
+  3. 2025-06-20  Volume: 54,400  (336 days ago)
+  4. 2025-02-20  Volume: 33,800  (456 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-15  Volume: 241,000  (70 days ago)
+  2. 2025-06-29  Volume: 155,800  (329 days ago)
+  3. 2025-06-22  Volume: 78,700  (336 days ago)
+  4. 2025-02-23  Volume: 66,600  (455 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 497,900  (61 days ago)
+  2. 2025-06-30  Volume: 327,200  (335 days ago)
+  3. 2025-04-30  Volume: 237,400  (396 days ago)
+  4. 2025-03-31  Volume: 118,000  (426 days ago)
+  5. 2025-02-28  Volume: 115,300  (457 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

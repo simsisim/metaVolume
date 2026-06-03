@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: MATW
+================================================================================
+Generated: 2026-05-25 07:57:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-05  Volume: 1,038,200  (471 days ago)
+  2. 2024-12-20  Volume: 950,700  (518 days ago)
+  3. 2020-07-02  Volume: 850,400  (2150 days ago)
+  4. 2020-06-08  Volume: 601,400  (2174 days ago)
+  5. 2020-01-31  Volume: 562,200  (2303 days ago)
+  6. 2020-01-23  Volume: 217,500  (2311 days ago)
+  7. 2020-01-21  Volume: 141,500  (2313 days ago)
+  8. 2020-01-03  Volume: 140,800  (2331 days ago)
+  9. 2020-01-02  Volume: 85,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-02  Volume: 2,959,100  (476 days ago)
+  2. 2020-07-12  Volume: 1,992,700  (2142 days ago)
+  3. 2020-06-28  Volume: 1,954,900  (2156 days ago)
+  4. 2020-03-15  Volume: 1,669,300  (2261 days ago)
+  5. 2020-03-08  Volume: 1,237,300  (2268 days ago)
+  6. 2020-02-23  Volume: 995,000  (2282 days ago)
+  7. 2020-01-26  Volume: 931,000  (2310 days ago)
+  8. 2020-01-19  Volume: 626,500  (2317 days ago)
+  9. 2020-01-12  Volume: 500,100  (2324 days ago)
+  10. 2020-01-05  Volume: 468,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-07-31  Volume: 7,250,200  (2130 days ago)
+  2. 2020-06-30  Volume: 6,461,100  (2161 days ago)
+  3. 2020-03-31  Volume: 5,720,000  (2252 days ago)
+  4. 2020-01-31  Volume: 2,752,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (471 days ago)
+
+================================================================================

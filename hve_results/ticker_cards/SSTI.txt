@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: SSTI
+================================================================================
+Generated: 2026-05-25 07:58:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-19  Volume: 1,106,300  (2284 days ago)
+  2. 2020-01-03  Volume: 153,500  (2331 days ago)
+  3. 2020-01-02  Volume: 132,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-23  Volume: 1,836,000  (2282 days ago)
+  2. 2020-01-05  Volume: 535,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 4,133,300  (151 days ago)
+  2. 2020-03-31  Volume: 3,466,500  (2252 days ago)
+  3. 2020-02-29  Volume: 3,309,800  (2283 days ago)
+  4. 2020-01-31  Volume: 1,737,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: BCSF
+================================================================================
+Generated: 2026-05-25 07:56:34
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-26  Volume: 1,778,500  (85 days ago)
+  2. 2020-12-18  Volume: 1,514,596  (1981 days ago)
+  3. 2020-03-18  Volume: 962,498  (2256 days ago)
+  4. 2020-03-16  Volume: 774,877  (2258 days ago)
+  5. 2020-03-12  Volume: 716,007  (2262 days ago)
+  6. 2020-02-28  Volume: 705,407  (2275 days ago)
+  7. 2020-02-27  Volume: 562,761  (2276 days ago)
+  8. 2020-01-08  Volume: 488,762  (2326 days ago)
+  9. 2020-01-07  Volume: 318,020  (2327 days ago)
+  10. 2020-01-06  Volume: 271,397  (2328 days ago)
+  11. 2020-01-03  Volume: 198,325  (2331 days ago)
+  12. 2020-01-02  Volume: 172,904  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 5,216,200  (84 days ago)
+  2. 2026-02-08  Volume: 3,822,600  (105 days ago)
+  3. 2020-03-22  Volume: 3,772,186  (2254 days ago)
+  4. 2020-03-15  Volume: 2,744,953  (2261 days ago)
+  5. 2020-03-01  Volume: 2,312,899  (2275 days ago)
+  6. 2020-01-12  Volume: 1,568,382  (2324 days ago)
+  7. 2020-01-05  Volume: 961,676  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 12,204,200  (61 days ago)
+  2. 2020-03-31  Volume: 11,804,810  (2252 days ago)
+  3. 2020-02-29  Volume: 5,466,130  (2283 days ago)
+  4. 2020-01-31  Volume: 5,077,612  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

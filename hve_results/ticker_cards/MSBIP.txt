@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: MSBIP
+================================================================================
+Generated: 2026-05-25 07:57:40
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-30  Volume: 535,000  (1330 days ago)
+  2. 2022-08-30  Volume: 243,900  (1361 days ago)
+  3. 2022-08-29  Volume: 139,900  (1362 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-10-02  Volume: 751,200  (1330 days ago)
+  2. 2022-09-04  Volume: 516,300  (1358 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-30  Volume: 1,235,700  (1339 days ago)
+  2. 2022-08-31  Volume: 442,500  (1369 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Daily (1330 days ago)
+
+================================================================================

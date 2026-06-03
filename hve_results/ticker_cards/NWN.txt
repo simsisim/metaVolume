@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: NWN
+================================================================================
+Generated: 2026-05-25 07:57:25
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-22  Volume: 3,217,900  (820 days ago)
+  2. 2021-01-29  Volume: 3,012,400  (1939 days ago)
+  3. 2020-01-31  Volume: 2,143,400  (2303 days ago)
+  4. 2020-01-27  Volume: 511,800  (2307 days ago)
+  5. 2020-01-10  Volume: 428,800  (2324 days ago)
+  6. 2020-01-08  Volume: 288,800  (2326 days ago)
+  7. 2020-01-07  Volume: 201,100  (2327 days ago)
+  8. 2020-01-03  Volume: 200,800  (2331 days ago)
+  9. 2020-01-02  Volume: 192,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-24  Volume: 5,614,700  (1946 days ago)
+  2. 2020-01-26  Volume: 3,521,700  (2310 days ago)
+  3. 2020-01-05  Volume: 1,336,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-29  Volume: 11,497,400  (822 days ago)
+  2. 2021-01-31  Volume: 10,753,700  (1946 days ago)
+  3. 2020-01-31  Volume: 7,243,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Daily (820 days ago)
+
+================================================================================

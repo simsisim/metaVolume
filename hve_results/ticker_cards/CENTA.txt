@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: CENTA
+================================================================================
+Generated: 2026-05-25 07:57:55
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 2,151,125  (1792 days ago)
+  2. 2020-12-18  Volume: 1,397,375  (1981 days ago)
+  3. 2020-03-20  Volume: 1,121,500  (2254 days ago)
+  4. 2020-03-09  Volume: 840,125  (2265 days ago)
+  5. 2020-03-02  Volume: 838,250  (2272 days ago)
+  6. 2020-02-12  Volume: 764,500  (2291 days ago)
+  7. 2020-02-10  Volume: 625,625  (2293 days ago)
+  8. 2020-01-02  Volume: 563,125  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 3,963,375  (2254 days ago)
+  2. 2020-03-15  Volume: 3,285,625  (2261 days ago)
+  3. 2020-03-08  Volume: 2,669,875  (2268 days ago)
+  4. 2020-02-16  Volume: 2,480,625  (2289 days ago)
+  5. 2020-02-09  Volume: 1,931,875  (2296 days ago)
+  6. 2020-01-12  Volume: 1,493,250  (2324 days ago)
+  7. 2020-01-05  Volume: 1,461,875  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 14,244,750  (2252 days ago)
+  2. 2020-02-29  Volume: 7,349,000  (2283 days ago)
+  3. 2020-01-31  Volume: 5,811,875  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (1792 days ago)
+
+================================================================================

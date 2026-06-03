@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: GPAT
+================================================================================
+Generated: 2026-05-25 07:56:26
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-12  Volume: 2,599,400  (10 days ago)
+  2. 2024-08-23  Volume: 2,444,000  (637 days ago)
+  3. 2024-07-08  Volume: 1,915,300  (683 days ago)
+  4. 2024-07-02  Volume: 786,200  (689 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-05  Volume: 3,456,100  (49 days ago)
+  2. 2024-07-14  Volume: 3,032,800  (679 days ago)
+  3. 2024-07-07  Volume: 978,700  (686 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-31  Volume: 7,884,400  (669 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Daily (10 days ago)
+
+================================================================================

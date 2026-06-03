@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: OTIS
+================================================================================
+Generated: 2026-05-25 07:58:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-03  Volume: 22,551,600  (2240 days ago)
+  2. 2020-04-02  Volume: 9,264,200  (2241 days ago)
+  3. 2020-04-01  Volume: 1,206,100  (2242 days ago)
+  4. 2020-03-27  Volume: 263,200  (2247 days ago)
+  5. 2020-03-24  Volume: 77,800  (2250 days ago)
+  6. 2020-03-23  Volume: 11,900  (2251 days ago)
+  7. 2020-03-19  Volume: 7,000  (2255 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-12  Volume: 62,062,100  (2233 days ago)
+  2. 2020-04-05  Volume: 33,350,300  (2240 days ago)
+  3. 2020-03-29  Volume: 389,000  (2247 days ago)
+  4. 2020-03-22  Volume: 10,600  (2254 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-30  Volume: 190,482,800  (2222 days ago)
+  2. 2020-03-31  Volume: 728,000  (2252 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (2222 days ago)
+
+================================================================================

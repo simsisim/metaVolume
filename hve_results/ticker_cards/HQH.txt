@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: HQH
+================================================================================
+Generated: 2026-05-25 07:57:20
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-19  Volume: 1,077,600  (672 days ago)
+  2. 2020-03-17  Volume: 716,900  (2257 days ago)
+  3. 2020-02-28  Volume: 464,300  (2275 days ago)
+  4. 2020-02-27  Volume: 375,300  (2276 days ago)
+  5. 2020-02-25  Volume: 301,900  (2278 days ago)
+  6. 2020-01-13  Volume: 293,200  (2321 days ago)
+  7. 2020-01-09  Volume: 198,600  (2325 days ago)
+  8. 2020-01-02  Volume: 184,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 2,422,000  (2261 days ago)
+  2. 2020-03-08  Volume: 1,656,400  (2268 days ago)
+  3. 2020-02-23  Volume: 1,641,300  (2282 days ago)
+  4. 2020-01-12  Volume: 927,600  (2324 days ago)
+  5. 2020-01-05  Volume: 785,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 7,559,900  (2252 days ago)
+  2. 2020-02-29  Volume: 3,676,300  (2283 days ago)
+  3. 2020-01-31  Volume: 3,524,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Daily (672 days ago)
+
+================================================================================

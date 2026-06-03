@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: MCY
+================================================================================
+Generated: 2026-05-25 07:57:41
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-16  Volume: 7,040,000  (1344 days ago)
+  2. 2022-06-24  Volume: 3,831,700  (1428 days ago)
+  3. 2020-05-15  Volume: 1,581,200  (2198 days ago)
+  4. 2020-01-14  Volume: 802,600  (2320 days ago)
+  5. 2020-01-06  Volume: 527,200  (2328 days ago)
+  6. 2020-01-03  Volume: 450,800  (2331 days ago)
+  7. 2020-01-02  Volume: 229,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-11  Volume: 9,052,900  (1351 days ago)
+  2. 2022-06-19  Volume: 5,217,100  (1435 days ago)
+  3. 2020-05-10  Volume: 4,067,300  (2205 days ago)
+  4. 2020-05-03  Volume: 2,863,700  (2212 days ago)
+  5. 2020-03-15  Volume: 2,433,200  (2261 days ago)
+  6. 2020-01-12  Volume: 1,972,900  (2324 days ago)
+  7. 2020-01-05  Volume: 1,439,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-31  Volume: 22,818,400  (485 days ago)
+  2. 2022-09-30  Volume: 18,178,600  (1339 days ago)
+  3. 2022-08-31  Volume: 14,461,500  (1369 days ago)
+  4. 2022-06-30  Volume: 11,175,200  (1431 days ago)
+  5. 2020-05-31  Volume: 10,841,000  (2191 days ago)
+  6. 2020-03-31  Volume: 8,060,100  (2252 days ago)
+  7. 2020-01-31  Volume: 6,374,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (485 days ago)
+
+================================================================================

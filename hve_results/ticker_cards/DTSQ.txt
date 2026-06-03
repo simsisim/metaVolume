@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: DTSQ
+================================================================================
+Generated: 2026-05-25 07:57:17
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-24  Volume: 759,600  (605 days ago)
+  2. 2024-09-19  Volume: 370,000  (610 days ago)
+  3. 2024-09-18  Volume: 251,000  (611 days ago)
+  4. 2024-09-16  Volume: 219,900  (613 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-29  Volume: 1,087,000  (602 days ago)
+  2. 2024-09-22  Volume: 872,200  (609 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 2,000,600  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (602 days ago)
+
+================================================================================

@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: CVLG
+================================================================================
+Generated: 2026-05-25 07:57:50
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-21  Volume: 2,903,600  (1674 days ago)
+  2. 2020-04-16  Volume: 1,482,800  (2227 days ago)
+  3. 2020-01-24  Volume: 873,000  (2310 days ago)
+  4. 2020-01-23  Volume: 529,800  (2311 days ago)
+  5. 2020-01-07  Volume: 506,200  (2327 days ago)
+  6. 2020-01-06  Volume: 291,000  (2328 days ago)
+  7. 2020-01-03  Volume: 279,800  (2331 days ago)
+  8. 2020-01-02  Volume: 259,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-17  Volume: 5,528,200  (1680 days ago)
+  2. 2020-05-24  Volume: 3,150,400  (2191 days ago)
+  3. 2020-03-15  Volume: 3,068,400  (2261 days ago)
+  4. 2020-01-26  Volume: 2,974,400  (2310 days ago)
+  5. 2020-01-19  Volume: 2,013,800  (2317 days ago)
+  6. 2020-01-05  Volume: 1,976,800  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-31  Volume: 12,605,800  (1673 days ago)
+  2. 2020-04-30  Volume: 10,152,600  (2222 days ago)
+  3. 2020-03-31  Volume: 9,975,000  (2252 days ago)
+  4. 2020-01-31  Volume: 8,962,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Monthly (1673 days ago)
+
+================================================================================

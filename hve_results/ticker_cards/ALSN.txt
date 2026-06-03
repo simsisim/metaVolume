@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: ALSN
+================================================================================
+Generated: 2026-05-25 07:57:51
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-09-30  Volume: 4,856,600  (1695 days ago)
+  2. 2021-08-30  Volume: 4,636,200  (1726 days ago)
+  3. 2021-02-24  Volume: 4,540,900  (1913 days ago)
+  4. 2020-06-26  Volume: 3,154,400  (2156 days ago)
+  5. 2020-03-12  Volume: 3,133,600  (2262 days ago)
+  6. 2020-02-25  Volume: 2,256,600  (2278 days ago)
+  7. 2020-02-20  Volume: 2,099,900  (2283 days ago)
+  8. 2020-02-03  Volume: 1,853,600  (2300 days ago)
+  9. 2020-01-22  Volume: 1,333,600  (2312 days ago)
+  10. 2020-01-06  Volume: 1,012,700  (2328 days ago)
+  11. 2020-01-03  Volume: 1,004,800  (2331 days ago)
+  12. 2020-01-02  Volume: 919,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-28  Volume: 13,370,500  (1911 days ago)
+  2. 2020-03-22  Volume: 12,037,100  (2254 days ago)
+  3. 2020-03-15  Volume: 11,491,200  (2261 days ago)
+  4. 2020-03-01  Volume: 7,805,300  (2275 days ago)
+  5. 2020-02-09  Volume: 5,546,100  (2296 days ago)
+  6. 2020-02-02  Volume: 4,336,400  (2303 days ago)
+  7. 2020-01-12  Volume: 4,166,400  (2324 days ago)
+  8. 2020-01-05  Volume: 2,841,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 39,929,200  (2252 days ago)
+  2. 2020-02-29  Volume: 23,182,800  (2283 days ago)
+  3. 2020-01-31  Volume: 18,114,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (1695 days ago)
+
+================================================================================

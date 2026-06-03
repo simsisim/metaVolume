@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: ATNI
+================================================================================
+Generated: 2026-05-25 07:57:21
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-21  Volume: 2,252,500  (700 days ago)
+  2. 2022-12-16  Volume: 558,800  (1253 days ago)
+  3. 2020-04-29  Volume: 552,800  (2214 days ago)
+  4. 2020-03-17  Volume: 124,300  (2257 days ago)
+  5. 2020-01-14  Volume: 98,500  (2320 days ago)
+  6. 2020-01-06  Volume: 77,500  (2328 days ago)
+  7. 2020-01-03  Volume: 69,400  (2331 days ago)
+  8. 2020-01-02  Volume: 58,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-16  Volume: 2,823,400  (707 days ago)
+  2. 2024-02-11  Volume: 1,608,200  (833 days ago)
+  3. 2020-09-13  Volume: 975,100  (2079 days ago)
+  4. 2020-04-26  Volume: 924,200  (2219 days ago)
+  5. 2020-03-15  Volume: 490,700  (2261 days ago)
+  6. 2020-01-05  Volume: 295,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-30  Volume: 5,881,900  (700 days ago)
+  2. 2024-02-29  Volume: 3,135,600  (822 days ago)
+  3. 2020-09-30  Volume: 1,896,100  (2069 days ago)
+  4. 2020-04-30  Volume: 1,845,400  (2222 days ago)
+  5. 2020-03-31  Volume: 1,428,200  (2252 days ago)
+  6. 2020-01-31  Volume: 1,073,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (700 days ago)
+
+================================================================================

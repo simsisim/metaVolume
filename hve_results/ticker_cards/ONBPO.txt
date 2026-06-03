@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: ONBPO
+================================================================================
+Generated: 2026-05-25 07:58:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-30  Volume: 263,500  (2060 days ago)
+  2. 2020-07-31  Volume: 261,000  (2121 days ago)
+  3. 2020-06-22  Volume: 118,500  (2160 days ago)
+  4. 2020-06-19  Volume: 104,400  (2163 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-08-02  Volume: 522,500  (2121 days ago)
+  2. 2020-06-28  Volume: 329,300  (2156 days ago)
+  3. 2020-06-21  Volume: 104,400  (2163 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-07-31  Volume: 1,107,600  (2130 days ago)
+  2. 2020-06-30  Volume: 481,200  (2161 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Daily (2060 days ago)
+
+================================================================================

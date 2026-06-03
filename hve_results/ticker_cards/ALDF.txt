@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: ALDF
+================================================================================
+Generated: 2026-05-25 07:57:06
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-16  Volume: 861,300  (401 days ago)
+  2. 2025-03-03  Volume: 789,200  (445 days ago)
+  3. 2025-02-10  Volume: 598,000  (466 days ago)
+  4. 2024-12-20  Volume: 500,100  (518 days ago)
+  5. 2024-12-16  Volume: 412,600  (522 days ago)
+  6. 2024-12-13  Volume: 300  (525 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-09  Volume: 1,332,000  (441 days ago)
+  2. 2024-12-22  Volume: 1,015,400  (518 days ago)
+  3. 2024-12-15  Volume: 300  (525 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-28  Volume: 2,796,600  (457 days ago)
+  2. 2024-12-31  Volume: 1,235,600  (516 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Daily (401 days ago)
+
+================================================================================

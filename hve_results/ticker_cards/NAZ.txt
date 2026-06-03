@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: NAZ
+================================================================================
+Generated: 2026-05-25 07:57:15
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-08  Volume: 158,500  (560 days ago)
+  2. 2020-03-30  Volume: 138,600  (2244 days ago)
+  3. 2020-03-12  Volume: 79,200  (2262 days ago)
+  4. 2020-02-25  Volume: 62,500  (2278 days ago)
+  5. 2020-01-22  Volume: 39,500  (2312 days ago)
+  6. 2020-01-15  Volume: 32,700  (2319 days ago)
+  7. 2020-01-03  Volume: 24,200  (2331 days ago)
+  8. 2020-01-02  Volume: 15,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-29  Volume: 367,400  (2247 days ago)
+  2. 2020-03-22  Volume: 222,100  (2254 days ago)
+  3. 2020-03-15  Volume: 197,300  (2261 days ago)
+  4. 2020-02-23  Volume: 190,100  (2282 days ago)
+  5. 2020-01-26  Volume: 138,400  (2310 days ago)
+  6. 2020-01-12  Volume: 115,400  (2324 days ago)
+  7. 2020-01-05  Volume: 68,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-12-31  Volume: 959,200  (1247 days ago)
+  2. 2020-03-31  Volume: 844,900  (2252 days ago)
+  3. 2020-01-31  Volume: 469,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (560 days ago)
+
+================================================================================

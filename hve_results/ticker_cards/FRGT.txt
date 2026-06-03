@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: FRGT
+================================================================================
+Generated: 2026-05-25 07:56:42
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-19  Volume: 55,781,380  (184 days ago)
+  2. 2025-10-28  Volume: 21,306,680  (206 days ago)
+  3. 2025-05-02  Volume: 8,198,265  (385 days ago)
+  4. 2025-03-04  Volume: 3,876,620  (444 days ago)
+  5. 2024-09-25  Volume: 728,265  (604 days ago)
+  6. 2024-06-06  Volume: 443,501  (715 days ago)
+  7. 2024-04-26  Volume: 58,046  (756 days ago)
+  8. 2023-12-14  Volume: 37,968  (890 days ago)
+  9. 2023-04-05  Volume: 3,352  (1143 days ago)
+  10. 2023-03-30  Volume: 2,018  (1149 days ago)
+  11. 2022-11-14  Volume: 1,536  (1285 days ago)
+  12. 2022-04-01  Volume: 986  (1512 days ago)
+  13. 2022-03-21  Volume: 811  (1523 days ago)
+  14. 2021-08-05  Volume: 505  (1751 days ago)
+  15. 2020-10-12  Volume: 140  (2048 days ago)
+  16. 2020-06-18  Volume: 63  (2164 days ago)
+  17. 2020-05-28  Volume: 14  (2185 days ago)
+  18. 2020-01-10  Volume: 3  (2324 days ago)
+  19. 2020-01-06  Volume: 2  (2328 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Daily (184 days ago)
+
+================================================================================

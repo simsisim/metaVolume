@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: FISK
+================================================================================
+Generated: 2026-05-25 07:57:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-22  Volume: 39,300  (1915 days ago)
+  2. 2020-10-30  Volume: 29,700  (2030 days ago)
+  3. 2020-06-25  Volume: 18,600  (2157 days ago)
+  4. 2020-03-27  Volume: 12,800  (2247 days ago)
+  5. 2020-02-05  Volume: 11,900  (2298 days ago)
+  6. 2020-01-16  Volume: 9,700  (2318 days ago)
+  7. 2020-01-06  Volume: 5,200  (2328 days ago)
+  8. 2020-01-03  Volume: 600  (2331 days ago)
+  9. 2020-01-02  Volume: 100  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-28  Volume: 50,400  (1911 days ago)
+  2. 2020-12-20  Volume: 46,600  (1981 days ago)
+  3. 2020-11-01  Volume: 31,700  (2030 days ago)
+  4. 2020-06-28  Volume: 25,800  (2156 days ago)
+  5. 2020-03-15  Volume: 18,900  (2261 days ago)
+  6. 2020-02-09  Volume: 13,100  (2296 days ago)
+  7. 2020-01-19  Volume: 11,800  (2317 days ago)
+  8. 2020-01-12  Volume: 6,700  (2324 days ago)
+  9. 2020-01-05  Volume: 1,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-12-31  Volume: 117,300  (1977 days ago)
+  2. 2020-11-30  Volume: 76,900  (2008 days ago)
+  3. 2020-10-31  Volume: 54,600  (2038 days ago)
+  4. 2020-03-31  Volume: 51,600  (2252 days ago)
+  5. 2020-02-29  Volume: 35,400  (2283 days ago)
+  6. 2020-01-31  Volume: 26,200  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Weekly (1911 days ago)
+
+================================================================================

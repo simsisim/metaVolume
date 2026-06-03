@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: ARL
+================================================================================
+Generated: 2026-05-25 07:57:53
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-15  Volume: 7,985,000  (1772 days ago)
+  2. 2021-06-25  Volume: 187,600  (1792 days ago)
+  3. 2020-06-26  Volume: 79,300  (2156 days ago)
+  4. 2020-06-24  Volume: 41,600  (2158 days ago)
+  5. 2020-06-23  Volume: 30,700  (2159 days ago)
+  6. 2020-06-22  Volume: 26,200  (2160 days ago)
+  7. 2020-03-17  Volume: 23,500  (2257 days ago)
+  8. 2020-03-13  Volume: 7,900  (2261 days ago)
+  9. 2020-02-27  Volume: 5,900  (2276 days ago)
+  10. 2020-01-17  Volume: 5,000  (2317 days ago)
+  11. 2020-01-02  Volume: 3,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-11  Volume: 9,339,000  (1778 days ago)
+  2. 2021-06-20  Volume: 204,800  (1799 days ago)
+  3. 2020-06-21  Volume: 201,100  (2163 days ago)
+  4. 2020-06-14  Volume: 66,500  (2170 days ago)
+  5. 2020-03-15  Volume: 56,000  (2261 days ago)
+  6. 2020-03-08  Volume: 17,600  (2268 days ago)
+  7. 2020-02-23  Volume: 12,200  (2282 days ago)
+  8. 2020-01-12  Volume: 10,500  (2324 days ago)
+  9. 2020-01-05  Volume: 5,300  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (1772 days ago)
+
+================================================================================

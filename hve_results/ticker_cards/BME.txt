@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: BME
+================================================================================
+Generated: 2026-05-25 07:57:42
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-07-18  Volume: 192,800  (1404 days ago)
+  2. 2022-06-03  Volume: 184,300  (1449 days ago)
+  3. 2022-01-24  Volume: 134,700  (1579 days ago)
+  4. 2020-03-23  Volume: 123,800  (2251 days ago)
+  5. 2020-03-18  Volume: 119,200  (2256 days ago)
+  6. 2020-02-27  Volume: 109,100  (2276 days ago)
+  7. 2020-02-26  Volume: 92,000  (2277 days ago)
+  8. 2020-02-25  Volume: 73,600  (2278 days ago)
+  9. 2020-02-13  Volume: 59,800  (2290 days ago)
+  10. 2020-01-16  Volume: 50,200  (2318 days ago)
+  11. 2020-01-10  Volume: 49,900  (2324 days ago)
+  12. 2020-01-09  Volume: 46,800  (2325 days ago)
+  13. 2020-01-06  Volume: 43,000  (2328 days ago)
+  14. 2020-01-03  Volume: 42,800  (2331 days ago)
+  15. 2020-01-02  Volume: 30,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-05  Volume: 522,900  (504 days ago)
+  2. 2020-03-29  Volume: 502,900  (2247 days ago)
+  3. 2020-03-22  Volume: 401,600  (2254 days ago)
+  4. 2020-03-15  Volume: 378,000  (2261 days ago)
+  5. 2020-03-01  Volume: 370,700  (2275 days ago)
+  6. 2020-01-12  Volume: 213,900  (2324 days ago)
+  7. 2020-01-05  Volume: 149,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 1,691,800  (2252 days ago)
+  2. 2020-02-29  Volume: 837,300  (2283 days ago)
+  3. 2020-01-31  Volume: 832,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Weekly (504 days ago)
+
+================================================================================

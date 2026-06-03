@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: OXLCZ
+================================================================================
+Generated: 2026-05-25 07:57:45
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-28  Volume: 137,900  (1485 days ago)
+  2. 2022-01-24  Volume: 98,300  (1579 days ago)
+  3. 2022-01-14  Volume: 88,000  (1589 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-01-30  Volume: 213,000  (1575 days ago)
+  2. 2022-01-16  Volume: 88,000  (1589 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-01-31  Volume: 426,400  (1581 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Daily (1485 days ago)
+
+================================================================================

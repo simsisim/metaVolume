@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: MRCC
+================================================================================
+Generated: 2026-05-25 07:58:10
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-01-27  Volume: 704,800  (2214 days ago)
+  2. 2020-01-14  Volume: 395,300  (2227 days ago)
+  3. 2020-01-02  Volume: 193,800  (2239 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 2,590,400  (2156 days ago)
+  2. 2020-03-15  Volume: 1,601,000  (2163 days ago)
+  3. 2020-02-02  Volume: 1,293,500  (2205 days ago)
+  4. 2020-01-26  Volume: 1,055,000  (2212 days ago)
+  5. 2020-01-19  Volume: 791,000  (2219 days ago)
+  6. 2020-01-05  Volume: 762,800  (2233 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 7,395,600  (2160 days ago)
+  2. 2020-01-31  Volume: 3,932,000  (2220 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Weekly (2156 days ago)
+
+================================================================================

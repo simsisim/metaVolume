@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: CHAR
+================================================================================
+Generated: 2026-05-25 07:57:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-03  Volume: 1,091,300  (535 days ago)
+  2. 2024-11-27  Volume: 871,200  (541 days ago)
+  3. 2024-11-26  Volume: 257,400  (542 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-08  Volume: 2,151,800  (532 days ago)
+  2. 2024-12-01  Volume: 1,351,500  (539 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 3,013,100  (516 days ago)
+  2. 2024-11-30  Volume: 1,351,500  (547 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Monthly (516 days ago)
+
+================================================================================

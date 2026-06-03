@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: WIA
+================================================================================
+Generated: 2026-05-25 07:58:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-11  Volume: 1,228,600  (2263 days ago)
+  2. 2020-03-05  Volume: 473,300  (2269 days ago)
+  3. 2020-02-19  Volume: 277,800  (2284 days ago)
+  4. 2020-01-27  Volume: 110,600  (2307 days ago)
+  5. 2020-01-14  Volume: 105,300  (2320 days ago)
+  6. 2020-01-09  Volume: 90,200  (2325 days ago)
+  7. 2020-01-08  Volume: 76,000  (2326 days ago)
+  8. 2020-01-07  Volume: 64,300  (2327 days ago)
+  9. 2020-01-03  Volume: 59,500  (2331 days ago)
+  10. 2020-01-02  Volume: 37,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 2,293,200  (2261 days ago)
+  2. 2020-03-08  Volume: 1,081,000  (2268 days ago)
+  3. 2020-03-01  Volume: 694,000  (2275 days ago)
+  4. 2020-02-23  Volume: 603,500  (2282 days ago)
+  5. 2020-01-12  Volume: 288,100  (2324 days ago)
+  6. 2020-01-05  Volume: 174,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 5,359,900  (2252 days ago)
+  2. 2020-02-29  Volume: 1,579,900  (2283 days ago)
+  3. 2020-01-31  Volume: 1,060,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (2252 days ago)
+
+================================================================================

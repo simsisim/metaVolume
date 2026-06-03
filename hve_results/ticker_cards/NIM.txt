@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: NIM
+================================================================================
+Generated: 2026-05-25 07:57:12
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 383,900  (507 days ago)
+  2. 2024-03-05  Volume: 294,900  (808 days ago)
+  3. 2020-05-05  Volume: 178,200  (2208 days ago)
+  4. 2020-03-17  Volume: 74,900  (2257 days ago)
+  5. 2020-03-05  Volume: 70,900  (2269 days ago)
+  6. 2020-02-28  Volume: 55,700  (2275 days ago)
+  7. 2020-01-03  Volume: 42,800  (2331 days ago)
+  8. 2020-01-02  Volume: 9,100  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-29  Volume: 723,600  (511 days ago)
+  2. 2024-03-03  Volume: 507,800  (812 days ago)
+  3. 2022-12-25  Volume: 377,100  (1246 days ago)
+  4. 2020-05-03  Volume: 358,500  (2212 days ago)
+  5. 2020-03-08  Volume: 256,100  (2268 days ago)
+  6. 2020-03-01  Volume: 179,200  (2275 days ago)
+  7. 2020-02-23  Volume: 128,400  (2282 days ago)
+  8. 2020-01-12  Volume: 90,900  (2324 days ago)
+  9. 2020-01-05  Volume: 75,100  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 1,722,300  (516 days ago)
+  2. 2023-12-31  Volume: 1,196,300  (882 days ago)
+  3. 2022-12-31  Volume: 1,081,800  (1247 days ago)
+  4. 2022-06-30  Volume: 871,800  (1431 days ago)
+  5. 2020-03-31  Volume: 857,300  (2252 days ago)
+  6. 2020-01-31  Volume: 332,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (507 days ago)
+
+================================================================================

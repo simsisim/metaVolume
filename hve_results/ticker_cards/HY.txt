@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: HY
+================================================================================
+Generated: 2026-05-25 07:57:32
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 596,400  (1064 days ago)
+  2. 2020-06-19  Volume: 486,300  (2163 days ago)
+  3. 2020-02-19  Volume: 309,800  (2284 days ago)
+  4. 2020-01-13  Volume: 100,200  (2321 days ago)
+  5. 2020-01-02  Volume: 69,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-07  Volume: 1,481,700  (168 days ago)
+  2. 2024-05-12  Volume: 990,300  (742 days ago)
+  3. 2021-12-19  Volume: 985,800  (1617 days ago)
+  4. 2021-01-31  Volume: 772,900  (1939 days ago)
+  5. 2020-06-21  Volume: 730,600  (2163 days ago)
+  6. 2020-03-22  Volume: 491,800  (2254 days ago)
+  7. 2020-03-01  Volume: 483,900  (2275 days ago)
+  8. 2020-02-23  Volume: 442,200  (2282 days ago)
+  9. 2020-01-19  Volume: 324,000  (2317 days ago)
+  10. 2020-01-12  Volume: 317,700  (2324 days ago)
+  11. 2020-01-05  Volume: 263,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 3,959,100  (151 days ago)
+  2. 2023-03-31  Volume: 2,934,800  (1157 days ago)
+  3. 2022-03-31  Volume: 2,351,800  (1522 days ago)
+  4. 2021-12-31  Volume: 2,256,400  (1612 days ago)
+  5. 2021-02-28  Volume: 2,093,700  (1918 days ago)
+  6. 2021-01-31  Volume: 2,054,700  (1946 days ago)
+  7. 2020-06-30  Volume: 2,005,700  (2161 days ago)
+  8. 2020-03-31  Volume: 1,675,400  (2252 days ago)
+  9. 2020-02-29  Volume: 1,303,900  (2283 days ago)
+  10. 2020-01-31  Volume: 1,194,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: BIO
+================================================================================
+Generated: 2026-05-25 07:57:17
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-20  Volume: 5,791,400  (609 days ago)
+  2. 2020-06-19  Volume: 3,960,900  (2163 days ago)
+  3. 2020-04-17  Volume: 541,500  (2226 days ago)
+  4. 2020-02-14  Volume: 506,300  (2289 days ago)
+  5. 2020-01-08  Volume: 269,100  (2326 days ago)
+  6. 2020-01-07  Volume: 253,700  (2327 days ago)
+  7. 2020-01-02  Volume: 150,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-15  Volume: 6,783,600  (616 days ago)
+  2. 2020-06-14  Volume: 4,920,800  (2170 days ago)
+  3. 2020-03-15  Volume: 1,932,500  (2261 days ago)
+  4. 2020-03-08  Volume: 1,430,100  (2268 days ago)
+  5. 2020-03-01  Volume: 1,227,800  (2275 days ago)
+  6. 2020-02-23  Volume: 1,119,800  (2282 days ago)
+  7. 2020-02-09  Volume: 1,083,900  (2296 days ago)
+  8. 2020-01-05  Volume: 1,057,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 10,129,800  (608 days ago)
+  2. 2020-06-30  Volume: 9,100,000  (2161 days ago)
+  3. 2020-03-31  Volume: 6,184,900  (2252 days ago)
+  4. 2020-01-31  Volume: 3,547,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

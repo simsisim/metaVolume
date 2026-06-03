@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: WHFCL
+================================================================================
+Generated: 2026-05-25 07:57:30
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-30  Volume: 59,100  (996 days ago)
+  2. 2023-08-29  Volume: 43,700  (997 days ago)
+  3. 2023-08-28  Volume: 22,600  (998 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-03  Volume: 191,500  (994 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-01-31  Volume: 222,000  (851 days ago)
+  2. 2023-12-31  Volume: 214,600  (882 days ago)
+  3. 2023-09-30  Volume: 202,300  (974 days ago)
+  4. 2023-08-31  Volume: 172,000  (1004 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (851 days ago)
+
+================================================================================

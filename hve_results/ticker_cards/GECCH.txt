@@ -1,0 +1,34 @@
+================================================================================
+TICKER CARD: GECCH
+================================================================================
+Generated: 2026-05-25 07:57:17
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-26  Volume: 101,700  (603 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-29  Volume: 123,200  (602 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-31  Volume: 263,500  (577 days ago)
+  2. 2024-09-30  Volume: 143,900  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 4
+Latest volume activity: Monthly (577 days ago)
+
+================================================================================

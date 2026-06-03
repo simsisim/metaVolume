@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: MTSI
+================================================================================
+Generated: 2026-05-25 07:57:41
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-16  Volume: 9,381,300  (1375 days ago)
+  2. 2022-08-15  Volume: 3,744,900  (1376 days ago)
+  3. 2021-03-22  Volume: 3,356,500  (1887 days ago)
+  4. 2020-01-29  Volume: 3,350,400  (2305 days ago)
+  5. 2020-01-28  Volume: 1,210,300  (2306 days ago)
+  6. 2020-01-27  Volume: 893,200  (2307 days ago)
+  7. 2020-01-17  Volume: 523,500  (2317 days ago)
+  8. 2020-01-16  Volume: 420,600  (2318 days ago)
+  9. 2020-01-06  Volume: 371,800  (2328 days ago)
+  10. 2020-01-02  Volume: 359,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-21  Volume: 15,153,900  (1372 days ago)
+  2. 2021-03-28  Volume: 7,951,300  (1883 days ago)
+  3. 2020-02-02  Volume: 7,223,300  (2303 days ago)
+  4. 2020-01-19  Volume: 1,843,400  (2317 days ago)
+  5. 2020-01-12  Volume: 1,184,900  (2324 days ago)
+  6. 2020-01-05  Volume: 1,172,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-31  Volume: 30,617,300  (120 days ago)
+  2. 2025-09-30  Volume: 24,644,600  (243 days ago)
+  3. 2022-08-31  Volume: 23,224,200  (1369 days ago)
+  4. 2021-03-31  Volume: 16,887,900  (1887 days ago)
+  5. 2020-07-31  Volume: 15,593,900  (2130 days ago)
+  6. 2020-03-31  Volume: 13,959,400  (2252 days ago)
+  7. 2020-01-31  Volume: 12,573,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (120 days ago)
+
+================================================================================

@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: SLVM
+================================================================================
+Generated: 2026-05-25 07:57:51
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-01  Volume: 9,638,400  (1694 days ago)
+  2. 2021-09-30  Volume: 159,900  (1695 days ago)
+  3. 2021-09-24  Volume: 13,900  (1701 days ago)
+  4. 2021-09-23  Volume: 5,000  (1702 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-10  Volume: 10,591,300  (1687 days ago)
+  2. 2021-10-03  Volume: 9,820,800  (1694 days ago)
+  3. 2021-09-26  Volume: 18,900  (1701 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-31  Volume: 31,199,700  (1673 days ago)
+  2. 2021-09-30  Volume: 201,300  (1704 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Monthly (1673 days ago)
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: DC
+================================================================================
+Generated: 2026-05-25 07:56:31
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-20  Volume: 9,913,300  (63 days ago)
+  2. 2022-06-24  Volume: 8,120,900  (1428 days ago)
+  3. 2022-06-17  Volume: 4,380,600  (1435 days ago)
+  4. 2022-04-29  Volume: 2,611,800  (1484 days ago)
+  5. 2022-04-06  Volume: 1,675,200  (1507 days ago)
+  6. 2022-04-05  Volume: 829,300  (1508 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-22  Volume: 19,473,300  (63 days ago)
+  2. 2026-02-15  Volume: 15,006,600  (98 days ago)
+  3. 2025-12-07  Volume: 12,604,000  (168 days ago)
+  4. 2022-06-26  Volume: 11,178,900  (1428 days ago)
+  5. 2022-06-19  Volume: 9,781,000  (1435 days ago)
+  6. 2022-04-10  Volume: 3,861,900  (1505 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 45,353,700  (61 days ago)
+  2. 2026-01-31  Volume: 32,848,100  (120 days ago)
+  3. 2025-12-31  Volume: 31,057,500  (151 days ago)
+  4. 2025-10-31  Volume: 29,269,100  (212 days ago)
+  5. 2025-09-30  Volume: 28,022,500  (243 days ago)
+  6. 2022-06-30  Volume: 26,530,400  (1431 days ago)
+  7. 2022-04-30  Volume: 9,393,900  (1492 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

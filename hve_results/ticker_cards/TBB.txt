@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: TBB
+================================================================================
+Generated: 2026-05-25 07:57:36
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-23  Volume: 1,180,600  (1156 days ago)
+  2. 2020-03-18  Volume: 771,300  (2256 days ago)
+  3. 2020-03-16  Volume: 463,100  (2258 days ago)
+  4. 2020-03-12  Volume: 399,600  (2262 days ago)
+  5. 2020-02-28  Volume: 315,000  (2275 days ago)
+  6. 2020-02-26  Volume: 164,800  (2277 days ago)
+  7. 2020-01-02  Volume: 147,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 2,057,900  (2254 days ago)
+  2. 2020-03-15  Volume: 1,071,300  (2261 days ago)
+  3. 2020-03-01  Volume: 823,900  (2275 days ago)
+  4. 2020-02-16  Volume: 448,700  (2289 days ago)
+  5. 2020-02-02  Volume: 443,600  (2303 days ago)
+  6. 2020-01-05  Volume: 443,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 5,333,600  (2252 days ago)
+  2. 2020-02-29  Volume: 2,055,900  (2283 days ago)
+  3. 2020-01-31  Volume: 1,676,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Daily (1156 days ago)
+
+================================================================================

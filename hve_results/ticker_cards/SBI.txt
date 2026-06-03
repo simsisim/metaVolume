@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: SBI
+================================================================================
+Generated: 2026-05-25 07:57:39
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-11-18  Volume: 605,200  (1281 days ago)
+  2. 2020-08-21  Volume: 368,200  (2100 days ago)
+  3. 2020-08-07  Volume: 229,800  (2114 days ago)
+  4. 2020-06-17  Volume: 224,500  (2165 days ago)
+  5. 2020-05-05  Volume: 195,600  (2208 days ago)
+  6. 2020-04-29  Volume: 168,400  (2214 days ago)
+  7. 2020-01-06  Volume: 149,400  (2328 days ago)
+  8. 2020-01-02  Volume: 48,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-21  Volume: 794,500  (763 days ago)
+  2. 2022-11-13  Volume: 765,800  (1288 days ago)
+  3. 2020-08-02  Volume: 571,900  (2121 days ago)
+  4. 2020-03-22  Volume: 370,000  (2254 days ago)
+  5. 2020-03-15  Volume: 355,900  (2261 days ago)
+  6. 2020-01-05  Volume: 347,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-30  Volume: 1,754,300  (761 days ago)
+  2. 2022-12-31  Volume: 1,508,800  (1247 days ago)
+  3. 2022-11-30  Volume: 1,371,800  (1278 days ago)
+  4. 2020-03-31  Volume: 1,279,300  (2252 days ago)
+  5. 2020-01-31  Volume: 854,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (761 days ago)
+
+================================================================================

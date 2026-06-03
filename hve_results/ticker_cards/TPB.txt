@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: TPB
+================================================================================
+Generated: 2026-05-25 07:57:42
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-07-27  Volume: 2,226,900  (1395 days ago)
+  2. 2021-10-26  Volume: 1,592,600  (1669 days ago)
+  3. 2020-07-09  Volume: 1,340,000  (2143 days ago)
+  4. 2020-02-26  Volume: 445,000  (2277 days ago)
+  5. 2020-02-06  Volume: 351,000  (2297 days ago)
+  6. 2020-02-04  Volume: 227,700  (2299 days ago)
+  7. 2020-01-30  Volume: 188,100  (2304 days ago)
+  8. 2020-01-02  Volume: 187,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-08  Volume: 4,570,000  (77 days ago)
+  2. 2025-11-09  Volume: 4,341,300  (196 days ago)
+  3. 2022-07-31  Volume: 3,594,800  (1393 days ago)
+  4. 2021-10-31  Volume: 3,315,700  (1666 days ago)
+  5. 2021-08-15  Volume: 2,670,200  (1743 days ago)
+  6. 2020-07-12  Volume: 2,017,900  (2142 days ago)
+  7. 2020-03-01  Volume: 1,371,300  (2275 days ago)
+  8. 2020-02-09  Volume: 1,140,400  (2296 days ago)
+  9. 2020-02-02  Volume: 637,600  (2303 days ago)
+  10. 2020-01-05  Volume: 630,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 12,135,200  (31 days ago)
+  2. 2026-03-31  Volume: 11,375,200  (61 days ago)
+  3. 2025-08-31  Volume: 9,431,100  (273 days ago)
+  4. 2025-07-31  Volume: 8,133,500  (304 days ago)
+  5. 2020-07-31  Volume: 6,487,600  (2130 days ago)
+  6. 2020-03-31  Volume: 4,433,400  (2252 days ago)
+  7. 2020-02-29  Volume: 3,834,300  (2283 days ago)
+  8. 2020-01-31  Volume: 2,387,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: BKHA
+================================================================================
+Generated: 2026-05-25 07:57:22
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-20  Volume: 1,894,600  (732 days ago)
+  2. 2024-05-15  Volume: 39,200  (737 days ago)
+  3. 2024-05-13  Volume: 1,400  (739 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-26  Volume: 2,302,700  (728 days ago)
+  2. 2024-05-19  Volume: 48,300  (735 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-31  Volume: 2,404,600  (730 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Weekly (728 days ago)
+
+================================================================================

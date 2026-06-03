@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: AVBP
+================================================================================
+Generated: 2026-05-25 07:57:17
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-20  Volume: 4,315,400  (609 days ago)
+  2. 2024-01-26  Volume: 1,992,600  (847 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-22  Volume: 5,922,500  (609 days ago)
+  2. 2024-03-17  Volume: 2,649,700  (798 days ago)
+  3. 2024-01-28  Volume: 1,992,600  (847 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 13,134,200  (61 days ago)
+  2. 2024-09-30  Volume: 10,451,100  (608 days ago)
+  3. 2024-03-31  Volume: 5,075,200  (791 days ago)
+  4. 2024-02-29  Volume: 3,368,300  (822 days ago)
+  5. 2024-01-31  Volume: 2,890,700  (851 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

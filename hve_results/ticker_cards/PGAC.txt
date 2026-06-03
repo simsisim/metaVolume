@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: PGAC
+================================================================================
+Generated: 2026-05-25 07:57:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-29  Volume: 568,200  (478 days ago)
+  2. 2025-01-28  Volume: 217,400  (479 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-02  Volume: 975,900  (476 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-28  Volume: 1,548,900  (457 days ago)
+  2. 2025-01-31  Volume: 975,900  (485 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Monthly (457 days ago)
+
+================================================================================

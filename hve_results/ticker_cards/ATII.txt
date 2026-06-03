@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: ATII
+================================================================================
+Generated: 2026-05-25 07:56:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-21  Volume: 4,552,500  (31 days ago)
+  2. 2025-04-25  Volume: 1,045,700  (392 days ago)
+  3. 2025-04-22  Volume: 1,012,100  (395 days ago)
+  4. 2025-04-03  Volume: 700,100  (414 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 5,247,349  (0 days ago)
+  2. 2026-04-26  Volume: 5,137,000  (28 days ago)
+  3. 2025-04-27  Volume: 2,157,500  (392 days ago)
+  4. 2025-04-06  Volume: 1,007,100  (413 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-31  Volume: 5,957,838  (0 days ago)
+  2. 2026-04-30  Volume: 5,701,100  (31 days ago)
+  3. 2025-04-30  Volume: 5,138,900  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

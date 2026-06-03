@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: CXT
+================================================================================
+Generated: 2026-05-25 07:58:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-28  Volume: 3,216,419  (2275 days ago)
+  2. 2020-02-27  Volume: 2,421,527  (2276 days ago)
+  3. 2020-01-28  Volume: 1,563,297  (2306 days ago)
+  4. 2020-01-21  Volume: 1,138,645  (2313 days ago)
+  5. 2020-01-14  Volume: 703,916  (2320 days ago)
+  6. 2020-01-07  Volume: 563,708  (2327 days ago)
+  7. 2020-01-02  Volume: 543,843  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-12  Volume: 9,934,278  (1169 days ago)
+  2. 2020-03-22  Volume: 9,239,000  (2254 days ago)
+  3. 2020-03-15  Volume: 9,205,315  (2261 days ago)
+  4. 2020-02-23  Volume: 8,548,039  (2282 days ago)
+  5. 2020-01-26  Volume: 5,030,765  (2310 days ago)
+  6. 2020-01-19  Volume: 3,212,677  (2317 days ago)
+  7. 2020-01-12  Volume: 2,750,885  (2324 days ago)
+  8. 2020-01-05  Volume: 2,390,146  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 37,779,104  (2252 days ago)
+  2. 2020-02-29  Volume: 17,956,037  (2283 days ago)
+  3. 2020-01-31  Volume: 14,438,187  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (1169 days ago)
+
+================================================================================

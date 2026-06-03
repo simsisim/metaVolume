@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: BEAG
+================================================================================
+Generated: 2026-05-25 07:57:04
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-22  Volume: 1,879,600  (365 days ago)
+  2. 2025-02-12  Volume: 1,570,200  (464 days ago)
+  3. 2024-12-19  Volume: 980,600  (519 days ago)
+  4. 2024-12-18  Volume: 84,000  (520 days ago)
+  5. 2024-12-16  Volume: 7,900  (522 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-25  Volume: 3,197,200  (364 days ago)
+  2. 2025-05-04  Volume: 1,791,900  (385 days ago)
+  3. 2024-12-22  Volume: 1,720,200  (518 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 5,530,000  (212 days ago)
+  2. 2025-05-31  Volume: 4,266,600  (365 days ago)
+  3. 2025-02-28  Volume: 3,629,000  (457 days ago)
+  4. 2024-12-31  Volume: 1,778,900  (516 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: ATLCL
+================================================================================
+Generated: 2026-05-25 07:57:49
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-30  Volume: 748,500  (1634 days ago)
+  2. 2021-11-29  Volume: 301,400  (1635 days ago)
+  3. 2021-11-24  Volume: 153,500  (1640 days ago)
+  4. 2021-11-23  Volume: 125,000  (1641 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-05  Volume: 1,267,500  (1631 days ago)
+  2. 2021-11-28  Volume: 388,400  (1638 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-31  Volume: 1,826,700  (151 days ago)
+  2. 2021-11-30  Volume: 1,438,300  (1643 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

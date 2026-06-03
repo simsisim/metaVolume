@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: TNXP
+================================================================================
+Generated: 2026-05-25 07:57:09
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-06  Volume: 16,071,800  (442 days ago)
+  2. 2024-12-16  Volume: 11,965,943  (522 days ago)
+  3. 2024-11-20  Volume: 6,626,768  (548 days ago)
+  4. 2024-08-19  Volume: 2,904,660  (641 days ago)
+  5. 2024-08-16  Volume: 785,859  (644 days ago)
+  6. 2024-07-24  Volume: 116,475  (667 days ago)
+  7. 2024-07-01  Volume: 99,170  (690 days ago)
+  8. 2024-06-27  Volume: 84,575  (694 days ago)
+  9. 2024-06-14  Volume: 66,826  (707 days ago)
+  10. 2024-06-12  Volume: 51,822  (709 days ago)
+  11. 2024-06-10  Volume: 9,185  (711 days ago)
+  12. 2022-06-01  Volume: 8,147  (1451 days ago)
+  13. 2022-05-23  Volume: 1,030  (1460 days ago)
+  14. 2022-05-20  Volume: 823  (1463 days ago)
+  15. 2022-03-03  Volume: 614  (1541 days ago)
+  16. 2020-07-20  Volume: 416  (2132 days ago)
+  17. 2020-02-26  Volume: 258  (2277 days ago)
+  18. 2020-01-24  Volume: 24  (2310 days ago)
+  19. 2020-01-07  Volume: 22  (2327 days ago)
+  20. 2020-01-06  Volume: 3  (2328 days ago)
+  21. 2020-01-02  Volume: 2  (2332 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (442 days ago)
+
+================================================================================

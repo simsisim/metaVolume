@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: OSIS
+================================================================================
+Generated: 2026-05-25 07:56:42
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-18  Volume: 1,511,300  (185 days ago)
+  2. 2025-03-13  Volume: 1,287,200  (435 days ago)
+  3. 2024-07-17  Volume: 1,285,400  (674 days ago)
+  4. 2021-06-25  Volume: 768,400  (1792 days ago)
+  5. 2020-01-31  Volume: 438,800  (2303 days ago)
+  6. 2020-01-29  Volume: 433,100  (2305 days ago)
+  7. 2020-01-22  Volume: 253,900  (2312 days ago)
+  8. 2020-01-21  Volume: 201,800  (2313 days ago)
+  9. 2020-01-09  Volume: 141,000  (2325 days ago)
+  10. 2020-01-08  Volume: 129,700  (2326 days ago)
+  11. 2020-01-03  Volume: 90,800  (2331 days ago)
+  12. 2020-01-02  Volume: 72,700  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 3,419,232  (0 days ago)
+  2. 2025-11-16  Volume: 3,304,200  (189 days ago)
+  3. 2025-03-09  Volume: 2,579,300  (441 days ago)
+  4. 2025-03-02  Volume: 1,937,400  (448 days ago)
+  5. 2024-07-14  Volume: 1,868,500  (679 days ago)
+  6. 2020-01-26  Volume: 1,504,800  (2310 days ago)
+  7. 2020-01-19  Volume: 720,500  (2317 days ago)
+  8. 2020-01-05  Volume: 501,800  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: FRMEP
+================================================================================
+Generated: 2026-05-25 07:58:03
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-19  Volume: 71,100  (2010 days ago)
+  2. 2020-08-18  Volume: 34,900  (2103 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-22  Volume: 159,000  (2009 days ago)
+  2. 2020-08-23  Volume: 79,700  (2100 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-30  Volume: 209,000  (2008 days ago)
+  2. 2020-08-31  Volume: 101,300  (2099 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Monthly (2008 days ago)
+
+================================================================================

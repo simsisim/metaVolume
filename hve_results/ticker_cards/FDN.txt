@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: FDN
+================================================================================
+Generated: 2026-05-25 07:57:34
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-09  Volume: 8,358,200  (1078 days ago)
+  2. 2020-05-12  Volume: 5,346,900  (2201 days ago)
+  3. 2020-03-12  Volume: 2,310,600  (2262 days ago)
+  4. 2020-02-28  Volume: 1,131,500  (2275 days ago)
+  5. 2020-02-27  Volume: 838,800  (2276 days ago)
+  6. 2020-02-24  Volume: 785,500  (2279 days ago)
+  7. 2020-01-27  Volume: 442,200  (2307 days ago)
+  8. 2020-01-10  Volume: 426,800  (2324 days ago)
+  9. 2020-01-06  Volume: 400,700  (2328 days ago)
+  10. 2020-01-02  Volume: 345,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-11  Volume: 11,502,100  (1078 days ago)
+  2. 2020-05-17  Volume: 8,107,400  (2198 days ago)
+  3. 2020-03-15  Volume: 5,609,300  (2261 days ago)
+  4. 2020-03-01  Volume: 3,935,300  (2275 days ago)
+  5. 2020-01-12  Volume: 1,797,900  (2324 days ago)
+  6. 2020-01-05  Volume: 1,111,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-30  Volume: 20,513,500  (1066 days ago)
+  2. 2020-09-30  Volume: 19,987,800  (2069 days ago)
+  3. 2020-03-31  Volume: 18,495,300  (2252 days ago)
+  4. 2020-02-29  Volume: 7,685,200  (2283 days ago)
+  5. 2020-01-31  Volume: 6,767,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (1066 days ago)
+
+================================================================================

@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: INBKZ
+================================================================================
+Generated: 2026-05-25 07:58:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-12  Volume: 73,800  (2291 days ago)
+  2. 2020-02-11  Volume: 38,400  (2292 days ago)
+  3. 2020-01-21  Volume: 7,300  (2313 days ago)
+  4. 2020-01-14  Volume: 3,300  (2320 days ago)
+  5. 2020-01-02  Volume: 2,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-16  Volume: 137,400  (2289 days ago)
+  2. 2020-01-26  Volume: 13,700  (2310 days ago)
+  3. 2020-01-05  Volume: 10,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-31  Volume: 248,900  (882 days ago)
+  2. 2020-02-29  Volume: 230,200  (2283 days ago)
+  3. 2020-01-31  Volume: 34,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (882 days ago)
+
+================================================================================

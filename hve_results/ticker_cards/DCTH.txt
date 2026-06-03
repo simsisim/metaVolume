@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: DCTH
+================================================================================
+Generated: 2026-05-25 07:57:31
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-15  Volume: 105,160,200  (1011 days ago)
+  2. 2021-03-31  Volume: 8,280,500  (1878 days ago)
+  3. 2020-12-09  Volume: 735,300  (1990 days ago)
+  4. 2020-05-01  Volume: 617,000  (2212 days ago)
+  5. 2020-02-10  Volume: 3,100  (2293 days ago)
+  6. 2020-01-30  Volume: 3,000  (2304 days ago)
+  7. 2020-01-21  Volume: 2,300  (2313 days ago)
+  8. 2020-01-17  Volume: 1,400  (2317 days ago)
+  9. 2020-01-02  Volume: 1,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-20  Volume: 120,324,700  (1008 days ago)
+  2. 2021-04-04  Volume: 9,209,300  (1876 days ago)
+  3. 2020-12-13  Volume: 1,448,100  (1988 days ago)
+  4. 2020-11-29  Volume: 760,500  (2002 days ago)
+  5. 2020-05-10  Volume: 617,400  (2205 days ago)
+  6. 2020-05-03  Volume: 617,300  (2212 days ago)
+  7. 2020-02-16  Volume: 6,000  (2289 days ago)
+  8. 2020-02-09  Volume: 4,200  (2296 days ago)
+  9. 2020-01-19  Volume: 3,800  (2317 days ago)
+  10. 2020-01-05  Volume: 3,400  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (1008 days ago)
+
+================================================================================

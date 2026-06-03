@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: FDP
+================================================================================
+Generated: 2026-05-25 07:57:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-20  Volume: 2,532,400  (518 days ago)
+  2. 2024-06-21  Volume: 1,265,900  (700 days ago)
+  3. 2022-06-24  Volume: 1,210,500  (1428 days ago)
+  4. 2020-04-29  Volume: 1,159,400  (2214 days ago)
+  5. 2020-03-17  Volume: 809,100  (2257 days ago)
+  6. 2020-02-19  Volume: 680,600  (2284 days ago)
+  7. 2020-02-07  Volume: 220,300  (2296 days ago)
+  8. 2020-01-23  Volume: 209,500  (2311 days ago)
+  9. 2020-01-16  Volume: 204,500  (2318 days ago)
+  10. 2020-01-02  Volume: 185,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-15  Volume: 3,840,400  (525 days ago)
+  2. 2020-05-10  Volume: 2,974,700  (2205 days ago)
+  3. 2020-03-15  Volume: 2,501,300  (2261 days ago)
+  4. 2020-03-08  Volume: 1,837,400  (2268 days ago)
+  5. 2020-02-16  Volume: 1,668,100  (2289 days ago)
+  6. 2020-02-02  Volume: 777,600  (2303 days ago)
+  7. 2020-01-05  Volume: 754,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-31  Volume: 10,239,600  (426 days ago)
+  2. 2020-05-31  Volume: 8,524,100  (2191 days ago)
+  3. 2020-03-31  Volume: 7,824,600  (2252 days ago)
+  4. 2020-02-29  Volume: 4,611,300  (2283 days ago)
+  5. 2020-01-31  Volume: 3,062,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Monthly (426 days ago)
+
+================================================================================

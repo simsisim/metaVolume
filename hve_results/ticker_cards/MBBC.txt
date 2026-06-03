@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: MBBC
+================================================================================
+Generated: 2026-05-25 07:56:29
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-10  Volume: 145,700  (42 days ago)
+  2. 2023-02-21  Volume: 118,266  (1186 days ago)
+  3. 2021-04-20  Volume: 59,270  (1858 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-17  Volume: 216,800  (7 days ago)
+  2. 2026-04-12  Volume: 158,100  (42 days ago)
+  3. 2021-04-25  Volume: 130,065  (1855 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-31  Volume: 351,462  (0 days ago)
+  2. 2026-04-30  Volume: 255,600  (31 days ago)
+  3. 2025-05-31  Volume: 240,800  (365 days ago)
+  4. 2025-04-30  Volume: 169,433  (396 days ago)
+  5. 2021-04-30  Volume: 150,645  (1857 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (0 days ago)
+
+================================================================================

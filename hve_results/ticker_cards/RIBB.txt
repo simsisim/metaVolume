@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: RIBB
+================================================================================
+Generated: 2026-05-25 07:57:08
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-26  Volume: 689,800  (422 days ago)
+  2. 2025-03-13  Volume: 199,200  (435 days ago)
+  3. 2025-03-07  Volume: 151,400  (441 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-30  Volume: 924,900  (420 days ago)
+  2. 2025-03-16  Volume: 306,100  (434 days ago)
+  3. 2025-03-09  Volume: 151,400  (441 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-31  Volume: 1,479,900  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (420 days ago)
+
+================================================================================

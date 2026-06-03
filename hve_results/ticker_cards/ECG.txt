@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: ECG
+================================================================================
+Generated: 2026-05-25 07:57:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-14  Volume: 3,734,500  (373 days ago)
+  2. 2024-11-01  Volume: 2,334,900  (567 days ago)
+  3. 2024-10-29  Volume: 112,800  (570 days ago)
+  4. 2024-10-28  Volume: 66,600  (571 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-18  Volume: 7,492,600  (371 days ago)
+  2. 2024-11-10  Volume: 6,969,800  (560 days ago)
+  3. 2024-11-03  Volume: 2,554,700  (567 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-28  Volume: 17,442,600  (457 days ago)
+  2. 2024-11-30  Volume: 17,381,900  (547 days ago)
+  3. 2024-10-31  Volume: 219,800  (577 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Weekly (371 days ago)
+
+================================================================================

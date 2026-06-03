@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: WTRG
+================================================================================
+Generated: 2026-05-25 07:56:34
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-27  Volume: 28,658,800  (84 days ago)
+  2. 2020-02-28  Volume: 7,190,800  (2275 days ago)
+  3. 2020-01-31  Volume: 2,330,300  (2303 days ago)
+  4. 2020-01-14  Volume: 2,110,500  (2320 days ago)
+  5. 2020-01-03  Volume: 1,519,300  (2331 days ago)
+  6. 2020-01-02  Volume: 1,230,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 40,042,700  (84 days ago)
+  2. 2025-10-26  Volume: 16,868,100  (210 days ago)
+  3. 2024-03-10  Volume: 14,602,100  (805 days ago)
+  4. 2020-02-23  Volume: 12,471,600  (2282 days ago)
+  5. 2020-01-26  Volume: 7,142,400  (2310 days ago)
+  6. 2020-01-12  Volume: 7,013,500  (2324 days ago)
+  7. 2020-01-05  Volume: 4,639,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 50,963,400  (31 days ago)
+  2. 2025-10-31  Volume: 49,078,100  (212 days ago)
+  3. 2025-08-31  Volume: 44,165,200  (273 days ago)
+  4. 2024-01-31  Volume: 43,815,300  (851 days ago)
+  5. 2020-03-31  Volume: 41,157,700  (2252 days ago)
+  6. 2020-01-31  Volume: 27,872,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

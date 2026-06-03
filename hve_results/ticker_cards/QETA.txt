@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: QETA
+================================================================================
+Generated: 2026-05-25 07:57:27
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-11  Volume: 578,000  (893 days ago)
+  2. 2023-11-30  Volume: 424,800  (904 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-17  Volume: 1,225,300  (889 days ago)
+  2. 2023-12-10  Volume: 1,029,500  (896 days ago)
+  3. 2023-12-03  Volume: 552,700  (903 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-31  Volume: 2,679,700  (882 days ago)
+  2. 2023-11-30  Volume: 424,800  (913 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Monthly (882 days ago)
+
+================================================================================

@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: NHI
+================================================================================
+Generated: 2026-05-25 07:58:08
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-19  Volume: 1,786,100  (2163 days ago)
+  2. 2020-03-12  Volume: 984,400  (2262 days ago)
+  3. 2020-03-11  Volume: 677,800  (2263 days ago)
+  4. 2020-03-10  Volume: 648,900  (2264 days ago)
+  5. 2020-02-28  Volume: 505,800  (2275 days ago)
+  6. 2020-01-21  Volume: 364,100  (2313 days ago)
+  7. 2020-01-16  Volume: 326,300  (2318 days ago)
+  8. 2020-01-10  Volume: 287,700  (2324 days ago)
+  9. 2020-01-03  Volume: 252,800  (2331 days ago)
+  10. 2020-01-02  Volume: 221,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 4,049,200  (2261 days ago)
+  2. 2020-03-08  Volume: 3,791,900  (2268 days ago)
+  3. 2020-03-01  Volume: 1,908,500  (2275 days ago)
+  4. 2020-02-23  Volume: 1,512,900  (2282 days ago)
+  5. 2020-01-19  Volume: 1,121,400  (2317 days ago)
+  6. 2020-01-05  Volume: 1,090,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 14,372,100  (2252 days ago)
+  2. 2020-01-31  Volume: 4,586,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (2163 days ago)
+
+================================================================================

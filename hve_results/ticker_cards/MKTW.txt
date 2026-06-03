@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: MKTW
+================================================================================
+Generated: 2026-05-25 07:57:59
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-03-02  Volume: 681,375  (1907 days ago)
+  2. 2021-02-08  Volume: 37,760  (1929 days ago)
+  3. 2021-01-13  Volume: 36,725  (1955 days ago)
+  4. 2020-10-07  Volume: 28,565  (2053 days ago)
+  5. 2020-09-28  Volume: 13,175  (2062 days ago)
+  6. 2020-09-15  Volume: 8,695  (2075 days ago)
+  7. 2020-09-14  Volume: 3,480  (2076 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-03-07  Volume: 1,111,955  (1904 days ago)
+  2. 2021-01-17  Volume: 68,390  (1953 days ago)
+  3. 2020-10-11  Volume: 50,910  (2051 days ago)
+  4. 2020-10-04  Volume: 26,810  (2058 days ago)
+  5. 2020-09-20  Volume: 22,690  (2072 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-03-31  Volume: 1,729,655  (1887 days ago)
+  2. 2020-10-31  Volume: 139,850  (2038 days ago)
+  3. 2020-09-30  Volume: 53,360  (2069 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Monthly (1887 days ago)
+
+================================================================================

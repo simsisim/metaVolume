@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: TXO
+================================================================================
+Generated: 2026-05-25 07:57:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-14  Volume: 3,646,400  (373 days ago)
+  2. 2023-01-27  Volume: 1,538,100  (1211 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-18  Volume: 5,625,600  (371 days ago)
+  2. 2025-03-02  Volume: 1,617,900  (448 days ago)
+  3. 2023-01-29  Volume: 1,538,100  (1211 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-31  Volume: 8,617,300  (365 days ago)
+  2. 2024-12-31  Volume: 3,497,700  (516 days ago)
+  3. 2024-07-31  Volume: 2,557,600  (669 days ago)
+  4. 2024-05-31  Volume: 2,056,400  (730 days ago)
+  5. 2023-01-31  Volume: 1,876,900  (1216 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Monthly (365 days ago)
+
+================================================================================

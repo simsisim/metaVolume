@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: LOKV
+================================================================================
+Generated: 2026-05-25 07:56:28
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-24  Volume: 2,172,400  (28 days ago)
+  2. 2025-12-17  Volume: 1,817,900  (156 days ago)
+  3. 2025-05-30  Volume: 1,153,500  (357 days ago)
+  4. 2025-04-28  Volume: 478,900  (389 days ago)
+  5. 2025-04-25  Volume: 333,300  (392 days ago)
+  6. 2025-04-24  Volume: 167,400  (393 days ago)
+  7. 2025-04-22  Volume: 23,700  (395 days ago)
+  8. 2025-04-21  Volume: 23,300  (396 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-26  Volume: 2,188,800  (28 days ago)
+  2. 2025-12-21  Volume: 2,064,400  (154 days ago)
+  3. 2025-08-17  Volume: 1,908,300  (280 days ago)
+  4. 2025-06-01  Volume: 1,575,500  (357 days ago)
+  5. 2025-05-04  Volume: 971,400  (385 days ago)
+  6. 2025-04-27  Volume: 560,300  (392 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-30  Volume: 3,631,300  (31 days ago)
+  2. 2025-12-31  Volume: 3,284,300  (151 days ago)
+  3. 2025-08-31  Volume: 2,630,600  (273 days ago)
+  4. 2025-05-31  Volume: 2,060,000  (365 days ago)
+  5. 2025-04-30  Volume: 1,425,300  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Daily (28 days ago)
+
+================================================================================

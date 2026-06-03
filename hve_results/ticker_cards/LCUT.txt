@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: LCUT
+================================================================================
+Generated: 2026-05-25 07:56:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-12  Volume: 6,040,300  (71 days ago)
+  2. 2023-06-23  Volume: 2,394,100  (1064 days ago)
+  3. 2023-06-16  Volume: 258,700  (1071 days ago)
+  4. 2021-06-25  Volume: 249,400  (1792 days ago)
+  5. 2020-12-18  Volume: 220,500  (1981 days ago)
+  6. 2020-11-18  Volume: 181,500  (2011 days ago)
+  7. 2020-06-26  Volume: 177,200  (2156 days ago)
+  8. 2020-04-03  Volume: 85,000  (2240 days ago)
+  9. 2020-03-12  Volume: 67,400  (2262 days ago)
+  10. 2020-03-11  Volume: 51,700  (2263 days ago)
+  11. 2020-01-31  Volume: 49,900  (2303 days ago)
+  12. 2020-01-02  Volume: 30,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-15  Volume: 6,639,500  (70 days ago)
+  2. 2023-06-18  Volume: 2,846,800  (1071 days ago)
+  3. 2023-06-11  Volume: 625,400  (1078 days ago)
+  4. 2020-11-15  Volume: 582,500  (2016 days ago)
+  5. 2020-10-25  Volume: 560,800  (2037 days ago)
+  6. 2020-08-23  Volume: 478,400  (2100 days ago)
+  7. 2020-08-02  Volume: 301,400  (2121 days ago)
+  8. 2020-06-21  Volume: 274,600  (2163 days ago)
+  9. 2020-06-14  Volume: 220,000  (2170 days ago)
+  10. 2020-03-08  Volume: 218,100  (2268 days ago)
+  11. 2020-01-26  Volume: 108,800  (2310 days ago)
+  12. 2020-01-05  Volume: 75,100  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Weekly (70 days ago)
+
+================================================================================

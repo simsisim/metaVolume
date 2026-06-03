@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: PTY
+================================================================================
+Generated: 2026-05-25 07:57:07
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-04  Volume: 6,277,600  (413 days ago)
+  2. 2021-09-03  Volume: 4,532,600  (1722 days ago)
+  3. 2020-04-14  Volume: 4,276,500  (2229 days ago)
+  4. 2020-02-28  Volume: 2,965,700  (2275 days ago)
+  5. 2020-02-25  Volume: 2,084,600  (2278 days ago)
+  6. 2020-02-24  Volume: 705,500  (2279 days ago)
+  7. 2020-01-09  Volume: 604,000  (2325 days ago)
+  8. 2020-01-02  Volume: 500,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-13  Volume: 9,720,700  (406 days ago)
+  2. 2020-03-01  Volume: 9,309,500  (2275 days ago)
+  3. 2020-01-12  Volume: 2,369,600  (2324 days ago)
+  4. 2020-01-05  Volume: 1,379,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 35,593,700  (61 days ago)
+  2. 2025-12-31  Volume: 31,206,700  (151 days ago)
+  3. 2025-10-31  Volume: 28,595,000  (212 days ago)
+  4. 2025-04-30  Volume: 27,424,800  (396 days ago)
+  5. 2020-03-31  Volume: 26,794,100  (2252 days ago)
+  6. 2020-02-29  Volume: 13,733,600  (2283 days ago)
+  7. 2020-01-31  Volume: 8,169,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

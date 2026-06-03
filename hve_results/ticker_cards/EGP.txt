@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: EGP
+================================================================================
+Generated: 2026-05-25 07:57:42
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-24  Volume: 4,915,000  (1428 days ago)
+  2. 2020-09-18  Volume: 810,200  (2072 days ago)
+  3. 2020-03-11  Volume: 751,800  (2263 days ago)
+  4. 2020-03-10  Volume: 635,900  (2264 days ago)
+  5. 2020-02-28  Volume: 532,200  (2275 days ago)
+  6. 2020-01-16  Volume: 299,100  (2318 days ago)
+  7. 2020-01-15  Volume: 227,100  (2319 days ago)
+  8. 2020-01-06  Volume: 182,400  (2328 days ago)
+  9. 2020-01-02  Volume: 149,600  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-19  Volume: 6,393,200  (1435 days ago)
+  2. 2020-03-08  Volume: 3,198,600  (2268 days ago)
+  3. 2020-02-23  Volume: 1,275,200  (2282 days ago)
+  4. 2020-01-12  Volume: 974,200  (2324 days ago)
+  5. 2020-01-05  Volume: 755,000  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-30  Volume: 12,521,900  (396 days ago)
+  2. 2022-06-30  Volume: 12,448,500  (1431 days ago)
+  3. 2020-03-31  Volume: 10,559,200  (2252 days ago)
+  4. 2020-02-29  Volume: 3,546,100  (2283 days ago)
+  5. 2020-01-31  Volume: 3,427,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (396 days ago)
+
+================================================================================

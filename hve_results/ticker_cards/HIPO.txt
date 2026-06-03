@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: HIPO
+================================================================================
+Generated: 2026-05-25 07:57:03
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-12  Volume: 1,411,200  (344 days ago)
+  2. 2024-06-28  Volume: 1,388,700  (693 days ago)
+  3. 2021-09-07  Volume: 1,322,508  (1718 days ago)
+  4. 2021-09-02  Volume: 681,248  (1723 days ago)
+  5. 2021-03-04  Volume: 204,160  (1905 days ago)
+  6. 2021-02-12  Volume: 40,696  (1925 days ago)
+  7. 2021-02-08  Volume: 36,364  (1929 days ago)
+  8. 2021-01-20  Volume: 12,104  (1948 days ago)
+  9. 2021-01-14  Volume: 7,740  (1954 days ago)
+  10. 2021-01-13  Volume: 3,048  (1955 days ago)
+  11. 2021-01-11  Volume: 1,068  (1957 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-15  Volume: 2,919,800  (343 days ago)
+  2. 2021-09-12  Volume: 2,774,576  (1715 days ago)
+  3. 2021-09-05  Volume: 1,372,116  (1722 days ago)
+  4. 2021-08-22  Volume: 605,292  (1736 days ago)
+  5. 2021-03-07  Volume: 270,520  (1904 days ago)
+  6. 2021-02-14  Volume: 105,704  (1925 days ago)
+  7. 2021-01-31  Volume: 31,232  (1939 days ago)
+  8. 2021-01-24  Volume: 24,940  (1946 days ago)
+  9. 2021-01-17  Volume: 15,096  (1953 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (343 days ago)
+
+================================================================================

@@ -46,12 +46,62 @@ HVD_historical_export,TRUE     # Enable/disable HVD export
 HVD_historical_max_days,10     # Number of top volume days to export
 """
 
+import json
 import pandas as pd
 import logging
+from datetime import datetime
 from typing import Dict, List
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
+
+
+def write_baseline_metadata(
+    output_dir: Path,
+    all_timeframe_results: Dict[str, pd.DataFrame],
+) -> None:
+    """
+    Write baseline_metadata.json alongside the HVD historical CSVs.
+
+    Records the maximum date found across all tickers/timeframes so that
+    VolDailyChecker (Yahoo mode) knows exactly where the baseline ends and
+    can refuse to re-process already-covered data.
+    """
+    try:
+        all_dates = []
+        ticker_set = set()
+
+        for results_df in all_timeframe_results.values():
+            if results_df.empty:
+                continue
+            ticker_set.update(results_df['ticker'].tolist())
+            for details in results_df.get('all_hvd_details', pd.Series(dtype=object)):
+                if isinstance(details, list):
+                    for ev in details:
+                        try:
+                            all_dates.append(
+                                pd.Timestamp(ev['date']).date()
+                            )
+                        except Exception:
+                            pass
+
+        baseline_as_of = max(all_dates).strftime('%Y-%m-%d') if all_dates else ''
+
+        metadata = {
+            'baseline_as_of_date': baseline_as_of,
+            'generated_at': datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
+            'ticker_count': len(ticker_set),
+            'source': 'yahoo',
+        }
+
+        output_dir.mkdir(parents=True, exist_ok=True)
+        meta_path = output_dir / 'baseline_metadata.json'
+        meta_path.write_text(json.dumps(metadata, indent=2))
+        print(f"   Baseline metadata written: {meta_path}")
+        print(f"   baseline_as_of_date: {baseline_as_of}")
+
+    except Exception as e:
+        logger.warning(f"Could not write baseline_metadata.json: {e}")
 
 
 def export_hvd_historical(
@@ -175,8 +225,11 @@ def export_all_timeframes_hvd(
 
     for timeframe, results_df in all_timeframe_results.items():
         output_path = output_dir / f'HVD_historical_{timeframe}.csv'
-        
+
         if export_hvd_historical(results_df, output_path, max_events, timeframe):
             exported_count += 1
+
+    if exported_count > 0:
+        write_baseline_metadata(output_dir, all_timeframe_results)
 
     return exported_count

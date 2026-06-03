@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: LIEN
+================================================================================
+Generated: 2026-05-25 07:56:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-21  Volume: 770,900  (121 days ago)
+  2. 2025-06-26  Volume: 317,000  (330 days ago)
+  3. 2022-02-04  Volume: 264,100  (1568 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-25  Volume: 1,085,500  (119 days ago)
+  2. 2025-06-29  Volume: 578,300  (329 days ago)
+  3. 2025-05-18  Volume: 325,500  (371 days ago)
+  4. 2024-02-25  Volume: 265,600  (819 days ago)
+  5. 2022-02-06  Volume: 264,100  (1568 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-31  Volume: 2,046,300  (120 days ago)
+  2. 2025-09-30  Volume: 1,304,300  (243 days ago)
+  3. 2025-06-30  Volume: 1,187,700  (335 days ago)
+  4. 2025-05-31  Volume: 909,700  (365 days ago)
+  5. 2022-02-28  Volume: 513,000  (1553 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Weekly (119 days ago)
+
+================================================================================

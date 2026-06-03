@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: IIF
+================================================================================
+Generated: 2026-05-25 07:57:35
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-01  Volume: 254,900  (1117 days ago)
+  2. 2020-12-29  Volume: 207,200  (1970 days ago)
+  3. 2020-07-07  Volume: 205,300  (2145 days ago)
+  4. 2020-03-12  Volume: 193,700  (2262 days ago)
+  5. 2020-03-05  Volume: 110,600  (2269 days ago)
+  6. 2020-01-30  Volume: 103,100  (2304 days ago)
+  7. 2020-01-13  Volume: 79,900  (2321 days ago)
+  8. 2020-01-06  Volume: 69,100  (2328 days ago)
+  9. 2020-01-03  Volume: 30,600  (2331 days ago)
+  10. 2020-01-02  Volume: 26,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-10  Volume: 785,700  (896 days ago)
+  2. 2020-03-22  Volume: 758,800  (2254 days ago)
+  3. 2020-03-15  Volume: 539,500  (2261 days ago)
+  4. 2020-03-08  Volume: 413,800  (2268 days ago)
+  5. 2020-03-01  Volume: 290,400  (2275 days ago)
+  6. 2020-02-23  Volume: 284,500  (2282 days ago)
+  7. 2020-01-05  Volume: 273,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 2,125,200  (2252 days ago)
+  2. 2020-01-31  Volume: 881,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (896 days ago)
+
+================================================================================

@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: MSCI
+================================================================================
+Generated: 2026-05-25 07:57:23
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-23  Volume: 3,661,100  (759 days ago)
+  2. 2020-03-12  Volume: 1,793,400  (2262 days ago)
+  3. 2020-03-10  Volume: 1,593,500  (2264 days ago)
+  4. 2020-02-28  Volume: 1,394,200  (2275 days ago)
+  5. 2020-02-24  Volume: 1,127,300  (2279 days ago)
+  6. 2020-02-21  Volume: 1,101,800  (2282 days ago)
+  7. 2020-02-20  Volume: 850,300  (2283 days ago)
+  8. 2020-01-31  Volume: 784,300  (2303 days ago)
+  9. 2020-01-30  Volume: 616,100  (2304 days ago)
+  10. 2020-01-02  Volume: 543,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-28  Volume: 9,317,200  (756 days ago)
+  2. 2020-03-15  Volume: 7,389,000  (2261 days ago)
+  3. 2020-03-01  Volume: 5,130,600  (2275 days ago)
+  4. 2020-02-23  Volume: 3,005,900  (2282 days ago)
+  5. 2020-02-02  Volume: 2,661,000  (2303 days ago)
+  6. 2020-01-12  Volume: 2,249,400  (2324 days ago)
+  7. 2020-01-05  Volume: 1,426,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 26,360,100  (2252 days ago)
+  2. 2020-02-29  Volume: 12,354,200  (2283 days ago)
+  3. 2020-01-31  Volume: 9,255,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (756 days ago)
+
+================================================================================

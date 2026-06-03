@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: SNA
+================================================================================
+Generated: 2026-05-25 07:58:00
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-04  Volume: 2,248,700  (1933 days ago)
+  2. 2020-10-22  Volume: 1,902,600  (2038 days ago)
+  3. 2020-05-15  Volume: 1,250,200  (2198 days ago)
+  4. 2020-03-19  Volume: 1,200,500  (2255 days ago)
+  5. 2020-03-18  Volume: 1,102,900  (2256 days ago)
+  6. 2020-03-13  Volume: 1,055,300  (2261 days ago)
+  7. 2020-02-28  Volume: 1,025,400  (2275 days ago)
+  8. 2020-02-24  Volume: 979,800  (2279 days ago)
+  9. 2020-02-05  Volume: 752,300  (2298 days ago)
+  10. 2020-02-04  Volume: 607,000  (2299 days ago)
+  11. 2020-02-03  Volume: 587,300  (2300 days ago)
+  12. 2020-01-02  Volume: 467,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-15  Volume: 4,931,000  (2261 days ago)
+  2. 2020-02-23  Volume: 4,121,800  (2282 days ago)
+  3. 2020-02-02  Volume: 3,101,500  (2303 days ago)
+  4. 2020-01-05  Volume: 1,591,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 17,273,100  (2252 days ago)
+  2. 2020-02-29  Volume: 11,744,600  (2283 days ago)
+  3. 2020-01-31  Volume: 6,383,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Daily (1933 days ago)
+
+================================================================================

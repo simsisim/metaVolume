@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: GDO
+================================================================================
+Generated: 2026-05-25 07:57:45
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-23  Volume: 358,400  (1521 days ago)
+  2. 2020-07-14  Volume: 197,900  (2138 days ago)
+  3. 2020-03-12  Volume: 157,100  (2262 days ago)
+  4. 2020-02-03  Volume: 145,300  (2300 days ago)
+  5. 2020-01-02  Volume: 142,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-27  Volume: 767,900  (1519 days ago)
+  2. 2020-03-22  Volume: 531,800  (2254 days ago)
+  3. 2020-03-15  Volume: 434,900  (2261 days ago)
+  4. 2020-02-09  Volume: 353,000  (2296 days ago)
+  5. 2020-01-05  Volume: 234,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 1,754,000  (2252 days ago)
+  2. 2020-02-29  Volume: 930,200  (2283 days ago)
+  3. 2020-01-31  Volume: 788,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Weekly (1519 days ago)
+
+================================================================================

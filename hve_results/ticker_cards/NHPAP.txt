@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: NHPAP
+================================================================================
+Generated: 2026-05-25 07:57:57
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-05-07  Volume: 332,800  (1841 days ago)
+  2. 2020-09-09  Volume: 82,600  (2081 days ago)
+  3. 2020-06-05  Volume: 38,400  (2177 days ago)
+  4. 2020-03-19  Volume: 25,800  (2255 days ago)
+  5. 2020-03-05  Volume: 22,100  (2269 days ago)
+  6. 2020-01-03  Volume: 21,600  (2331 days ago)
+  7. 2020-01-02  Volume: 11,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-05-09  Volume: 381,500  (1841 days ago)
+  2. 2020-09-13  Volume: 88,500  (2079 days ago)
+  3. 2020-01-05  Volume: 70,200  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-05-31  Volume: 1,149,800  (1826 days ago)
+  2. 2020-12-31  Volume: 237,500  (1977 days ago)
+  3. 2020-01-31  Volume: 201,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (1826 days ago)
+
+================================================================================

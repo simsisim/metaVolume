@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: RKLB
+================================================================================
+Generated: 2026-05-25 07:57:15
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-13  Volume: 121,001,300  (555 days ago)
+  2. 2024-08-16  Volume: 74,179,900  (644 days ago)
+  3. 2024-02-01  Volume: 61,537,000  (841 days ago)
+  4. 2023-12-22  Volume: 51,905,000  (882 days ago)
+  5. 2021-09-09  Volume: 43,147,800  (1716 days ago)
+  6. 2021-03-01  Volume: 40,481,700  (1908 days ago)
+  7. 2021-01-15  Volume: 543,800  (1953 days ago)
+  8. 2021-01-13  Volume: 419,400  (1955 days ago)
+  9. 2020-12-21  Volume: 411,000  (1978 days ago)
+  10. 2020-12-11  Volume: 269,400  (1988 days ago)
+  11. 2020-12-10  Volume: 268,400  (1989 days ago)
+  12. 2020-12-09  Volume: 213,500  (1990 days ago)
+  13. 2020-12-07  Volume: 187,700  (1992 days ago)
+  14. 2020-12-04  Volume: 84,100  (1995 days ago)
+  15. 2020-12-02  Volume: 78,500  (1997 days ago)
+  16. 2020-11-30  Volume: 53,300  (1999 days ago)
+  17. 2020-11-27  Volume: 4,500  (2002 days ago)
+  18. 2020-11-24  Volume: 900  (2005 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-17  Volume: 261,241,100  (553 days ago)
+  2. 2024-08-25  Volume: 138,480,500  (637 days ago)
+  3. 2024-08-18  Volume: 121,854,500  (644 days ago)
+  4. 2024-02-04  Volume: 121,512,600  (840 days ago)
+  5. 2021-09-12  Volume: 79,331,600  (1715 days ago)
+  6. 2021-03-07  Volume: 67,209,500  (1904 days ago)
+  7. 2021-01-17  Volume: 1,323,400  (1953 days ago)
+  8. 2020-12-13  Volume: 953,300  (1988 days ago)
+  9. 2020-12-06  Volume: 219,100  (1995 days ago)
+  10. 2020-11-29  Volume: 5,500  (2002 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 28
+Latest volume activity: Weekly (553 days ago)
+
+================================================================================

@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: JEF
+================================================================================
+Generated: 2026-05-25 07:58:09
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-05-29  Volume: 18,069,859  (2184 days ago)
+  2. 2020-03-20  Volume: 5,769,422  (2254 days ago)
+  3. 2020-03-13  Volume: 4,579,283  (2261 days ago)
+  4. 2020-02-28  Volume: 4,505,331  (2275 days ago)
+  5. 2020-02-14  Volume: 3,941,956  (2289 days ago)
+  6. 2020-02-05  Volume: 2,479,125  (2298 days ago)
+  7. 2020-01-09  Volume: 2,409,461  (2325 days ago)
+  8. 2020-01-07  Volume: 1,994,931  (2327 days ago)
+  9. 2020-01-03  Volume: 1,579,565  (2331 days ago)
+  10. 2020-01-02  Volume: 1,248,192  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-12  Volume: 28,365,500  (224 days ago)
+  2. 2023-03-12  Volume: 27,375,800  (1169 days ago)
+  3. 2020-05-24  Volume: 27,374,551  (2191 days ago)
+  4. 2020-03-15  Volume: 21,771,444  (2261 days ago)
+  5. 2020-03-08  Volume: 17,230,025  (2268 days ago)
+  6. 2020-03-01  Volume: 16,973,756  (2275 days ago)
+  7. 2020-02-23  Volume: 14,787,929  (2282 days ago)
+  8. 2020-02-09  Volume: 10,893,150  (2296 days ago)
+  9. 2020-02-02  Volume: 9,928,738  (2303 days ago)
+  10. 2020-01-05  Volume: 9,889,198  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 86,318,400  (61 days ago)
+  2. 2025-10-31  Volume: 82,785,200  (212 days ago)
+  3. 2020-03-31  Volume: 77,427,430  (2252 days ago)
+  4. 2020-02-29  Volume: 43,795,918  (2283 days ago)
+  5. 2020-01-31  Volume: 35,143,299  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

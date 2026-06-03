@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: MACI
+================================================================================
+Generated: 2026-05-25 07:56:51
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-01  Volume: 965,100  (294 days ago)
+  2. 2025-07-31  Volume: 880,700  (295 days ago)
+  3. 2024-08-15  Volume: 857,000  (645 days ago)
+  4. 2024-07-18  Volume: 610,900  (673 days ago)
+  5. 2024-07-17  Volume: 11,000  (674 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-03  Volume: 1,876,500  (294 days ago)
+  2. 2025-06-29  Volume: 1,289,500  (329 days ago)
+  3. 2025-03-09  Volume: 1,220,000  (441 days ago)
+  4. 2024-08-18  Volume: 1,028,500  (644 days ago)
+  5. 2024-08-11  Volume: 945,100  (651 days ago)
+  6. 2024-07-21  Volume: 623,000  (672 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-08-31  Volume: 2,320,200  (638 days ago)
+  2. 2024-07-31  Volume: 942,300  (669 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Daily (294 days ago)
+
+================================================================================

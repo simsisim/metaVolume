@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: BEPJ
+================================================================================
+Generated: 2026-05-25 07:57:23
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-30  Volume: 719,600  (752 days ago)
+  2. 2024-03-28  Volume: 421,900  (785 days ago)
+  3. 2024-03-27  Volume: 248,100  (786 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-05  Volume: 1,098,100  (749 days ago)
+  2. 2024-03-31  Volume: 670,000  (784 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-30  Volume: 2,946,600  (761 days ago)
+  2. 2024-03-31  Volume: 670,000  (791 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (749 days ago)
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: NTIC
+================================================================================
+Generated: 2026-05-25 07:57:21
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-28  Volume: 1,006,900  (693 days ago)
+  2. 2023-06-22  Volume: 340,700  (1065 days ago)
+  3. 2020-05-18  Volume: 203,000  (2195 days ago)
+  4. 2020-04-20  Volume: 139,700  (2223 days ago)
+  5. 2020-04-07  Volume: 76,900  (2236 days ago)
+  6. 2020-01-06  Volume: 68,900  (2328 days ago)
+  7. 2020-01-02  Volume: 21,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-23  Volume: 1,213,500  (700 days ago)
+  2. 2024-05-05  Volume: 480,200  (749 days ago)
+  3. 2023-06-18  Volume: 410,500  (1071 days ago)
+  4. 2020-05-17  Volume: 310,600  (2198 days ago)
+  5. 2020-04-19  Volume: 173,400  (2226 days ago)
+  6. 2020-04-05  Volume: 161,400  (2240 days ago)
+  7. 2020-01-05  Volume: 159,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 1,642,300  (335 days ago)
+  2. 2024-06-30  Volume: 1,617,300  (700 days ago)
+  3. 2024-05-31  Volume: 1,320,000  (730 days ago)
+  4. 2024-04-30  Volume: 1,012,300  (761 days ago)
+  5. 2021-02-28  Volume: 635,100  (1918 days ago)
+  6. 2020-05-31  Volume: 589,600  (2191 days ago)
+  7. 2020-04-30  Volume: 454,500  (2222 days ago)
+  8. 2020-02-29  Volume: 348,600  (2283 days ago)
+  9. 2020-01-31  Volume: 328,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (335 days ago)
+
+================================================================================

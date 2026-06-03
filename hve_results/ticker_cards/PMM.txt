@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: PMM
+================================================================================
+Generated: 2026-05-25 07:58:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-12  Volume: 625,100  (2262 days ago)
+  2. 2020-03-11  Volume: 547,700  (2263 days ago)
+  3. 2020-03-10  Volume: 392,400  (2264 days ago)
+  4. 2020-02-28  Volume: 367,700  (2275 days ago)
+  5. 2020-01-13  Volume: 208,400  (2321 days ago)
+  6. 2020-01-08  Volume: 141,500  (2326 days ago)
+  7. 2020-01-07  Volume: 97,300  (2327 days ago)
+  8. 2020-01-02  Volume: 92,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-08  Volume: 2,373,900  (2268 days ago)
+  2. 2020-02-23  Volume: 791,200  (2282 days ago)
+  3. 2020-01-12  Volume: 607,800  (2324 days ago)
+  4. 2020-01-05  Volume: 481,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 6,485,800  (2252 days ago)
+  2. 2020-02-29  Volume: 2,307,300  (2283 days ago)
+  3. 2020-01-31  Volume: 1,872,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Monthly (2252 days ago)
+
+================================================================================

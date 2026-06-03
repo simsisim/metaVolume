@@ -5,7 +5,7 @@
 metaVolume identifies stocks that trade exceptionally high volume — days that stand out historically. It runs in two independent stages:
 
 1. **Pre-processor** — reads years of OHLCV history (from `downloadData_v1`) and computes, for every ticker, its top volume days and volume milestones. Results are saved as baseline files.
-2. **Post-processor (daily checker)** — every trading day, compares a new TradingView bulk export against the baseline and flags tickers whose volume enters their historical top positions.
+2. **Post-processor (daily checker)** — every trading day, compares new volume data against the baseline and flags tickers whose volume enters their historical top positions.
 
 The key design principle: the baseline is **computed once and never modified during daily runs**. New events accumulate in a separate incremental file that is safe to delete and replay.
 
@@ -15,7 +15,7 @@ The key design principle: the baseline is **computed once and never modified dur
 
 ```
 downloadData_v1/
-  market_data/daily/*.csv          ← one CSV per ticker (OHLCV history)
+  market_data/daily/*.csv          ← one CSV per ticker (OHLCV + marketCap)
           │
           ▼
   [PRE-PROCESSOR]  (run once, ticker_choice=0 recommended)
@@ -26,9 +26,11 @@ downloadData_v1/
     HVE_historical_daily.csv
     HVE_historical_weekly.csv
     HVE_historical_monthly.csv
+    baseline_metadata.json         ← cutoff date written after every HVD export
           │
-          │    TW bulk file (daily export from TradingView)
-          │    tw_files/daily/all_stocks_LOHP_YYYY-MM-DD.csv
+          │    Data source (choose one):
+          │      A) TradingView bulk file: tw_files/daily/all_stocks_LOHP_YYYY-MM-DD.csv
+          │      B) Yahoo per-ticker CSVs: downloadData_v1/data/market_data/daily/
           │            │
           ▼            ▼
   [POST-PROCESSOR / VOL DAILY CHECKER]  (run every trading day)
@@ -63,15 +65,16 @@ metaVolume/
 │   ├── hve_screener.py              ← HVE calculation (expanding cummax)
 │   ├── hvd_screener.py              ← HVD calculation (top-N by magnitude)
 │   ├── hve_historical_exporter.py   ← exports HVE_historical_*.csv
-│   ├── hvd_historical_exporter.py   ← exports HVD_historical_daily.csv
-│   ├── vol_daily_checker.py         ← daily TW file vs HVD baseline
+│   ├── hvd_historical_exporter.py   ← exports HVD_historical_daily.csv + baseline_metadata.json
+│   ├── yahoo_daily_adapter.py       ← Yahoo per-ticker CSV adapter for daily checker
+│   ├── vol_daily_checker.py         ← daily volume checker (TradingView or Yahoo source)
 │   └── ticker_card_generator.py     ← text summary cards per ticker
 ├── results/
 │   ├── hve_results/                 ← pre-processor output (baseline lives here)
 │   └── vol_top20/                   ← post-processor output
 ├── data/
 │   └── tickers/                     ← generated combined_tickers_*.csv files
-└── HVE_data_for_preload/            ← legacy preload files (not used by checker)
+└── HVE_data_for_preload/            ← preload input files (copied from hve_results after baseline run)
 ```
 
 ---
@@ -140,16 +143,16 @@ results/hve_results/HVD_historical_daily.csv   ← VOL checker reads THIS file
 results/hve_results/HVE_historical_daily.csv
 results/hve_results/HVE_historical_weekly.csv
 results/hve_results/HVE_historical_monthly.csv
+results/hve_results/baseline_metadata.json     ← written automatically, records cutoff date
 ```
 
-> **Note:** `HVE_data_for_preload/` contains older copies — the VOL checker does NOT read from there.
+> **Note:** Copy the `results/hve_results/` CSV files to `HVE_data_for_preload/` if you want to use them as preload input in future runs.
 
 ---
 
 ### Mode 2: Daily checker only (post-processor only)
 
-Run every trading day after dropping a new TradingView bulk export file.
-Set `ticker_choice` to any subset — the full-universe baseline covers all tickers.
+Run every trading day. Choose between TradingView or Yahoo as the data source.
 
 | Setting | Value |
 |---|---|
@@ -157,6 +160,7 @@ Set `ticker_choice` to any subset — the full-universe baseline covers all tick
 | `HVD_historical_export` | FALSE |
 | `HVE_historical_export` | FALSE |
 | `VOL_checker_enable` | TRUE |
+| `VOL_checker_data_source` | `tradingview` or `yahoo` |
 | `ticker_choice` | any (2 = NASDAQ-100, 1 = S&P500, 0 = full universe, etc.) |
 
 Output:
@@ -169,6 +173,69 @@ results/vol_top20/daily/                 ← one snapshot file per trading day
 
 To force reprocess a date: set `VOL_checker_tw_since_date,YYYY-MM-DD` (one day before the target).
 Reset to blank after a successful run.
+
+---
+
+## Daily Checker Data Sources
+
+### Source A: TradingView bulk export
+
+The original source. One CSV file per trading day covering all tickers.
+
+**Directory:** `../downloadData_v1/data/tw_files/daily/`  
+**Filename format:** `*YYYY-MM-DD*.csv` (date anywhere in filename)
+
+**Required columns:** `Symbol`, `Open 1 day`, `High 1 day`, `Low 1 day`, `Price`, `Volume 1 day`
+
+**Optional column:** `Mkt cap` — add it to your TradingView export template to enable market-cap output. When present, the value is captured at the export date (= detection date), which is the most accurate market cap for each event.
+
+Multiple files for the same date are merged (e.g. one for stocks, one for ETFs).
+
+**Config keys:**
+```
+VOL_checker_data_source,tradingview
+VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/
+VOL_checker_tw_since_date,                     ← blank = auto from state file
+```
+
+---
+
+### Source B: Yahoo Finance per-ticker CSVs
+
+Uses the same per-ticker OHLCV files that generated the baseline — no extra export needed.
+One file per ticker (`AAPL.csv`, `MSFT.csv`, …) with one row per trading day.
+
+**Key design:** all ticker files are opened once and all pending dates are extracted in a single pass — efficient even on Colab/Google Drive.
+
+**Cutoff protection:** the checker reads `baseline_metadata.json` (written automatically after every HVD export) to determine the last date already covered by the baseline. It refuses to process any date on or before that cutoff, preventing double-counting of historical data. If metadata is missing it falls back to scanning `HVD_historical_daily.csv` for the maximum date.
+
+**Market cap:** the `marketCap` column in Yahoo per-ticker files is a snapshot taken at download time, replicated across all rows. It reflects the current cap rather than the historical cap at the event date — adequate for large-company filtering, labeled `market_cap` in output.
+
+**Config keys:**
+```
+VOL_checker_data_source,yahoo
+VOL_checker_yahoo_data_dir_local,../downloadData_v1/data/market_data/daily/
+VOL_checker_yahoo_data_dir_colab,/content/drive/MyDrive/.../downloadData_v1/data/market_data/daily/
+```
+
+---
+
+## Output Columns (hits files)
+
+| Column | Description | Source |
+|---|---|---|
+| `ticker` | Stock symbol | both |
+| `check_date` | Date of the volume event | both |
+| `new_volume` | Volume on that date | both |
+| `price_at_event` | Closing price on that date (exact) | both |
+| `market_cap` | Market cap at detection (TW: exact; Yahoo: latest snapshot) | optional |
+| `entered_top_n` | TRUE if volume rank ≤ `VOL_checker_top_n_flag` | both |
+| `rank` | Position in the all-time top-N list (1 = all-time high) | both |
+| `displaced_vol` | Volume of the record being pushed out of top-N | both |
+| `displaced_date` | Date of the displaced record | both |
+| `days_since_top1` | Days since the all-time rank-1 event | both |
+
+> Tip: sort the output Excel by `market_cap` descending to focus on large companies, then by `rank` ascending to find the most significant volume events.
 
 ---
 
@@ -201,7 +268,7 @@ python main.py --preset preprocess_full
 # Generate baseline for a specific ticker group
 python main.py --preset preprocess --ticker-choice 2
 
-# Run daily checker for NASDAQ-100
+# Run daily checker (TradingView source, NASDAQ-100)
 python main.py --preset postprocess --ticker-choice 2
 
 # Force reprocess a date (e.g. to fix a bad run)
@@ -221,7 +288,10 @@ python main.py --help
 # Cell 2: generate baseline
 !python main.py --preset preprocess_full
 
-# Cell 3: daily checker
+# Cell 3A: daily checker — TradingView source
+!python main.py --preset postprocess --ticker-choice 2
+
+# Cell 3B: daily checker — Yahoo source (set VOL_checker_data_source=yahoo in user_data.csv)
 !python main.py --preset postprocess --ticker-choice 2
 ```
 
@@ -233,10 +303,16 @@ from main import main
 # Generate baseline for NASDAQ-100
 main(preset='preprocess', config_override={'ticker_choice': '2'})
 
-# Daily checker for NASDAQ-100
+# Daily checker — TradingView source
 main(preset='postprocess', config_override={'ticker_choice': '2'})
 
-# Daily checker and force reprocess a specific date
+# Daily checker — Yahoo source
+main(preset='postprocess', config_override={
+    'ticker_choice': '2',
+    'vol_checker_data_source': 'yahoo'
+})
+
+# Force reprocess a specific date
 main(preset='postprocess', config_override={
     'ticker_choice': '2',
     'vol_checker_tw_since_date': '2026-05-21'
@@ -265,38 +341,30 @@ drive.mount('/content/drive')
 # ── CELL 3A: FIRST TIME — generate full baseline (slow, run once) ─────────────
 !python main.py --preset preprocess_full
 
-# ── CELL 3B: EVERY TRADING DAY — run daily checker ────────────────────────────
+# ── CELL 3B: EVERY TRADING DAY — TradingView source ───────────────────────────
 # Drop your TradingView export in:
 #   downloadData_v1/data/tw_files/daily/all_stocks_LOHP_YYYY-MM-DD.csv
 # Then run:
 !python main.py --preset postprocess --ticker-choice 2
 
+# ── CELL 3C: EVERY TRADING DAY — Yahoo source (no TradingView export needed) ──
+# Set VOL_checker_data_source=yahoo in user_data.csv, then run:
+!python main.py --preset postprocess --ticker-choice 2
+
 # ── CELL 4: View results ───────────────────────────────────────────────────────
 import pandas as pd
 
-# Today's hits
+# Today's hits — filter large caps and sort by rank
 hits = pd.read_csv('results/vol_top20/vol_check_results.csv')
-print(hits[hits['entered_top_n'] == True].tail(20).to_string())
+big = hits[hits['entered_top_n'] == True].copy()
+if 'market_cap' in big.columns:
+    big = big.sort_values(['market_cap', 'rank'], ascending=[False, True])
+print(big.tail(20).to_string())
 
 # Full daily log (all monitored tickers, hit=0/1)
 log = pd.read_csv('results/vol_top20/daily_log.csv')
 print(log[log['hit'] == 1].tail(20).to_string())
 ```
-
----
-
-## TradingView Export File
-
-The daily checker reads TradingView bulk export CSV files. Place them in:
-```
-../downloadData_v1/data/tw_files/daily/
-```
-
-Required filename format: `*YYYY-MM-DD*.csv` (date anywhere in filename)
-
-Required columns: `Symbol`, `Open 1 day`, `High 1 day`, `Low 1 day`, `Price`, `Volume 1 day`
-
-Multiple files for the same date are merged (e.g. one for stocks, one for ETFs).
 
 ---
 
@@ -306,11 +374,12 @@ Multiple files for the same date are merged (e.g. one for stocks, one for ETFs).
 |---|---|---|
 | `results/hve_results/HVD_historical_daily.csv` | Pre-processor | HVD baseline — top-N volume days per ticker. **Read-only** during daily runs |
 | `results/hve_results/HVE_historical_*.csv` | Pre-processor | HVE milestones per ticker per timeframe |
+| `results/hve_results/baseline_metadata.json` | Pre-processor | Cutoff date for Yahoo source cutoff protection |
 | `results/vol_top20/HVD_incremental.csv` | Daily checker | New events since baseline. Safe to delete |
 | `results/vol_top20/daily_log.csv` | Daily checker | All monitored tickers per day, `hit` column |
 | `results/vol_top20/vol_check_results.csv` | Daily checker | Cumulative hits (beat threshold) |
 | `results/vol_top20/daily/vol_check_YYYY-MM-DD.csv` | Daily checker | Hits for a single day |
-| `results/vol_top20/last_processed.txt` | Daily checker | State: last processed TW date |
+| `results/vol_top20/last_processed.txt` | Daily checker | State: last processed date |
 
 ---
 

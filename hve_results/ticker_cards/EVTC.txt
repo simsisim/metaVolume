@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: EVTC
+================================================================================
+Generated: 2026-05-25 07:58:06
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-08-18  Volume: 4,407,900  (2103 days ago)
+  2. 2020-03-19  Volume: 1,112,100  (2255 days ago)
+  3. 2020-03-17  Volume: 1,019,200  (2257 days ago)
+  4. 2020-02-27  Volume: 954,600  (2276 days ago)
+  5. 2020-02-26  Volume: 920,700  (2277 days ago)
+  6. 2020-02-25  Volume: 510,900  (2278 days ago)
+  7. 2020-01-13  Volume: 491,700  (2321 days ago)
+  8. 2020-01-10  Volume: 465,900  (2324 days ago)
+  9. 2020-01-03  Volume: 437,900  (2331 days ago)
+  10. 2020-01-02  Volume: 426,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-14  Volume: 8,797,000  (1379 days ago)
+  2. 2020-08-23  Volume: 6,940,400  (2100 days ago)
+  3. 2020-03-22  Volume: 4,770,200  (2254 days ago)
+  4. 2020-03-01  Volume: 3,516,300  (2275 days ago)
+  5. 2020-01-19  Volume: 2,006,500  (2317 days ago)
+  6. 2020-01-12  Volume: 1,721,600  (2324 days ago)
+  7. 2020-01-05  Volume: 1,512,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-31  Volume: 15,019,800  (1369 days ago)
+  2. 2020-08-31  Volume: 14,911,100  (2099 days ago)
+  3. 2020-03-31  Volume: 13,573,000  (2252 days ago)
+  4. 2020-02-29  Volume: 7,347,600  (2283 days ago)
+  5. 2020-01-31  Volume: 6,951,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Monthly (1369 days ago)
+
+================================================================================

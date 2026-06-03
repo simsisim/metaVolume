@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: POWI
+================================================================================
+Generated: 2026-05-25 07:57:49
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-17  Volume: 11,130,900  (1617 days ago)
+  2. 2020-02-28  Volume: 1,535,400  (2275 days ago)
+  3. 2020-01-31  Volume: 1,279,600  (2303 days ago)
+  4. 2020-01-10  Volume: 632,400  (2324 days ago)
+  5. 2020-01-06  Volume: 466,000  (2328 days ago)
+  6. 2020-01-03  Volume: 288,800  (2331 days ago)
+  7. 2020-01-02  Volume: 278,400  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-12  Volume: 21,504,600  (224 days ago)
+  2. 2021-12-12  Volume: 13,841,900  (1624 days ago)
+  3. 2020-03-15  Volume: 4,738,600  (2261 days ago)
+  4. 2020-02-23  Volume: 4,079,800  (2282 days ago)
+  5. 2020-02-02  Volume: 3,079,800  (2303 days ago)
+  6. 2020-01-26  Volume: 2,528,600  (2310 days ago)
+  7. 2020-01-12  Volume: 1,875,600  (2324 days ago)
+  8. 2020-01-05  Volume: 1,596,600  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-31  Volume: 37,999,800  (212 days ago)
+  2. 2021-12-31  Volume: 22,917,800  (1612 days ago)
+  3. 2020-03-31  Volume: 15,352,400  (2252 days ago)
+  4. 2020-02-29  Volume: 11,918,400  (2283 days ago)
+  5. 2020-01-31  Volume: 8,057,000  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

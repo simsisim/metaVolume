@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: TDY
+================================================================================
+Generated: 2026-05-25 07:58:08
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-19  Volume: 6,953,100  (2163 days ago)
+  2. 2020-03-20  Volume: 1,138,100  (2254 days ago)
+  3. 2020-01-22  Volume: 753,700  (2312 days ago)
+  4. 2020-01-21  Volume: 448,300  (2313 days ago)
+  5. 2020-01-17  Volume: 265,400  (2317 days ago)
+  6. 2020-01-07  Volume: 263,100  (2327 days ago)
+  7. 2020-01-06  Volume: 222,400  (2328 days ago)
+  8. 2020-01-03  Volume: 202,500  (2331 days ago)
+  9. 2020-01-02  Volume: 193,800  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-14  Volume: 8,609,800  (2170 days ago)
+  2. 2020-03-15  Volume: 2,613,000  (2261 days ago)
+  3. 2020-01-19  Volume: 2,053,600  (2317 days ago)
+  4. 2020-01-05  Volume: 1,054,900  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-30  Volume: 13,784,800  (2161 days ago)
+  2. 2020-03-31  Volume: 8,383,600  (2252 days ago)
+  3. 2020-01-31  Volume: 5,764,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Monthly (2161 days ago)
+
+================================================================================

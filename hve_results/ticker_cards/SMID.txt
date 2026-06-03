@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: SMID
+================================================================================
+Generated: 2026-05-25 07:57:20
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-28  Volume: 592,100  (693 days ago)
+  2. 2022-01-03  Volume: 267,400  (1600 days ago)
+  3. 2021-07-15  Volume: 228,600  (1772 days ago)
+  4. 2021-05-17  Volume: 138,800  (1831 days ago)
+  5. 2020-06-02  Volume: 127,600  (2180 days ago)
+  6. 2020-02-11  Volume: 118,400  (2292 days ago)
+  7. 2020-01-30  Volume: 9,100  (2304 days ago)
+  8. 2020-01-21  Volume: 6,700  (2313 days ago)
+  9. 2020-01-06  Volume: 4,200  (2328 days ago)
+  10. 2020-01-03  Volume: 2,400  (2331 days ago)
+  11. 2020-01-02  Volume: 1,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-23  Volume: 806,500  (700 days ago)
+  2. 2021-07-11  Volume: 537,400  (1778 days ago)
+  3. 2021-06-06  Volume: 353,200  (1813 days ago)
+  4. 2021-05-16  Volume: 266,700  (1834 days ago)
+  5. 2021-03-14  Volume: 169,500  (1897 days ago)
+  6. 2020-05-31  Volume: 165,200  (2184 days ago)
+  7. 2020-02-09  Volume: 131,100  (2296 days ago)
+  8. 2020-02-02  Volume: 18,200  (2303 days ago)
+  9. 2020-01-26  Volume: 14,000  (2310 days ago)
+  10. 2020-01-19  Volume: 13,100  (2317 days ago)
+  11. 2020-01-05  Volume: 12,500  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (693 days ago)
+
+================================================================================

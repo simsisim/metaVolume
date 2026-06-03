@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: NOEM
+================================================================================
+Generated: 2026-05-25 07:57:09
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-06  Volume: 746,000  (442 days ago)
+  2. 2025-03-05  Volume: 263,300  (443 days ago)
+  3. 2025-03-04  Volume: 197,800  (444 days ago)
+  4. 2025-03-03  Volume: 107,800  (445 days ago)
+  5. 2025-02-13  Volume: 56,100  (463 days ago)
+  6. 2025-01-16  Volume: 35,200  (491 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-09  Volume: 1,531,300  (441 days ago)
+  2. 2025-02-16  Volume: 60,900  (462 days ago)
+  3. 2025-01-19  Volume: 59,800  (490 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-31  Volume: 2,646,500  (426 days ago)
+  2. 2025-02-28  Volume: 119,000  (457 days ago)
+  3. 2025-01-31  Volume: 74,100  (485 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (426 days ago)
+
+================================================================================

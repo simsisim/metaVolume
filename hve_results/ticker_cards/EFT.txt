@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: EFT
+================================================================================
+Generated: 2026-05-25 07:58:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-20  Volume: 1,255,900  (2254 days ago)
+  2. 2020-03-19  Volume: 1,023,700  (2255 days ago)
+  3. 2020-03-18  Volume: 890,000  (2256 days ago)
+  4. 2020-03-13  Volume: 756,700  (2261 days ago)
+  5. 2020-03-12  Volume: 624,500  (2262 days ago)
+  6. 2020-01-02  Volume: 595,900  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 3,991,700  (2254 days ago)
+  2. 2020-03-15  Volume: 2,523,400  (2261 days ago)
+  3. 2020-01-05  Volume: 1,707,300  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 11,000,000  (2252 days ago)
+  2. 2020-01-31  Volume: 4,150,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (2252 days ago)
+
+================================================================================

@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: NVEC
+================================================================================
+Generated: 2026-05-25 07:57:33
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 700,100  (1064 days ago)
+  2. 2022-06-24  Volume: 663,500  (1428 days ago)
+  3. 2020-11-30  Volume: 178,900  (1999 days ago)
+  4. 2020-06-19  Volume: 79,700  (2163 days ago)
+  5. 2020-01-21  Volume: 63,200  (2313 days ago)
+  6. 2020-01-02  Volume: 41,300  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 1,238,825  (0 days ago)
+  2. 2026-05-17  Volume: 1,182,800  (7 days ago)
+  3. 2023-06-18  Volume: 918,000  (1071 days ago)
+  4. 2022-06-19  Volume: 812,400  (1435 days ago)
+  5. 2020-11-29  Volume: 341,200  (2002 days ago)
+  6. 2020-03-15  Volume: 181,800  (2261 days ago)
+  7. 2020-02-02  Volume: 147,700  (2303 days ago)
+  8. 2020-01-19  Volume: 137,600  (2317 days ago)
+  9. 2020-01-05  Volume: 117,700  (2331 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

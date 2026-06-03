@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: AWP
+================================================================================
+Generated: 2026-05-25 07:57:19
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-19  Volume: 1,096,533  (672 days ago)
+  2. 2022-04-13  Volume: 637,867  (1500 days ago)
+  3. 2022-03-17  Volume: 621,233  (1527 days ago)
+  4. 2020-03-18  Volume: 588,767  (2256 days ago)
+  5. 2020-03-17  Volume: 519,100  (2257 days ago)
+  6. 2020-02-28  Volume: 495,100  (2275 days ago)
+  7. 2020-02-27  Volume: 429,567  (2276 days ago)
+  8. 2020-02-25  Volume: 326,833  (2278 days ago)
+  9. 2020-01-14  Volume: 300,767  (2320 days ago)
+  10. 2020-01-10  Volume: 194,000  (2324 days ago)
+  11. 2020-01-08  Volume: 167,667  (2326 days ago)
+  12. 2020-01-07  Volume: 156,633  (2327 days ago)
+  13. 2020-01-06  Volume: 153,067  (2328 days ago)
+  14. 2020-01-02  Volume: 143,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-22  Volume: 2,384,267  (2254 days ago)
+  2. 2020-03-01  Volume: 1,603,200  (2275 days ago)
+  3. 2020-01-19  Volume: 882,633  (2317 days ago)
+  4. 2020-01-12  Volume: 742,734  (2324 days ago)
+  5. 2020-01-05  Volume: 511,500  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 6,556,433  (2252 days ago)
+  2. 2020-01-31  Volume: 3,145,101  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (672 days ago)
+
+================================================================================

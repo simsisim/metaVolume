@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: CHSCM
+================================================================================
+Generated: 2026-05-25 07:57:49
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-23  Volume: 935,500  (1611 days ago)
+  2. 2020-03-10  Volume: 210,600  (2264 days ago)
+  3. 2020-02-28  Volume: 122,700  (2275 days ago)
+  4. 2020-02-19  Volume: 58,200  (2284 days ago)
+  5. 2020-02-07  Volume: 36,600  (2296 days ago)
+  6. 2020-01-02  Volume: 35,100  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-26  Volume: 1,104,000  (1610 days ago)
+  2. 2020-03-22  Volume: 521,300  (2254 days ago)
+  3. 2020-03-15  Volume: 504,400  (2261 days ago)
+  4. 2020-03-01  Volume: 298,300  (2275 days ago)
+  5. 2020-01-12  Volume: 126,000  (2324 days ago)
+  6. 2020-01-05  Volume: 101,600  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 1,536,100  (2252 days ago)
+  2. 2020-02-29  Volume: 595,200  (2283 days ago)
+  3. 2020-01-31  Volume: 390,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (1610 days ago)
+
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: RWTN
+================================================================================
+Generated: 2026-05-25 07:57:18
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-19  Volume: 98,900  (610 days ago)
+  2. 2024-09-16  Volume: 74,800  (613 days ago)
+  3. 2024-02-02  Volume: 66,900  (840 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-22  Volume: 305,800  (609 days ago)
+  2. 2024-02-11  Volume: 153,500  (833 days ago)
+  3. 2024-02-04  Volume: 66,900  (840 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 487,400  (608 days ago)
+  2. 2024-02-29  Volume: 447,600  (822 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

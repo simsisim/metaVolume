@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: HGTY
+================================================================================
+Generated: 2026-05-25 07:57:49
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-03  Volume: 2,556,200  (1631 days ago)
+  2. 2021-08-18  Volume: 2,294,100  (1738 days ago)
+  3. 2021-07-19  Volume: 97,900  (1768 days ago)
+  4. 2021-06-02  Volume: 52,100  (1815 days ago)
+  5. 2021-06-01  Volume: 38,600  (1816 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-05  Volume: 4,063,100  (1631 days ago)
+  2. 2021-08-22  Volume: 2,839,000  (1736 days ago)
+  3. 2021-07-25  Volume: 221,300  (1764 days ago)
+  4. 2021-06-06  Volume: 117,000  (1813 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-12-31  Volume: 10,245,400  (1612 days ago)
+  2. 2021-08-31  Volume: 3,856,900  (1734 days ago)
+  3. 2021-07-31  Volume: 421,400  (1765 days ago)
+  4. 2021-06-30  Volume: 309,400  (1796 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (1612 days ago)
+
+================================================================================

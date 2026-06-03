@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: CMP
+================================================================================
+Generated: 2026-05-25 07:57:17
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-20  Volume: 9,026,400  (609 days ago)
+  2. 2022-01-31  Volume: 8,182,400  (1572 days ago)
+  3. 2021-11-16  Volume: 3,532,900  (1648 days ago)
+  4. 2021-07-14  Volume: 2,045,300  (1773 days ago)
+  5. 2021-06-18  Volume: 1,615,500  (1799 days ago)
+  6. 2020-12-18  Volume: 1,392,400  (1981 days ago)
+  7. 2020-02-11  Volume: 1,100,100  (2292 days ago)
+  8. 2020-01-31  Volume: 559,900  (2303 days ago)
+  9. 2020-01-27  Volume: 441,500  (2307 days ago)
+  10. 2020-01-02  Volume: 332,000  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-22  Volume: 18,203,400  (609 days ago)
+  2. 2022-02-06  Volume: 10,051,800  (1568 days ago)
+  3. 2021-11-21  Volume: 6,187,700  (1645 days ago)
+  4. 2021-07-18  Volume: 3,586,100  (1771 days ago)
+  5. 2020-03-22  Volume: 3,085,200  (2254 days ago)
+  6. 2020-02-16  Volume: 2,594,700  (2289 days ago)
+  7. 2020-02-02  Volume: 1,662,500  (2303 days ago)
+  8. 2020-01-05  Volume: 1,168,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 36,723,700  (608 days ago)
+  2. 2024-03-31  Volume: 19,440,500  (791 days ago)
+  3. 2022-01-31  Volume: 15,502,000  (1581 days ago)
+  4. 2021-11-30  Volume: 10,363,200  (1643 days ago)
+  5. 2020-03-31  Volume: 10,263,300  (2252 days ago)
+  6. 2020-02-29  Volume: 7,319,700  (2283 days ago)
+  7. 2020-01-31  Volume: 5,105,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

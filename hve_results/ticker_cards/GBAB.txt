@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: GBAB
+================================================================================
+Generated: 2026-05-25 07:57:20
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-17  Volume: 464,000  (674 days ago)
+  2. 2020-02-28  Volume: 421,300  (2275 days ago)
+  3. 2020-02-27  Volume: 383,000  (2276 days ago)
+  4. 2020-02-25  Volume: 120,400  (2278 days ago)
+  5. 2020-02-24  Volume: 102,900  (2279 days ago)
+  6. 2020-02-10  Volume: 70,200  (2293 days ago)
+  7. 2020-01-13  Volume: 59,000  (2321 days ago)
+  8. 2020-01-09  Volume: 56,900  (2325 days ago)
+  9. 2020-01-02  Volume: 48,200  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-24  Volume: 1,653,066  (0 days ago)
+  2. 2020-03-15  Volume: 1,225,300  (2261 days ago)
+  3. 2020-03-01  Volume: 1,116,700  (2275 days ago)
+  4. 2020-01-12  Volume: 218,900  (2324 days ago)
+  5. 2020-01-05  Volume: 183,700  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-31  Volume: 4,164,300  (2252 days ago)
+  2. 2020-02-29  Volume: 1,697,400  (2283 days ago)
+  3. 2020-01-31  Volume: 899,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

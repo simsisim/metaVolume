@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: WSBK
+================================================================================
+Generated: 2026-05-25 07:57:05
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-09  Volume: 155,300  (378 days ago)
+  2. 2025-05-08  Volume: 148,200  (379 days ago)
+  3. 2025-05-05  Volume: 143,200  (382 days ago)
+  4. 2025-05-02  Volume: 57,000  (385 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-11  Volume: 616,300  (378 days ago)
+  2. 2025-05-04  Volume: 57,000  (385 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-31  Volume: 1,521,400  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Monthly (365 days ago)
+
+================================================================================

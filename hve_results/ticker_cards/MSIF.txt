@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: MSIF
+================================================================================
+Generated: 2026-05-25 07:56:32
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-20  Volume: 1,602,200  (63 days ago)
+  2. 2025-01-29  Volume: 949,600  (478 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-08  Volume: 3,493,500  (105 days ago)
+  2. 2025-11-02  Volume: 2,534,800  (203 days ago)
+  3. 2025-02-02  Volume: 1,452,600  (476 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 9,794,200  (61 days ago)
+  2. 2025-11-30  Volume: 6,016,600  (182 days ago)
+  3. 2025-10-31  Volume: 5,243,100  (212 days ago)
+  4. 2025-08-31  Volume: 4,272,100  (273 days ago)
+  5. 2025-06-30  Volume: 2,192,800  (335 days ago)
+  6. 2025-02-28  Volume: 1,769,300  (457 days ago)
+  7. 2025-01-31  Volume: 1,452,600  (485 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

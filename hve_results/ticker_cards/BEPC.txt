@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: BEPC
+================================================================================
+Generated: 2026-05-25 07:57:54
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 15,446,300  (1792 days ago)
+  2. 2020-07-30  Volume: 8,435,250  (2122 days ago)
+  3. 2020-07-28  Volume: 1,073,250  (2124 days ago)
+  4. 2020-07-27  Volume: 134,400  (2125 days ago)
+  5. 2020-07-24  Volume: 25,350  (2128 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-27  Volume: 18,948,000  (1792 days ago)
+  2. 2020-08-02  Volume: 13,287,600  (2121 days ago)
+  3. 2020-07-26  Volume: 25,350  (2128 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-31  Volume: 34,161,100  (61 days ago)
+  2. 2021-06-30  Volume: 32,635,800  (1796 days ago)
+  3. 2021-02-28  Volume: 31,734,100  (1918 days ago)
+  4. 2020-08-31  Volume: 23,020,500  (2099 days ago)
+  5. 2020-07-31  Volume: 13,312,950  (2130 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

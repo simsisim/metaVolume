@@ -1,0 +1,75 @@
+================================================================================
+TICKER CARD: WLFC
+================================================================================
+Generated: 2026-05-25 07:56:26
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-14  Volume: 706,300  (8 days ago)
+  2. 2025-06-27  Volume: 400,400  (329 days ago)
+  3. 2025-06-10  Volume: 377,100  (346 days ago)
+  4. 2023-06-23  Volume: 359,400  (1064 days ago)
+  5. 2022-06-24  Volume: 349,600  (1428 days ago)
+  6. 2021-03-17  Volume: 117,300  (1892 days ago)
+  7. 2021-01-21  Volume: 89,400  (1947 days ago)
+  8. 2020-06-05  Volume: 71,500  (2177 days ago)
+  9. 2020-06-04  Volume: 62,900  (2178 days ago)
+  10. 2020-05-28  Volume: 33,100  (2185 days ago)
+  11. 2020-03-27  Volume: 30,200  (2247 days ago)
+  12. 2020-03-24  Volume: 29,800  (2250 days ago)
+  13. 2020-03-20  Volume: 29,400  (2254 days ago)
+  14. 2020-03-11  Volume: 25,800  (2263 days ago)
+  15. 2020-03-03  Volume: 25,100  (2271 days ago)
+  16. 2020-02-10  Volume: 22,400  (2293 days ago)
+  17. 2020-01-28  Volume: 11,500  (2306 days ago)
+  18. 2020-01-27  Volume: 10,700  (2307 days ago)
+  19. 2020-01-13  Volume: 8,600  (2321 days ago)
+  20. 2020-01-02  Volume: 8,500  (2332 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-17  Volume: 1,123,400  (7 days ago)
+  2. 2025-06-08  Volume: 1,058,900  (350 days ago)
+  3. 2025-06-01  Volume: 1,012,000  (357 days ago)
+  4. 2024-11-03  Volume: 570,300  (567 days ago)
+  5. 2023-06-18  Volume: 428,900  (1071 days ago)
+  6. 2022-06-19  Volume: 406,900  (1435 days ago)
+  7. 2021-03-14  Volume: 229,900  (1897 days ago)
+  8. 2020-05-31  Volume: 194,500  (2184 days ago)
+  9. 2020-03-22  Volume: 128,500  (2254 days ago)
+  10. 2020-03-15  Volume: 115,000  (2261 days ago)
+  11. 2020-03-01  Volume: 94,700  (2275 days ago)
+  12. 2020-02-23  Volume: 64,000  (2282 days ago)
+  13. 2020-01-26  Volume: 42,100  (2310 days ago)
+  14. 2020-01-12  Volume: 29,700  (2324 days ago)
+  15. 2020-01-05  Volume: 19,400  (2331 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 4,128,800  (335 days ago)
+  2. 2025-05-31  Volume: 1,334,000  (365 days ago)
+  3. 2024-11-30  Volume: 1,235,600  (547 days ago)
+  4. 2024-10-31  Volume: 943,500  (577 days ago)
+  5. 2022-06-30  Volume: 797,000  (1431 days ago)
+  6. 2021-03-31  Volume: 522,800  (1887 days ago)
+  7. 2020-06-30  Volume: 506,400  (2161 days ago)
+  8. 2020-03-31  Volume: 465,800  (2252 days ago)
+  9. 2020-02-29  Volume: 139,200  (2283 days ago)
+  10. 2020-01-31  Volume: 125,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 45
+Latest volume activity: Weekly (7 days ago)
+
+================================================================================

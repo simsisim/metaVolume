@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: CARR
+================================================================================
+Generated: 2026-05-25 07:58:11
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-03  Volume: 66,934,300  (2240 days ago)
+  2. 2020-04-02  Volume: 15,966,300  (2241 days ago)
+  3. 2020-04-01  Volume: 2,998,900  (2242 days ago)
+  4. 2020-03-27  Volume: 486,500  (2247 days ago)
+  5. 2020-03-24  Volume: 96,100  (2250 days ago)
+  6. 2020-03-23  Volume: 18,700  (2251 days ago)
+  7. 2020-03-20  Volume: 2,300  (2254 days ago)
+  8. 2020-03-19  Volume: 100  (2255 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-12  Volume: 144,989,300  (2233 days ago)
+  2. 2020-04-05  Volume: 86,571,000  (2240 days ago)
+  3. 2020-03-29  Volume: 696,900  (2247 days ago)
+  4. 2020-03-22  Volume: 2,400  (2254 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-04-30  Volume: 468,019,400  (2222 days ago)
+  2. 2020-03-31  Volume: 1,370,800  (2252 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Monthly (2222 days ago)
+
+================================================================================
