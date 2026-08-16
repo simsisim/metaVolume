@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: KARO
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-12  Volume: 856,900  (428 days ago)
+  2. 2021-04-01  Volume: 755,100  (1961 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-09  Volume: 1,203,400  (427 days ago)
+  2. 2021-03-29  Volume: 755,100  (1960 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-01  Volume: 2,388,000  (426 days ago)
+  2. 2021-04-01  Volume: 2,031,200  (1948 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Monthly (426 days ago)
+
+================================================================================

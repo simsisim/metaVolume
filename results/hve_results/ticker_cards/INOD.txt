@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: INOD
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-08  Volume: 19,182,400  (98 days ago)
+  2. 2024-05-08  Volume: 19,162,200  (828 days ago)
+  3. 2023-06-23  Volume: 3,861,800  (1148 days ago)
+  4. 2020-08-19  Volume: 2,641,400  (2186 days ago)
+  5. 2020-05-22  Volume: 367,000  (2275 days ago)
+  6. 2020-05-20  Volume: 89,100  (2277 days ago)
+  7. 2020-03-16  Volume: 72,200  (2342 days ago)
+  8. 2020-01-03  Volume: 64,500  (2415 days ago)
+  9. 2020-01-02  Volume: 9,500  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-04  Volume: 26,111,400  (98 days ago)
+  2. 2025-02-15  Volume: 24,929,500  (541 days ago)
+  3. 2024-05-04  Volume: 24,784,200  (828 days ago)
+  4. 2024-02-10  Volume: 6,958,400  (912 days ago)
+  5. 2023-06-17  Volume: 6,600,900  (1150 days ago)
+  6. 2020-08-15  Volume: 3,836,900  (2186 days ago)
+  7. 2020-08-08  Volume: 912,000  (2193 days ago)
+  8. 2020-07-11  Volume: 582,100  (2221 days ago)
+  9. 2020-05-16  Volume: 548,400  (2277 days ago)
+  10. 2020-05-09  Volume: 148,200  (2284 days ago)
+  11. 2020-03-14  Volume: 141,300  (2340 days ago)
+  12. 2020-02-29  Volume: 133,200  (2354 days ago)
+  13. 2020-02-22  Volume: 108,400  (2361 days ago)
+  14. 2020-01-11  Volume: 102,300  (2403 days ago)
+  15. 2020-01-04  Volume: 74,100  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (98 days ago)
+
+================================================================================

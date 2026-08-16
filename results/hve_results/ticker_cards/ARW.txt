@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: ARW
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-30  Volume: 7,110,600  (988 days ago)
+  2. 2023-05-31  Volume: 2,398,700  (1171 days ago)
+  3. 2022-05-31  Volume: 2,389,700  (1536 days ago)
+  4. 2020-03-20  Volume: 2,108,800  (2338 days ago)
+  5. 2020-02-28  Volume: 1,410,300  (2359 days ago)
+  6. 2020-02-06  Volume: 918,900  (2381 days ago)
+  7. 2020-02-04  Volume: 906,500  (2383 days ago)
+  8. 2020-01-17  Volume: 798,200  (2401 days ago)
+  9. 2020-01-08  Volume: 768,800  (2410 days ago)
+  10. 2020-01-07  Volume: 630,600  (2411 days ago)
+  11. 2020-01-06  Volume: 582,300  (2412 days ago)
+  12. 2020-01-03  Volume: 343,400  (2415 days ago)
+  13. 2020-01-02  Volume: 330,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-25  Volume: 10,800,400  (989 days ago)
+  2. 2020-03-14  Volume: 5,841,500  (2340 days ago)
+  3. 2020-03-07  Volume: 4,425,700  (2347 days ago)
+  4. 2020-02-22  Volume: 3,972,100  (2361 days ago)
+  5. 2020-02-01  Volume: 3,915,700  (2382 days ago)
+  6. 2020-01-04  Volume: 2,852,800  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 19,867,600  (2344 days ago)
+  2. 2020-02-01  Volume: 12,937,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (988 days ago)
+
+================================================================================

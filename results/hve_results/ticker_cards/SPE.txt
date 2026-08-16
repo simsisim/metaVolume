@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: SPE
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-04-14  Volume: 316,000  (1948 days ago)
+  2. 2020-03-02  Volume: 172,400  (2356 days ago)
+  3. 2020-02-28  Volume: 136,100  (2359 days ago)
+  4. 2020-02-12  Volume: 44,500  (2375 days ago)
+  5. 2020-01-15  Volume: 40,900  (2403 days ago)
+  6. 2020-01-06  Volume: 36,100  (2412 days ago)
+  7. 2020-01-03  Volume: 26,900  (2415 days ago)
+  8. 2020-01-02  Volume: 13,700  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-17  Volume: 851,600  (1850 days ago)
+  2. 2021-04-10  Volume: 807,400  (1948 days ago)
+  3. 2020-03-14  Volume: 436,900  (2340 days ago)
+  4. 2020-03-07  Volume: 333,900  (2347 days ago)
+  5. 2020-02-29  Volume: 319,500  (2354 days ago)
+  6. 2020-02-22  Volume: 286,700  (2361 days ago)
+  7. 2020-01-11  Volume: 124,500  (2403 days ago)
+  8. 2020-01-04  Volume: 91,800  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-07-01  Volume: 1,988,500  (1857 days ago)
+  2. 2021-04-01  Volume: 1,773,400  (1948 days ago)
+  3. 2020-03-01  Volume: 1,435,300  (2344 days ago)
+  4. 2020-02-01  Volume: 538,600  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (1850 days ago)
+
+================================================================================

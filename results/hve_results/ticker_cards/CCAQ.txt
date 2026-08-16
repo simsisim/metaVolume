@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: CCAQ
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-09  Volume: 1,386,600  (36 days ago)
+  2. 2025-08-13  Volume: 1,248,900  (366 days ago)
+  3. 2025-07-02  Volume: 220,500  (408 days ago)
+  4. 2025-06-13  Volume: 204,200  (427 days ago)
+  5. 2025-06-12  Volume: 49,300  (428 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-11  Volume: 1,602,800  (364 days ago)
+  2. 2025-06-30  Volume: 483,700  (406 days ago)
+  3. 2025-06-23  Volume: 257,000  (413 days ago)
+  4. 2025-06-09  Volume: 253,500  (427 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-01  Volume: 1,832,625  (31 days ago)
+  2. 2025-08-01  Volume: 1,636,800  (365 days ago)
+  3. 2025-06-01  Volume: 705,900  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (31 days ago)
+
+================================================================================

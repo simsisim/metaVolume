@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: MIND
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-11  Volume: 4,216,600  (565 days ago)
+  2. 2021-12-14  Volume: 1,424,820  (1658 days ago)
+  3. 2021-12-13  Volume: 641,360  (1659 days ago)
+  4. 2020-12-16  Volume: 600,850  (2021 days ago)
+  5. 2020-12-15  Volume: 347,940  (2022 days ago)
+  6. 2020-05-26  Volume: 277,040  (2225 days ago)
+  7. 2020-05-20  Volume: 144,700  (2231 days ago)
+  8. 2020-05-19  Volume: 13,700  (2232 days ago)
+  9. 2020-03-25  Volume: 11,390  (2287 days ago)
+  10. 2020-01-13  Volume: 9,820  (2359 days ago)
+  11. 2020-01-09  Volume: 5,530  (2363 days ago)
+  12. 2020-01-08  Volume: 5,450  (2364 days ago)
+  13. 2020-01-07  Volume: 1,320  (2365 days ago)
+  14. 2020-01-03  Volume: 1,260  (2369 days ago)
+  15. 2020-01-02  Volume: 340  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-07  Volume: 6,536,900  (569 days ago)
+  2. 2021-12-11  Volume: 2,271,550  (1661 days ago)
+  3. 2020-12-12  Volume: 1,025,580  (2025 days ago)
+  4. 2020-05-23  Volume: 363,100  (2228 days ago)
+  5. 2020-05-16  Volume: 305,950  (2235 days ago)
+  6. 2020-05-09  Volume: 29,570  (2242 days ago)
+  7. 2020-03-21  Volume: 27,890  (2291 days ago)
+  8. 2020-01-11  Volume: 18,900  (2361 days ago)
+  9. 2020-01-04  Volume: 17,440  (2368 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (565 days ago)
+
+================================================================================

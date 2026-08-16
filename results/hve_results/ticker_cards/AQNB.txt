@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: AQNB
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-27  Volume: 782,800  (1068 days ago)
+  2. 2020-09-30  Volume: 308,700  (2098 days ago)
+  3. 2020-07-22  Volume: 156,300  (2168 days ago)
+  4. 2020-05-29  Volume: 108,700  (2222 days ago)
+  5. 2020-04-30  Volume: 92,400  (2251 days ago)
+  6. 2020-03-19  Volume: 75,300  (2293 days ago)
+  7. 2020-02-28  Volume: 73,300  (2313 days ago)
+  8. 2020-01-15  Volume: 69,800  (2357 days ago)
+  9. 2020-01-02  Volume: 58,200  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-24  Volume: 1,752,300  (1071 days ago)
+  2. 2020-09-28  Volume: 516,800  (2100 days ago)
+  3. 2020-03-16  Volume: 268,600  (2296 days ago)
+  4. 2020-02-24  Volume: 154,800  (2317 days ago)
+  5. 2020-02-10  Volume: 118,300  (2331 days ago)
+  6. 2020-01-13  Volume: 115,900  (2359 days ago)
+  7. 2020-01-06  Volume: 73,300  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-08-01  Volume: 2,624,800  (1035 days ago)
+  2. 2023-07-01  Volume: 2,508,500  (1066 days ago)
+  3. 2022-03-01  Volume: 952,600  (1553 days ago)
+  4. 2020-03-01  Volume: 747,000  (2283 days ago)
+  5. 2020-02-01  Volume: 395,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (1035 days ago)
+
+================================================================================

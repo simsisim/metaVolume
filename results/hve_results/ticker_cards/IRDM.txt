@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: IRDM
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-11  Volume: 24,324,300  (2010 days ago)
+  2. 2020-06-26  Volume: 4,295,200  (2240 days ago)
+  3. 2020-02-25  Volume: 2,572,600  (2362 days ago)
+  4. 2020-02-11  Volume: 1,941,600  (2376 days ago)
+  5. 2020-01-29  Volume: 1,476,700  (2389 days ago)
+  6. 2020-01-16  Volume: 1,106,400  (2402 days ago)
+  7. 2020-01-02  Volume: 624,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-08  Volume: 38,115,000  (336 days ago)
+  2. 2021-02-08  Volume: 35,615,500  (2009 days ago)
+  3. 2020-03-16  Volume: 8,050,100  (2338 days ago)
+  4. 2020-02-24  Volume: 7,035,200  (2359 days ago)
+  5. 2020-02-10  Volume: 5,565,800  (2373 days ago)
+  6. 2020-02-03  Volume: 3,821,800  (2380 days ago)
+  7. 2020-01-27  Volume: 3,442,800  (2387 days ago)
+  8. 2020-01-13  Volume: 3,235,800  (2401 days ago)
+  9. 2020-01-06  Volume: 1,826,000  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-01  Volume: 82,048,600  (334 days ago)
+  2. 2021-02-01  Volume: 56,375,900  (2007 days ago)
+  3. 2020-03-01  Volume: 26,572,800  (2344 days ago)
+  4. 2020-02-01  Volume: 20,342,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Monthly (334 days ago)
+
+================================================================================

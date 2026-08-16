@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: VOC
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-29  Volume: 6,819,300  (2099 days ago)
+  2. 2020-03-26  Volume: 244,600  (2286 days ago)
+  3. 2020-02-27  Volume: 221,400  (2314 days ago)
+  4. 2020-01-21  Volume: 207,100  (2351 days ago)
+  5. 2020-01-17  Volume: 139,000  (2355 days ago)
+  6. 2020-01-14  Volume: 128,300  (2358 days ago)
+  7. 2020-01-13  Volume: 109,400  (2359 days ago)
+  8. 2020-01-06  Volume: 92,700  (2366 days ago)
+  9. 2020-01-03  Volume: 47,500  (2369 days ago)
+  10. 2020-01-02  Volume: 43,400  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-28  Volume: 7,249,400  (2100 days ago)
+  2. 2020-02-24  Volume: 652,700  (2317 days ago)
+  3. 2020-01-20  Volume: 540,500  (2352 days ago)
+  4. 2020-01-13  Volume: 526,500  (2359 days ago)
+  5. 2020-01-06  Volume: 390,500  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-01  Volume: 7,872,300  (2099 days ago)
+  2. 2020-03-01  Volume: 2,203,800  (2283 days ago)
+  3. 2020-02-01  Volume: 1,447,500  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (2099 days ago)
+
+================================================================================

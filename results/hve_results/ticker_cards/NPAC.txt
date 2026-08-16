@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: NPAC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-16  Volume: 2,782,400  (29 days ago)
+  2. 2026-03-16  Volume: 2,234,900  (151 days ago)
+  3. 2025-10-07  Volume: 971,500  (311 days ago)
+  4. 2025-10-03  Volume: 739,700  (315 days ago)
+  5. 2025-07-22  Volume: 536,100  (388 days ago)
+  6. 2025-06-30  Volume: 285,300  (410 days ago)
+  7. 2025-06-23  Volume: 134,900  (417 days ago)
+  8. 2025-06-20  Volume: 28,800  (420 days ago)
+  9. 2025-06-18  Volume: 2,400  (422 days ago)
+  10. 2025-06-16  Volume: 200  (424 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-16  Volume: 2,900,100  (147 days ago)
+  2. 2025-10-06  Volume: 1,505,900  (308 days ago)
+  3. 2025-09-29  Volume: 767,700  (315 days ago)
+  4. 2025-07-21  Volume: 680,000  (385 days ago)
+  5. 2025-06-30  Volume: 573,200  (406 days ago)
+  6. 2025-06-23  Volume: 307,200  (413 days ago)
+  7. 2025-06-16  Volume: 31,400  (420 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 4,323,400  (153 days ago)
+  2. 2025-10-01  Volume: 2,615,500  (304 days ago)
+  3. 2025-08-01  Volume: 2,142,300  (365 days ago)
+  4. 2025-07-01  Volume: 1,870,200  (396 days ago)
+  5. 2025-06-01  Volume: 623,900  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (29 days ago)
+
+================================================================================

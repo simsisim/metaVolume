@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: CICB
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-16  Volume: 1,122,300  (74 days ago)
+  2. 2024-10-31  Volume: 732,100  (606 days ago)
+  3. 2024-10-28  Volume: 320,000  (609 days ago)
+  4. 2024-10-09  Volume: 162,300  (628 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-13  Volume: 1,150,000  (77 days ago)
+  2. 2024-10-28  Volume: 1,138,000  (609 days ago)
+  3. 2024-10-07  Volume: 310,900  (630 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-01  Volume: 1,849,500  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Daily (74 days ago)
+
+================================================================================

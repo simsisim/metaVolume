@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: CLPR
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-21  Volume: 1,933,000  (465 days ago)
+  2. 2024-12-20  Volume: 1,835,200  (556 days ago)
+  3. 2024-12-16  Volume: 864,100  (560 days ago)
+  4. 2020-05-14  Volume: 634,900  (2237 days ago)
+  5. 2020-04-28  Volume: 501,200  (2253 days ago)
+  6. 2020-04-07  Volume: 228,200  (2274 days ago)
+  7. 2020-03-24  Volume: 105,600  (2288 days ago)
+  8. 2020-03-20  Volume: 101,600  (2292 days ago)
+  9. 2020-01-07  Volume: 101,300  (2365 days ago)
+  10. 2020-01-02  Volume: 93,200  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-16  Volume: 3,831,300  (560 days ago)
+  2. 2020-05-11  Volume: 1,621,000  (2240 days ago)
+  3. 2020-04-27  Volume: 952,700  (2254 days ago)
+  4. 2020-04-06  Volume: 543,800  (2275 days ago)
+  5. 2020-03-16  Volume: 327,000  (2296 days ago)
+  6. 2020-01-06  Volume: 234,200  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-01  Volume: 5,826,300  (547 days ago)
+  2. 2020-05-01  Volume: 3,149,800  (2222 days ago)
+  3. 2020-04-01  Volume: 2,459,700  (2252 days ago)
+  4. 2020-03-01  Volume: 1,039,700  (2283 days ago)
+  5. 2020-02-01  Volume: 320,400  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (465 days ago)
+
+================================================================================

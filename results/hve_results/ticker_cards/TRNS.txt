@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: TRNS
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-20  Volume: 549,200  (451 days ago)
+  2. 2023-09-21  Volume: 518,800  (1058 days ago)
+  3. 2020-09-17  Volume: 298,000  (2157 days ago)
+  4. 2020-06-26  Volume: 134,000  (2240 days ago)
+  5. 2020-03-31  Volume: 93,300  (2327 days ago)
+  6. 2020-03-18  Volume: 79,900  (2340 days ago)
+  7. 2020-01-22  Volume: 62,500  (2396 days ago)
+  8. 2020-01-16  Volume: 34,000  (2402 days ago)
+  9. 2020-01-07  Volume: 20,600  (2411 days ago)
+  10. 2020-01-03  Volume: 18,400  (2415 days ago)
+  11. 2020-01-02  Volume: 17,000  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-31  Volume: 1,313,300  (191 days ago)
+  2. 2025-05-17  Volume: 1,256,900  (450 days ago)
+  3. 2025-01-25  Volume: 1,006,200  (562 days ago)
+  4. 2024-10-26  Volume: 817,100  (653 days ago)
+  5. 2023-09-16  Volume: 792,300  (1059 days ago)
+  6. 2022-01-29  Volume: 568,600  (1654 days ago)
+  7. 2021-01-30  Volume: 400,800  (2018 days ago)
+  8. 2020-09-12  Volume: 377,000  (2158 days ago)
+  9. 2020-03-14  Volume: 261,800  (2340 days ago)
+  10. 2020-02-22  Volume: 152,900  (2361 days ago)
+  11. 2020-02-01  Volume: 124,700  (2382 days ago)
+  12. 2020-01-18  Volume: 115,700  (2396 days ago)
+  13. 2020-01-11  Volume: 88,700  (2403 days ago)
+  14. 2020-01-04  Volume: 73,300  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 25
+Latest volume activity: Weekly (191 days ago)
+
+================================================================================

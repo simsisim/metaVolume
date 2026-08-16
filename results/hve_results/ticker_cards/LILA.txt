@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: LILA
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-13  Volume: 2,977,500  (458 days ago)
+  2. 2025-05-08  Volume: 2,514,500  (463 days ago)
+  3. 2024-03-25  Volume: 1,979,200  (872 days ago)
+  4. 2021-09-17  Volume: 1,378,400  (1792 days ago)
+  5. 2021-06-25  Volume: 1,171,300  (1876 days ago)
+  6. 2020-10-09  Volume: 1,113,200  (2135 days ago)
+  7. 2020-09-18  Volume: 945,200  (2156 days ago)
+  8. 2020-04-06  Volume: 805,830  (2321 days ago)
+  9. 2020-03-12  Volume: 743,549  (2346 days ago)
+  10. 2020-02-28  Volume: 701,215  (2359 days ago)
+  11. 2020-02-20  Volume: 295,489  (2367 days ago)
+  12. 2020-01-03  Volume: 265,568  (2415 days ago)
+  13. 2020-01-02  Volume: 96,127  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-22  Volume: 10,277,100  (49 days ago)
+  2. 2025-05-12  Volume: 6,837,500  (455 days ago)
+  3. 2024-03-25  Volume: 5,342,000  (868 days ago)
+  4. 2024-03-11  Volume: 3,554,500  (882 days ago)
+  5. 2020-03-16  Volume: 2,646,876  (2338 days ago)
+  6. 2020-03-09  Volume: 2,372,502  (2345 days ago)
+  7. 2020-03-02  Volume: 1,779,086  (2352 days ago)
+  8. 2020-02-24  Volume: 1,401,369  (2359 days ago)
+  9. 2020-01-27  Volume: 913,415  (2387 days ago)
+  10. 2020-01-06  Volume: 690,286  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-01  Volume: 15,167,300  (883 days ago)
+  2. 2020-03-01  Volume: 9,305,289  (2344 days ago)
+  3. 2020-02-01  Volume: 3,475,838  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Weekly (49 days ago)
+
+================================================================================

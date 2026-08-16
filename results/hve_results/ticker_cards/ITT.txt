@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: ITT
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-09  Volume: 5,514,500  (248 days ago)
+  2. 2020-03-17  Volume: 2,862,400  (2341 days ago)
+  3. 2020-03-16  Volume: 2,423,400  (2342 days ago)
+  4. 2020-03-13  Volume: 1,970,000  (2345 days ago)
+  5. 2020-03-09  Volume: 1,756,900  (2349 days ago)
+  6. 2020-02-18  Volume: 1,649,300  (2369 days ago)
+  7. 2020-02-14  Volume: 1,420,100  (2373 days ago)
+  8. 2020-01-06  Volume: 1,198,200  (2412 days ago)
+  9. 2020-01-03  Volume: 839,100  (2415 days ago)
+  10. 2020-01-02  Volume: 724,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-06  Volume: 12,198,200  (247 days ago)
+  2. 2020-03-14  Volume: 10,501,700  (2340 days ago)
+  3. 2020-03-07  Volume: 7,552,400  (2347 days ago)
+  4. 2020-02-22  Volume: 5,745,400  (2361 days ago)
+  5. 2020-02-15  Volume: 4,356,600  (2368 days ago)
+  6. 2020-01-04  Volume: 4,187,600  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 29,637,200  (2344 days ago)
+  2. 2020-02-01  Volume: 15,927,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (247 days ago)
+
+================================================================================

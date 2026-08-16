@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: ALCY
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-10  Volume: 1,066,500  (603 days ago)
+  2. 2024-08-26  Volume: 634,000  (648 days ago)
+  3. 2024-02-08  Volume: 633,200  (848 days ago)
+  4. 2023-08-22  Volume: 465,100  (1018 days ago)
+  5. 2023-08-02  Volume: 28,800  (1038 days ago)
+  6. 2023-07-26  Volume: 10,800  (1045 days ago)
+  7. 2023-07-24  Volume: 1,500  (1047 days ago)
+  8. 2023-07-10  Volume: 700  (1061 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-07  Volume: 1,443,200  (602 days ago)
+  2. 2024-02-05  Volume: 656,900  (847 days ago)
+  3. 2023-08-21  Volume: 574,800  (1015 days ago)
+  4. 2023-07-31  Volume: 32,600  (1036 days ago)
+  5. 2023-07-24  Volume: 16,200  (1043 days ago)
+  6. 2023-07-10  Volume: 1,300  (1057 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-01  Volume: 2,237,900  (132 days ago)
+  2. 2024-10-01  Volume: 1,893,300  (589 days ago)
+  3. 2024-08-01  Volume: 1,479,800  (650 days ago)
+  4. 2024-04-01  Volume: 1,286,600  (772 days ago)
+  5. 2024-02-01  Volume: 1,229,500  (832 days ago)
+  6. 2024-01-01  Volume: 701,700  (863 days ago)
+  7. 2023-10-01  Volume: 694,700  (955 days ago)
+  8. 2023-08-01  Volume: 631,700  (1016 days ago)
+  9. 2023-07-01  Volume: 19,900  (1047 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (132 days ago)
+
+================================================================================

@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: PKE
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-17  Volume: 5,547,900  (1246 days ago)
+  2. 2020-05-15  Volume: 1,342,700  (2282 days ago)
+  3. 2020-03-10  Volume: 644,900  (2348 days ago)
+  4. 2020-02-19  Volume: 308,800  (2368 days ago)
+  5. 2020-01-16  Volume: 253,200  (2402 days ago)
+  6. 2020-01-09  Volume: 241,600  (2409 days ago)
+  7. 2020-01-06  Volume: 89,800  (2412 days ago)
+  8. 2020-01-03  Volume: 88,400  (2415 days ago)
+  9. 2020-01-02  Volume: 64,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-11  Volume: 6,816,300  (1248 days ago)
+  2. 2023-03-04  Volume: 2,219,700  (1255 days ago)
+  3. 2020-05-09  Volume: 2,113,800  (2284 days ago)
+  4. 2020-03-07  Volume: 1,885,300  (2347 days ago)
+  5. 2020-01-11  Volume: 883,600  (2403 days ago)
+  6. 2020-01-04  Volume: 673,300  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-01  Volume: 11,613,800  (1249 days ago)
+  2. 2020-03-01  Volume: 5,469,300  (2344 days ago)
+  3. 2020-02-01  Volume: 2,417,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (1246 days ago)
+
+================================================================================

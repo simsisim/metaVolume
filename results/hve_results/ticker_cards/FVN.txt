@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: FVN
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-25  Volume: 1,407,500  (50 days ago)
+  2. 2026-06-17  Volume: 663,800  (58 days ago)
+  3. 2024-11-06  Volume: 318,100  (646 days ago)
+  4. 2024-11-05  Volume: 261,800  (647 days ago)
+  5. 2024-11-04  Volume: 101,200  (648 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-22  Volume: 1,650,100  (49 days ago)
+  2. 2026-06-15  Volume: 1,140,800  (56 days ago)
+  3. 2024-11-04  Volume: 1,006,700  (644 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-01  Volume: 1,956,200  (638 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Weekly (49 days ago)
+
+================================================================================

@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: PFX
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-23  Volume: 220,300  (22 days ago)
+  2. 2022-02-14  Volume: 164,400  (1642 days ago)
+  3. 2021-08-19  Volume: 135,900  (1821 days ago)
+  4. 2020-11-17  Volume: 114,600  (2096 days ago)
+  5. 2020-03-17  Volume: 96,215  (2341 days ago)
+  6. 2020-03-16  Volume: 33,385  (2342 days ago)
+  7. 2020-03-09  Volume: 24,505  (2349 days ago)
+  8. 2020-02-28  Volume: 20,665  (2359 days ago)
+  9. 2020-02-25  Volume: 14,135  (2362 days ago)
+  10. 2020-02-11  Volume: 12,010  (2376 days ago)
+  11. 2020-01-16  Volume: 11,190  (2402 days ago)
+  12. 2020-01-06  Volume: 8,915  (2412 days ago)
+  13. 2020-01-03  Volume: 3,820  (2415 days ago)
+  14. 2020-01-02  Volume: 3,235  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-20  Volume: 222,500  (21 days ago)
+  2. 2020-03-16  Volume: 204,735  (2338 days ago)
+  3. 2020-03-09  Volume: 84,170  (2345 days ago)
+  4. 2020-02-24  Volume: 50,030  (2359 days ago)
+  5. 2020-02-10  Volume: 35,600  (2373 days ago)
+  6. 2020-02-03  Volume: 29,870  (2380 days ago)
+  7. 2020-01-06  Volume: 27,575  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 523,280  (2344 days ago)
+  2. 2020-02-01  Volume: 133,910  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Weekly (21 days ago)
+
+================================================================================

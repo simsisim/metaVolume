@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: BBSI
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-24  Volume: 1,201,200  (1512 days ago)
+  2. 2020-06-26  Volume: 857,200  (2240 days ago)
+  3. 2020-04-16  Volume: 552,400  (2311 days ago)
+  4. 2020-03-17  Volume: 493,200  (2341 days ago)
+  5. 2020-02-26  Volume: 417,200  (2361 days ago)
+  6. 2020-02-21  Volume: 281,200  (2366 days ago)
+  7. 2020-01-31  Volume: 273,200  (2387 days ago)
+  8. 2020-01-02  Volume: 238,000  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-02-25  Volume: 2,539,600  (1262 days ago)
+  2. 2022-06-18  Volume: 2,003,200  (1514 days ago)
+  3. 2020-03-14  Volume: 1,947,600  (2340 days ago)
+  4. 2020-03-07  Volume: 1,540,800  (2347 days ago)
+  5. 2020-02-22  Volume: 1,377,600  (2361 days ago)
+  6. 2020-01-11  Volume: 954,000  (2403 days ago)
+  7. 2020-01-04  Volume: 847,200  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-03-01  Volume: 8,452,400  (1249 days ago)
+  2. 2020-03-01  Volume: 6,935,600  (2344 days ago)
+  3. 2020-02-01  Volume: 3,287,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Monthly (1249 days ago)
+
+================================================================================

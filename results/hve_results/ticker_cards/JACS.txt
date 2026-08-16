@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: JACS
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-19  Volume: 1,305,800  (452 days ago)
+  2. 2025-05-06  Volume: 685,000  (465 days ago)
+  3. 2025-01-30  Volume: 672,700  (561 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-19  Volume: 3,067,600  (448 days ago)
+  2. 2025-02-10  Volume: 1,342,700  (546 days ago)
+  3. 2025-01-27  Volume: 1,132,200  (560 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-05-01  Volume: 5,647,800  (457 days ago)
+  2. 2025-02-01  Volume: 2,410,200  (546 days ago)
+  3. 2025-01-01  Volume: 1,132,200  (577 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Weekly (448 days ago)
+
+================================================================================

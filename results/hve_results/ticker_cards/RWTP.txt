@@ -1,0 +1,34 @@
+================================================================================
+TICKER CARD: RWTP
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-30  Volume: 377,700  (515 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-27  Volume: 508,900  (518 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-01  Volume: 775,800  (485 days ago)
+  2. 2025-01-01  Volume: 508,900  (516 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 4
+Latest volume activity: Monthly (485 days ago)
+
+================================================================================

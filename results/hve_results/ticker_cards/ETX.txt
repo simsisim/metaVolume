@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: ETX
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-14  Volume: 163,100  (1004 days ago)
+  2. 2020-03-19  Volume: 153,400  (2339 days ago)
+  3. 2020-02-25  Volume: 137,200  (2362 days ago)
+  4. 2020-02-04  Volume: 61,000  (2383 days ago)
+  5. 2020-01-13  Volume: 40,800  (2405 days ago)
+  6. 2020-01-08  Volume: 17,100  (2410 days ago)
+  7. 2020-01-02  Volume: 13,600  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-16  Volume: 580,200  (2338 days ago)
+  2. 2020-02-24  Volume: 245,000  (2359 days ago)
+  3. 2020-02-03  Volume: 156,400  (2380 days ago)
+  4. 2020-01-13  Volume: 137,700  (2401 days ago)
+  5. 2020-01-06  Volume: 52,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 1,228,900  (2344 days ago)
+  2. 2020-02-01  Volume: 577,300  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Daily (1004 days ago)
+
+================================================================================

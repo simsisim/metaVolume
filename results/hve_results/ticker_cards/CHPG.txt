@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: CHPG
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-04  Volume: 251,300  (191 days ago)
+  2. 2025-07-09  Volume: 222,300  (401 days ago)
+  3. 2025-06-20  Volume: 94,800  (420 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-07  Volume: 482,500  (399 days ago)
+  2. 2025-06-16  Volume: 94,800  (420 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-01  Volume: 711,800  (396 days ago)
+  2. 2025-06-01  Volume: 116,000  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Daily (191 days ago)
+
+================================================================================

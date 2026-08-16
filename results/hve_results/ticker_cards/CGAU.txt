@@ -1,0 +1,55 @@
+================================================================================
+TICKER CARD: CGAU
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-20  Volume: 11,932,500  (101 days ago)
+  2. 2024-09-20  Volume: 6,124,300  (647 days ago)
+  3. 2024-08-23  Volume: 3,063,600  (675 days ago)
+  4. 2024-05-29  Volume: 2,608,200  (761 days ago)
+  5. 2024-02-13  Volume: 1,966,400  (867 days ago)
+  6. 2023-05-15  Volume: 1,391,700  (1141 days ago)
+  7. 2021-05-07  Volume: 934,700  (1879 days ago)
+  8. 2020-07-21  Volume: 325,200  (2169 days ago)
+  9. 2020-03-23  Volume: 232,300  (2289 days ago)
+  10. 2020-02-28  Volume: 136,600  (2313 days ago)
+  11. 2020-02-24  Volume: 117,500  (2317 days ago)
+  12. 2020-01-31  Volume: 82,900  (2341 days ago)
+  13. 2020-01-03  Volume: 74,800  (2369 days ago)
+  14. 2020-01-02  Volume: 10,100  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-16  Volume: 26,664,000  (105 days ago)
+  2. 2026-01-26  Volume: 19,229,800  (154 days ago)
+  3. 2025-09-15  Volume: 14,683,200  (287 days ago)
+  4. 2024-12-16  Volume: 11,290,300  (560 days ago)
+  5. 2024-09-16  Volume: 10,410,400  (651 days ago)
+  6. 2024-08-19  Volume: 6,718,900  (679 days ago)
+  7. 2024-05-27  Volume: 4,290,700  (763 days ago)
+  8. 2024-02-12  Volume: 3,789,000  (868 days ago)
+  9. 2023-10-30  Volume: 3,224,100  (973 days ago)
+  10. 2023-05-15  Volume: 2,864,800  (1141 days ago)
+  11. 2022-08-08  Volume: 1,938,400  (1421 days ago)
+  12. 2021-05-10  Volume: 1,337,800  (1876 days ago)
+  13. 2021-05-03  Volume: 1,161,600  (1883 days ago)
+  14. 2020-03-23  Volume: 917,200  (2289 days ago)
+  15. 2020-02-24  Volume: 393,100  (2317 days ago)
+  16. 2020-01-13  Volume: 136,500  (2359 days ago)
+  17. 2020-01-06  Volume: 104,200  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 31
+Latest volume activity: Daily (101 days ago)
+
+================================================================================

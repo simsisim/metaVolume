@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: FGMC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-20  Volume: 2,856,700  (25 days ago)
+  2. 2026-06-15  Volume: 1,570,100  (60 days ago)
+  3. 2026-06-11  Volume: 1,342,200  (64 days ago)
+  4. 2026-06-02  Volume: 988,700  (73 days ago)
+  5. 2025-08-05  Volume: 755,000  (374 days ago)
+  6. 2025-03-06  Volume: 633,400  (526 days ago)
+  7. 2025-02-11  Volume: 492,800  (549 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-20  Volume: 6,456,300  (21 days ago)
+  2. 2026-06-08  Volume: 2,878,200  (63 days ago)
+  3. 2026-06-01  Volume: 1,826,100  (70 days ago)
+  4. 2025-08-04  Volume: 1,276,200  (371 days ago)
+  5. 2025-03-03  Volume: 724,800  (525 days ago)
+  6. 2025-02-10  Volume: 581,200  (546 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-01  Volume: 2,559,819  (61 days ago)
+  2. 2025-08-01  Volume: 2,517,800  (365 days ago)
+  3. 2025-03-01  Volume: 1,203,100  (518 days ago)
+  4. 2025-02-01  Volume: 796,800  (546 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Weekly (21 days ago)
+
+================================================================================

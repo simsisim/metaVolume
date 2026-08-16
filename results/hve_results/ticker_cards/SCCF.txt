@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: SCCF
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-05-12  Volume: 72,400  (1509 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-10-10  Volume: 190,600  (1358 days ago)
+  2. 2022-05-09  Volume: 92,800  (1512 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-10-01  Volume: 434,500  (1339 days ago)
+  2. 2022-05-01  Volume: 210,200  (1492 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Monthly (1339 days ago)
+
+================================================================================

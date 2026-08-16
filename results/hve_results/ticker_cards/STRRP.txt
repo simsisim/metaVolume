@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: STRRP
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-22  Volume: 44,700  (1726 days ago)
+  2. 2021-01-08  Volume: 44,300  (2044 days ago)
+  3. 2020-11-05  Volume: 30,200  (2108 days ago)
+  4. 2020-10-29  Volume: 23,800  (2115 days ago)
+  5. 2020-03-06  Volume: 21,200  (2352 days ago)
+  6. 2020-02-07  Volume: 7,200  (2380 days ago)
+  7. 2020-01-13  Volume: 3,500  (2405 days ago)
+  8. 2020-01-06  Volume: 2,200  (2412 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-06  Volume: 82,000  (581 days ago)
+  2. 2021-11-22  Volume: 78,900  (1722 days ago)
+  3. 2020-11-02  Volume: 61,500  (2107 days ago)
+  4. 2020-03-09  Volume: 40,900  (2345 days ago)
+  5. 2020-03-02  Volume: 21,800  (2352 days ago)
+  6. 2020-02-03  Volume: 9,600  (2380 days ago)
+  7. 2020-01-13  Volume: 6,400  (2401 days ago)
+  8. 2020-01-06  Volume: 3,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-11-01  Volume: 147,800  (1734 days ago)
+  2. 2020-03-01  Volume: 84,900  (2344 days ago)
+  3. 2020-02-01  Volume: 19,500  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (581 days ago)
+
+================================================================================

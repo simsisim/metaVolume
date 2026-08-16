@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: KKRT
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 3,244,200  (364 days ago)
+  2. 2025-05-30  Volume: 903,600  (395 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-30  Volume: 3,528,000  (364 days ago)
+  2. 2025-06-23  Volume: 1,799,600  (371 days ago)
+  3. 2025-06-02  Volume: 1,152,100  (392 days ago)
+  4. 2025-05-26  Volume: 903,600  (399 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-01  Volume: 7,461,300  (365 days ago)
+  2. 2025-05-01  Volume: 903,600  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Daily (364 days ago)
+
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: MNSBP
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-15  Volume: 161,400  (1718 days ago)
+  2. 2020-10-16  Volume: 41,900  (2082 days ago)
+  3. 2020-09-17  Volume: 38,000  (2111 days ago)
+  4. 2020-09-16  Volume: 17,900  (2112 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-11  Volume: 168,000  (1722 days ago)
+  2. 2021-01-18  Volume: 72,600  (1988 days ago)
+  3. 2020-09-14  Volume: 56,000  (2114 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-10-01  Volume: 177,700  (1704 days ago)
+  2. 2021-01-01  Volume: 115,600  (1977 days ago)
+  3. 2020-11-01  Volume: 107,700  (2038 days ago)
+  4. 2020-10-01  Volume: 107,400  (2069 days ago)
+  5. 2020-09-01  Volume: 93,600  (2099 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (1704 days ago)
+
+================================================================================

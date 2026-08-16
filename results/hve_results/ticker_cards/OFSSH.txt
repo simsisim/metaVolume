@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: OFSSH
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-04  Volume: 400,000  (237 days ago)
+  2. 2022-03-08  Volume: 60,200  (1574 days ago)
+  3. 2021-10-29  Volume: 45,200  (1704 days ago)
+  4. 2021-10-28  Volume: 11,500  (1705 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-03  Volume: 404,900  (238 days ago)
+  2. 2024-09-09  Volume: 74,000  (658 days ago)
+  3. 2021-11-01  Volume: 68,100  (1701 days ago)
+  4. 2021-10-25  Volume: 56,700  (1708 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-01  Volume: 416,200  (212 days ago)
+  2. 2021-11-01  Volume: 120,400  (1673 days ago)
+  3. 2021-10-01  Volume: 56,700  (1704 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

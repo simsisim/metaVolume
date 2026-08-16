@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: LCCC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-27  Volume: 602,000  (79 days ago)
+  2. 2026-05-26  Volume: 321,200  (80 days ago)
+  3. 2025-07-18  Volume: 303,200  (392 days ago)
+  4. 2025-06-26  Volume: 265,600  (414 days ago)
+  5. 2025-06-25  Volume: 250,600  (415 days ago)
+  6. 2025-06-24  Volume: 132,600  (416 days ago)
+  7. 2025-06-23  Volume: 44,700  (417 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-25  Volume: 1,176,500  (77 days ago)
+  2. 2025-06-23  Volume: 696,100  (413 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-01  Volume: 958,600  (396 days ago)
+  2. 2025-06-01  Volume: 697,800  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Weekly (77 days ago)
+
+================================================================================

@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: CSL
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-08-31  Volume: 3,164,400  (1444 days ago)
+  2. 2020-06-26  Volume: 1,659,300  (2240 days ago)
+  3. 2020-03-10  Volume: 1,123,500  (2348 days ago)
+  4. 2020-02-28  Volume: 1,053,000  (2359 days ago)
+  5. 2020-02-24  Volume: 818,800  (2363 days ago)
+  6. 2020-01-31  Volume: 781,700  (2387 days ago)
+  7. 2020-01-24  Volume: 479,700  (2394 days ago)
+  8. 2020-01-08  Volume: 469,900  (2410 days ago)
+  9. 2020-01-07  Volume: 367,600  (2411 days ago)
+  10. 2020-01-02  Volume: 322,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-13  Volume: 5,202,700  (331 days ago)
+  2. 2022-08-27  Volume: 4,918,200  (1444 days ago)
+  3. 2020-03-14  Volume: 4,045,800  (2340 days ago)
+  4. 2020-03-07  Volume: 3,937,200  (2347 days ago)
+  5. 2020-02-22  Volume: 3,427,200  (2361 days ago)
+  6. 2020-02-01  Volume: 2,506,300  (2382 days ago)
+  7. 2020-01-25  Volume: 2,156,900  (2389 days ago)
+  8. 2020-01-04  Volume: 1,794,000  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 14,964,500  (2344 days ago)
+  2. 2020-02-01  Volume: 10,367,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (331 days ago)
+
+================================================================================

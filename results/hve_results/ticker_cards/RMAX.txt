@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: RMAX
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-27  Volume: 14,072,500  (109 days ago)
+  2. 2023-09-15  Volume: 3,905,600  (1064 days ago)
+  3. 2023-09-05  Volume: 905,000  (1074 days ago)
+  4. 2022-08-19  Volume: 733,700  (1456 days ago)
+  5. 2022-03-18  Volume: 705,300  (1610 days ago)
+  6. 2020-02-21  Volume: 648,000  (2366 days ago)
+  7. 2020-01-02  Volume: 184,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-27  Volume: 22,132,100  (105 days ago)
+  2. 2023-09-11  Volume: 5,270,600  (1064 days ago)
+  3. 2023-09-04  Volume: 2,226,200  (1071 days ago)
+  4. 2022-05-16  Volume: 2,080,600  (1547 days ago)
+  5. 2020-03-16  Volume: 1,717,900  (2338 days ago)
+  6. 2020-03-09  Volume: 1,095,700  (2345 days ago)
+  7. 2020-02-17  Volume: 1,007,400  (2366 days ago)
+  8. 2020-01-06  Volume: 534,900  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 26,031,600  (122 days ago)
+  2. 2023-09-01  Volume: 11,039,200  (1065 days ago)
+  3. 2022-05-01  Volume: 5,824,800  (1553 days ago)
+  4. 2020-03-01  Volume: 4,990,800  (2344 days ago)
+  5. 2020-02-01  Volume: 2,682,100  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (105 days ago)
+
+================================================================================

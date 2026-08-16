@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: MBAV
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-15  Volume: 5,454,600  (43 days ago)
+  2. 2025-07-08  Volume: 4,037,500  (385 days ago)
+  3. 2025-05-27  Volume: 3,638,600  (427 days ago)
+  4. 2024-09-23  Volume: 2,234,900  (673 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-08  Volume: 8,716,100  (224 days ago)
+  2. 2025-05-26  Volume: 7,004,300  (420 days ago)
+  3. 2024-09-23  Volume: 3,137,500  (665 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-01  Volume: 16,021,900  (232 days ago)
+  2. 2025-07-01  Volume: 12,395,700  (385 days ago)
+  3. 2025-06-01  Volume: 10,605,600  (415 days ago)
+  4. 2025-05-01  Volume: 7,908,700  (446 days ago)
+  5. 2024-09-01  Volume: 3,142,500  (688 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Daily (43 days ago)
+
+================================================================================

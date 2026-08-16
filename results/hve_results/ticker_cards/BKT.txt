@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: BKT
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-08  Volume: 1,172,200  (249 days ago)
+  2. 2025-09-15  Volume: 810,000  (333 days ago)
+  3. 2020-02-28  Volume: 488,733  (2359 days ago)
+  4. 2020-01-17  Volume: 186,400  (2401 days ago)
+  5. 2020-01-14  Volume: 160,100  (2404 days ago)
+  6. 2020-01-08  Volume: 127,167  (2410 days ago)
+  7. 2020-01-07  Volume: 105,700  (2411 days ago)
+  8. 2020-01-06  Volume: 85,333  (2412 days ago)
+  9. 2020-01-03  Volume: 60,933  (2415 days ago)
+  10. 2020-01-02  Volume: 41,433  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-13  Volume: 2,165,900  (331 days ago)
+  2. 2020-03-21  Volume: 1,376,166  (2333 days ago)
+  3. 2020-03-07  Volume: 1,223,367  (2347 days ago)
+  4. 2020-02-22  Volume: 963,167  (2361 days ago)
+  5. 2020-01-11  Volume: 536,333  (2403 days ago)
+  6. 2020-01-04  Volume: 410,967  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-01  Volume: 5,044,400  (243 days ago)
+  2. 2025-09-01  Volume: 4,691,000  (334 days ago)
+  3. 2020-03-01  Volume: 4,552,766  (2344 days ago)
+  4. 2020-02-01  Volume: 2,130,333  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Monthly (243 days ago)
+
+================================================================================

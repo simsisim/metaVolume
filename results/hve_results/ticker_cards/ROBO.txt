@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: ROBO
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-30  Volume: 926,800  (150 days ago)
+  2. 2020-02-25  Volume: 706,700  (2316 days ago)
+  3. 2020-02-24  Volume: 472,300  (2317 days ago)
+  4. 2020-01-07  Volume: 218,700  (2365 days ago)
+  5. 2020-01-02  Volume: 199,700  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-24  Volume: 2,308,700  (2317 days ago)
+  2. 2020-01-06  Volume: 876,700  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-01  Volume: 5,888,600  (151 days ago)
+  2. 2020-05-01  Volume: 5,698,000  (2222 days ago)
+  3. 2020-03-01  Volume: 5,548,800  (2283 days ago)
+  4. 2020-02-01  Volume: 4,337,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Daily (150 days ago)
+
+================================================================================

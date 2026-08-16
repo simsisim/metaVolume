@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: WATT
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-30  Volume: 7,540,473  (592 days ago)
+  2. 2024-12-26  Volume: 537,480  (596 days ago)
+  3. 2021-02-19  Volume: 298,828  (2002 days ago)
+  4. 2020-04-21  Volume: 206,203  (2306 days ago)
+  5. 2020-01-02  Volume: 8,656  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-30  Volume: 9,107,210  (588 days ago)
+  2. 2024-12-23  Volume: 658,777  (595 days ago)
+  3. 2021-02-15  Volume: 311,665  (2002 days ago)
+  4. 2020-04-20  Volume: 245,949  (2303 days ago)
+  5. 2020-03-02  Volume: 9,076  (2352 days ago)
+  6. 2020-01-20  Volume: 8,731  (2394 days ago)
+  7. 2020-01-13  Volume: 7,478  (2401 days ago)
+  8. 2020-01-06  Volume: 5,166  (2408 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Weekly (588 days ago)
+
+================================================================================

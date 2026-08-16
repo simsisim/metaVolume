@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: PLMK
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-09  Volume: 2,218,400  (158 days ago)
+  2. 2025-04-14  Volume: 1,227,800  (487 days ago)
+  3. 2025-02-06  Volume: 1,138,700  (554 days ago)
+  4. 2025-01-31  Volume: 264,100  (560 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-28  Volume: 2,459,100  (469 days ago)
+  2. 2025-04-14  Volume: 1,484,900  (483 days ago)
+  3. 2025-02-03  Volume: 1,466,500  (553 days ago)
+  4. 2025-01-27  Volume: 264,100  (560 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-01  Volume: 4,028,700  (487 days ago)
+  2. 2025-02-01  Volume: 3,838,900  (546 days ago)
+  3. 2025-01-01  Volume: 264,100  (577 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Daily (158 days ago)
+
+================================================================================

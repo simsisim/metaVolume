@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: AFCG
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-14  Volume: 4,743,100  (166 days ago)
+  2. 2022-01-06  Volume: 2,184,926  (1635 days ago)
+  3. 2021-03-19  Volume: 2,030,206  (1928 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-12  Volume: 6,854,800  (168 days ago)
+  2. 2022-01-03  Volume: 4,523,256  (1638 days ago)
+  3. 2021-06-21  Volume: 3,997,588  (1834 days ago)
+  4. 2021-03-15  Volume: 2,030,206  (1932 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-01  Volume: 10,026,100  (151 days ago)
+  2. 2023-03-01  Volume: 8,517,046  (1188 days ago)
+  3. 2022-01-01  Volume: 8,369,632  (1612 days ago)
+  4. 2021-06-01  Volume: 6,941,211  (1826 days ago)
+  5. 2021-03-01  Volume: 3,941,632  (1918 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (151 days ago)
+
+================================================================================

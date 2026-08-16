@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: FNRN
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-26  Volume: 2,154,100  (49 days ago)
+  2. 2026-06-18  Volume: 1,400,900  (57 days ago)
+  3. 2025-02-27  Volume: 493,810  (533 days ago)
+  4. 2020-01-31  Volume: 475,160  (2387 days ago)
+  5. 2020-01-07  Volume: 8,296  (2411 days ago)
+  6. 2020-01-02  Volume: 3,063  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-20  Volume: 3,226,100  (51 days ago)
+  2. 2026-06-13  Volume: 2,321,500  (58 days ago)
+  3. 2026-06-06  Volume: 803,500  (65 days ago)
+  4. 2025-02-22  Volume: 513,902  (534 days ago)
+  5. 2020-01-25  Volume: 486,009  (2389 days ago)
+  6. 2020-01-04  Volume: 13,529  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-01  Volume: 7,346,400  (61 days ago)
+  2. 2026-05-01  Volume: 1,295,500  (92 days ago)
+  3. 2025-02-01  Volume: 641,352  (546 days ago)
+  4. 2020-03-01  Volume: 404,583  (2344 days ago)
+  5. 2020-02-01  Volume: 380,843  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Daily (49 days ago)
+
+================================================================================

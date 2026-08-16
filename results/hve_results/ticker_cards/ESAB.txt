@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: ESAB
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-05  Volume: 2,234,700  (1592 days ago)
+  2. 2022-03-29  Volume: 100  (1599 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-04  Volume: 7,527,500  (1589 days ago)
+  2. 2022-03-28  Volume: 100  (1596 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-04-01  Volume: 14,861,800  (1583 days ago)
+  2. 2022-03-01  Volume: 100  (1614 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Monthly (1583 days ago)
+
+================================================================================

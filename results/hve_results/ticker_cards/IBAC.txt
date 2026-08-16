@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: IBAC
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-11  Volume: 1,558,700  (764 days ago)
+  2. 2024-07-10  Volume: 533,500  (765 days ago)
+  3. 2024-05-02  Volume: 519,200  (834 days ago)
+  4. 2024-05-01  Volume: 2,700  (835 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-08  Volume: 2,768,800  (763 days ago)
+  2. 2024-05-27  Volume: 1,094,400  (805 days ago)
+  3. 2024-04-29  Volume: 725,500  (833 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-01  Volume: 4,162,300  (761 days ago)
+  2. 2024-05-01  Volume: 2,418,300  (822 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Monthly (761 days ago)
+
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: CHNR
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-19  Volume: 42,646,600  (102 days ago)
+  2. 2025-10-13  Volume: 16,845,900  (259 days ago)
+  3. 2024-02-15  Volume: 8,025,425  (865 days ago)
+  4. 2020-06-12  Volume: 1,194,515  (2208 days ago)
+  5. 2020-03-13  Volume: 5,555  (2299 days ago)
+  6. 2020-03-06  Volume: 1,395  (2306 days ago)
+  7. 2020-01-15  Volume: 1,250  (2357 days ago)
+  8. 2020-01-13  Volume: 873  (2359 days ago)
+  9. 2020-01-09  Volume: 633  (2363 days ago)
+  10. 2020-01-02  Volume: 215  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-16  Volume: 43,319,500  (105 days ago)
+  2. 2025-10-11  Volume: 17,580,300  (261 days ago)
+  3. 2024-02-10  Volume: 8,907,439  (870 days ago)
+  4. 2020-06-06  Volume: 1,201,971  (2214 days ago)
+  5. 2020-03-07  Volume: 7,431  (2305 days ago)
+  6. 2020-02-29  Volume: 3,893  (2312 days ago)
+  7. 2020-01-11  Volume: 3,491  (2361 days ago)
+  8. 2020-01-04  Volume: 894  (2368 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (102 days ago)
+
+================================================================================

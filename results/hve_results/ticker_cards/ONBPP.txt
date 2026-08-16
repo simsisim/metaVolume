@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: ONBPP
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-30  Volume: 263,500  (2098 days ago)
+  2. 2020-06-30  Volume: 169,100  (2190 days ago)
+  3. 2020-05-18  Volume: 121,600  (2233 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-28  Volume: 555,300  (2100 days ago)
+  2. 2020-06-29  Volume: 378,200  (2191 days ago)
+  3. 2020-05-18  Volume: 333,600  (2233 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-01  Volume: 1,146,300  (2191 days ago)
+  2. 2020-05-01  Volume: 591,800  (2222 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Daily (2098 days ago)
+
+================================================================================

@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: STRF
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-31  Volume: 1,843,500  (455 days ago)
+  2. 2025-03-26  Volume: 494,800  (460 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-17  Volume: 3,098,700  (224 days ago)
+  2. 2025-03-31  Volume: 2,756,900  (455 days ago)
+  3. 2025-03-24  Volume: 848,300  (462 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-01  Volume: 7,285,600  (335 days ago)
+  2. 2025-06-01  Volume: 6,529,800  (365 days ago)
+  3. 2025-05-01  Volume: 5,355,000  (396 days ago)
+  4. 2025-04-01  Volume: 3,122,400  (426 days ago)
+  5. 2025-03-01  Volume: 2,691,800  (457 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Weekly (224 days ago)
+
+================================================================================

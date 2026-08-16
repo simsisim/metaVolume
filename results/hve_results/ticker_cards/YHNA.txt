@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: YHNA
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-11  Volume: 752,000  (641 days ago)
+  2. 2024-11-08  Volume: 28,500  (644 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-11  Volume: 1,255,800  (637 days ago)
+  2. 2024-11-04  Volume: 28,500  (644 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-01  Volume: 2,806,700  (638 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Weekly (637 days ago)
+
+================================================================================

@@ -7,6 +7,15 @@ and provides utilities for batch processing and data validation.
 
 Based on the original data_reader.py from the old model with enhancements
 for ticker info reading and better error handling.
+
+BatchDataSupplementer / read_ticker_ohlcv_raw below are a trimmed port of
+marketHealth/src/data_reader.py (itself ported from metaData_v1): they
+supplement downloadData_v1's per-ticker market_data/ files -- which are only
+refreshed by the slow --hist-data pipeline and can go stale for weeks --
+with newer rows from market_data_batch/{timeframe}/prices_*.csv, the
+fast/gap-fill pipeline (see downloadData_v1/batchJob_calc). Batch data is
+never written to disk here; it's overlaid in memory only, so market_data/
+stays the untouched source of truth.
 """
 
 import pandas as pd
@@ -16,6 +25,169 @@ from typing import List, Dict, Optional, Generator, Tuple
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+class BatchDataSupplementer:
+    """
+    Loads downloadData_v1's fast-batch price files
+    (market_data_batch/{timeframe}/prices_{interval}_YYYY-MM-DD.csv) and
+    supplies rows newer than a given cutoff to append onto a ticker's
+    per-ticker DataFrame in read_ticker_ohlcv_raw().
+
+    Usage:
+        sup = BatchDataSupplementer(batch_dir)
+        sup.load()                          # once
+        rows = sup.get_rows('AAPL', after)  # per ticker, per call
+    """
+
+    def __init__(self, batch_dir: Path):
+        self.batch_dir = Path(batch_dir)
+        self._data: Dict[str, list] = {}  # {SYMBOL: [{date, Open, High, Low, Close, Volume}]}
+        self._loaded = False
+
+    def load(self) -> int:
+        """Load every prices_*.csv in batch_dir. Returns number of symbols loaded."""
+        if not self.batch_dir.exists():
+            self._loaded = True
+            return 0
+
+        files_loaded = 0
+        for f in sorted(self.batch_dir.glob('prices_*.csv')):
+            try:
+                df = pd.read_csv(f)
+                required = {'Date', 'Symbol', 'Open', 'High', 'Low', 'Close', 'Volume'}
+                if not required.issubset(df.columns):
+                    logger.warning(f"Batch file {f.name} missing columns, skipping")
+                    continue
+                for _, row in df.iterrows():
+                    sym = str(row['Symbol']).upper()
+                    self._data.setdefault(sym, []).append({
+                        'date':   str(row['Date']),
+                        'Open':   float(row['Open'])   if pd.notna(row['Open'])   else None,
+                        'High':   float(row['High'])   if pd.notna(row['High'])   else None,
+                        'Low':    float(row['Low'])    if pd.notna(row['Low'])    else None,
+                        'Close':  float(row['Close'])  if pd.notna(row['Close'])  else None,
+                        'Volume': float(row['Volume']) if pd.notna(row['Volume']) else 0.0,
+                    })
+                files_loaded += 1
+            except Exception as e:
+                logger.warning(f"Could not load batch file {f.name}: {e}")
+
+        for sym in self._data:
+            self._data[sym].sort(key=lambda r: r['date'])
+
+        self._loaded = True
+        total_syms = len(self._data)
+        if files_loaded:
+            logger.info(
+                f"BatchDataSupplementer: {files_loaded} file(s) loaded, "
+                f"{total_syms} symbols, dir={self.batch_dir}"
+            )
+        return total_syms
+
+    def get_rows(self, ticker: str, after_date: str) -> Optional[pd.DataFrame]:
+        """
+        Rows with date strictly after after_date, both compared as plain
+        strings -- market_data/'s raw dates are tz-suffixed ("2026-07-14
+        00:00:00-04:00") and batch dates are plain ("2026-07-14"), but both
+        are ISO-prefixed so lexicographic string comparison sorts them
+        correctly without parsing. A batch row for a date already covered by
+        market_data/ compares as NOT newer (a plain "2026-07-31" sorts
+        before the longer "2026-07-31 00:00:00-04:00" as a string prefix),
+        so it's excluded rather than duplicating/overwriting an
+        already-authoritative row.
+        """
+        if not self._loaded or not self._data:
+            return None
+        sym = ticker.upper()
+        rows = (
+            self._data.get(sym)
+            or self._data.get(sym.replace('.', '-'))  # BRK.B -> BRK-B (yf format)
+            or self._data.get(sym.replace('-', '.'))  # BRK-B -> BRK.B (tv format)
+        )
+        if not rows:
+            return None
+        filtered = [r for r in rows if r['date'] > after_date]
+        if not filtered:
+            return None
+        df = pd.DataFrame(filtered).set_index('date')
+        df.index.name = 'Date'
+        return df
+
+
+_batch_supplementer_cache: Dict[str, BatchDataSupplementer] = {}
+
+
+def _batch_dir_for(market_data_dir: Path) -> Path:
+    """market_data/{timeframe} -> market_data_batch/{timeframe}, sibling-directory convention."""
+    return market_data_dir.parent.parent / 'market_data_batch' / market_data_dir.name
+
+
+def _get_batch_supplementer(market_data_dir: Path) -> BatchDataSupplementer:
+    """Lazily load and cache one BatchDataSupplementer per batch dir for the life of the process."""
+    batch_dir = _batch_dir_for(market_data_dir)
+    key = str(batch_dir)
+    sup = _batch_supplementer_cache.get(key)
+    if sup is None:
+        sup = BatchDataSupplementer(batch_dir)
+        sup.load()
+        _batch_supplementer_cache[key] = sup
+    return sup
+
+
+def _supplement_with_batch(df: pd.DataFrame, ticker: str, market_data_dir: Path) -> pd.DataFrame:
+    """
+    Append any market_data_batch/ rows newer than df's last date (df indexed
+    by raw, unparsed 'Date' string). No-op if the batch dir doesn't exist,
+    has nothing newer for this ticker, or df is empty.
+    """
+    if df.empty:
+        return df
+
+    sup = _get_batch_supplementer(market_data_dir)
+    after_date_str = str(df.index.max())
+
+    batch_rows = sup.get_rows(ticker, after_date_str)
+    if batch_rows is None:
+        return df
+
+    if len(after_date_str) > 10:
+        # Match market_data/'s tz-suffixed string shape (e.g. "2026-07-31
+        # 00:00:00-04:00") instead of leaving batch rows as bare "YYYY-MM-DD",
+        # so the later `df.index.str.split(' ').str[0]` in read_stock_data()
+        # handles both uniformly. Only the string *shape* needs to match, not
+        # the literal DST offset value, so reusing the last real row's suffix
+        # verbatim is safe.
+        suffix = after_date_str[10:]
+        batch_rows.index = batch_rows.index.astype(str) + suffix
+
+    batch_rows.index.name = df.index.name
+    return pd.concat([df, batch_rows]).sort_index()
+
+
+def read_ticker_ohlcv_raw(market_data_dir: Path, ticker: str) -> Optional[pd.DataFrame]:
+    """
+    Raw per-ticker OHLCV rows (index='Date', unparsed), supplemented with any
+    newer market_data_batch/ rows. Falls back through archive/+current/ (if
+    present) to the flat {ticker}.csv legacy cache.
+    """
+    frames = []
+    for sub in ('archive', 'current'):
+        p = market_data_dir / sub / f"{ticker}.csv"
+        if p.exists():
+            frame = pd.read_csv(p, index_col='Date', parse_dates=False)
+            if not frame.empty:
+                frames.append(frame)
+    if frames:
+        df = pd.concat(frames) if len(frames) > 1 else frames[0]
+        df = df[~df.index.duplicated(keep='last')]
+        return _supplement_with_batch(df, ticker, market_data_dir)
+
+    flat_path = market_data_dir / f"{ticker}.csv"
+    if flat_path.exists():
+        df = pd.read_csv(flat_path, index_col='Date', parse_dates=False)
+        return _supplement_with_batch(df, ticker, market_data_dir)
+    return None
 
 
 class DataReader:
@@ -42,11 +214,11 @@ class DataReader:
         # Get market data directory for specified timeframe
         self.market_data_dir = config.get_market_data_dir(timeframe)
         self.tickers_dir = config.directories['TICKERS_DIR']
-        
+
         # Initialize tickers list
         self.tickers = []
         self.ticker_info = None
-        
+
         logger.info(f"DataReader initialized for {timeframe} data from {self.market_data_dir}")
     
     def load_tickers_from_file(self, combined_ticker_file: str) -> List[str]:
@@ -139,15 +311,13 @@ class DataReader:
         Returns:
             DataFrame with OHLCV data or None if file not found
         """
-        file_path = self.market_data_dir / f"{ticker}.csv"
-        
-        if not file_path.exists():
-            logger.debug(f"Data file not found for {ticker}: {file_path}")
+        df = read_ticker_ohlcv_raw(self.market_data_dir, ticker)
+
+        if df is None:
+            logger.debug(f"Data file not found for {ticker}: {self.market_data_dir}")
             return None
-        
+
         try:
-            # Use the exact same approach as the working marketScanners_v1 version
-            df = pd.read_csv(file_path, index_col='Date', parse_dates=False)
             df.index = df.index.str.split(' ').str[0]
             df.index = pd.to_datetime(df.index)
             
@@ -269,14 +439,19 @@ class DataReader:
             df = self.read_stock_data(ticker)
             
             if df is not None:
-                # Apply aggregation if needed
-                if aggregate_to == 'weekly':
+                # Only aggregate when read_stock_data() returned daily-granularity
+                # rows (self.timeframe == 'daily'). When self.timeframe is already
+                # 'weekly'/'monthly', read_stock_data() read straight from that
+                # pre-aggregated directory -- resampling it again here would
+                # double-aggregate (mislabels dates to calendar period-end and
+                # sums volumes across stray same-period rows).
+                if self.timeframe == 'daily' and aggregate_to == 'weekly':
                     from src.data_aggregator import aggregate_to_weekly
                     df = aggregate_to_weekly(df)
-                elif aggregate_to == 'monthly':
+                elif self.timeframe == 'daily' and aggregate_to == 'monthly':
                     from src.data_aggregator import aggregate_to_monthly
                     df = aggregate_to_monthly(df)
-                # else: aggregate_to == 'daily' - no aggregation needed
+                # else: already at the target granularity - no aggregation needed
                 
                 if validate:
                     is_valid, reason = self.validate_stock_data(ticker, df)

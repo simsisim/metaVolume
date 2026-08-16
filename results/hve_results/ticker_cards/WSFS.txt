@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: WSFS
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-26  Volume: 11,161,300  (1995 days ago)
+  2. 2021-02-24  Volume: 3,236,700  (1997 days ago)
+  3. 2020-12-18  Volume: 1,470,800  (2065 days ago)
+  4. 2020-03-20  Volume: 790,700  (2338 days ago)
+  5. 2020-03-19  Volume: 743,900  (2339 days ago)
+  6. 2020-01-22  Volume: 608,200  (2396 days ago)
+  7. 2020-01-07  Volume: 323,800  (2411 days ago)
+  8. 2020-01-06  Volume: 204,100  (2412 days ago)
+  9. 2020-01-03  Volume: 158,900  (2415 days ago)
+  10. 2020-01-02  Volume: 156,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-20  Volume: 16,056,100  (1997 days ago)
+  2. 2020-12-12  Volume: 2,823,400  (2067 days ago)
+  3. 2020-03-14  Volume: 2,689,400  (2340 days ago)
+  4. 2020-03-07  Volume: 1,866,400  (2347 days ago)
+  5. 2020-02-29  Volume: 1,396,100  (2354 days ago)
+  6. 2020-01-18  Volume: 1,280,100  (2396 days ago)
+  7. 2020-01-04  Volume: 1,041,100  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-02-01  Volume: 18,532,700  (2007 days ago)
+  2. 2020-03-01  Volume: 8,605,100  (2344 days ago)
+  3. 2020-02-01  Volume: 3,204,100  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (1995 days ago)
+
+================================================================================

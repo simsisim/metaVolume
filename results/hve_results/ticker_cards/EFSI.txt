@@ -1,0 +1,60 @@
+================================================================================
+TICKER CARD: EFSI
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-27  Volume: 586,000  (413 days ago)
+  2. 2025-03-21  Volume: 319,300  (511 days ago)
+  3. 2025-02-07  Volume: 122,000  (553 days ago)
+  4. 2024-08-05  Volume: 21,600  (739 days ago)
+  5. 2021-11-23  Volume: 16,700  (1725 days ago)
+  6. 2021-03-05  Volume: 9,500  (1988 days ago)
+  7. 2020-05-18  Volume: 8,900  (2279 days ago)
+  8. 2020-03-16  Volume: 6,500  (2342 days ago)
+  9. 2020-03-10  Volume: 6,000  (2348 days ago)
+  10. 2020-01-29  Volume: 5,300  (2389 days ago)
+  11. 2020-01-07  Volume: 3,500  (2411 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-23  Volume: 766,800  (413 days ago)
+  2. 2025-03-17  Volume: 530,300  (511 days ago)
+  3. 2025-03-10  Volume: 228,200  (518 days ago)
+  4. 2025-02-03  Volume: 123,700  (553 days ago)
+  5. 2024-08-05  Volume: 30,500  (735 days ago)
+  6. 2023-11-13  Volume: 22,500  (1001 days ago)
+  7. 2023-08-14  Volume: 20,100  (1092 days ago)
+  8. 2020-11-30  Volume: 17,500  (2079 days ago)
+  9. 2020-03-09  Volume: 15,000  (2345 days ago)
+  10. 2020-01-27  Volume: 5,800  (2387 days ago)
+  11. 2020-01-06  Volume: 5,200  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-01  Volume: 1,121,900  (426 days ago)
+  2. 2025-03-01  Volume: 982,600  (518 days ago)
+  3. 2025-02-01  Volume: 225,900  (546 days ago)
+  4. 2024-08-01  Volume: 54,900  (730 days ago)
+  5. 2024-07-01  Volume: 42,200  (761 days ago)
+  6. 2023-12-01  Volume: 37,500  (974 days ago)
+  7. 2020-03-01  Volume: 36,500  (2344 days ago)
+  8. 2020-02-01  Volume: 13,100  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 30
+Latest volume activity: Daily (413 days ago)
+
+================================================================================

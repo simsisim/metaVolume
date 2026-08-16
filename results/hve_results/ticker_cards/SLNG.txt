@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: SLNG
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-21  Volume: 21,320,400  (1377 days ago)
+  2. 2022-03-15  Volume: 240,700  (1567 days ago)
+  3. 2022-03-01  Volume: 93,400  (1581 days ago)
+  4. 2021-06-09  Volume: 86,200  (1846 days ago)
+  5. 2021-03-12  Volume: 63,400  (1935 days ago)
+  6. 2020-11-30  Volume: 35,900  (2037 days ago)
+  7. 2020-01-07  Volume: 35,800  (2365 days ago)
+  8. 2020-01-06  Volume: 6,500  (2366 days ago)
+  9. 2020-01-03  Volume: 600  (2369 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-19  Volume: 24,292,400  (1379 days ago)
+  2. 2022-03-14  Volume: 278,200  (1568 days ago)
+  3. 2022-02-28  Volume: 178,600  (1582 days ago)
+  4. 2021-06-14  Volume: 164,600  (1841 days ago)
+  5. 2021-06-07  Volume: 124,400  (1848 days ago)
+  6. 2021-03-08  Volume: 72,500  (1939 days ago)
+  7. 2021-02-15  Volume: 66,800  (1960 days ago)
+  8. 2020-01-06  Volume: 43,400  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Daily (1377 days ago)
+
+================================================================================

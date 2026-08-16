@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: PBFS
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-07  Volume: 360,400  (1894 days ago)
+  2. 2021-05-05  Volume: 173,000  (1927 days ago)
+  3. 2020-01-06  Volume: 158,300  (2412 days ago)
+  4. 2020-01-02  Volume: 105,900  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-07  Volume: 411,600  (1890 days ago)
+  2. 2020-08-31  Volume: 306,100  (2170 days ago)
+  3. 2020-03-16  Volume: 286,700  (2338 days ago)
+  4. 2020-01-06  Volume: 231,300  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-01  Volume: 827,700  (791 days ago)
+  2. 2020-03-01  Volume: 827,600  (2344 days ago)
+  3. 2020-02-01  Volume: 350,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (791 days ago)
+
+================================================================================

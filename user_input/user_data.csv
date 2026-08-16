@@ -35,7 +35,7 @@ TIMEFRAMES,"daily,weekly,monthly",Timeframes to process (comma-separated: daily 
 # ENVIRONMENT DETECTION,,
 # ---------------------,,
 auto_detect_environment,FALSE,Automatically detect environment
-manual_environment_override,colab,Manual override: local | colab
+manual_environment_override,local,Manual override: local | colab
 ,,
 # DATA PATHS - LOCAL ENVIRONMENT,,
 # -------------------------------,,
@@ -92,7 +92,7 @@ VOL_checker_enable,FALSE,Enable daily volume checker
 VOL_checker_top_n_flag,6,Flag tickers whose new volume enters this many top positions
 VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/,Path to TradingView bulk CSV files directory
 VOL_checker_tw_since_date,2026-05-21,Process TW files since this date YYYY-MM-DD (blank=auto from state file)
-VOL_checker_data_source,tradingview,Data source for vol checker: tradingview or yahoo
+VOL_checker_data_source,yahoo,Data source for vol checker: tradingview or yahoo
 VOL_checker_yahoo_data_dir_local,../downloadData_v1/data/market_data/daily/,Local path to Yahoo per-ticker daily CSV files
 VOL_checker_yahoo_data_dir_colab,,Colab path to Yahoo per-ticker daily CSV files (full absolute path)
 ,,

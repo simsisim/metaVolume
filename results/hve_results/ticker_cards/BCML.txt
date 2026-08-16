@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: BCML
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-24  Volume: 1,786,400  (1512 days ago)
+  2. 2021-06-25  Volume: 1,509,800  (1876 days ago)
+  3. 2020-04-07  Volume: 661,300  (2320 days ago)
+  4. 2020-01-16  Volume: 355,300  (2402 days ago)
+  5. 2020-01-13  Volume: 93,100  (2405 days ago)
+  6. 2020-01-10  Volume: 61,300  (2408 days ago)
+  7. 2020-01-07  Volume: 50,900  (2411 days ago)
+  8. 2020-01-02  Volume: 28,900  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-20  Volume: 2,314,900  (1512 days ago)
+  2. 2021-06-21  Volume: 1,933,100  (1876 days ago)
+  3. 2020-04-06  Volume: 973,100  (2317 days ago)
+  4. 2020-03-16  Volume: 647,500  (2338 days ago)
+  5. 2020-01-13  Volume: 608,300  (2401 days ago)
+  6. 2020-01-06  Volume: 199,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-01  Volume: 4,356,600  (1522 days ago)
+  2. 2021-06-01  Volume: 2,638,200  (1887 days ago)
+  3. 2020-04-01  Volume: 1,576,100  (2313 days ago)
+  4. 2020-03-01  Volume: 1,342,700  (2344 days ago)
+  5. 2020-02-01  Volume: 881,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Daily (1512 days ago)
+
+================================================================================

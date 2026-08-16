@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: JSM
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-31  Volume: 420,900  (545 days ago)
+  2. 2022-09-30  Volume: 333,500  (1368 days ago)
+  3. 2022-06-30  Volume: 231,900  (1460 days ago)
+  4. 2020-12-31  Volume: 109,600  (2006 days ago)
+  5. 2020-09-30  Volume: 103,900  (2098 days ago)
+  6. 2020-03-18  Volume: 95,700  (2294 days ago)
+  7. 2020-01-24  Volume: 66,400  (2348 days ago)
+  8. 2020-01-22  Volume: 44,200  (2350 days ago)
+  9. 2020-01-16  Volume: 39,200  (2356 days ago)
+  10. 2020-01-10  Volume: 36,800  (2362 days ago)
+  11. 2020-01-03  Volume: 35,300  (2369 days ago)
+  12. 2020-01-02  Volume: 29,100  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-30  Volume: 611,400  (546 days ago)
+  2. 2022-09-26  Volume: 520,300  (1372 days ago)
+  3. 2022-06-27  Volume: 311,000  (1463 days ago)
+  4. 2020-12-14  Volume: 281,000  (2023 days ago)
+  5. 2020-03-16  Volume: 257,600  (2296 days ago)
+  6. 2020-03-09  Volume: 188,000  (2303 days ago)
+  7. 2020-02-24  Volume: 184,000  (2317 days ago)
+  8. 2020-01-20  Volume: 158,100  (2352 days ago)
+  9. 2020-01-06  Volume: 128,900  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-01  Volume: 1,116,600  (1369 days ago)
+  2. 2020-03-01  Volume: 820,800  (2283 days ago)
+  3. 2020-02-01  Volume: 476,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (545 days ago)
+
+================================================================================

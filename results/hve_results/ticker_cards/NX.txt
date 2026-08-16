@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: NX
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-12  Volume: 3,440,100  (245 days ago)
+  2. 2024-12-20  Volume: 3,371,400  (602 days ago)
+  3. 2024-08-02  Volume: 3,059,800  (742 days ago)
+  4. 2024-07-31  Volume: 2,587,700  (744 days ago)
+  5. 2021-12-17  Volume: 1,272,700  (1701 days ago)
+  6. 2021-11-19  Volume: 904,500  (1729 days ago)
+  7. 2020-01-09  Volume: 841,200  (2409 days ago)
+  8. 2020-01-08  Volume: 647,100  (2410 days ago)
+  9. 2020-01-07  Volume: 539,800  (2411 days ago)
+  10. 2020-01-06  Volume: 326,000  (2412 days ago)
+  11. 2020-01-02  Volume: 265,900  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-13  Volume: 9,094,800  (240 days ago)
+  2. 2025-12-06  Volume: 8,358,600  (247 days ago)
+  3. 2024-07-27  Volume: 7,398,300  (744 days ago)
+  4. 2020-01-04  Volume: 2,715,000  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-01  Volume: 24,898,700  (243 days ago)
+  2. 2024-08-01  Volume: 18,097,900  (730 days ago)
+  3. 2024-07-01  Volume: 10,188,300  (761 days ago)
+  4. 2020-03-01  Volume: 8,313,700  (2344 days ago)
+  5. 2020-02-01  Volume: 3,904,300  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (240 days ago)
+
+================================================================================

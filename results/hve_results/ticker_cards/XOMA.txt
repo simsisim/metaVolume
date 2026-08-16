@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: XOMA
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-13  Volume: 6,324,600  (8 days ago)
+  2. 2026-04-27  Volume: 3,180,400  (85 days ago)
+  3. 2026-01-27  Volume: 1,430,400  (175 days ago)
+  4. 2026-01-14  Volume: 1,298,500  (188 days ago)
+  5. 2026-01-05  Volume: 1,236,000  (197 days ago)
+  6. 2023-06-23  Volume: 937,800  (1124 days ago)
+  7. 2021-03-31  Volume: 809,900  (1938 days ago)
+  8. 2020-06-26  Volume: 758,400  (2216 days ago)
+  9. 2020-03-13  Volume: 199,000  (2321 days ago)
+  10. 2020-03-11  Volume: 148,700  (2323 days ago)
+  11. 2020-01-10  Volume: 105,100  (2384 days ago)
+  12. 2020-01-03  Volume: 90,200  (2391 days ago)
+  13. 2020-01-02  Volume: 68,800  (2392 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-27  Volume: 6,020,600  (77 days ago)
+  2. 2026-01-10  Volume: 4,883,100  (184 days ago)
+  3. 2026-01-03  Volume: 4,368,200  (191 days ago)
+  4. 2025-12-27  Volume: 2,414,200  (198 days ago)
+  5. 2023-06-17  Volume: 1,118,100  (1122 days ago)
+  6. 2021-03-27  Volume: 1,061,800  (1934 days ago)
+  7. 2020-06-20  Volume: 1,058,900  (2214 days ago)
+  8. 2020-03-07  Volume: 543,900  (2319 days ago)
+  9. 2020-01-04  Volume: 400,000  (2382 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (8 days ago)
+
+================================================================================

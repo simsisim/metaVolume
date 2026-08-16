@@ -1,0 +1,36 @@
+================================================================================
+TICKER CARD: TVAI
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-16  Volume: 913,800  (29 days ago)
+  2. 2025-07-07  Volume: 826,900  (403 days ago)
+  3. 2025-07-02  Volume: 229,900  (408 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-07  Volume: 1,608,000  (399 days ago)
+  2. 2025-06-30  Volume: 242,100  (406 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-01  Volume: 2,464,900  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 6
+Latest volume activity: Daily (29 days ago)
+
+================================================================================

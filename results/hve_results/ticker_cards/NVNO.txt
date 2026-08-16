@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: NVNO
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-08-03  Volume: 1,014,080  (1837 days ago)
+  2. 2020-12-11  Volume: 562,994  (2072 days ago)
+  3. 2020-08-21  Volume: 533,643  (2184 days ago)
+  4. 2020-08-07  Volume: 18,088  (2198 days ago)
+  5. 2020-07-22  Volume: 17,379  (2214 days ago)
+  6. 2020-06-17  Volume: 10,315  (2249 days ago)
+  7. 2020-06-01  Volume: 9,292  (2265 days ago)
+  8. 2020-05-12  Volume: 1,764  (2285 days ago)
+  9. 2020-01-08  Volume: 989  (2410 days ago)
+  10. 2020-01-02  Volume: 49  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-08-02  Volume: 1,084,388  (1834 days ago)
+  2. 2020-12-07  Volume: 575,880  (2072 days ago)
+  3. 2020-08-17  Volume: 544,931  (2184 days ago)
+  4. 2020-07-20  Volume: 39,197  (2212 days ago)
+  5. 2020-06-01  Volume: 18,640  (2261 days ago)
+  6. 2020-05-11  Volume: 5,412  (2282 days ago)
+  7. 2020-01-06  Volume: 1,565  (2408 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Weekly (1834 days ago)
+
+================================================================================

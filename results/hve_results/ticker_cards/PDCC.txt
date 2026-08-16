@@ -1,0 +1,34 @@
+================================================================================
+TICKER CARD: PDCC
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-18  Volume: 90,800  (757 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-15  Volume: 124,300  (756 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 207,300  (122 days ago)
+  2. 2024-07-01  Volume: 183,500  (761 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 4
+Latest volume activity: Monthly (122 days ago)
+
+================================================================================

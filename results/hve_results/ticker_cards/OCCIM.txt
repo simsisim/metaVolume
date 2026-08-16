@@ -1,0 +1,34 @@
+================================================================================
+TICKER CARD: OCCIM
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-04  Volume: 75,900  (633 days ago)
+  2. 2024-10-03  Volume: 69,400  (634 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-30  Volume: 145,300  (637 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-01  Volume: 356,100  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 4
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

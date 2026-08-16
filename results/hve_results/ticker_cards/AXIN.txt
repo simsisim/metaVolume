@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: AXIN
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-26  Volume: 2,167,000  (80 days ago)
+  2. 2025-08-07  Volume: 1,271,100  (372 days ago)
+  3. 2025-08-01  Volume: 82,600  (378 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-25  Volume: 3,524,400  (77 days ago)
+  2. 2025-08-04  Volume: 1,296,200  (371 days ago)
+  3. 2025-07-28  Volume: 82,600  (378 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-01  Volume: 2,398,600  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (77 days ago)
+
+================================================================================

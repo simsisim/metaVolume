@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: KYNB
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-20  Volume: 4,905,888  (540 days ago)
+  2. 2024-05-07  Volume: 1,367,068  (829 days ago)
+  3. 2023-06-26  Volume: 1,333,436  (1145 days ago)
+  4. 2021-04-07  Volume: 807,264  (1955 days ago)
+  5. 2021-03-02  Volume: 430,724  (1991 days ago)
+  6. 2020-09-03  Volume: 152,748  (2171 days ago)
+  7. 2020-06-09  Volume: 86,188  (2257 days ago)
+  8. 2020-03-03  Volume: 72,180  (2355 days ago)
+  9. 2020-01-09  Volume: 46,808  (2409 days ago)
+  10. 2020-01-02  Volume: 21,552  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-17  Volume: 5,357,740  (539 days ago)
+  2. 2023-06-26  Volume: 2,476,672  (1141 days ago)
+  3. 2021-04-05  Volume: 1,355,396  (1953 days ago)
+  4. 2021-03-01  Volume: 681,924  (1988 days ago)
+  5. 2020-08-31  Volume: 297,456  (2170 days ago)
+  6. 2020-06-08  Volume: 275,288  (2254 days ago)
+  7. 2020-03-16  Volume: 248,212  (2338 days ago)
+  8. 2020-03-09  Volume: 189,656  (2345 days ago)
+  9. 2020-03-02  Volume: 188,148  (2352 days ago)
+  10. 2020-02-24  Volume: 145,748  (2359 days ago)
+  11. 2020-01-06  Volume: 128,036  (2408 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (539 days ago)
+
+================================================================================

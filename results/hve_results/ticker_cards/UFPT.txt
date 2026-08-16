@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: UFPT
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-16  Volume: 1,588,000  (1155 days ago)
+  2. 2022-11-02  Volume: 283,000  (1381 days ago)
+  3. 2022-06-24  Volume: 212,300  (1512 days ago)
+  4. 2022-06-23  Volume: 188,400  (1513 days ago)
+  5. 2021-03-26  Volume: 118,400  (1967 days ago)
+  6. 2020-03-19  Volume: 106,100  (2339 days ago)
+  7. 2020-01-22  Volume: 102,000  (2396 days ago)
+  8. 2020-01-14  Volume: 72,000  (2404 days ago)
+  9. 2020-01-08  Volume: 43,000  (2410 days ago)
+  10. 2020-01-02  Volume: 35,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-10  Volume: 2,322,100  (1157 days ago)
+  2. 2023-03-04  Volume: 692,200  (1255 days ago)
+  3. 2022-10-29  Volume: 651,800  (1381 days ago)
+  4. 2022-06-18  Volume: 487,400  (1514 days ago)
+  5. 2020-03-14  Volume: 331,700  (2340 days ago)
+  6. 2020-03-07  Volume: 313,300  (2347 days ago)
+  7. 2020-02-22  Volume: 261,700  (2361 days ago)
+  8. 2020-01-11  Volume: 256,300  (2403 days ago)
+  9. 2020-01-04  Volume: 153,700  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-01  Volume: 5,194,200  (426 days ago)
+  2. 2023-06-01  Volume: 4,427,300  (1157 days ago)
+  3. 2023-03-01  Volume: 2,126,600  (1249 days ago)
+  4. 2022-11-01  Volume: 1,915,900  (1369 days ago)
+  5. 2022-10-01  Volume: 1,284,900  (1400 days ago)
+  6. 2020-03-01  Volume: 1,197,900  (2344 days ago)
+  7. 2020-02-01  Volume: 720,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Monthly (426 days ago)
+
+================================================================================

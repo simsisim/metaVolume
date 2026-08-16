@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: BPYPO
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-01-08  Volume: 449,200  (2364 days ago)
+  2. 2020-01-02  Volume: 52,700  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-01-29  Volume: 743,300  (882 days ago)
+  2. 2020-01-06  Volume: 667,000  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-01-01  Volume: 1,761,100  (882 days ago)
+  2. 2020-04-01  Volume: 1,607,000  (2252 days ago)
+  3. 2020-03-01  Volume: 1,467,900  (2283 days ago)
+  4. 2020-02-01  Volume: 440,600  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (882 days ago)
+
+================================================================================

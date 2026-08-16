@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: JLL
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-30  Volume: 5,007,800  (2083 days ago)
+  2. 2020-11-09  Volume: 1,498,800  (2104 days ago)
+  3. 2020-03-12  Volume: 1,200,100  (2346 days ago)
+  4. 2020-03-11  Volume: 1,150,600  (2347 days ago)
+  5. 2020-02-28  Volume: 1,036,700  (2359 days ago)
+  6. 2020-02-27  Volume: 628,100  (2360 days ago)
+  7. 2020-02-12  Volume: 526,100  (2375 days ago)
+  8. 2020-02-11  Volume: 514,800  (2376 days ago)
+  9. 2020-02-03  Volume: 414,800  (2384 days ago)
+  10. 2020-01-16  Volume: 398,400  (2402 days ago)
+  11. 2020-01-15  Volume: 380,500  (2403 days ago)
+  12. 2020-01-08  Volume: 263,800  (2410 days ago)
+  13. 2020-01-06  Volume: 207,400  (2412 days ago)
+  14. 2020-01-02  Volume: 205,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-11-28  Volume: 7,060,500  (2081 days ago)
+  2. 2020-03-07  Volume: 4,974,700  (2347 days ago)
+  3. 2020-02-29  Volume: 3,064,100  (2354 days ago)
+  4. 2020-02-22  Volume: 2,692,400  (2361 days ago)
+  5. 2020-02-08  Volume: 1,841,000  (2375 days ago)
+  6. 2020-01-11  Volume: 1,409,200  (2403 days ago)
+  7. 2020-01-04  Volume: 1,048,700  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 18,108,600  (2344 days ago)
+  2. 2020-02-01  Volume: 6,796,600  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Weekly (2081 days ago)
+
+================================================================================

@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: TAVI
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-06  Volume: 770,300  (526 days ago)
+  2. 2024-12-20  Volume: 679,000  (602 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-03  Volume: 984,900  (525 days ago)
+  2. 2025-02-10  Volume: 956,400  (546 days ago)
+  3. 2025-01-06  Volume: 713,000  (581 days ago)
+  4. 2024-12-16  Volume: 679,000  (602 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-01  Volume: 1,707,576  (92 days ago)
+  2. 2024-12-01  Volume: 1,538,700  (608 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (92 days ago)
+
+================================================================================

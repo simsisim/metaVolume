@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: INAC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-11  Volume: 521,800  (368 days ago)
+  2. 2025-08-04  Volume: 179,500  (375 days ago)
+  3. 2025-07-30  Volume: 111,700  (380 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-11  Volume: 586,600  (364 days ago)
+  2. 2025-08-04  Volume: 263,900  (371 days ago)
+  3. 2025-07-28  Volume: 132,600  (378 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-01  Volume: 1,064,000  (365 days ago)
+  2. 2025-07-01  Volume: 126,100  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (364 days ago)
+
+================================================================================

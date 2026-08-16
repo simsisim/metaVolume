@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: NEWTI
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-23  Volume: 57,300  (767 days ago)
+  2. 2023-09-01  Volume: 45,900  (1032 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-16  Volume: 96,600  (133 days ago)
+  2. 2024-05-20  Volume: 89,000  (770 days ago)
+  3. 2023-09-11  Volume: 78,200  (1022 days ago)
+  4. 2023-09-04  Volume: 71,700  (1029 days ago)
+  5. 2023-08-28  Volume: 45,900  (1036 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-09-01  Volume: 291,700  (1004 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (133 days ago)
+
+================================================================================

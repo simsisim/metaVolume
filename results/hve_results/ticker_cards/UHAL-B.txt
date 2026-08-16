@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: UHAL-B
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-24  Volume: 7,337,752  (217 days ago)
+  2. 2023-05-31  Volume: 4,108,127  (1125 days ago)
+  3. 2022-12-16  Volume: 2,128,126  (1291 days ago)
+  4. 2022-12-15  Volume: 1,067,516  (1292 days ago)
+  5. 2022-11-30  Volume: 999,134  (1307 days ago)
+  6. 2022-11-17  Volume: 774,178  (1320 days ago)
+  7. 2022-11-14  Volume: 737,846  (1323 days ago)
+  8. 2022-11-11  Volume: 383,471  (1326 days ago)
+  9. 2022-11-10  Volume: 347,104  (1327 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-24  Volume: 9,223,797  (217 days ago)
+  2. 2023-05-29  Volume: 6,077,267  (1127 days ago)
+  3. 2022-12-12  Volume: 4,893,035  (1295 days ago)
+  4. 2022-11-14  Volume: 3,242,853  (1323 days ago)
+  5. 2022-11-07  Volume: 730,575  (1330 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-01  Volume: 19,067,463  (212 days ago)
+  2. 2022-12-01  Volume: 11,089,735  (1278 days ago)
+  3. 2022-11-01  Volume: 7,342,714  (1308 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

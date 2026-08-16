@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: AUGO
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-29  Volume: 5,244,300  (77 days ago)
+  2. 2026-01-29  Volume: 3,004,600  (197 days ago)
+  3. 2025-07-16  Volume: 1,912,400  (394 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-26  Volume: 8,008,700  (196 days ago)
+  2. 2025-12-15  Volume: 4,279,200  (238 days ago)
+  3. 2025-10-20  Volume: 4,009,400  (294 days ago)
+  4. 2025-07-14  Volume: 3,106,200  (392 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 21,430,800  (153 days ago)
+  2. 2026-01-01  Volume: 20,119,300  (212 days ago)
+  3. 2025-12-01  Volume: 13,778,000  (243 days ago)
+  4. 2025-10-01  Volume: 13,486,100  (304 days ago)
+  5. 2025-09-01  Volume: 7,609,900  (334 days ago)
+  6. 2025-07-01  Volume: 5,176,400  (396 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Daily (77 days ago)
+
+================================================================================

@@ -1,0 +1,56 @@
+================================================================================
+TICKER CARD: FRBA
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-14  Volume: 948,300  (1127 days ago)
+  2. 2022-12-14  Volume: 511,800  (1339 days ago)
+  3. 2021-06-25  Volume: 402,600  (1876 days ago)
+  4. 2021-05-10  Volume: 288,600  (1922 days ago)
+  5. 2021-03-23  Volume: 284,800  (1970 days ago)
+  6. 2021-03-08  Volume: 269,800  (1985 days ago)
+  7. 2020-10-08  Volume: 219,000  (2136 days ago)
+  8. 2020-03-05  Volume: 193,700  (2353 days ago)
+  9. 2020-01-29  Volume: 75,000  (2389 days ago)
+  10. 2020-01-14  Volume: 70,400  (2404 days ago)
+  11. 2020-01-08  Volume: 32,300  (2410 days ago)
+  12. 2020-01-03  Volume: 20,500  (2415 days ago)
+  13. 2020-01-02  Volume: 14,500  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-10  Volume: 1,406,500  (1127 days ago)
+  2. 2021-03-22  Volume: 796,500  (1967 days ago)
+  3. 2021-03-15  Volume: 670,900  (1974 days ago)
+  4. 2021-03-08  Volume: 585,900  (1981 days ago)
+  5. 2021-02-08  Volume: 452,600  (2009 days ago)
+  6. 2020-03-09  Volume: 430,500  (2345 days ago)
+  7. 2020-03-02  Volume: 417,900  (2352 days ago)
+  8. 2020-01-27  Volume: 190,400  (2387 days ago)
+  9. 2020-01-13  Volume: 131,700  (2401 days ago)
+  10. 2020-01-06  Volume: 87,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-03-01  Volume: 2,801,800  (1979 days ago)
+  2. 2020-03-01  Volume: 1,699,600  (2344 days ago)
+  3. 2020-02-01  Volume: 415,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Daily (1127 days ago)
+
+================================================================================

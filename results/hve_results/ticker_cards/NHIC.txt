@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: NHIC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-27  Volume: 4,071,800  (79 days ago)
+  2. 2025-06-20  Volume: 1,040,500  (420 days ago)
+  3. 2025-04-24  Volume: 832,200  (477 days ago)
+  4. 2025-04-17  Volume: 264,000  (484 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-25  Volume: 5,352,500  (77 days ago)
+  2. 2025-04-21  Volume: 1,493,500  (476 days ago)
+  3. 2025-04-14  Volume: 264,000  (483 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-01  Volume: 2,774,400  (487 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (77 days ago)
+
+================================================================================

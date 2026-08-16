@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: ESLT
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-02  Volume: 1,634,400  (119 days ago)
+  2. 2025-05-17  Volume: 1,235,400  (408 days ago)
+  3. 2022-01-22  Volume: 1,230,500  (1619 days ago)
+  4. 2021-07-24  Volume: 987,600  (1801 days ago)
+  5. 2021-06-12  Volume: 516,600  (1843 days ago)
+  6. 2020-11-07  Volume: 278,600  (2060 days ago)
+  7. 2020-10-24  Volume: 276,000  (2074 days ago)
+  8. 2020-03-21  Volume: 232,500  (2291 days ago)
+  9. 2020-03-14  Volume: 214,000  (2298 days ago)
+  10. 2020-03-07  Volume: 196,800  (2305 days ago)
+  11. 2020-02-29  Volume: 142,000  (2312 days ago)
+  12. 2020-01-25  Volume: 100,800  (2347 days ago)
+  13. 2020-01-04  Volume: 77,800  (2368 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 5,273,800  (92 days ago)
+  2. 2025-06-01  Volume: 3,564,200  (365 days ago)
+  3. 2025-05-01  Volume: 3,281,700  (396 days ago)
+  4. 2025-03-01  Volume: 2,285,400  (457 days ago)
+  5. 2022-01-01  Volume: 1,695,700  (1612 days ago)
+  6. 2021-07-01  Volume: 1,375,100  (1796 days ago)
+  7. 2021-06-01  Volume: 927,300  (1826 days ago)
+  8. 2020-11-01  Volume: 914,000  (2038 days ago)
+  9. 2020-03-01  Volume: 887,400  (2283 days ago)
+  10. 2020-02-01  Volume: 265,300  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Monthly (92 days ago)
+
+================================================================================

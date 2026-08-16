@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: BKTI
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-14  Volume: 501,600  (365 days ago)
+  2. 2025-06-27  Volume: 479,300  (413 days ago)
+  3. 2021-06-07  Volume: 369,200  (1894 days ago)
+  4. 2021-06-04  Volume: 82,940  (1897 days ago)
+  5. 2021-03-15  Volume: 38,060  (1978 days ago)
+  6. 2020-12-21  Volume: 35,640  (2062 days ago)
+  7. 2020-04-13  Volume: 26,160  (2314 days ago)
+  8. 2020-03-09  Volume: 9,360  (2349 days ago)
+  9. 2020-03-05  Volume: 6,240  (2353 days ago)
+  10. 2020-02-20  Volume: 4,840  (2367 days ago)
+  11. 2020-01-14  Volume: 4,480  (2404 days ago)
+  12. 2020-01-03  Volume: 1,920  (2415 days ago)
+  13. 2020-01-02  Volume: 1,320  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-21  Volume: 956,100  (415 days ago)
+  2. 2021-06-05  Volume: 595,920  (1892 days ago)
+  3. 2021-03-06  Volume: 110,480  (1983 days ago)
+  4. 2020-12-19  Volume: 98,040  (2060 days ago)
+  5. 2020-05-30  Volume: 50,900  (2263 days ago)
+  6. 2020-04-11  Volume: 44,180  (2312 days ago)
+  7. 2020-03-21  Volume: 26,460  (2333 days ago)
+  8. 2020-03-07  Volume: 23,200  (2347 days ago)
+  9. 2020-02-29  Volume: 13,880  (2354 days ago)
+  10. 2020-01-11  Volume: 11,040  (2403 days ago)
+  11. 2020-01-04  Volume: 4,180  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (365 days ago)
+
+================================================================================

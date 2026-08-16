@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: NAN
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-12-21  Volume: 508,100  (1318 days ago)
+  2. 2020-03-18  Volume: 356,400  (2326 days ago)
+  3. 2020-03-12  Volume: 230,600  (2332 days ago)
+  4. 2020-03-11  Volume: 129,100  (2333 days ago)
+  5. 2020-02-26  Volume: 90,200  (2347 days ago)
+  6. 2020-01-31  Volume: 67,900  (2373 days ago)
+  7. 2020-01-02  Volume: 61,100  (2402 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-14  Volume: 1,223,700  (2326 days ago)
+  2. 2020-03-07  Volume: 613,900  (2333 days ago)
+  3. 2020-02-22  Volume: 342,100  (2347 days ago)
+  4. 2020-01-25  Volume: 218,900  (2375 days ago)
+  5. 2020-01-11  Volume: 211,600  (2389 days ago)
+  6. 2020-01-04  Volume: 170,000  (2396 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-12-01  Volume: 3,208,300  (1338 days ago)
+  2. 2020-03-01  Volume: 2,950,300  (2343 days ago)
+  3. 2020-02-01  Volume: 855,500  (2372 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Daily (1318 days ago)
+
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: BRFH
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-25  Volume: 44,400,900  (795 days ago)
+  2. 2022-01-21  Volume: 853,400  (1620 days ago)
+  3. 2021-04-19  Volume: 94,746  (1897 days ago)
+  4. 2020-11-18  Volume: 53,854  (2049 days ago)
+  5. 2020-06-26  Volume: 49,485  (2194 days ago)
+  6. 2020-03-23  Volume: 48,969  (2289 days ago)
+  7. 2020-02-05  Volume: 16,862  (2336 days ago)
+  8. 2020-01-06  Volume: 16,438  (2366 days ago)
+  9. 2020-01-03  Volume: 1,908  (2369 days ago)
+  10. 2020-01-02  Volume: 754  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-22  Volume: 45,527,700  (798 days ago)
+  2. 2022-01-17  Volume: 859,600  (1624 days ago)
+  3. 2020-11-16  Volume: 127,469  (2051 days ago)
+  4. 2020-10-26  Volume: 80,562  (2072 days ago)
+  5. 2020-03-23  Volume: 77,069  (2289 days ago)
+  6. 2020-03-16  Volume: 41,638  (2296 days ago)
+  7. 2020-01-27  Volume: 28,708  (2345 days ago)
+  8. 2020-01-06  Volume: 28,368  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (795 days ago)
+
+================================================================================

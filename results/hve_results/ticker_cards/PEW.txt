@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: PEW
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-16  Volume: 12,148,800  (348 days ago)
+  2. 2025-04-28  Volume: 11,773,300  (427 days ago)
+  3. 2025-04-24  Volume: 2,884,600  (431 days ago)
+  4. 2025-01-06  Volume: 2,360,900  (539 days ago)
+  5. 2024-11-12  Volume: 1,505,800  (594 days ago)
+  6. 2024-07-19  Volume: 594,600  (710 days ago)
+  7. 2024-04-30  Volume: 584,700  (790 days ago)
+  8. 2024-01-24  Volume: 443,000  (887 days ago)
+  9. 2024-01-18  Volume: 335,300  (893 days ago)
+  10. 2024-01-17  Volume: 255,300  (894 days ago)
+  11. 2024-01-11  Volume: 45,500  (900 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-14  Volume: 32,349,300  (350 days ago)
+  2. 2025-04-28  Volume: 18,925,700  (427 days ago)
+  3. 2025-04-21  Volume: 5,678,800  (434 days ago)
+  4. 2025-01-06  Volume: 3,798,400  (539 days ago)
+  5. 2024-12-02  Volume: 2,655,800  (574 days ago)
+  6. 2024-11-11  Volume: 2,435,900  (595 days ago)
+  7. 2024-07-15  Volume: 1,515,400  (714 days ago)
+  8. 2024-01-22  Volume: 1,150,600  (889 days ago)
+  9. 2024-01-15  Volume: 764,000  (896 days ago)
+  10. 2024-01-08  Volume: 45,900  (903 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (348 days ago)
+
+================================================================================

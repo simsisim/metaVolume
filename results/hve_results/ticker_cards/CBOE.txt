@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: CBOE
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-08-18  Volume: 6,564,200  (1822 days ago)
+  2. 2020-02-21  Volume: 2,379,500  (2366 days ago)
+  3. 2020-02-05  Volume: 1,134,200  (2382 days ago)
+  4. 2020-01-08  Volume: 1,039,300  (2410 days ago)
+  5. 2020-01-06  Volume: 604,200  (2412 days ago)
+  6. 2020-01-03  Volume: 599,700  (2415 days ago)
+  7. 2020-01-02  Volume: 460,700  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-01  Volume: 13,472,800  (70 days ago)
+  2. 2021-08-16  Volume: 9,838,100  (1820 days ago)
+  3. 2020-03-16  Volume: 8,786,400  (2338 days ago)
+  4. 2020-03-09  Volume: 7,703,500  (2345 days ago)
+  5. 2020-03-02  Volume: 6,723,900  (2352 days ago)
+  6. 2020-02-24  Volume: 5,737,200  (2359 days ago)
+  7. 2020-02-17  Volume: 4,427,500  (2366 days ago)
+  8. 2020-02-03  Volume: 4,348,200  (2380 days ago)
+  9. 2020-01-06  Volume: 3,865,300  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-01  Volume: 45,835,200  (61 days ago)
+  2. 2020-03-01  Volume: 32,280,600  (2344 days ago)
+  3. 2020-02-01  Volume: 16,520,900  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (61 days ago)
+
+================================================================================

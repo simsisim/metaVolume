@@ -1,0 +1,47 @@
+================================================================================
+TICKER CARD: XPER
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-21  Volume: 9,545,300  (784 days ago)
+  2. 2023-11-21  Volume: 2,243,100  (997 days ago)
+  3. 2023-11-20  Volume: 2,129,100  (998 days ago)
+  4. 2022-12-16  Volume: 1,474,700  (1337 days ago)
+  5. 2022-11-30  Volume: 1,162,500  (1353 days ago)
+  6. 2022-10-03  Volume: 1,140,100  (1411 days ago)
+  7. 2022-09-30  Volume: 138,100  (1414 days ago)
+  8. 2022-09-20  Volume: 100  (1424 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-17  Volume: 11,896,400  (784 days ago)
+  2. 2023-11-20  Volume: 6,408,700  (994 days ago)
+  3. 2022-10-03  Volume: 3,558,900  (1407 days ago)
+  4. 2022-09-26  Volume: 138,100  (1414 days ago)
+  5. 2022-09-19  Volume: 100  (1421 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-01  Volume: 23,029,400  (791 days ago)
+  2. 2023-11-01  Volume: 13,183,400  (1004 days ago)
+  3. 2022-10-01  Volume: 10,636,000  (1400 days ago)
+  4. 2022-09-01  Volume: 138,200  (1430 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Daily (784 days ago)
+
+================================================================================

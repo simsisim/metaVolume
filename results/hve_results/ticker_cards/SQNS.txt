@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: SQNS
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-08  Volume: 8,890,900  (356 days ago)
+  2. 2024-08-23  Volume: 3,363,808  (675 days ago)
+  3. 2024-02-23  Volume: 501,988  (857 days ago)
+  4. 2023-08-07  Volume: 250,980  (1057 days ago)
+  5. 2020-12-08  Volume: 94,996  (2029 days ago)
+  6. 2020-05-12  Volume: 71,936  (2239 days ago)
+  7. 2020-02-18  Volume: 57,928  (2323 days ago)
+  8. 2020-01-07  Volume: 19,448  (2365 days ago)
+  9. 2020-01-06  Volume: 14,064  (2366 days ago)
+  10. 2020-01-02  Volume: 6,904  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-07  Volume: 17,393,810  (357 days ago)
+  2. 2024-08-19  Volume: 3,379,500  (679 days ago)
+  3. 2024-02-19  Volume: 567,116  (861 days ago)
+  4. 2023-08-07  Volume: 382,408  (1057 days ago)
+  5. 2021-01-11  Volume: 207,580  (1995 days ago)
+  6. 2020-12-07  Volume: 200,748  (2030 days ago)
+  7. 2020-11-30  Volume: 176,256  (2037 days ago)
+  8. 2020-02-17  Volume: 141,536  (2324 days ago)
+  9. 2020-02-10  Volume: 61,180  (2331 days ago)
+  10. 2020-01-06  Volume: 57,792  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (356 days ago)
+
+================================================================================

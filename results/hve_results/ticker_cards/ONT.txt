@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: ONT
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-07-23  Volume: 5,042,000  (2213 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-03  Volume: 7,393,200  (7 days ago)
+  2. 2024-09-30  Volume: 6,693,500  (679 days ago)
+  3. 2020-07-20  Volume: 6,065,800  (2212 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-01  Volume: 16,440,000  (61 days ago)
+  2. 2026-05-01  Volume: 15,690,600  (92 days ago)
+  3. 2024-11-01  Volume: 15,448,900  (638 days ago)
+  4. 2024-10-01  Volume: 15,170,200  (669 days ago)
+  5. 2024-09-01  Volume: 12,379,800  (699 days ago)
+  6. 2024-07-01  Volume: 11,613,300  (761 days ago)
+  7. 2023-03-01  Volume: 9,116,300  (1249 days ago)
+  8. 2021-09-01  Volume: 7,720,100  (1795 days ago)
+  9. 2020-07-01  Volume: 7,426,000  (2222 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Weekly (7 days ago)
+
+================================================================================

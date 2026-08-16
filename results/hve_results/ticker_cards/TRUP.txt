@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: TRUP
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-05  Volume: 7,566,700  (1197 days ago)
+  2. 2020-08-31  Volume: 5,312,000  (2174 days ago)
+  3. 2020-08-07  Volume: 2,273,500  (2198 days ago)
+  4. 2020-08-06  Volume: 2,081,300  (2199 days ago)
+  5. 2020-02-14  Volume: 2,012,100  (2373 days ago)
+  6. 2020-01-10  Volume: 592,200  (2408 days ago)
+  7. 2020-01-09  Volume: 369,400  (2409 days ago)
+  8. 2020-01-02  Volume: 334,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-01  Volume: 11,241,300  (1197 days ago)
+  2. 2023-03-20  Volume: 8,664,800  (1239 days ago)
+  3. 2020-08-31  Volume: 8,598,300  (2170 days ago)
+  4. 2020-08-03  Volume: 6,950,200  (2198 days ago)
+  5. 2020-02-10  Volume: 3,231,100  (2373 days ago)
+  6. 2020-01-06  Volume: 1,683,000  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-01  Volume: 38,584,000  (1188 days ago)
+  2. 2020-08-01  Volume: 21,581,800  (2191 days ago)
+  3. 2020-03-01  Volume: 10,527,400  (2344 days ago)
+  4. 2020-02-01  Volume: 8,172,600  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Monthly (1188 days ago)
+
+================================================================================

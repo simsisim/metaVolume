@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: NKX
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-12  Volume: 653,000  (2346 days ago)
+  2. 2020-03-09  Volume: 341,500  (2349 days ago)
+  3. 2020-02-28  Volume: 247,000  (2359 days ago)
+  4. 2020-02-10  Volume: 125,700  (2377 days ago)
+  5. 2020-01-09  Volume: 122,300  (2409 days ago)
+  6. 2020-01-02  Volume: 75,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-16  Volume: 1,753,600  (2338 days ago)
+  2. 2020-03-09  Volume: 1,692,100  (2345 days ago)
+  3. 2020-02-24  Volume: 494,500  (2359 days ago)
+  4. 2020-02-10  Volume: 310,400  (2373 days ago)
+  5. 2020-01-13  Volume: 302,300  (2401 days ago)
+  6. 2020-01-06  Volume: 298,500  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 5,187,700  (2344 days ago)
+  2. 2020-02-01  Volume: 1,239,500  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 14
+Latest volume activity: Weekly (2338 days ago)
+
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: FITBI
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-01-31  Volume: 1,230,400  (1245 days ago)
+  2. 2020-09-30  Volume: 430,000  (2098 days ago)
+  3. 2020-06-04  Volume: 231,600  (2216 days ago)
+  4. 2020-03-19  Volume: 190,200  (2293 days ago)
+  5. 2020-03-18  Volume: 108,800  (2294 days ago)
+  6. 2020-03-16  Volume: 96,200  (2296 days ago)
+  7. 2020-03-12  Volume: 86,500  (2300 days ago)
+  8. 2020-03-11  Volume: 79,400  (2301 days ago)
+  9. 2020-02-28  Volume: 75,900  (2313 days ago)
+  10. 2020-02-25  Volume: 61,800  (2316 days ago)
+  11. 2020-01-07  Volume: 55,900  (2365 days ago)
+  12. 2020-01-02  Volume: 54,600  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-01-30  Volume: 1,801,500  (1246 days ago)
+  2. 2020-09-28  Volume: 682,600  (2100 days ago)
+  3. 2020-03-16  Volume: 533,900  (2296 days ago)
+  4. 2020-03-09  Volume: 314,100  (2303 days ago)
+  5. 2020-02-24  Volume: 237,100  (2317 days ago)
+  6. 2020-01-06  Volume: 185,900  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (1245 days ago)
+
+================================================================================

@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: CAI
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-18  Volume: 15,347,900  (422 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-03  Volume: 37,187,700  (7 days ago)
+  2. 2026-07-27  Volume: 24,263,307  (14 days ago)
+  3. 2025-12-01  Volume: 22,530,500  (252 days ago)
+  4. 2025-06-16  Volume: 20,648,300  (420 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-01  Volume: 63,832,908  (0 days ago)
+  2. 2026-03-01  Volume: 60,025,600  (153 days ago)
+  3. 2025-12-01  Volume: 56,194,600  (243 days ago)
+  4. 2025-11-01  Volume: 32,852,700  (273 days ago)
+  5. 2025-06-01  Volume: 27,860,600  (426 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Monthly (0 days ago)
+
+================================================================================

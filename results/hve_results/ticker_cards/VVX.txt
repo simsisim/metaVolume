@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: VVX
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-24  Volume: 3,876,700  (21 days ago)
+  2. 2026-05-08  Volume: 2,055,300  (98 days ago)
+  3. 2026-03-20  Volume: 1,573,300  (147 days ago)
+  4. 2026-03-13  Volume: 1,562,700  (154 days ago)
+  5. 2024-11-13  Volume: 1,519,800  (639 days ago)
+  6. 2024-09-05  Volume: 866,600  (708 days ago)
+  7. 2022-09-13  Volume: 661,900  (1431 days ago)
+  8. 2020-03-31  Volume: 349,700  (2327 days ago)
+  9. 2020-03-20  Volume: 282,500  (2338 days ago)
+  10. 2020-03-04  Volume: 240,900  (2354 days ago)
+  11. 2020-02-19  Volume: 189,100  (2368 days ago)
+  12. 2020-01-06  Volume: 156,500  (2412 days ago)
+  13. 2020-01-03  Volume: 79,000  (2415 days ago)
+  14. 2020-01-02  Volume: 73,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-20  Volume: 6,288,500  (21 days ago)
+  2. 2026-05-04  Volume: 5,403,700  (98 days ago)
+  3. 2026-02-23  Volume: 3,964,800  (168 days ago)
+  4. 2025-08-04  Volume: 3,623,400  (371 days ago)
+  5. 2024-11-11  Volume: 3,268,700  (637 days ago)
+  6. 2024-09-02  Volume: 1,378,300  (707 days ago)
+  7. 2022-09-12  Volume: 1,331,100  (1428 days ago)
+  8. 2020-03-30  Volume: 1,084,100  (2324 days ago)
+  9. 2020-03-16  Volume: 973,600  (2338 days ago)
+  10. 2020-03-02  Volume: 885,800  (2352 days ago)
+  11. 2020-02-24  Volume: 645,600  (2359 days ago)
+  12. 2020-01-06  Volume: 611,900  (2408 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 26
+Latest volume activity: Daily (21 days ago)
+
+================================================================================

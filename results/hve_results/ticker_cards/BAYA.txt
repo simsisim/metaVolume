@@ -1,0 +1,43 @@
+================================================================================
+TICKER CARD: BAYA
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-10  Volume: 566,200  (675 days ago)
+  2. 2024-07-08  Volume: 539,000  (739 days ago)
+  3. 2024-06-18  Volume: 237,000  (759 days ago)
+  4. 2023-12-29  Volume: 175,000  (931 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-08  Volume: 825,600  (735 days ago)
+  2. 2024-06-17  Volume: 243,400  (756 days ago)
+  3. 2024-01-08  Volume: 222,100  (917 days ago)
+  4. 2024-01-01  Volume: 207,000  (924 days ago)
+  5. 2023-12-25  Volume: 175,000  (931 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-08-01  Volume: 1,440,400  (704 days ago)
+  2. 2024-07-01  Volume: 853,700  (735 days ago)
+  3. 2024-01-01  Volume: 520,700  (917 days ago)
+  4. 2023-12-01  Volume: 175,000  (948 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 13
+Latest volume activity: Daily (675 days ago)
+
+================================================================================

@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: AWX
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-14  Volume: 13,871,000  (258 days ago)
+  2. 2020-12-28  Volume: 10,162,400  (2009 days ago)
+  3. 2020-06-12  Volume: 1,630,000  (2208 days ago)
+  4. 2020-01-15  Volume: 155,200  (2357 days ago)
+  5. 2020-01-09  Volume: 31,100  (2363 days ago)
+  6. 2020-01-07  Volume: 25,300  (2365 days ago)
+  7. 2020-01-06  Volume: 20,800  (2366 days ago)
+  8. 2020-01-02  Volume: 7,000  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-11  Volume: 15,556,500  (261 days ago)
+  2. 2021-05-01  Volume: 11,013,800  (1885 days ago)
+  3. 2020-12-26  Volume: 10,929,800  (2011 days ago)
+  4. 2020-06-06  Volume: 1,722,100  (2214 days ago)
+  5. 2020-01-11  Volume: 286,800  (2361 days ago)
+  6. 2020-01-04  Volume: 105,700  (2368 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-01  Volume: 16,638,800  (243 days ago)
+  2. 2021-05-01  Volume: 13,852,900  (1857 days ago)
+  3. 2020-12-01  Volume: 12,238,500  (2008 days ago)
+  4. 2020-06-01  Volume: 3,478,900  (2191 days ago)
+  5. 2020-03-01  Volume: 315,400  (2283 days ago)
+  6. 2020-02-01  Volume: 161,800  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Monthly (243 days ago)
+
+================================================================================

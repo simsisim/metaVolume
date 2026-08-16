@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: HCXY
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-03-05  Volume: 38,100  (846 days ago)
+  2. 2024-02-26  Volume: 37,600  (854 days ago)
+  3. 2021-02-25  Volume: 18,300  (1950 days ago)
+  4. 2020-11-10  Volume: 17,500  (2057 days ago)
+  5. 2020-08-26  Volume: 15,300  (2133 days ago)
+  6. 2020-03-12  Volume: 11,100  (2300 days ago)
+  7. 2020-03-06  Volume: 9,100  (2306 days ago)
+  8. 2020-01-06  Volume: 6,900  (2366 days ago)
+  9. 2020-01-02  Volume: 3,400  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-02-26  Volume: 70,900  (854 days ago)
+  2. 2023-05-01  Volume: 49,000  (1155 days ago)
+  3. 2021-02-22  Volume: 43,300  (1953 days ago)
+  4. 2020-03-09  Volume: 34,400  (2303 days ago)
+  5. 2020-01-27  Volume: 27,500  (2345 days ago)
+  6. 2020-01-13  Volume: 18,900  (2359 days ago)
+  7. 2020-01-06  Volume: 14,400  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-01  Volume: 157,500  (1127 days ago)
+  2. 2020-03-01  Volume: 113,400  (2283 days ago)
+  3. 2020-02-01  Volume: 40,900  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Daily (846 days ago)
+
+================================================================================

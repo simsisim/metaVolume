@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: TCPC
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-26  Volume: 6,702,300  (154 days ago)
+  2. 2025-12-19  Volume: 2,439,600  (192 days ago)
+  3. 2024-08-07  Volume: 2,221,300  (691 days ago)
+  4. 2020-03-18  Volume: 1,785,100  (2294 days ago)
+  5. 2020-03-16  Volume: 1,483,600  (2296 days ago)
+  6. 2020-02-28  Volume: 1,118,800  (2313 days ago)
+  7. 2020-02-27  Volume: 970,400  (2314 days ago)
+  8. 2020-02-25  Volume: 781,300  (2316 days ago)
+  9. 2020-02-18  Volume: 494,300  (2323 days ago)
+  10. 2020-01-15  Volume: 493,300  (2357 days ago)
+  11. 2020-01-02  Volume: 397,900  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-26  Volume: 11,599,600  (154 days ago)
+  2. 2025-12-15  Volume: 7,913,900  (196 days ago)
+  3. 2020-03-16  Volume: 7,273,200  (2296 days ago)
+  4. 2020-02-24  Volume: 3,981,500  (2317 days ago)
+  5. 2020-01-13  Volume: 1,766,700  (2359 days ago)
+  6. 2020-01-06  Volume: 1,433,600  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 36,070,900  (92 days ago)
+  2. 2025-12-01  Volume: 21,692,700  (182 days ago)
+  3. 2020-03-01  Volume: 20,948,700  (2283 days ago)
+  4. 2020-02-01  Volume: 7,751,700  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Monthly (92 days ago)
+
+================================================================================

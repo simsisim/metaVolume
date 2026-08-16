@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: SGA
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 571,700  (1876 days ago)
+  2. 2021-06-21  Volume: 123,100  (1880 days ago)
+  3. 2021-05-11  Volume: 89,700  (1921 days ago)
+  4. 2020-07-01  Volume: 60,800  (2235 days ago)
+  5. 2020-06-26  Volume: 35,300  (2240 days ago)
+  6. 2020-03-10  Volume: 24,900  (2348 days ago)
+  7. 2020-03-03  Volume: 20,600  (2355 days ago)
+  8. 2020-03-02  Volume: 19,800  (2356 days ago)
+  9. 2020-02-28  Volume: 16,900  (2359 days ago)
+  10. 2020-01-21  Volume: 16,200  (2397 days ago)
+  11. 2020-01-16  Volume: 9,900  (2402 days ago)
+  12. 2020-01-15  Volume: 9,300  (2403 days ago)
+  13. 2020-01-13  Volume: 7,900  (2405 days ago)
+  14. 2020-01-10  Volume: 6,900  (2408 days ago)
+  15. 2020-01-06  Volume: 3,300  (2412 days ago)
+  16. 2020-01-02  Volume: 2,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-19  Volume: 806,100  (1878 days ago)
+  2. 2021-05-08  Volume: 234,700  (1920 days ago)
+  3. 2021-04-17  Volume: 154,900  (1941 days ago)
+  4. 2021-04-10  Volume: 109,300  (1948 days ago)
+  5. 2021-03-13  Volume: 95,700  (1976 days ago)
+  6. 2021-02-27  Volume: 83,600  (1990 days ago)
+  7. 2020-03-14  Volume: 80,100  (2340 days ago)
+  8. 2020-02-29  Volume: 73,000  (2354 days ago)
+  9. 2020-02-22  Volume: 52,400  (2361 days ago)
+  10. 2020-01-11  Volume: 37,200  (2403 days ago)
+  11. 2020-01-04  Volume: 19,000  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 27
+Latest volume activity: Daily (1876 days ago)
+
+================================================================================

@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: ELA
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-19  Volume: 1,891,100  (148 days ago)
+  2. 2021-06-25  Volume: 1,069,500  (1876 days ago)
+  3. 2020-06-26  Volume: 966,600  (2240 days ago)
+  4. 2020-03-02  Volume: 752,400  (2356 days ago)
+  5. 2020-02-18  Volume: 634,300  (2369 days ago)
+  6. 2020-02-10  Volume: 445,700  (2377 days ago)
+  7. 2020-02-04  Volume: 309,200  (2383 days ago)
+  8. 2020-01-28  Volume: 297,000  (2390 days ago)
+  9. 2020-01-21  Volume: 286,500  (2397 days ago)
+  10. 2020-01-06  Volume: 266,300  (2412 days ago)
+  11. 2020-01-03  Volume: 7,000  (2415 days ago)
+  12. 2020-01-02  Volume: 4,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-16  Volume: 2,402,100  (147 days ago)
+  2. 2020-02-29  Volume: 2,376,800  (2354 days ago)
+  3. 2020-02-15  Volume: 1,195,700  (2368 days ago)
+  4. 2020-02-08  Volume: 1,145,600  (2375 days ago)
+  5. 2020-02-01  Volume: 953,200  (2382 days ago)
+  6. 2020-01-18  Volume: 918,400  (2396 days ago)
+  7. 2020-01-11  Volume: 599,800  (2403 days ago)
+  8. 2020-01-04  Volume: 391,700  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (147 days ago)
+
+================================================================================

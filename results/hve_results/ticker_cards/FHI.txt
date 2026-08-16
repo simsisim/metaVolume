@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: FHI
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 12,509,700  (1148 days ago)
+  2. 2023-03-17  Volume: 4,673,200  (1246 days ago)
+  3. 2022-09-16  Volume: 3,802,400  (1428 days ago)
+  4. 2022-06-24  Volume: 3,762,400  (1512 days ago)
+  5. 2021-06-25  Volume: 3,063,200  (1876 days ago)
+  6. 2021-04-30  Volume: 2,550,300  (1932 days ago)
+  7. 2020-03-09  Volume: 2,477,300  (2349 days ago)
+  8. 2020-03-05  Volume: 2,080,700  (2353 days ago)
+  9. 2020-01-31  Volume: 1,829,700  (2387 days ago)
+  10. 2020-01-08  Volume: 805,100  (2410 days ago)
+  11. 2020-01-06  Volume: 647,000  (2412 days ago)
+  12. 2020-01-02  Volume: 423,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-17  Volume: 15,653,100  (1150 days ago)
+  2. 2023-03-11  Volume: 11,544,300  (1248 days ago)
+  3. 2020-02-29  Volume: 7,790,700  (2354 days ago)
+  4. 2020-02-22  Volume: 4,491,200  (2361 days ago)
+  5. 2020-02-01  Volume: 4,178,900  (2382 days ago)
+  6. 2020-01-25  Volume: 3,610,200  (2389 days ago)
+  7. 2020-01-04  Volume: 3,152,400  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-01  Volume: 34,060,800  (1157 days ago)
+  2. 2020-03-01  Volume: 30,881,200  (2344 days ago)
+  3. 2020-02-01  Volume: 13,662,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (1148 days ago)
+
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: RS
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-02-28  Volume: 4,348,300  (1263 days ago)
+  2. 2022-12-16  Volume: 1,822,700  (1337 days ago)
+  3. 2022-09-16  Volume: 1,495,000  (1428 days ago)
+  4. 2020-02-20  Volume: 1,423,800  (2367 days ago)
+  5. 2020-01-21  Volume: 752,600  (2397 days ago)
+  6. 2020-01-13  Volume: 503,600  (2405 days ago)
+  7. 2020-01-07  Volume: 412,200  (2411 days ago)
+  8. 2020-01-06  Volume: 399,100  (2412 days ago)
+  9. 2020-01-02  Volume: 345,700  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-02-25  Volume: 7,320,700  (1262 days ago)
+  2. 2020-03-14  Volume: 4,853,100  (2340 days ago)
+  3. 2020-03-07  Volume: 3,839,700  (2347 days ago)
+  4. 2020-02-29  Volume: 3,492,300  (2354 days ago)
+  5. 2020-02-22  Volume: 3,417,600  (2361 days ago)
+  6. 2020-02-15  Volume: 3,358,600  (2368 days ago)
+  7. 2020-01-11  Volume: 2,071,500  (2403 days ago)
+  8. 2020-01-04  Volume: 1,815,300  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 17,869,500  (2344 days ago)
+  2. 2020-02-01  Volume: 10,217,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (1262 days ago)
+
+================================================================================

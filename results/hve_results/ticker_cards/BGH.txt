@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: BGH
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-11-12  Volume: 447,100  (640 days ago)
+  2. 2024-11-08  Volume: 359,600  (644 days ago)
+  3. 2023-03-15  Volume: 315,700  (1248 days ago)
+  4. 2020-03-20  Volume: 309,000  (2338 days ago)
+  5. 2020-03-18  Volume: 288,300  (2340 days ago)
+  6. 2020-03-09  Volume: 221,900  (2349 days ago)
+  7. 2020-02-28  Volume: 174,000  (2359 days ago)
+  8. 2020-01-06  Volume: 158,100  (2412 days ago)
+  9. 2020-01-02  Volume: 106,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-16  Volume: 1,200,100  (2338 days ago)
+  2. 2020-03-09  Volume: 946,400  (2345 days ago)
+  3. 2020-02-24  Volume: 593,400  (2359 days ago)
+  4. 2020-02-03  Volume: 491,200  (2380 days ago)
+  5. 2020-01-06  Volume: 488,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 4,003,400  (2344 days ago)
+  2. 2020-02-01  Volume: 1,692,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Daily (640 days ago)
+
+================================================================================

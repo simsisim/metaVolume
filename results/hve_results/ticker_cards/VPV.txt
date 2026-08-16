@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: VPV
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-07  Volume: 373,400  (1011 days ago)
+  2. 2023-09-13  Volume: 309,800  (1066 days ago)
+  3. 2022-11-02  Volume: 209,300  (1381 days ago)
+  4. 2020-03-18  Volume: 199,700  (2340 days ago)
+  5. 2020-03-12  Volume: 115,000  (2346 days ago)
+  6. 2020-02-28  Volume: 90,100  (2359 days ago)
+  7. 2020-01-06  Volume: 62,500  (2412 days ago)
+  8. 2020-01-02  Volume: 30,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-11-04  Volume: 650,500  (1010 days ago)
+  2. 2022-12-24  Volume: 522,500  (1325 days ago)
+  3. 2022-12-03  Volume: 506,500  (1346 days ago)
+  4. 2020-03-14  Volume: 475,600  (2340 days ago)
+  5. 2020-03-07  Volume: 325,700  (2347 days ago)
+  6. 2020-02-29  Volume: 225,200  (2354 days ago)
+  7. 2020-02-22  Volume: 216,900  (2361 days ago)
+  8. 2020-01-04  Volume: 214,200  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-12-01  Volume: 2,104,700  (1339 days ago)
+  2. 2020-03-01  Volume: 1,540,800  (2344 days ago)
+  3. 2020-02-01  Volume: 598,300  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (1010 days ago)
+
+================================================================================

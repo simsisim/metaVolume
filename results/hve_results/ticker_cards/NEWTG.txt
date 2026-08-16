@@ -1,0 +1,39 @@
+================================================================================
+TICKER CARD: NEWTG
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-31  Volume: 166,600  (759 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-09  Volume: 269,800  (658 days ago)
+  2. 2024-07-15  Volume: 259,400  (714 days ago)
+  3. 2024-06-03  Volume: 236,800  (756 days ago)
+  4. 2024-05-27  Volume: 166,600  (763 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-01  Volume: 626,900  (638 days ago)
+  2. 2024-07-01  Volume: 540,000  (700 days ago)
+  3. 2024-06-01  Volume: 495,300  (730 days ago)
+  4. 2024-05-01  Volume: 166,600  (761 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 9
+Latest volume activity: Monthly (638 days ago)
+
+================================================================================

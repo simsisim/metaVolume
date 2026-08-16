@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: MG
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-23  Volume: 2,721,900  (1148 days ago)
+  2. 2022-06-24  Volume: 2,526,400  (1512 days ago)
+  3. 2020-03-30  Volume: 895,400  (2328 days ago)
+  4. 2020-02-04  Volume: 346,900  (2383 days ago)
+  5. 2020-01-31  Volume: 287,000  (2387 days ago)
+  6. 2020-01-30  Volume: 166,200  (2388 days ago)
+  7. 2020-01-03  Volume: 156,300  (2415 days ago)
+  8. 2020-01-02  Volume: 115,300  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-06-19  Volume: 3,232,500  (1148 days ago)
+  2. 2022-06-20  Volume: 3,010,600  (1512 days ago)
+  3. 2020-06-22  Volume: 2,378,500  (2240 days ago)
+  4. 2020-03-30  Volume: 2,200,300  (2324 days ago)
+  5. 2020-03-16  Volume: 1,008,600  (2338 days ago)
+  6. 2020-02-03  Volume: 987,600  (2380 days ago)
+  7. 2020-01-27  Volume: 648,700  (2387 days ago)
+  8. 2020-01-13  Volume: 422,200  (2401 days ago)
+  9. 2020-01-06  Volume: 364,900  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-01  Volume: 8,714,300  (2252 days ago)
+  2. 2020-04-01  Volume: 7,656,300  (2313 days ago)
+  3. 2020-03-01  Volume: 4,403,100  (2344 days ago)
+  4. 2020-02-01  Volume: 2,559,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (1148 days ago)
+
+================================================================================

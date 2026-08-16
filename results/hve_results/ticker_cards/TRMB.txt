@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: TRMB
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-20  Volume: 53,094,000  (2032 days ago)
+  2. 2020-03-19  Volume: 6,784,200  (2339 days ago)
+  3. 2020-03-06  Volume: 4,489,700  (2352 days ago)
+  4. 2020-03-05  Volume: 3,363,700  (2353 days ago)
+  5. 2020-02-28  Volume: 3,008,900  (2359 days ago)
+  6. 2020-02-13  Volume: 1,971,000  (2374 days ago)
+  7. 2020-01-16  Volume: 1,467,000  (2402 days ago)
+  8. 2020-01-09  Volume: 1,191,700  (2409 days ago)
+  9. 2020-01-08  Volume: 1,050,500  (2410 days ago)
+  10. 2020-01-07  Volume: 1,040,600  (2411 days ago)
+  11. 2020-01-06  Volume: 775,400  (2412 days ago)
+  12. 2020-01-02  Volume: 626,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-16  Volume: 61,548,000  (2032 days ago)
+  2. 2020-03-14  Volume: 21,666,000  (2340 days ago)
+  3. 2020-03-07  Volume: 14,995,100  (2347 days ago)
+  4. 2020-02-29  Volume: 12,006,600  (2354 days ago)
+  5. 2020-02-22  Volume: 7,688,600  (2361 days ago)
+  6. 2020-02-08  Volume: 6,344,000  (2375 days ago)
+  7. 2020-01-11  Volume: 4,932,300  (2403 days ago)
+  8. 2020-01-04  Volume: 4,794,200  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-01-01  Volume: 82,509,400  (2038 days ago)
+  2. 2020-03-01  Volume: 64,086,400  (2344 days ago)
+  3. 2020-02-01  Volume: 22,056,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 23
+Latest volume activity: Daily (2032 days ago)
+
+================================================================================

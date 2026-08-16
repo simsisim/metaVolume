@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: GSHR
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-12  Volume: 1,241,600  (2 days ago)
+  2. 2026-02-02  Volume: 244,600  (193 days ago)
+  3. 2025-06-17  Volume: 243,400  (423 days ago)
+  4. 2025-05-12  Volume: 230,500  (459 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-10  Volume: 1,241,824  (0 days ago)
+  2. 2025-05-12  Volume: 381,500  (455 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-01  Volume: 1,242,124  (0 days ago)
+  2. 2025-05-01  Volume: 731,700  (457 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

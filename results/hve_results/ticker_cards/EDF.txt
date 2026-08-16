@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: EDF
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-17  Volume: 978,900  (178 days ago)
+  2. 2020-03-12  Volume: 746,700  (2346 days ago)
+  3. 2020-01-23  Volume: 624,600  (2395 days ago)
+  4. 2020-01-16  Volume: 202,200  (2402 days ago)
+  5. 2020-01-15  Volume: 174,400  (2403 days ago)
+  6. 2020-01-03  Volume: 130,500  (2415 days ago)
+  7. 2020-01-02  Volume: 76,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-16  Volume: 2,348,000  (175 days ago)
+  2. 2020-03-16  Volume: 1,817,400  (2338 days ago)
+  3. 2020-02-24  Volume: 1,754,500  (2359 days ago)
+  4. 2020-01-20  Volume: 1,096,300  (2394 days ago)
+  5. 2020-01-13  Volume: 737,800  (2401 days ago)
+  6. 2020-01-06  Volume: 558,300  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 5,773,600  (153 days ago)
+  2. 2020-03-01  Volume: 5,664,000  (2344 days ago)
+  3. 2020-02-01  Volume: 3,583,000  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Monthly (153 days ago)
+
+================================================================================

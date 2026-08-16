@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: MLAC
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-02  Volume: 5,125,300  (246 days ago)
+  2. 2025-02-05  Volume: 2,044,200  (485 days ago)
+  3. 2025-02-04  Volume: 232,500  (486 days ago)
+  4. 2025-02-03  Volume: 202,100  (487 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-29  Volume: 5,480,200  (245 days ago)
+  2. 2025-02-03  Volume: 2,715,800  (483 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-10-01  Volume: 8,503,900  (243 days ago)
+  2. 2025-02-01  Volume: 4,590,900  (485 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (243 days ago)
+
+================================================================================

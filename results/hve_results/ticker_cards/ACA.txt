@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: ACA
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-22  Volume: 4,455,200  (53 days ago)
+  2. 2022-12-16  Volume: 1,559,400  (1337 days ago)
+  3. 2021-12-17  Volume: 1,432,600  (1701 days ago)
+  4. 2020-12-18  Volume: 1,363,300  (2065 days ago)
+  5. 2020-09-18  Volume: 843,400  (2156 days ago)
+  6. 2020-05-08  Volume: 841,300  (2289 days ago)
+  7. 2020-04-29  Volume: 774,200  (2298 days ago)
+  8. 2020-03-20  Volume: 759,600  (2338 days ago)
+  9. 2020-02-28  Volume: 747,600  (2359 days ago)
+  10. 2020-02-27  Volume: 653,000  (2360 days ago)
+  11. 2020-01-02  Volume: 625,100  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-22  Volume: 12,857,300  (49 days ago)
+  2. 2023-03-13  Volume: 4,347,000  (1246 days ago)
+  3. 2021-08-09  Volume: 2,934,700  (1827 days ago)
+  4. 2020-03-16  Volume: 2,382,800  (2338 days ago)
+  5. 2020-02-24  Volume: 2,182,600  (2359 days ago)
+  6. 2020-01-27  Volume: 1,634,200  (2387 days ago)
+  7. 2020-01-06  Volume: 1,596,100  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 9,146,900  (2344 days ago)
+  2. 2020-02-01  Volume: 5,573,400  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (49 days ago)
+
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: VIRC
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-28  Volume: 2,149,100  (777 days ago)
+  2. 2024-02-09  Volume: 984,500  (917 days ago)
+  3. 2023-12-08  Volume: 675,100  (980 days ago)
+  4. 2023-10-02  Volume: 584,300  (1047 days ago)
+  5. 2021-01-13  Volume: 571,900  (2039 days ago)
+  6. 2020-03-20  Volume: 227,300  (2338 days ago)
+  7. 2020-01-06  Volume: 76,700  (2412 days ago)
+  8. 2020-01-02  Volume: 17,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-06-22  Volume: 3,459,300  (779 days ago)
+  2. 2024-06-08  Volume: 2,561,400  (793 days ago)
+  3. 2023-12-16  Volume: 1,993,800  (968 days ago)
+  4. 2023-12-09  Volume: 1,812,600  (975 days ago)
+  5. 2023-09-23  Volume: 1,401,400  (1052 days ago)
+  6. 2023-09-09  Volume: 936,200  (1066 days ago)
+  7. 2021-01-09  Volume: 741,600  (2039 days ago)
+  8. 2020-09-26  Volume: 268,800  (2144 days ago)
+  9. 2020-03-14  Volume: 262,700  (2340 days ago)
+  10. 2020-01-04  Volume: 155,200  (2410 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Daily (777 days ago)
+
+================================================================================

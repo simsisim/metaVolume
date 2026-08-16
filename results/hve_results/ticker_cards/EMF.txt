@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: EMF
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-19  Volume: 958,100  (513 days ago)
+  2. 2020-01-02  Volume: 302,000  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-15  Volume: 1,147,000  (513 days ago)
+  2. 2020-03-07  Volume: 672,600  (2347 days ago)
+  3. 2020-02-22  Volume: 424,700  (2361 days ago)
+  4. 2020-01-25  Volume: 257,300  (2389 days ago)
+  5. 2020-01-04  Volume: 246,100  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-01  Volume: 2,376,300  (212 days ago)
+  2. 2020-03-01  Volume: 2,301,700  (2344 days ago)
+  3. 2020-02-01  Volume: 1,084,400  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Monthly (212 days ago)
+
+================================================================================

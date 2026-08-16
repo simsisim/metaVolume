@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: OXLCN
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-17  Volume: 74,000  (1473 days ago)
+  2. 2022-06-14  Volume: 53,400  (1476 days ago)
+  3. 2022-06-13  Volume: 53,200  (1477 days ago)
+  4. 2022-06-10  Volume: 39,600  (1480 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-06-13  Volume: 190,800  (1477 days ago)
+  2. 2022-06-06  Volume: 39,600  (1484 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-01  Volume: 452,900  (1369 days ago)
+  2. 2022-06-01  Volume: 403,100  (1461 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (1369 days ago)
+
+================================================================================

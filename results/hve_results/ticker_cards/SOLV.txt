@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: SOLV
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-01  Volume: 14,094,900  (865 days ago)
+  2. 2024-03-28  Volume: 2,869,600  (869 days ago)
+  3. 2024-03-27  Volume: 454,600  (870 days ago)
+  4. 2024-03-26  Volume: 353,600  (871 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-01  Volume: 38,175,300  (861 days ago)
+  2. 2024-03-25  Volume: 3,677,800  (868 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-01  Volume: 73,677,000  (852 days ago)
+  2. 2024-03-01  Volume: 3,677,800  (883 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (852 days ago)
+
+================================================================================

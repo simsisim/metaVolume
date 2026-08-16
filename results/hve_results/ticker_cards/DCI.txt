@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: DCI
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-06-26  Volume: 2,962,400  (2240 days ago)
+  2. 2020-03-09  Volume: 1,439,100  (2349 days ago)
+  3. 2020-03-06  Volume: 1,314,600  (2352 days ago)
+  4. 2020-03-05  Volume: 1,298,600  (2353 days ago)
+  5. 2020-03-04  Volume: 1,133,600  (2354 days ago)
+  6. 2020-02-28  Volume: 861,200  (2359 days ago)
+  7. 2020-01-31  Volume: 720,500  (2387 days ago)
+  8. 2020-01-14  Volume: 628,800  (2404 days ago)
+  9. 2020-01-06  Volume: 556,800  (2412 days ago)
+  10. 2020-01-03  Volume: 394,100  (2415 days ago)
+  11. 2020-01-02  Volume: 359,000  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-23  Volume: 6,560,400  (168 days ago)
+  2. 2025-08-23  Volume: 6,179,900  (352 days ago)
+  3. 2020-06-20  Volume: 5,597,800  (2242 days ago)
+  4. 2020-03-07  Volume: 5,039,600  (2347 days ago)
+  5. 2020-02-29  Volume: 4,858,100  (2354 days ago)
+  6. 2020-02-22  Volume: 2,825,600  (2361 days ago)
+  7. 2020-01-11  Volume: 2,141,600  (2403 days ago)
+  8. 2020-01-04  Volume: 1,642,100  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 19,105,400  (2344 days ago)
+  2. 2020-02-01  Volume: 6,712,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (168 days ago)
+
+================================================================================

@@ -1,0 +1,44 @@
+================================================================================
+TICKER CARD: KRKR
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-29  Volume: 23,687,700  (516 days ago)
+  2. 2024-06-21  Volume: 3,577,225  (738 days ago)
+  3. 2022-08-02  Volume: 3,528,200  (1427 days ago)
+  4. 2021-02-05  Volume: 475,065  (1970 days ago)
+  5. 2021-01-20  Volume: 254,780  (1986 days ago)
+  6. 2020-08-18  Volume: 21,455  (2141 days ago)
+  7. 2020-07-09  Volume: 20,425  (2181 days ago)
+  8. 2020-07-08  Volume: 11,655  (2182 days ago)
+  9. 2020-05-27  Volume: 8,375  (2224 days ago)
+  10. 2020-01-07  Volume: 4,845  (2365 days ago)
+  11. 2020-01-02  Volume: 760  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-27  Volume: 24,588,300  (518 days ago)
+  2. 2022-08-01  Volume: 4,275,755  (1428 days ago)
+  3. 2021-02-01  Volume: 562,350  (1974 days ago)
+  4. 2021-01-18  Volume: 320,790  (1988 days ago)
+  5. 2020-07-06  Volume: 66,195  (2184 days ago)
+  6. 2020-06-22  Volume: 19,535  (2198 days ago)
+  7. 2020-06-15  Volume: 14,535  (2205 days ago)
+  8. 2020-05-25  Volume: 14,415  (2226 days ago)
+  9. 2020-01-06  Volume: 8,455  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Daily (516 days ago)
+
+================================================================================

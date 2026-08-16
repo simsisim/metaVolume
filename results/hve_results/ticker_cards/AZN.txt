@@ -1,0 +1,57 @@
+================================================================================
+TICKER CARD: AZN
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-29  Volume: 4,442,800  (61 days ago)
+  2. 2026-02-04  Volume: 3,889,200  (145 days ago)
+  3. 2026-02-02  Volume: 3,228,800  (147 days ago)
+  4. 2020-11-27  Volume: 306,900  (2040 days ago)
+  5. 2020-07-14  Volume: 276,900  (2176 days ago)
+  6. 2020-07-13  Volume: 204,800  (2177 days ago)
+  7. 2020-03-30  Volume: 125,300  (2282 days ago)
+  8. 2020-03-27  Volume: 93,400  (2285 days ago)
+  9. 2020-03-20  Volume: 50,900  (2292 days ago)
+  10. 2020-03-17  Volume: 13,100  (2295 days ago)
+  11. 2020-01-02  Volume: 9,200  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-02-02  Volume: 16,275,800  (147 days ago)
+  2. 2020-11-23  Volume: 601,100  (2044 days ago)
+  3. 2020-07-13  Volume: 517,500  (2177 days ago)
+  4. 2020-03-30  Volume: 126,000  (2282 days ago)
+  5. 2020-03-23  Volume: 98,500  (2289 days ago)
+  6. 2020-03-16  Volume: 66,100  (2296 days ago)
+  7. 2020-02-03  Volume: 5,900  (2338 days ago)
+  8. 2020-01-20  Volume: 4,200  (2352 days ago)
+  9. 2020-01-06  Volume: 1,700  (2366 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 43,157,200  (61 days ago)
+  2. 2026-03-01  Volume: 42,592,200  (92 days ago)
+  3. 2026-02-01  Volume: 25,516,500  (120 days ago)
+  4. 2020-11-01  Volume: 783,000  (2038 days ago)
+  5. 2020-07-01  Volume: 780,800  (2161 days ago)
+  6. 2020-03-01  Volume: 297,100  (2283 days ago)
+  7. 2020-02-01  Volume: 12,100  (2312 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 27
+Latest volume activity: Daily (61 days ago)
+
+================================================================================

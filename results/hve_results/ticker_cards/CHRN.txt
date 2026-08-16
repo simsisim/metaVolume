@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: CHRN
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-30  Volume: 111,143,000  (227 days ago)
+  2. 2020-06-25  Volume: 8,241,113  (2241 days ago)
+  3. 2020-06-08  Volume: 112,587  (2258 days ago)
+  4. 2020-03-27  Volume: 35,480  (2331 days ago)
+  5. 2020-01-30  Volume: 16,833  (2388 days ago)
+  6. 2020-01-28  Volume: 12,897  (2390 days ago)
+  7. 2020-01-10  Volume: 11,439  (2408 days ago)
+  8. 2020-01-06  Volume: 11,307  (2412 days ago)
+  9. 2020-01-03  Volume: 9,080  (2415 days ago)
+  10. 2020-01-02  Volume: 8,678  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-12-29  Volume: 118,955,200  (224 days ago)
+  2. 2020-06-22  Volume: 10,774,586  (2240 days ago)
+  3. 2020-06-08  Volume: 265,854  (2254 days ago)
+  4. 2020-06-01  Volume: 68,626  (2261 days ago)
+  5. 2020-03-23  Volume: 67,414  (2331 days ago)
+  6. 2020-01-27  Volume: 47,123  (2387 days ago)
+  7. 2020-01-06  Volume: 37,521  (2408 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 17
+Latest volume activity: Weekly (224 days ago)
+
+================================================================================

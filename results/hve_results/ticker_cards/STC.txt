@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: STC
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-08-13  Volume: 1,683,100  (2192 days ago)
+  2. 2020-07-23  Volume: 547,300  (2213 days ago)
+  3. 2020-02-06  Volume: 459,400  (2381 days ago)
+  4. 2020-02-05  Volume: 173,000  (2382 days ago)
+  5. 2020-01-14  Volume: 172,200  (2404 days ago)
+  6. 2020-01-08  Volume: 147,200  (2410 days ago)
+  7. 2020-01-02  Volume: 138,500  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-12-09  Volume: 2,787,300  (975 days ago)
+  2. 2020-08-08  Volume: 2,770,300  (2193 days ago)
+  3. 2020-07-18  Volume: 1,559,900  (2214 days ago)
+  4. 2020-03-14  Volume: 1,190,300  (2340 days ago)
+  5. 2020-02-01  Volume: 1,175,500  (2382 days ago)
+  6. 2020-01-04  Volume: 562,100  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-09-01  Volume: 7,379,200  (2160 days ago)
+  2. 2020-08-01  Volume: 6,641,700  (2191 days ago)
+  3. 2020-07-01  Volume: 4,736,300  (2222 days ago)
+  4. 2020-03-01  Volume: 4,474,700  (2344 days ago)
+  5. 2020-02-01  Volume: 3,311,900  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (975 days ago)
+
+================================================================================

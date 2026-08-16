@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: BACC
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-19  Volume: 4,174,300  (268 days ago)
+  2. 2025-08-05  Volume: 806,800  (374 days ago)
+  3. 2025-08-04  Volume: 73,200  (375 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-17  Volume: 5,214,600  (266 days ago)
+  2. 2025-08-04  Volume: 2,017,300  (371 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-01  Volume: 6,283,300  (273 days ago)
+  2. 2025-08-01  Volume: 3,651,700  (365 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Weekly (266 days ago)
+
+================================================================================

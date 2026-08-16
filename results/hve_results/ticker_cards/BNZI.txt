@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: BNZI
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-09-24  Volume: 6,237,270  (643 days ago)
+  2. 2024-09-20  Volume: 6,138,570  (647 days ago)
+  3. 2024-05-29  Volume: 152,319  (761 days ago)
+  4. 2024-01-05  Volume: 144,194  (906 days ago)
+  5. 2023-06-22  Volume: 3,318  (1103 days ago)
+  6. 2022-08-16  Volume: 3,249  (1413 days ago)
+  7. 2022-05-24  Volume: 1,827  (1497 days ago)
+  8. 2022-02-23  Volume: 1,602  (1587 days ago)
+  9. 2021-09-30  Volume: 1,504  (1733 days ago)
+  10. 2021-02-12  Volume: 1,245  (1963 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-05  Volume: 10,380,300  (175 days ago)
+  2. 2025-01-27  Volume: 7,886,710  (518 days ago)
+  3. 2024-09-23  Volume: 6,838,020  (644 days ago)
+  4. 2024-09-16  Volume: 6,225,486  (651 days ago)
+  5. 2024-05-27  Volume: 239,386  (763 days ago)
+  6. 2024-01-01  Volume: 148,232  (910 days ago)
+  7. 2023-06-19  Volume: 4,544  (1106 days ago)
+  8. 2022-08-15  Volume: 3,286  (1414 days ago)
+  9. 2022-05-23  Volume: 2,248  (1498 days ago)
+  10. 2022-02-21  Volume: 2,237  (1589 days ago)
+  11. 2021-02-15  Volume: 2,204  (1960 days ago)
+  12. 2021-02-08  Volume: 1,245  (1967 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Weekly (175 days ago)
+
+================================================================================

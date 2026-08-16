@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: METCZ
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-09-16  Volume: 155,300  (286 days ago)
+  2. 2024-12-03  Volume: 122,800  (573 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-09  Volume: 297,000  (567 days ago)
+  2. 2024-12-02  Volume: 281,500  (574 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-01  Volume: 665,900  (547 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Daily (286 days ago)
+
+================================================================================

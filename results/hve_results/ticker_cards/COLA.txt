@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: COLA
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-10  Volume: 2,072,400  (277 days ago)
+  2. 2025-03-26  Volume: 813,100  (506 days ago)
+  3. 2025-03-25  Volume: 420,600  (507 days ago)
+  4. 2025-03-20  Volume: 312,600  (512 days ago)
+  5. 2025-03-19  Volume: 2,200  (513 days ago)
+  6. 2025-03-17  Volume: 1,700  (515 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-10  Volume: 2,541,800  (273 days ago)
+  2. 2025-03-24  Volume: 1,373,200  (504 days ago)
+  3. 2025-03-17  Volume: 366,800  (511 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-01  Volume: 2,724,600  (273 days ago)
+  2. 2025-03-01  Volume: 1,753,400  (518 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Weekly (273 days ago)
+
+================================================================================

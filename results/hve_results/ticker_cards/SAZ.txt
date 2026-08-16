@@ -1,0 +1,37 @@
+================================================================================
+TICKER CARD: SAZ
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-05-16  Volume: 105,600  (1140 days ago)
+  2. 2023-04-24  Volume: 89,600  (1162 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-04-24  Volume: 258,900  (1162 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-07-01  Volume: 344,200  (1066 days ago)
+  2. 2023-06-01  Volume: 311,200  (1096 days ago)
+  3. 2023-05-01  Volume: 273,600  (1127 days ago)
+  4. 2023-04-01  Volume: 258,900  (1157 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 7
+Latest volume activity: Monthly (1066 days ago)
+
+================================================================================

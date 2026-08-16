@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: WIW
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-19  Volume: 2,084,800  (756 days ago)
+  2. 2022-10-04  Volume: 1,523,500  (1410 days ago)
+  3. 2020-03-10  Volume: 963,700  (2348 days ago)
+  4. 2020-03-09  Volume: 642,000  (2349 days ago)
+  5. 2020-02-25  Volume: 512,300  (2362 days ago)
+  6. 2020-02-04  Volume: 419,000  (2383 days ago)
+  7. 2020-01-07  Volume: 383,500  (2411 days ago)
+  8. 2020-01-02  Volume: 125,600  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-07-15  Volume: 3,808,600  (756 days ago)
+  2. 2020-03-09  Volume: 3,099,400  (2345 days ago)
+  3. 2020-02-24  Volume: 1,027,200  (2359 days ago)
+  4. 2020-02-17  Volume: 983,100  (2366 days ago)
+  5. 2020-01-13  Volume: 897,000  (2401 days ago)
+  6. 2020-01-06  Volume: 769,200  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 9,223,900  (2344 days ago)
+  2. 2020-02-01  Volume: 3,506,500  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Daily (756 days ago)
+
+================================================================================

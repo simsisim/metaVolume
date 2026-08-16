@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: SUNS
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-26  Volume: 1,271,300  (49 days ago)
+  2. 2025-01-28  Volume: 1,216,700  (563 days ago)
+  3. 2024-07-11  Volume: 438,600  (764 days ago)
+  4. 2024-07-10  Volume: 290,200  (765 days ago)
+  5. 2024-07-09  Volume: 36,600  (766 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-01-27  Volume: 2,169,100  (560 days ago)
+  2. 2024-07-08  Volume: 1,056,400  (763 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-01  Volume: 3,714,700  (518 days ago)
+  2. 2025-01-01  Volume: 3,505,500  (577 days ago)
+  3. 2024-07-01  Volume: 3,077,400  (761 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Daily (49 days ago)
+
+================================================================================

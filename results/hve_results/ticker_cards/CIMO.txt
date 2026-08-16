@@ -1,0 +1,35 @@
+================================================================================
+TICKER CARD: CIMO
+================================================================================
+Generated: 2026-08-16 09:05:14
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-08-22  Volume: 236,200  (676 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-08-19  Volume: 324,000  (679 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-01  Volume: 544,300  (547 days ago)
+  2. 2024-11-01  Volume: 436,400  (577 days ago)
+  3. 2024-08-01  Volume: 431,000  (669 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 5
+Latest volume activity: Monthly (547 days ago)
+
+================================================================================

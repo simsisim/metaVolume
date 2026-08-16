@@ -1,0 +1,40 @@
+================================================================================
+TICKER CARD: FT
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-09-30  Volume: 493,100  (1414 days ago)
+  2. 2022-01-18  Volume: 413,600  (1669 days ago)
+  3. 2020-01-06  Volume: 345,300  (2412 days ago)
+  4. 2020-01-03  Volume: 37,500  (2415 days ago)
+  5. 2020-01-02  Volume: 31,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-14  Volume: 965,100  (2340 days ago)
+  2. 2020-03-07  Volume: 726,400  (2347 days ago)
+  3. 2020-01-04  Volume: 642,800  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 3,211,800  (2344 days ago)
+  2. 2020-02-01  Volume: 1,509,500  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 10
+Latest volume activity: Daily (1414 days ago)
+
+================================================================================

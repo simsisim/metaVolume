@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: ETG
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-18  Volume: 1,125,200  (2340 days ago)
+  2. 2020-03-12  Volume: 1,008,000  (2346 days ago)
+  3. 2020-02-25  Volume: 588,800  (2362 days ago)
+  4. 2020-01-24  Volume: 511,500  (2394 days ago)
+  5. 2020-01-02  Volume: 208,900  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-16  Volume: 3,764,900  (2338 days ago)
+  2. 2020-03-09  Volume: 2,902,400  (2345 days ago)
+  3. 2020-02-24  Volume: 2,382,100  (2359 days ago)
+  4. 2020-01-20  Volume: 914,400  (2394 days ago)
+  5. 2020-01-06  Volume: 757,100  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 12,150,000  (2344 days ago)
+  2. 2020-02-01  Volume: 4,257,200  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Weekly (2338 days ago)
+
+================================================================================

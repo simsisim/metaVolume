@@ -1,0 +1,52 @@
+================================================================================
+TICKER CARD: FNWB
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-25  Volume: 1,295,600  (1876 days ago)
+  2. 2020-03-23  Volume: 153,100  (2335 days ago)
+  3. 2020-03-20  Volume: 57,700  (2338 days ago)
+  4. 2020-03-11  Volume: 55,600  (2347 days ago)
+  5. 2020-03-06  Volume: 43,900  (2352 days ago)
+  6. 2020-02-19  Volume: 41,200  (2368 days ago)
+  7. 2020-01-13  Volume: 39,800  (2405 days ago)
+  8. 2020-01-10  Volume: 22,800  (2408 days ago)
+  9. 2020-01-09  Volume: 16,700  (2409 days ago)
+  10. 2020-01-08  Volume: 14,100  (2410 days ago)
+  11. 2020-01-02  Volume: 13,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-21  Volume: 1,569,900  (1876 days ago)
+  2. 2020-03-23  Volume: 254,400  (2331 days ago)
+  3. 2020-03-16  Volume: 200,500  (2338 days ago)
+  4. 2020-03-09  Volume: 194,600  (2345 days ago)
+  5. 2020-03-02  Volume: 130,800  (2352 days ago)
+  6. 2020-01-27  Volume: 96,300  (2387 days ago)
+  7. 2020-01-13  Volume: 91,100  (2401 days ago)
+  8. 2020-01-06  Volume: 68,900  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-06-01  Volume: 2,077,600  (1887 days ago)
+  2. 2020-03-01  Volume: 841,700  (2344 days ago)
+  3. 2020-02-01  Volume: 261,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 22
+Latest volume activity: Daily (1876 days ago)
+
+================================================================================

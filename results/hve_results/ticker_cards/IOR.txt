@@ -1,0 +1,48 @@
+================================================================================
+TICKER CARD: IOR
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-14  Volume: 113,600  (1614 days ago)
+  2. 2022-02-11  Volume: 77,500  (1645 days ago)
+  3. 2022-01-28  Volume: 31,300  (1659 days ago)
+  4. 2020-09-17  Volume: 23,800  (2157 days ago)
+  5. 2020-02-11  Volume: 12,300  (2376 days ago)
+  6. 2020-01-07  Volume: 6,900  (2411 days ago)
+  7. 2020-01-03  Volume: 6,600  (2415 days ago)
+  8. 2020-01-02  Volume: 200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-12  Volume: 169,700  (1612 days ago)
+  2. 2022-02-12  Volume: 92,500  (1640 days ago)
+  3. 2022-02-05  Volume: 81,700  (1647 days ago)
+  4. 2020-09-12  Volume: 55,900  (2158 days ago)
+  5. 2020-09-05  Volume: 26,500  (2165 days ago)
+  6. 2020-01-04  Volume: 20,000  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2022-03-01  Volume: 266,700  (1614 days ago)
+  2. 2022-02-01  Volume: 230,000  (1642 days ago)
+  3. 2020-09-01  Volume: 86,200  (2160 days ago)
+  4. 2020-02-01  Volume: 21,500  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 18
+Latest volume activity: Weekly (1612 days ago)
+
+================================================================================

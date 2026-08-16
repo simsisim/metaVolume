@@ -1,0 +1,41 @@
+================================================================================
+TICKER CARD: EVN
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-12  Volume: 712,300  (2346 days ago)
+  2. 2020-03-04  Volume: 471,900  (2354 days ago)
+  3. 2020-02-26  Volume: 216,100  (2361 days ago)
+  4. 2020-01-02  Volume: 198,900  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-07  Volume: 1,758,800  (2347 days ago)
+  2. 2020-02-29  Volume: 1,110,500  (2354 days ago)
+  3. 2020-02-22  Volume: 882,200  (2361 days ago)
+  4. 2020-02-01  Volume: 567,300  (2382 days ago)
+  5. 2020-01-04  Volume: 521,400  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 6,086,100  (2344 days ago)
+  2. 2020-02-01  Volume: 2,325,000  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 11
+Latest volume activity: Monthly (2344 days ago)
+
+================================================================================

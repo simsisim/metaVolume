@@ -1,0 +1,38 @@
+================================================================================
+TICKER CARD: CSR
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-07  Volume: 2,561,800  (2380 days ago)
+  2. 2020-02-05  Volume: 377,900  (2382 days ago)
+  3. 2020-01-31  Volume: 81,100  (2387 days ago)
+  4. 2020-01-02  Volume: 65,000  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-01  Volume: 3,287,500  (2382 days ago)
+  2. 2020-01-11  Volume: 239,400  (2403 days ago)
+  3. 2020-01-04  Volume: 195,600  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-02-01  Volume: 5,741,100  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 8
+Latest volume activity: Monthly (2373 days ago)
+
+================================================================================

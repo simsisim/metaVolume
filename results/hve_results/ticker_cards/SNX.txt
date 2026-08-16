@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: SNX
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-02  Volume: 6,752,700  (864 days ago)
+  2. 2024-03-28  Volume: 5,434,800  (869 days ago)
+  3. 2020-06-26  Volume: 5,278,000  (2240 days ago)
+  4. 2020-01-10  Volume: 4,026,000  (2408 days ago)
+  5. 2020-01-09  Volume: 1,157,000  (2409 days ago)
+  6. 2020-01-06  Volume: 880,600  (2412 days ago)
+  7. 2020-01-02  Volume: 527,600  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-01  Volume: 14,434,300  (861 days ago)
+  2. 2024-01-29  Volume: 11,347,000  (924 days ago)
+  3. 2020-06-22  Volume: 10,751,000  (2240 days ago)
+  4. 2020-01-06  Volume: 7,200,000  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-04-01  Volume: 29,358,700  (852 days ago)
+  2. 2020-06-01  Volume: 26,567,400  (2252 days ago)
+  3. 2020-03-01  Volume: 22,684,800  (2344 days ago)
+  4. 2020-02-01  Volume: 12,559,600  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Monthly (852 days ago)
+
+================================================================================

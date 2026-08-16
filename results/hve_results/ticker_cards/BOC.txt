@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: BOC
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-10-26  Volume: 1,273,500  (1023 days ago)
+  2. 2020-05-29  Volume: 1,171,900  (2268 days ago)
+  3. 2020-05-28  Volume: 416,400  (2269 days ago)
+  4. 2020-03-05  Volume: 358,000  (2353 days ago)
+  5. 2020-01-09  Volume: 97,300  (2409 days ago)
+  6. 2020-01-08  Volume: 42,700  (2410 days ago)
+  7. 2020-01-02  Volume: 33,600  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-25  Volume: 1,841,800  (350 days ago)
+  2. 2020-05-25  Volume: 1,765,600  (2268 days ago)
+  3. 2020-05-11  Volume: 641,100  (2282 days ago)
+  4. 2020-03-09  Volume: 638,200  (2345 days ago)
+  5. 2020-03-02  Volume: 576,200  (2352 days ago)
+  6. 2020-02-24  Volume: 312,200  (2359 days ago)
+  7. 2020-01-06  Volume: 231,500  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-05-01  Volume: 5,249,600  (822 days ago)
+  2. 2021-04-01  Volume: 5,093,400  (1948 days ago)
+  3. 2021-02-01  Volume: 4,735,000  (2007 days ago)
+  4. 2020-06-01  Volume: 3,984,700  (2252 days ago)
+  5. 2020-05-01  Volume: 3,395,000  (2283 days ago)
+  6. 2020-03-01  Volume: 2,334,400  (2344 days ago)
+  7. 2020-02-01  Volume: 850,900  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (350 days ago)
+
+================================================================================

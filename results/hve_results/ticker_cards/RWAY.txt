@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: RWAY
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-14  Volume: 2,951,500  (122 days ago)
+  2. 2024-05-10  Volume: 2,671,900  (826 days ago)
+  3. 2024-03-08  Volume: 2,659,900  (889 days ago)
+  4. 2021-10-21  Volume: 2,638,500  (1758 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-13  Volume: 6,078,300  (119 days ago)
+  2. 2024-12-16  Volume: 5,792,000  (602 days ago)
+  3. 2024-05-06  Volume: 5,061,100  (826 days ago)
+  4. 2024-03-04  Volume: 3,388,400  (889 days ago)
+  5. 2021-10-18  Volume: 3,266,100  (1757 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 15,439,200  (122 days ago)
+  2. 2026-03-01  Volume: 12,370,300  (153 days ago)
+  3. 2024-05-01  Volume: 12,309,600  (822 days ago)
+  4. 2024-03-01  Volume: 9,629,200  (883 days ago)
+  5. 2023-11-01  Volume: 7,615,700  (1004 days ago)
+  6. 2021-10-01  Volume: 5,729,200  (1765 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (119 days ago)
+
+================================================================================

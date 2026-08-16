@@ -1,0 +1,46 @@
+================================================================================
+TICKER CARD: CAF
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-07  Volume: 494,800  (676 days ago)
+  2. 2020-04-30  Volume: 417,400  (2297 days ago)
+  3. 2020-04-01  Volume: 370,000  (2326 days ago)
+  4. 2020-02-03  Volume: 297,400  (2384 days ago)
+  5. 2020-01-27  Volume: 192,900  (2391 days ago)
+  6. 2020-01-23  Volume: 180,900  (2395 days ago)
+  7. 2020-01-21  Volume: 180,700  (2397 days ago)
+  8. 2020-01-02  Volume: 151,300  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-07  Volume: 1,246,000  (672 days ago)
+  2. 2020-02-03  Volume: 1,026,200  (2380 days ago)
+  3. 2020-01-27  Volume: 811,000  (2387 days ago)
+  4. 2020-01-20  Volume: 552,100  (2394 days ago)
+  5. 2020-01-13  Volume: 335,700  (2401 days ago)
+  6. 2020-01-06  Volume: 306,100  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-01  Volume: 3,287,700  (2344 days ago)
+  2. 2020-02-01  Volume: 2,494,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 16
+Latest volume activity: Weekly (672 days ago)
+
+================================================================================

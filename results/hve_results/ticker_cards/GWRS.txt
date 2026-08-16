@@ -1,0 +1,54 @@
+================================================================================
+TICKER CARD: GWRS
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-26  Volume: 701,500  (49 days ago)
+  2. 2025-10-08  Volume: 401,900  (310 days ago)
+  3. 2020-10-16  Volume: 400,600  (2128 days ago)
+  4. 2020-04-28  Volume: 226,800  (2299 days ago)
+  5. 2020-01-16  Volume: 213,100  (2402 days ago)
+  6. 2020-01-09  Volume: 35,300  (2409 days ago)
+  7. 2020-01-08  Volume: 16,000  (2410 days ago)
+  8. 2020-01-07  Volume: 13,900  (2411 days ago)
+  9. 2020-01-06  Volume: 10,600  (2412 days ago)
+  10. 2020-01-03  Volume: 9,200  (2415 days ago)
+  11. 2020-01-02  Volume: 8,800  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-22  Volume: 1,211,900  (49 days ago)
+  2. 2026-03-16  Volume: 976,400  (147 days ago)
+  3. 2025-10-06  Volume: 934,500  (308 days ago)
+  4. 2020-10-12  Volume: 690,700  (2128 days ago)
+  5. 2020-01-13  Volume: 360,000  (2401 days ago)
+  6. 2020-01-06  Volume: 95,000  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-03-01  Volume: 2,621,500  (153 days ago)
+  2. 2025-12-01  Volume: 2,203,600  (243 days ago)
+  3. 2025-10-01  Volume: 2,108,400  (304 days ago)
+  4. 2025-04-01  Volume: 1,378,800  (487 days ago)
+  5. 2023-06-01  Volume: 1,115,200  (1157 days ago)
+  6. 2020-03-01  Volume: 1,058,000  (2344 days ago)
+  7. 2020-02-01  Volume: 706,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 24
+Latest volume activity: Daily (49 days ago)
+
+================================================================================

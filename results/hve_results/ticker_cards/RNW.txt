@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: RNW
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-11  Volume: 23,649,800  (3 days ago)
+  2. 2024-05-14  Volume: 20,693,200  (822 days ago)
+  3. 2021-02-24  Volume: 16,958,300  (1997 days ago)
+  4. 2021-02-23  Volume: 3,137,900  (1998 days ago)
+  5. 2021-02-16  Volume: 1,668,800  (2005 days ago)
+  6. 2021-02-05  Volume: 359,900  (2016 days ago)
+  7. 2021-02-02  Volume: 197,700  (2019 days ago)
+  8. 2021-02-01  Volume: 130,200  (2020 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-10  Volume: 40,902,093  (0 days ago)
+  2. 2025-12-15  Volume: 27,548,300  (238 days ago)
+  3. 2021-02-22  Volume: 25,728,000  (1995 days ago)
+  4. 2021-02-15  Volume: 2,706,000  (2002 days ago)
+  5. 2021-02-08  Volume: 1,438,000  (2009 days ago)
+  6. 2021-02-01  Volume: 922,900  (2016 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-08-01  Volume: 45,299,093  (0 days ago)
+  2. 2025-12-01  Volume: 42,944,300  (243 days ago)
+  3. 2022-03-01  Volume: 36,494,500  (1614 days ago)
+  4. 2021-10-01  Volume: 31,746,700  (1765 days ago)
+  5. 2021-02-01  Volume: 30,794,900  (2007 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Weekly (0 days ago)
+
+================================================================================

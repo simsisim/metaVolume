@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: FELE
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-03-21  Volume: 1,769,000  (511 days ago)
+  2. 2020-01-31  Volume: 1,632,700  (2387 days ago)
+  3. 2020-01-23  Volume: 335,700  (2395 days ago)
+  4. 2020-01-06  Volume: 207,300  (2412 days ago)
+  5. 2020-01-03  Volume: 182,800  (2415 days ago)
+  6. 2020-01-02  Volume: 159,300  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-06-21  Volume: 3,277,200  (415 days ago)
+  2. 2025-03-15  Volume: 2,888,800  (513 days ago)
+  3. 2022-04-23  Volume: 2,741,100  (1570 days ago)
+  4. 2020-01-25  Volume: 2,659,000  (2389 days ago)
+  5. 2020-01-04  Volume: 788,900  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-01  Volume: 7,179,100  (487 days ago)
+  2. 2025-03-01  Volume: 6,407,600  (518 days ago)
+  3. 2020-03-01  Volume: 5,989,700  (2344 days ago)
+  4. 2020-02-01  Volume: 3,494,800  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 15
+Latest volume activity: Weekly (415 days ago)
+
+================================================================================

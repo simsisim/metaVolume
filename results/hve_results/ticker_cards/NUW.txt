@@ -1,0 +1,42 @@
+================================================================================
+TICKER CARD: NUW
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-10-07  Volume: 405,300  (676 days ago)
+  2. 2022-06-21  Volume: 187,500  (1515 days ago)
+  3. 2022-05-27  Volume: 185,600  (1540 days ago)
+  4. 2020-01-09  Volume: 154,100  (2409 days ago)
+  5. 2020-01-02  Volume: 39,400  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2020-03-23  Volume: 482,400  (2331 days ago)
+  2. 2020-03-16  Volume: 426,100  (2338 days ago)
+  3. 2020-03-09  Volume: 367,300  (2345 days ago)
+  4. 2020-01-06  Volume: 253,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2024-12-01  Volume: 1,606,700  (608 days ago)
+  2. 2020-03-01  Volume: 1,511,800  (2344 days ago)
+  3. 2020-02-01  Volume: 627,400  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 12
+Latest volume activity: Monthly (608 days ago)
+
+================================================================================

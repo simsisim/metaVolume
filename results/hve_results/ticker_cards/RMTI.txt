@@ -1,0 +1,53 @@
+================================================================================
+TICKER CARD: RMTI
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-01-20  Volume: 24,185,400  (160 days ago)
+  2. 2025-08-25  Volume: 8,173,300  (308 days ago)
+  3. 2023-02-02  Volume: 6,783,300  (1243 days ago)
+  4. 2022-01-13  Volume: 5,855,500  (1628 days ago)
+  5. 2020-09-22  Volume: 1,748,618  (2106 days ago)
+  6. 2020-09-10  Volume: 1,595,900  (2118 days ago)
+  7. 2020-03-27  Volume: 434,000  (2285 days ago)
+  8. 2020-03-12  Volume: 348,345  (2300 days ago)
+  9. 2020-03-03  Volume: 329,082  (2309 days ago)
+  10. 2020-02-04  Volume: 268,509  (2337 days ago)
+  11. 2020-01-15  Volume: 218,164  (2357 days ago)
+  12. 2020-01-03  Volume: 23,055  (2369 days ago)
+  13. 2020-01-02  Volume: 21,482  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-08-23  Volume: 31,634,300  (310 days ago)
+  2. 2023-07-08  Volume: 16,981,000  (1087 days ago)
+  3. 2023-07-01  Volume: 8,625,800  (1094 days ago)
+  4. 2023-06-24  Volume: 8,088,100  (1101 days ago)
+  5. 2023-01-28  Volume: 7,830,700  (1248 days ago)
+  6. 2022-01-08  Volume: 6,389,899  (1633 days ago)
+  7. 2020-09-19  Volume: 4,539,909  (2109 days ago)
+  8. 2020-09-05  Volume: 1,914,609  (2123 days ago)
+  9. 2020-03-07  Volume: 1,250,545  (2305 days ago)
+  10. 2020-02-29  Volume: 1,241,472  (2312 days ago)
+  11. 2020-02-22  Volume: 975,136  (2319 days ago)
+  12. 2020-02-15  Volume: 756,290  (2326 days ago)
+  13. 2020-02-08  Volume: 632,553  (2333 days ago)
+  14. 2020-02-01  Volume: 564,235  (2340 days ago)
+  15. 2020-01-11  Volume: 361,201  (2361 days ago)
+  16. 2020-01-04  Volume: 76,790  (2368 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 29
+Latest volume activity: Daily (160 days ago)
+
+================================================================================

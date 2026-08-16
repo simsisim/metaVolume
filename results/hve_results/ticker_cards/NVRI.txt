@@ -1,0 +1,50 @@
+================================================================================
+TICKER CARD: NVRI
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-26  Volume: 20,018,800  (80 days ago)
+  2. 2025-11-21  Volume: 12,711,000  (266 days ago)
+  3. 2020-01-24  Volume: 5,288,100  (2394 days ago)
+  4. 2020-01-16  Volume: 1,421,900  (2402 days ago)
+  5. 2020-01-15  Volume: 1,016,700  (2403 days ago)
+  6. 2020-01-14  Volume: 788,700  (2404 days ago)
+  7. 2020-01-10  Volume: 745,300  (2408 days ago)
+  8. 2020-01-08  Volume: 579,200  (2410 days ago)
+  9. 2020-01-03  Volume: 554,100  (2415 days ago)
+  10. 2020-01-02  Volume: 390,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-05-25  Volume: 25,046,300  (77 days ago)
+  2. 2025-11-15  Volume: 17,602,900  (268 days ago)
+  3. 2025-11-08  Volume: 12,020,400  (275 days ago)
+  4. 2020-02-22  Volume: 10,734,900  (2361 days ago)
+  5. 2020-01-18  Volume: 7,413,900  (2396 days ago)
+  6. 2020-01-11  Volume: 4,434,800  (2403 days ago)
+  7. 2020-01-04  Volume: 2,772,400  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-11-01  Volume: 50,859,100  (273 days ago)
+  2. 2020-03-01  Volume: 28,928,700  (2344 days ago)
+  3. 2020-02-01  Volume: 25,342,900  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 20
+Latest volume activity: Weekly (77 days ago)
+
+================================================================================

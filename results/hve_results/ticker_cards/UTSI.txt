@@ -1,0 +1,45 @@
+================================================================================
+TICKER CARD: UTSI
+================================================================================
+Generated: 2026-08-16 09:05:13
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-17  Volume: 18,651,000  (12 days ago)
+  2. 2020-08-31  Volume: 9,490,875  (2128 days ago)
+  3. 2020-06-26  Volume: 134,375  (2194 days ago)
+  4. 2020-06-25  Volume: 63,125  (2195 days ago)
+  5. 2020-04-01  Volume: 41,525  (2280 days ago)
+  6. 2020-03-31  Volume: 38,325  (2281 days ago)
+  7. 2020-03-26  Volume: 23,275  (2286 days ago)
+  8. 2020-02-04  Volume: 11,475  (2337 days ago)
+  9. 2020-02-03  Volume: 3,175  (2338 days ago)
+  10. 2020-01-28  Volume: 3,025  (2344 days ago)
+  11. 2020-01-07  Volume: 2,825  (2365 days ago)
+  12. 2020-01-06  Volume: 1,650  (2366 days ago)
+  13. 2020-01-03  Volume: 700  (2369 days ago)
+  14. 2020-01-02  Volume: 375  (2370 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-06-15  Volume: 18,946,400  (14 days ago)
+  2. 2020-08-31  Volume: 9,948,825  (2128 days ago)
+  3. 2020-06-22  Volume: 209,075  (2198 days ago)
+  4. 2020-03-30  Volume: 87,825  (2282 days ago)
+  5. 2020-03-23  Volume: 51,625  (2289 days ago)
+  6. 2020-02-03  Volume: 22,575  (2338 days ago)
+  7. 2020-01-06  Volume: 8,975  (2366 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (12 days ago)
+
+================================================================================

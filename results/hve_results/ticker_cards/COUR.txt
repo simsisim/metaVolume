@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: COUR
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-07-25  Volume: 26,712,500  (385 days ago)
+  2. 2024-07-26  Volume: 24,935,600  (749 days ago)
+  3. 2021-09-17  Volume: 12,193,700  (1792 days ago)
+  4. 2021-03-31  Volume: 10,361,300  (1962 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-07-27  Volume: 67,955,120  (14 days ago)
+  2. 2026-06-22  Volume: 59,200,400  (49 days ago)
+  3. 2025-12-15  Volume: 44,422,800  (238 days ago)
+  4. 2025-07-21  Volume: 38,711,100  (385 days ago)
+  5. 2024-07-22  Volume: 37,552,800  (749 days ago)
+  6. 2024-04-29  Volume: 23,100,700  (833 days ago)
+  7. 2021-09-13  Volume: 20,139,300  (1792 days ago)
+  8. 2021-03-29  Volume: 16,267,600  (1960 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 122,951,900  (122 days ago)
+  2. 2025-07-01  Volume: 94,001,000  (396 days ago)
+  3. 2024-07-01  Volume: 84,081,400  (761 days ago)
+  4. 2024-06-01  Volume: 60,047,600  (791 days ago)
+  5. 2021-09-01  Volume: 59,905,200  (1795 days ago)
+  6. 2021-08-01  Volume: 37,193,800  (1826 days ago)
+  7. 2021-05-01  Volume: 29,306,500  (1918 days ago)
+  8. 2021-04-01  Volume: 25,522,200  (1948 days ago)
+  9. 2021-03-01  Volume: 10,361,300  (1979 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Weekly (14 days ago)
+
+================================================================================

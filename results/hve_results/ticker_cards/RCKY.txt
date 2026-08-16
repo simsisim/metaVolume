@@ -1,0 +1,51 @@
+================================================================================
+TICKER CARD: RCKY
+================================================================================
+Generated: 2026-08-16 09:11:37
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-30  Volume: 595,800  (471 days ago)
+  2. 2021-08-04  Volume: 403,200  (1836 days ago)
+  3. 2021-05-05  Volume: 256,100  (1927 days ago)
+  4. 2021-04-05  Volume: 230,200  (1957 days ago)
+  5. 2021-04-01  Volume: 169,300  (1961 days ago)
+  6. 2021-03-30  Volume: 160,700  (1963 days ago)
+  7. 2020-04-29  Volume: 157,300  (2298 days ago)
+  8. 2020-01-06  Volume: 149,200  (2412 days ago)
+  9. 2020-01-02  Volume: 73,300  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-04-26  Volume: 1,273,400  (471 days ago)
+  2. 2021-07-31  Volume: 825,100  (1836 days ago)
+  3. 2021-05-01  Volume: 714,500  (1927 days ago)
+  4. 2021-03-27  Volume: 547,200  (1962 days ago)
+  5. 2021-02-27  Volume: 436,200  (1990 days ago)
+  6. 2020-04-25  Volume: 395,900  (2298 days ago)
+  7. 2020-01-04  Volume: 380,800  (2410 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2021-05-01  Volume: 2,187,200  (1918 days ago)
+  2. 2021-04-01  Volume: 1,918,800  (1948 days ago)
+  3. 2021-03-01  Volume: 1,663,000  (1979 days ago)
+  4. 2020-03-01  Volume: 1,089,200  (2344 days ago)
+  5. 2020-02-01  Volume: 595,000  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 21
+Latest volume activity: Daily (471 days ago)
+
+================================================================================

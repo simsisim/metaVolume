@@ -1,0 +1,49 @@
+================================================================================
+TICKER CARD: ADUS
+================================================================================
+Generated: 2026-08-16 09:11:38
+
+
+DAILY TIMEFRAME
+===============
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2023-04-28  Volume: 1,517,400  (1204 days ago)
+  2. 2020-02-28  Volume: 575,000  (2359 days ago)
+  3. 2020-02-03  Volume: 241,600  (2384 days ago)
+  4. 2020-01-02  Volume: 186,200  (2416 days ago)
+
+WEEKLY TIMEFRAME
+================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2025-02-24  Volume: 2,053,800  (532 days ago)
+  2. 2023-05-01  Volume: 1,988,400  (1197 days ago)
+  3. 2023-04-24  Volume: 1,900,700  (1204 days ago)
+  4. 2020-03-16  Volume: 1,685,000  (2338 days ago)
+  5. 2020-02-24  Volume: 1,043,700  (2359 days ago)
+  6. 2020-02-03  Volume: 736,800  (2380 days ago)
+  7. 2020-01-27  Volume: 583,900  (2387 days ago)
+  8. 2020-01-13  Volume: 510,800  (2401 days ago)
+  9. 2020-01-06  Volume: 462,800  (2408 days ago)
+
+MONTHLY TIMEFRAME
+=================
+
+HVE Events (Highest Volume Ever):
+----------------------------------------
+  1. 2026-04-01  Volume: 5,058,000  (122 days ago)
+  2. 2026-03-01  Volume: 4,984,200  (153 days ago)
+  3. 2025-04-01  Volume: 4,786,300  (487 days ago)
+  4. 2025-03-01  Volume: 4,778,000  (518 days ago)
+  5. 2020-03-01  Volume: 4,738,200  (2344 days ago)
+  6. 2020-02-01  Volume: 2,539,700  (2373 days ago)
+
+Summary:
+----------------------------------------
+Total HVE events across all timeframes: 19
+Latest volume activity: Monthly (122 days ago)
+
+================================================================================
