@@ -3,7 +3,7 @@ Yahoo Daily Adapter
 ===================
 
 Adapts per-ticker Yahoo Finance CSV files (from downloadData_v1) to the same
-dict format that VolDailyChecker.check_and_update() consumes.
+dict format that VolChecker.check_and_update() consumes.
 
 Also provides the cutoff-date helper so the checker never re-processes data
 already baked into the HVD baseline.
@@ -35,30 +35,58 @@ _REFERENCE_TICKERS = ['SPY', 'AAPL', 'MSFT', 'QQQ']
 _BATCH_DATE_RE = re.compile(r'prices_1d_(\d{4}-\d{2}-\d{2})\.csv$')
 
 
+def _ticker_csv_path(yahoo_data_dir: Path, ticker: str) -> Optional[Path]:
+    """
+    Prefer yahoo_data_dir/current/{ticker}.csv (this year's rows only --
+    small, cheap to parse) over the flat yahoo_data_dir/{ticker}.csv (full
+    multi-year history). Daily-checker reads only ever need recent rows, so
+    this avoids re-parsing years of already-covered history on every run.
+    Falls back to the flat file for tickers/timeframes without a current/
+    split yet. yahoo_data_dir itself must stay pointed at the timeframe root
+    (not current/ directly) so _batch_dir_for()'s sibling-directory
+    derivation (market_data/daily -> market_data_batch/daily) keeps working.
+    """
+    current_path = yahoo_data_dir / 'current' / f'{ticker}.csv'
+    if current_path.exists():
+        return current_path
+    flat_path = yahoo_data_dir / f'{ticker}.csv'
+    if flat_path.exists():
+        return flat_path
+    return None
+
+
 # ---------------------------------------------------------------------------
 # Baseline cutoff helper
 # ---------------------------------------------------------------------------
 
-def get_baseline_cutoff_date(baseline_dir: Path) -> Optional[date]:
+def get_baseline_cutoff_date(baseline_dir: Path, timeframe: str = 'daily') -> Optional[date]:
     """
-    Return the last date covered by the HVD baseline.
+    Return the last date covered by the HVD baseline, for the given timeframe.
 
-    Checks baseline_metadata.json first (written by hvd_historical_exporter).
-    Falls back to scanning HVD_historical_daily.csv for the maximum date
-    across all HVD_date_* columns.  Returns None if neither source is found.
+    Checks baseline_metadata.json first (written by hvd_historical_exporter,
+    per-timeframe since that's the only way a daily-only cutoff doesn't get
+    masked by a more-current weekly/monthly bar -- see write_baseline_metadata()).
+    Falls back to scanning HVD_historical_{timeframe}.csv for the maximum
+    date across all HVD_date_* columns. Returns None if neither source is found.
     """
     metadata_path = baseline_dir / 'baseline_metadata.json'
     if metadata_path.exists():
         try:
             data = json.loads(metadata_path.read_text())
-            cutoff_str = data.get('baseline_as_of_date', '')
+            cutoff_field = data.get('baseline_as_of_date', '')
+            if isinstance(cutoff_field, dict):
+                cutoff_str = cutoff_field.get(timeframe, '')
+            else:
+                # Old-format file (pre-per-timeframe): a single pooled date,
+                # only trustworthy as the daily value.
+                cutoff_str = cutoff_field if timeframe == 'daily' else ''
             if cutoff_str:
                 return datetime.strptime(cutoff_str, '%Y-%m-%d').date()
         except Exception as e:
             logger.warning(f"Could not read baseline_metadata.json: {e}")
 
     # Fallback: derive from HVD CSV
-    hvd_csv = baseline_dir / 'HVD_historical_daily.csv'
+    hvd_csv = baseline_dir / f'HVD_historical_{timeframe}.csv'
     if hvd_csv.exists():
         try:
             df = pd.read_csv(hvd_csv)
@@ -131,8 +159,8 @@ def find_trading_dates_since(
     flat_dates: List[date] = []
     found_reference_file = False
     for ticker in reference_tickers:
-        ref_file = yahoo_data_dir / f'{ticker}.csv'
-        if not ref_file.exists():
+        ref_file = _ticker_csv_path(yahoo_data_dir, ticker)
+        if ref_file is None:
             continue
         try:
             df = pd.read_csv(ref_file, usecols=[0], header=0)
@@ -183,7 +211,7 @@ def load_days(
 
     Returns:
         {target_date: {ticker: {date, open, high, low, close, volume}}}
-        matching the dict format of VolDailyChecker.parse_tw_file().
+        matching the dict format of VolChecker.parse_tw_file().
 
     Tickers with no file or no matching rows are silently omitted.
     """
@@ -201,8 +229,8 @@ def load_days(
         candidates = [ticker, ticker.replace('-', '.')]
         file_path = None
         for name in candidates:
-            p = yahoo_data_dir / f'{name}.csv'
-            if p.exists():
+            p = _ticker_csv_path(yahoo_data_dir, name)
+            if p is not None:
                 file_path = p
                 break
 

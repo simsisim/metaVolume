@@ -165,11 +165,22 @@ def _supplement_with_batch(df: pd.DataFrame, ticker: str, market_data_dir: Path)
     return pd.concat([df, batch_rows]).sort_index()
 
 
-def read_ticker_ohlcv_raw(market_data_dir: Path, ticker: str) -> Optional[pd.DataFrame]:
+def read_ticker_ohlcv_raw(
+    market_data_dir: Path,
+    ticker: str,
+    include_batch_overlay: bool = True,
+) -> Optional[pd.DataFrame]:
     """
-    Raw per-ticker OHLCV rows (index='Date', unparsed), supplemented with any
-    newer market_data_batch/ rows. Falls back through archive/+current/ (if
-    present) to the flat {ticker}.csv legacy cache.
+    Raw per-ticker OHLCV rows (index='Date', unparsed). Falls back through
+    archive/+current/ (if present) to the flat {ticker}.csv legacy cache.
+
+    include_batch_overlay: when True (default), supplements with any newer
+    market_data_batch/ rows -- the fast/gap-fill pipeline, appropriate for
+    the daily incremental checker which wants the freshest possible data.
+    Set False for the pre-process baseline rebuild, which should be sourced
+    only from the slow/authoritative pipeline (archive/current) so its
+    cutoff date is deterministic and reproducible, not dependent on
+    whatever the fast pipeline happened to have at run time.
     """
     frames = []
     for sub in ('archive', 'current'):
@@ -181,12 +192,12 @@ def read_ticker_ohlcv_raw(market_data_dir: Path, ticker: str) -> Optional[pd.Dat
     if frames:
         df = pd.concat(frames) if len(frames) > 1 else frames[0]
         df = df[~df.index.duplicated(keep='last')]
-        return _supplement_with_batch(df, ticker, market_data_dir)
+        return _supplement_with_batch(df, ticker, market_data_dir) if include_batch_overlay else df
 
     flat_path = market_data_dir / f"{ticker}.csv"
     if flat_path.exists():
         df = pd.read_csv(flat_path, index_col='Date', parse_dates=False)
-        return _supplement_with_batch(df, ticker, market_data_dir)
+        return _supplement_with_batch(df, ticker, market_data_dir) if include_batch_overlay else df
     return None
 
 
@@ -198,19 +209,25 @@ class DataReader:
     batch processing capabilities for large datasets.
     """
     
-    def __init__(self, config, timeframe='daily', batch_size=100):
+    def __init__(self, config, timeframe='daily', batch_size=100, include_batch_overlay=True):
         """
         Initialize DataReader with configuration and timeframe.
-        
+
         Args:
             config: Configuration object with directory paths
             timeframe: Data timeframe ('daily', 'weekly', 'monthly', 'intraday')
             batch_size: Number of tickers to process in each batch
+            include_batch_overlay: Supplement archive/current with the fast
+                market_data_batch/ pipeline (default True). Set False for
+                pre-process baseline rebuilds, which should be sourced only
+                from the slow/authoritative pipeline for a deterministic
+                cutoff date -- see read_ticker_ohlcv_raw().
         """
         self.config = config
         self.timeframe = timeframe
         self.batch_size = batch_size
-        
+        self.include_batch_overlay = include_batch_overlay
+
         # Get market data directory for specified timeframe
         self.market_data_dir = config.get_market_data_dir(timeframe)
         self.tickers_dir = config.directories['TICKERS_DIR']
@@ -311,7 +328,7 @@ class DataReader:
         Returns:
             DataFrame with OHLCV data or None if file not found
         """
-        df = read_ticker_ohlcv_raw(self.market_data_dir, ticker)
+        df = read_ticker_ohlcv_raw(self.market_data_dir, ticker, self.include_batch_overlay)
 
         if df is None:
             logger.debug(f"Data file not found for {ticker}: {self.market_data_dir}")

@@ -384,8 +384,7 @@ class UserConfiguration:
     indicators_enable: bool = True
     indicators_config_file: str = "data/indicators/ticker_indicators_config.csv"
     indicators_output_dir: str = "results/indicators/"
-    indicators_charts_dir: str = "results/charts/"
-    
+
     # Default Indicator Parameters
     indicators_kurutoga_enable: bool = True
     indicators_kurutoga_length: int = 14
@@ -840,44 +839,35 @@ class UserConfiguration:
     dashboard_max_alerts: int = 10
     dashboard_save_historical: bool = True
 
-    # HVE (Highest Volume Ever) Configuration
-    hve_enable: bool = True
-    hve_output_dir: str = "results/hve_results"
-    hve_limit_years: int = 4
+    # HVE/HVD Pre-Process Configuration
+    # Single flag drives HVE screening, HVD screening, and both historical
+    # exports together -- they always ran in lockstep in practice, so there's
+    # no separate per-metric toggle anymore.
+    hve_pre_process: bool = True
+    hve_output_dir: str = "results/pre"
     hve_min_volume: int = 0
     hve_min_price: float = 0.0
-    hve_date_range_mode: str = "fixed"  # 'rolling' or 'fixed'
-    hve_start_date: str = "2020-01-01"  # Start date for fixed range mode
-    hve_end_date: str = "2023-12-31"  # End date for fixed range mode
+    hve_start_date: str = "2020-01-01"  # Scan window start date
+    hve_end_date: str = ""  # Scan window end date; blank = latest available date
     hve_historical_max_events: int = 10  # Number of HVE events to export
-    hve_historical_export: bool = True  # Enable HVE historical export
-    hvd_historical_export: bool = True  # Enable HVD (Top Volume Days) historical export
     hvd_historical_max_events: int = 10  # Number of top volume days to export
-    
-    # HVE Preload Configuration
-    preload_hve: bool = False  # Enable HVE/HVD preload from files
-    preload_hve_file: Optional[str] = None  # Resolved path (set at runtime from _local/_colab)
-    preload_hvd_file: Optional[str] = None  # Resolved path (set at runtime from _local/_colab)
-    # Environment-specific preload paths
-    preload_hve_file_local: Optional[str] = None
-    preload_hve_file_colab: Optional[str] = None
-    preload_hvd_file_local: Optional[str] = None
-    preload_hvd_file_colab: Optional[str] = None
 
-    # HV1Y (Highest Volume in 1 Year) Configuration
+    # HV1Y (Highest Volume in 1 Year) Configuration -- separate from
+    # hve_pre_process since it's a rolling window, not a record/ranking check.
     hv1y_enable: bool = True
     hv1y_window_days: int = 365
     hv1y_max_events: int = 5  # Maximum number of HV1Y events to save per ticker
 
-    # Vol Daily Checker Configuration
-    vol_checker_enable: bool = False
+    # HVE/HVD Post-Process Configuration (incremental checker, one per
+    # configured timeframe). Cheap (reads only current/, never full
+    # history) -- safe to leave TRUE. Yahoo per-ticker data directory is
+    # resolved via Config.get_market_data_dir(timeframe) -- same as
+    # DataReader -- so there's no separate yahoo-dir setting here.
+    hve_post_process: bool = True
     vol_checker_top_n_flag: int = 6
     vol_checker_tw_files_dir: str = '../downloadData_v1/data/tw_files/daily/'
     vol_checker_tw_since_date: str = ''
     vol_checker_data_source: str = 'tradingview'
-    vol_checker_yahoo_data_dir_local: Optional[str] = None
-    vol_checker_yahoo_data_dir_colab: Optional[str] = None
-    vol_checker_yahoo_data_dir: Optional[str] = None  # Resolved at runtime from _local/_colab
 
 
 def _get_default_ticker_filenames() -> dict:
@@ -1352,8 +1342,7 @@ def read_user_data(file_path: str = None) -> UserConfiguration:
             'INDICATORS_enable': ('indicators_enable', parse_boolean),
             'INDICATORS_config_file': ('indicators_config_file', str),
             'INDICATORS_output_dir': ('indicators_output_dir', str),
-            'INDICATORS_charts_dir': ('indicators_charts_dir', str),
-            
+
             # Default Indicator Parameters
             'INDICATORS_kurutoga_enable': ('indicators_kurutoga_enable', parse_boolean),
             'INDICATORS_kurutoga_length': ('indicators_kurutoga_length', int),
@@ -1799,40 +1788,27 @@ def read_user_data(file_path: str = None) -> UserConfiguration:
             'DASHBOARD_max_alerts': ('dashboard_max_alerts', int),
             'DASHBOARD_save_historical': ('dashboard_save_historical', parse_boolean),
 
-            # HVE (Highest Volume Ever) Configuration
-            'HVE_enable': ('hve_enable', parse_boolean),
+            # HVE/HVD Pre-Process Configuration
+            'HVE_pre_process': ('hve_pre_process', parse_boolean),
             'HVE_output_dir': ('hve_output_dir', str),
-            'HVE_limit_years': ('hve_limit_years', int),
             'HVE_min_volume': ('hve_min_volume', int),
             'HVE_min_price': ('hve_min_price', float),
-            'HVE_date_range_mode': ('hve_date_range_mode', str),
             'HVE_start_date': ('hve_start_date', str),
             'HVE_end_date': ('hve_end_date', str),
             'HVE_historical_max_events': ('hve_historical_max_events', int),
-            'HVE_historical_export': ('hve_historical_export', parse_boolean),
-            'HVD_historical_export': ('hvd_historical_export', parse_boolean),
             'HVD_historical_max_events': ('hvd_historical_max_events', int),
-            
-            # HVE Preload Configuration
-            'preload_HVE': ('preload_hve', parse_boolean),
-            'file preload_HVE_local': ('preload_hve_file_local', str),
-            'file preload_HVE_colab': ('preload_hve_file_colab', str),
-            'file preload_HVD_local': ('preload_hvd_file_local', str),
-            'file preload_HVD_colab': ('preload_hvd_file_colab', str),
 
             # HV1Y (Highest Volume in 1 Year) Configuration
             'HV1Y_enable': ('hv1y_enable', parse_boolean),
             'HV1Y_window_days': ('hv1y_window_days', int),
             'HVY_max_events': ('hv1y_max_events', int),
 
-            # Vol Daily Checker
-            'VOL_checker_enable': ('vol_checker_enable', parse_boolean),
+            # HVE/HVD Post-Process Configuration (incremental checker)
+            'HVE_post_process': ('hve_post_process', parse_boolean),
             'VOL_checker_top_n_flag': ('vol_checker_top_n_flag', int),
             'VOL_checker_tw_files_dir': ('vol_checker_tw_files_dir', str),
             'VOL_checker_tw_since_date': ('vol_checker_tw_since_date', str),
             'VOL_checker_data_source': ('vol_checker_data_source', str),
-            'VOL_checker_yahoo_data_dir_local': ('vol_checker_yahoo_data_dir_local', str),
-            'VOL_checker_yahoo_data_dir_colab': ('vol_checker_yahoo_data_dir_colab', str),
         }
         
         # Process each row in the dataframe
@@ -1848,33 +1824,6 @@ def read_user_data(file_path: str = None) -> UserConfiguration:
                 except (ValueError, TypeError) as e:
                     print(f"Warning: Invalid value '{value}' for {variable}. Using default. Error: {e}")
         
-        # Resolve environment-specific preload paths (same pattern as YF data paths)
-        env_raw = getattr(config, 'manual_environment_override', None) or ''
-        env = str(env_raw).strip().lower()
-        if env not in ('local', 'colab'):
-            env = 'local'
-
-        _project_root = Path(__file__).resolve().parent.parent
-
-        def _resolve_preload_path(raw: Optional[str]) -> Optional[str]:
-            if not raw or str(raw).strip().lower() in ('', 'nan'):
-                return None
-            p = str(raw).strip()
-            if not p.startswith('/'):
-                p = str(_project_root / p)
-            return p
-
-        config.preload_hve_file = _resolve_preload_path(
-            getattr(config, f'preload_hve_file_{env}', None)
-        )
-        config.preload_hvd_file = _resolve_preload_path(
-            getattr(config, f'preload_hvd_file_{env}', None)
-        )
-
-        # Resolve Yahoo data directory for vol_checker (same _local/_colab pattern)
-        yahoo_raw = getattr(config, f'vol_checker_yahoo_data_dir_{env}', None)
-        config.vol_checker_yahoo_data_dir = _resolve_preload_path(yahoo_raw)
-
         # Validation for ticker_choice
         try:
             # Parse ticker choice to validate format - handle dash separator

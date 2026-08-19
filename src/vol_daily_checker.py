@@ -1,33 +1,62 @@
 """
-Volume Daily Checker
-====================
+Volume Checker (post-process)
+==============================
 
-Compares each day's volume against the stored HVD top-N baseline
-(HVD_historical_daily.csv) and flags tickers that enter the top positions.
+Compares each new period's volume against two stored baselines and flags
+tickers that qualify:
+  HVD — enters the top-N volume days (HVD_historical_{timeframe}.csv)
+  HVE — sets a new all-time-high volume (HVE_historical_{timeframe}.csv)
+
+Runs independently per timeframe (daily, weekly, monthly) -- each instance
+is constructed with its own `timeframe` and tracks its own baseline, its
+own cutoff date, and its own current-data source. Timeframes never share
+or influence each other's cutoff (see write_baseline_metadata() in
+hvd_historical_exporter.py for why that matters: pooling cutoffs across
+timeframes let a more-current one mask real gaps in a less-current one).
+
+Both HVD/HVE checks read the same per-period ticker data and never modify
+their baseline file — new discoveries accumulate in a separate incremental
+ledger (baseline ∪ incremental is recomputed in memory each run) until the
+next full preprocess_full baseline rebuild folds them in.
 
 Supports two data sources:
-  tradingview  — TradingView bulk CSV files (one file per trading day)
-  yahoo        — Per-ticker Yahoo Finance CSVs (from downloadData_v1)
+  tradingview  — TradingView bulk CSV files (one file per trading day).
+                 Daily only -- there's no weekly/monthly bulk-file concept
+                 in this codebase, so weekly/monthly always use 'yahoo'
+                 regardless of this setting.
+  yahoo        — Per-ticker Yahoo Finance CSVs (from downloadData_v1),
+                 read from current/ (this year's rows only) rather than
+                 the full multi-year per-ticker file, so checks don't
+                 re-parse years of already-covered history. Directory is
+                 resolved via Config.get_market_data_dir(timeframe) -- the
+                 same YF_{timeframe}_data_files_local/colab config DataReader
+                 already uses, so there's no separate vol-checker-specific
+                 path setting to keep in sync.
 
-Inputs:
-  - results/hve_results/HVD_historical_daily.csv  (baseline, READ-ONLY)
-  - results/hve_results/baseline_metadata.json    (cutoff date, READ-ONLY)
+Inputs (per timeframe):
+  - results/pre/historical/HVD_historical_{timeframe}.csv  (HVD baseline, READ-ONLY)
+  - results/pre/historical/HVE_historical_{timeframe}.csv  (HVE baseline, READ-ONLY)
+  - results/pre/historical/baseline_metadata.json          (per-timeframe cutoff dates, READ-ONLY)
 
-  For TradingView source:
+  For TradingView source (daily only):
   - tw_files/daily/*.csv  (one bulk file per trading day)
 
   For Yahoo source:
-  - downloadData_v1/data/market_data/daily/<TICKER>.csv  (per-ticker files)
+  - downloadData_v1/data/market_data/{timeframe}/current/<TICKER>.csv (this year only)
 
-Outputs:
-  - results/vol_top20/vol_check_results.csv  (appended each run)
-  - results/vol_top20/last_processed.txt     (state: last processed date)
-  - results/vol_top20/HVD_incremental.csv    (new events since baseline)
-  - results/vol_top20/daily/<date>.csv       (per-day snapshots)
-  - results/vol_top20/daily_log.csv          (full daily log)
+Outputs (per timeframe, under results/post/{timeframe}/):
+  - vol_check_results.csv   (HVD hits, appended each run)
+  - HVE_check_results.csv   (HVE hits, appended each run)
+  - last_processed.txt      (state: last processed date)
+  - HVD_incremental.csv     (new HVD events since baseline)
+  - HVE_incremental.csv     (new HVE events since baseline)
+  - snapshots/vol_check_<date>.csv  (per-period HVD snapshots)
+  - snapshots/HVE_check_<date>.csv  (per-period HVE snapshots)
+  - daily_log.csv           (full log, HVD only)
 
-  The baseline is never modified during daily runs.
-  Delete HVD_incremental.csv and re-run to safely reprocess any date range.
+  Baselines are never modified during checker runs.
+  Delete HVD_incremental.csv / HVE_incremental.csv and re-run to safely
+  reprocess any date range.
 
 TW bulk file format (columns that matter):
   Symbol, Open 1 day, High 1 day, Low 1 day, Price (=Close), Volume 1 day
@@ -48,17 +77,20 @@ from typing import Dict, List, Optional, Tuple
 logger = logging.getLogger(__name__)
 
 
-class VolDailyChecker:
+class VolChecker:
 
-    def __init__(self, config, user_config):
+    def __init__(self, config, user_config, timeframe: str = 'daily'):
+        self.config = config
+        self.timeframe = timeframe
         self.base_dir = Path(__file__).resolve().parent.parent
         self.ticker_choice = getattr(user_config, 'ticker_choice', None)
 
-        # Baseline file (produced by pre-processor HVD export, read-only during daily runs)
+        # Baseline files (produced by pre-processor HVD/HVE export, read-only during checker runs)
         self.baseline_path = (
-            self.base_dir / 'results' / 'hve_results' / 'HVD_historical_daily.csv'
+            self.base_dir / 'results' / 'pre' / 'historical' / f'HVD_historical_{timeframe}.csv'
         )
         self.baseline_dir = self.baseline_path.parent
+        self.hve_baseline_path = self.baseline_dir / f'HVE_historical_{timeframe}.csv'
 
         # ------------------------------------------------------------------
         # Data source selection
@@ -67,9 +99,13 @@ class VolDailyChecker:
         if self.data_source not in ('tradingview', 'yahoo'):
             print(f"   WARNING: unknown vol_checker_data_source '{self.data_source}' — falling back to tradingview")
             self.data_source = 'tradingview'
+        if timeframe != 'daily' and self.data_source == 'tradingview':
+            print(f"   NOTE: TradingView source is daily-only (no weekly/monthly bulk files) — "
+                  f"using yahoo source for {timeframe}")
+            self.data_source = 'yahoo'
 
         # ------------------------------------------------------------------
-        # TradingView bulk files directory
+        # TradingView bulk files directory (daily only)
         # ------------------------------------------------------------------
         tw_dir_str = getattr(
             user_config,
@@ -82,26 +118,24 @@ class VolDailyChecker:
         self.tw_files_dir = tw_dir
 
         # ------------------------------------------------------------------
-        # Yahoo per-ticker data directory (resolved by user_defined_data)
+        # Yahoo per-ticker data directory -- same resolution DataReader uses
+        # (Config.get_market_data_dir), so there's no separate vol-checker
+        # path setting that could drift out of sync per timeframe.
         # ------------------------------------------------------------------
-        yahoo_dir_resolved = getattr(user_config, 'vol_checker_yahoo_data_dir', None)
-        if yahoo_dir_resolved:
-            self.yahoo_data_dir = Path(yahoo_dir_resolved)
-        else:
-            # Fallback default
-            self.yahoo_data_dir = (
-                self.base_dir / '../downloadData_v1/data/market_data/daily/'
-            ).resolve()
+        self.yahoo_data_dir = Path(config.get_market_data_dir(timeframe))
 
         # ------------------------------------------------------------------
         # Output
         # ------------------------------------------------------------------
-        self.output_dir = self.base_dir / 'results' / 'vol_top20'
+        self.output_dir = self.base_dir / 'results' / 'post' / timeframe
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.results_path     = self.output_dir / 'vol_check_results.csv'
         self.state_path       = self.output_dir / 'last_processed.txt'
         self.incremental_path = self.output_dir / 'HVD_incremental.csv'
         self.daily_log_path   = self.output_dir / 'daily_log.csv'
+        self.hve_results_path     = self.output_dir / 'HVE_check_results.csv'
+        self.hve_incremental_path = self.output_dir / 'HVE_incremental.csv'
+        self.hve_summary_path     = self.output_dir / f'HVE_{timeframe}.csv'
 
         # How many top positions to flag (default 6)
         self.top_n_flag = int(getattr(user_config, 'vol_checker_top_n_flag', 6))
@@ -110,6 +144,11 @@ class VolDailyChecker:
         self.baseline_dict:    Dict[str, List[Dict]] = {}
         self.incremental_dict: Dict[str, List[Dict]] = {}
         self.top_n_hist: int = 0
+
+        # State filled by load_hve_baseline() / load_hve_incremental()
+        self.hve_baseline_dict:    Dict[str, Dict] = {}  # ticker -> {'date': ..., 'volume': ...}
+        self.hve_incremental_dict: Dict[str, List[Dict]] = {}
+        self.hve_check_enabled: bool = False
 
     # ------------------------------------------------------------------
     # Baseline I/O
@@ -183,6 +222,85 @@ class VolDailyChecker:
             pd.DataFrame(columns=cols).to_csv(self.incremental_path, index=False)
 
         print(f"   Incremental file updated: {len(rows)} events — {self.incremental_path}")
+
+    def load_hve_baseline(self) -> bool:
+        """
+        Load the HVE (all-time record) baseline: ticker -> {date, volume} of
+        the highest volume ever recorded as of the last preprocess_full run.
+
+        Unlike the HVD baseline (a top-N list), HVE only needs the single
+        highest event -- reduced from the same wide HVE_date_i/HVE_vol_i
+        columns the exporter writes. The date is kept (not just the volume)
+        so save_hve_summary() can report each ticker's current record
+        without needing to re-scan full history.
+        """
+        if not self.hve_baseline_path.exists():
+            print(f"   WARNING: HVE baseline not found: {self.hve_baseline_path}")
+            print(f"   Run main.py with HVE_historical_export=TRUE first — HVE checking disabled this run.")
+            return False
+
+        df = pd.read_csv(self.hve_baseline_path)
+        vol_cols = [c for c in df.columns if c.startswith('HVE_vol_')]
+
+        print(f"   Loaded HVE baseline: {len(df)} tickers")
+
+        for _, row in df.iterrows():
+            ticker = str(row['Symbol'])
+            best_date, best_vol = None, None
+            for vc in vol_cols:
+                idx = vc.rsplit('_', 1)[-1]
+                dc = f'HVE_date_{idx}'
+                val = row.get(vc, '')
+                if pd.isna(val) or str(val) == '':
+                    continue
+                try:
+                    vol = int(val)
+                except (ValueError, TypeError):
+                    continue
+                if best_vol is None or vol > best_vol:
+                    best_vol = vol
+                    best_date = str(row.get(dc, '')).strip()
+            if best_vol is not None:
+                self.hve_baseline_dict[ticker] = {'date': best_date, 'volume': best_vol}
+
+        return True
+
+    def load_hve_incremental(self):
+        """Load new all-time-high events accumulated since the HVE baseline was built."""
+        self.hve_incremental_dict = {}
+        if not self.hve_incremental_path.exists():
+            print(f"   No HVE incremental file yet — starting fresh")
+            return
+        try:
+            df = pd.read_csv(self.hve_incremental_path)
+            for _, row in df.iterrows():
+                ticker = str(row['ticker']).strip()
+                try:
+                    ev = {'date': str(row['date']), 'volume': int(row['volume'])}
+                    self.hve_incremental_dict.setdefault(ticker, []).append(ev)
+                except (ValueError, TypeError):
+                    continue
+            total = sum(len(v) for v in self.hve_incremental_dict.values())
+            print(f"   Loaded HVE incremental: {len(self.hve_incremental_dict)} tickers, {total} events")
+        except Exception as e:
+            print(f"   WARNING: Could not load HVE incremental file: {e}")
+
+    def save_hve_incremental(self):
+        """Save hve_incremental_dict to HVE_incremental.csv (long format, baseline untouched)."""
+        rows = []
+        for ticker, events in self.hve_incremental_dict.items():
+            for ev in events:
+                rows.append({'ticker': ticker, 'date': ev['date'], 'volume': ev['volume']})
+
+        cols = ['ticker', 'date', 'volume']
+        if rows:
+            pd.DataFrame(rows)[cols].sort_values(['ticker', 'date']).to_csv(
+                self.hve_incremental_path, index=False
+            )
+        else:
+            pd.DataFrame(columns=cols).to_csv(self.hve_incremental_path, index=False)
+
+        print(f"   HVE incremental file updated: {len(rows)} events — {self.hve_incremental_path}")
 
     # ------------------------------------------------------------------
     # State file (tracks last processed date)
@@ -391,13 +509,57 @@ class VolDailyChecker:
 
         return hits
 
+    def check_and_update_hve(self, ticker_data: Dict, file_date: date,
+                              allowed_tickers: Optional[set] = None) -> List[Dict]:
+        """
+        Compare today's volumes against the combined all-time max (baseline + incremental).
+        Simplified sibling of check_and_update(): no top-N/rank bookkeeping, just
+        "did this ticker set a new all-time volume record today?"
+        Baseline is never modified — new records go to hve_incremental_dict only.
+        Re-run safe: if today's date is already recorded for this ticker, it's skipped.
+        """
+        hits = []
+        today_str = file_date.strftime('%Y-%m-%d')
+
+        for ticker, data in ticker_data.items():
+            if allowed_tickers is not None and ticker not in allowed_tickers:
+                continue
+
+            new_vol = data['volume']
+
+            prior_events = self.hve_incremental_dict.get(ticker, [])
+            if any(ev['date'] == today_str for ev in prior_events):
+                continue  # already recorded today (re-run safety)
+
+            baseline_entry = self.hve_baseline_dict.get(ticker)
+            baseline_max = baseline_entry['volume'] if baseline_entry else 0
+            combined_max = max([baseline_max] + [ev['volume'] for ev in prior_events])
+
+            if new_vol <= combined_max:
+                continue
+
+            self.hve_incremental_dict.setdefault(ticker, []).append(
+                {'date': today_str, 'volume': new_vol}
+            )
+
+            hits.append({
+                'ticker':         ticker,
+                'check_date':     today_str,
+                'new_volume':     new_vol,
+                'price_at_event': data['close'],
+                'market_cap':     data.get('market_cap'),
+                'prior_max':      combined_max,
+            })
+
+        return hits
+
     # ------------------------------------------------------------------
     # Results output
     # ------------------------------------------------------------------
 
     def save_daily_snapshot(self, hits: List[Dict], file_date: date):
         """Save hits for a single trading day to its own file. Always overwrites."""
-        snapshot_dir = self.output_dir / 'daily'
+        snapshot_dir = self.output_dir / 'snapshots'
         snapshot_dir.mkdir(exist_ok=True)
         snapshot_path = snapshot_dir / f"vol_check_{file_date.strftime('%Y-%m-%d')}.csv"
 
@@ -463,13 +625,96 @@ class VolDailyChecker:
         entered = sum(1 for h in hits if h['entered_top_n'])
         print(f"   Cumulative log: {len(hits)} new rows | {entered} entered top-{self.top_n_flag} | {self.results_path}")
 
+    def save_hve_daily_snapshot(self, hits: List[Dict], file_date: date):
+        """Save HVE (new all-time-high) hits for a single trading day. Always overwrites."""
+        snapshot_dir = self.output_dir / 'snapshots'
+        snapshot_dir.mkdir(exist_ok=True)
+        snapshot_path = snapshot_dir / f"HVE_check_{file_date.strftime('%Y-%m-%d')}.csv"
+
+        if hits:
+            pd.DataFrame(hits).to_csv(snapshot_path, index=False)
+        else:
+            pd.DataFrame(columns=[
+                'ticker', 'check_date', 'new_volume', 'price_at_event', 'market_cap', 'prior_max'
+            ]).to_csv(snapshot_path, index=False)
+
+        print(f"   HVE snapshot: {snapshot_path.name} ({len(hits)} hit(s))")
+
+    def save_hve_results(self, hits: List[Dict]):
+        """Append all HVE (new all-time-high) hits from this run to the cumulative history file."""
+        if not hits:
+            print("   No new all-time-high volume events")
+            return
+
+        new_df = pd.DataFrame(hits)
+
+        if self.hve_results_path.exists():
+            existing = pd.read_csv(self.hve_results_path)
+            new_df = pd.concat([existing, new_df], ignore_index=True)
+
+        new_df.to_csv(self.hve_results_path, index=False)
+        print(f"   HVE cumulative log: {len(hits)} new rows — {self.hve_results_path}")
+
+    def save_hve_summary(self):
+        """
+        Write HVE_{timeframe}.csv: one row per ticker, current known HVE
+        record (ticker, timeframe, hve_date, hve_volume, days_since_hve) --
+        same shape as the pre-process HVE_{timeframe}.csv, but cheap: no
+        history re-scan, just baseline ∪ incremental merged in memory.
+
+        For each ticker, the current record is whichever is more recent:
+        the newest hve_incremental_dict entry (if any -- by HVE definition
+        each new entry exceeds every prior one, so the newest by date is
+        also the highest by volume) or, failing that, the baseline's
+        stored (date, volume).
+        """
+        if not self.hve_check_enabled:
+            return
+
+        today = date.today()
+        rows = []
+        tickers = set(self.hve_baseline_dict) | set(self.hve_incremental_dict)
+
+        for ticker in tickers:
+            incremental = self.hve_incremental_dict.get(ticker, [])
+            if incremental:
+                latest = max(incremental, key=lambda ev: ev['date'])
+                hve_date_str, hve_volume = latest['date'], latest['volume']
+            else:
+                baseline_entry = self.hve_baseline_dict.get(ticker)
+                if not baseline_entry or not baseline_entry.get('date'):
+                    continue
+                hve_date_str, hve_volume = baseline_entry['date'], baseline_entry['volume']
+
+            try:
+                hve_date_obj = datetime.strptime(hve_date_str, '%Y-%m-%d').date()
+                days_since = (today - hve_date_obj).days
+            except (ValueError, TypeError):
+                days_since = ''
+
+            rows.append({
+                'ticker':         ticker,
+                'timeframe':      self.timeframe,
+                'hve_date':       hve_date_str,
+                'hve_volume':     hve_volume,
+                'days_since_hve': days_since,
+            })
+
+        cols = ['ticker', 'timeframe', 'hve_date', 'hve_volume', 'days_since_hve']
+        if rows:
+            df = pd.DataFrame(rows)[cols].sort_values('days_since_hve')
+        else:
+            df = pd.DataFrame(columns=cols)
+        df.to_csv(self.hve_summary_path, index=False)
+        print(f"   HVE summary: {len(rows)} tickers — {self.hve_summary_path}")
+
     # ------------------------------------------------------------------
     # Main entry point
     # ------------------------------------------------------------------
 
     def run(self, since_date_override: Optional[str] = None):
         print(f"\n{'='*60}")
-        print(f"VOL DAILY CHECKER  [source: {self.data_source.upper()}]")
+        print(f"VOL CHECKER — {self.timeframe.upper()}  [source: {self.data_source.upper()}]")
         print(f"{'='*60}")
 
         # ------------------------------------------------------------------
@@ -481,11 +726,19 @@ class VolDailyChecker:
         print(f"\n Loading incremental...")
         self.load_incremental()
 
+        # HVE (all-time record) baseline is optional -- if missing, HVE
+        # checking is skipped for this run but HVD checking still proceeds.
+        print(f"\n Loading HVE baseline...")
+        self.hve_check_enabled = self.load_hve_baseline()
+        if self.hve_check_enabled:
+            print(f"\n Loading HVE incremental...")
+            self.load_hve_incremental()
+
         # ------------------------------------------------------------------
         # Determine baseline cutoff date (hard floor — never go before this)
         # ------------------------------------------------------------------
         from src.yahoo_daily_adapter import get_baseline_cutoff_date
-        baseline_cutoff = get_baseline_cutoff_date(self.baseline_dir)
+        baseline_cutoff = get_baseline_cutoff_date(self.baseline_dir, self.timeframe)
 
         # ------------------------------------------------------------------
         # Determine since_date from override or state file
@@ -534,6 +787,10 @@ class VolDailyChecker:
         else:
             self._run_yahoo(effective_since)
 
+        # Refresh the per-ticker HVE summary regardless of whether new
+        # dates were found this run, so days_since_hve stays current.
+        self.save_hve_summary()
+
     # ------------------------------------------------------------------
     # TradingView source path
     # ------------------------------------------------------------------
@@ -552,6 +809,7 @@ class VolDailyChecker:
 
         allowed_tickers = self._load_allowed_tickers()
         all_hits: List[Dict] = []
+        all_hve_hits: List[Dict] = []
         last_processed: Optional[date] = None
 
         for file_date, file_paths in files_to_process:
@@ -571,7 +829,13 @@ class VolDailyChecker:
             top_n_hits = [h for h in hits if h['entered_top_n']]
             print(f"   Beat threshold: {len(hits)} | Entered top-{self.top_n_flag}: {len(top_n_hits)}")
 
-        self._finalize(all_hits, last_processed)
+            if self.hve_check_enabled:
+                hve_hits = self.check_and_update_hve(ticker_data, file_date, allowed_tickers)
+                self.save_hve_daily_snapshot(hve_hits, file_date)
+                all_hve_hits.extend(hve_hits)
+                print(f"   New all-time highs (HVE): {len(hve_hits)}")
+
+        self._finalize(all_hits, last_processed, all_hve_hits)
 
     # ------------------------------------------------------------------
     # Yahoo source path
@@ -609,6 +873,7 @@ class VolDailyChecker:
         all_day_data = load_days(dates_to_process, tickers_to_load, self.yahoo_data_dir)
 
         all_hits: List[Dict] = []
+        all_hve_hits: List[Dict] = []
         last_processed: Optional[date] = None
 
         for file_date in sorted(dates_to_process):
@@ -624,16 +889,28 @@ class VolDailyChecker:
             top_n_hits = [h for h in hits if h['entered_top_n']]
             print(f"   Beat threshold: {len(hits)} | Entered top-{self.top_n_flag}: {len(top_n_hits)}")
 
-        self._finalize(all_hits, last_processed)
+            if self.hve_check_enabled:
+                hve_hits = self.check_and_update_hve(ticker_data, file_date, allowed_tickers)
+                self.save_hve_daily_snapshot(hve_hits, file_date)
+                all_hve_hits.extend(hve_hits)
+                print(f"   New all-time highs (HVE): {len(hve_hits)}")
+
+        self._finalize(all_hits, last_processed, all_hve_hits)
 
     # ------------------------------------------------------------------
     # Shared finalization
     # ------------------------------------------------------------------
 
-    def _finalize(self, all_hits: List[Dict], last_processed: Optional[date]):
+    def _finalize(self, all_hits: List[Dict], last_processed: Optional[date],
+                  all_hve_hits: Optional[List[Dict]] = None):
+        all_hve_hits = all_hve_hits or []
+
         print(f"\n Saving...")
         self.save_incremental()
         self.save_results(all_hits)
+        if self.hve_check_enabled:
+            self.save_hve_incremental()
+            self.save_hve_results(all_hve_hits)
         if last_processed:
             self.save_last_processed_date(last_processed)
 
@@ -644,6 +921,8 @@ class VolDailyChecker:
         print(f"   Source          : {self.data_source.upper()}")
         print(f"   Beat threshold  : {len(all_hits)}")
         print(f"   Entered top-{self.top_n_flag:2d}  : {len(top_n_hits)}")
+        if self.hve_check_enabled:
+            print(f"   New all-time highs (HVE) : {len(all_hve_hits)}")
 
         if top_n_hits:
             print(f"\n   Top-{self.top_n_flag} hits (sorted by rank):")
@@ -651,5 +930,5 @@ class VolDailyChecker:
                 print(
                     f"   {h['check_date']} | Rank {h['rank']:2d} | "
                     f"{h['ticker']:<8s} | vol={h['new_volume']:>15,.0f} | "
-                    f"close={h['new_close']:>8.2f}"
+                    f"close={h['price_at_event']:>8.2f}"
                 )

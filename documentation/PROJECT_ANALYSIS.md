@@ -20,8 +20,8 @@
 | `results/hve_results/{tf}/hve_results_{tf}.csv` | HVE results, long format |
 | `results/hve_results/{tf}/hvd_results_{tf}.csv` | HVD results, long format |
 | `results/hve_results/{tf}/hv1y_results_{tf}.csv` | HV1Y results, long format |
-| `results/hve_results/HVE_historical_{tf}.csv` | Wide format, preload-compatible |
-| `results/hve_results/HVD_historical_{tf}.csv` | Wide format, preload-compatible |
+| `results/hve_results/historical/HVE_historical_{tf}.csv` | Wide format, preload-compatible |
+| `results/hve_results/historical/HVD_historical_{tf}.csv` | Wide format, preload-compatible |
 
 ### Key configuration parameters (`user_data.csv`)
 ```

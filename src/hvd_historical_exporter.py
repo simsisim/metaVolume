@@ -63,32 +63,37 @@ def write_baseline_metadata(
     """
     Write baseline_metadata.json alongside the HVD historical CSVs.
 
-    Records the maximum date found across all tickers/timeframes so that
-    VolDailyChecker (Yahoo mode) knows exactly where the baseline ends and
-    can refuse to re-process already-covered data.
+    Records the maximum date found *per timeframe* (not one date pooled
+    across all of them) so that VolChecker knows exactly where each
+    timeframe's own baseline ends and can refuse to re-process
+    already-covered data. Pooling would let a more-current timeframe (e.g.
+    monthly's naturally-forward-looking "current period" bar) mask a less-
+    current one (e.g. daily) into skipping real gaps -- see the bug this
+    fixed.
     """
     try:
-        all_dates = []
+        baseline_as_of_by_timeframe: Dict[str, str] = {}
         ticker_set = set()
 
-        for results_df in all_timeframe_results.values():
+        for timeframe, results_df in all_timeframe_results.items():
             if results_df.empty:
                 continue
             ticker_set.update(results_df['ticker'].tolist())
+
+            tf_dates = []
             for details in results_df.get('all_hvd_details', pd.Series(dtype=object)):
                 if isinstance(details, list):
                     for ev in details:
                         try:
-                            all_dates.append(
-                                pd.Timestamp(ev['date']).date()
-                            )
+                            tf_dates.append(pd.Timestamp(ev['date']).date())
                         except Exception:
                             pass
 
-        baseline_as_of = max(all_dates).strftime('%Y-%m-%d') if all_dates else ''
+            if tf_dates:
+                baseline_as_of_by_timeframe[timeframe] = max(tf_dates).strftime('%Y-%m-%d')
 
         metadata = {
-            'baseline_as_of_date': baseline_as_of,
+            'baseline_as_of_date': baseline_as_of_by_timeframe,
             'generated_at': datetime.now().strftime('%Y-%m-%dT%H:%M:%S'),
             'ticker_count': len(ticker_set),
             'source': 'yahoo',
@@ -98,7 +103,8 @@ def write_baseline_metadata(
         meta_path = output_dir / 'baseline_metadata.json'
         meta_path.write_text(json.dumps(metadata, indent=2))
         print(f"   Baseline metadata written: {meta_path}")
-        print(f"   baseline_as_of_date: {baseline_as_of}")
+        for tf, d in baseline_as_of_by_timeframe.items():
+            print(f"   baseline_as_of_date[{tf}]: {d}")
 
     except Exception as e:
         logger.warning(f"Could not write baseline_metadata.json: {e}")

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Add a market_cap column (from downloadData_v1's tradingview_universe.csv) to
-every results CSV under results/hve_results/, then split each into 3
+every results CSV under results/pre/, then split each into 3
 market-cap-tier sibling files (small/mid/large) so tier filtering doesn't
 require opening a spreadsheet.
 
@@ -30,7 +30,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).parent.parent
-RESULTS_DIR = ROOT / 'results' / 'hve_results'
+RESULTS_DIR = ROOT / 'results' / 'pre'
 UNIVERSE_FILE = ROOT / '..' / 'downloadData_v1' / 'user_input' / 'tradingview_universe.csv'
 
 SMALL_MIN = 300_000_000

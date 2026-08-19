@@ -8,8 +8,8 @@ Main entry point for HVE analysis following metaData_v1 patterns.
 This tool:
 1. Generates ticker files based on ticker_choice
 2. Loads market data using DataReader
-3. Screens for Highest Volume Ever (HVE) events
-4. Creates Excel reports and visualizations
+3. Screens for Highest Volume Ever (HVE) and Highest Volume Days (HVD) events
+4. Exports historical baseline CSVs and per-ticker text cards
 
 Usage:
     python main.py
@@ -36,7 +36,8 @@ from src.hvd_screener import HVDScreener
 from src.ticker_card_generator import TickerCardGenerator
 from src.hve_historical_exporter import export_all_timeframes_historical
 from src.hvd_historical_exporter import export_all_timeframes_hvd
-from src.vol_daily_checker import VolDailyChecker
+from src.vol_daily_checker import VolChecker
+from src.hv1y_checker import HV1YChecker
 
 # Configure logging
 logging.basicConfig(
@@ -44,6 +45,18 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def _display_end_date(end_date) -> str:
+    """
+    hve_end_date is blank='use latest available date', but a blank CSV cell
+    parses through pandas as NaN and gets stringified to the literal text
+    'nan' by the str() config converter -- normalize that (and other blank
+    spellings) to a readable label instead of printing "to nan".
+    """
+    if end_date and str(end_date).strip().lower() not in ('', 'nan', 'none', 'nat'):
+        return str(end_date)
+    return 'latest available'
 
 
 def setup_logging() -> None:
@@ -71,10 +84,6 @@ def setup_output_directories(config: Config, timeframe: str) -> Path:
         user_config = read_user_data()
         output_base = Path(user_config.hve_output_dir) / timeframe
         output_base.mkdir(parents=True, exist_ok=True)
-
-        # Create subdirectories
-        (output_base / 'details').mkdir(exist_ok=True)
-        (output_base / 'charts').mkdir(exist_ok=True)
 
         print(f"📁 Output directory: {output_base}")
         logger.info(f"Output directory for {timeframe}: {output_base}")
@@ -109,6 +118,33 @@ def print_data_summary(data_reader: DataReader, timeframe: str) -> None:
         logger.warning(f"Could not generate data summary for {timeframe}: {e}")
 
 
+def run_post_process(config: Config, user_config: UserConfiguration) -> None:
+    """
+    Run VolChecker (the daily incremental checker) once per configured
+    timeframe -- reuses the same 'timeframes' setting the pre-processor
+    iterates over (TIMEFRAMES in user_data.csv), so there's no separate
+    post-process timeframe list to keep in sync. Each timeframe tracks its
+    own baseline, cutoff, and output independently (results/post/{timeframe}/).
+    """
+    timeframes = user_config.timeframes if hasattr(user_config, 'timeframes') and user_config.timeframes else ['daily']
+    for timeframe in timeframes:
+        checker = VolChecker(config, user_config, timeframe=timeframe)
+        checker.run(since_date_override=user_config.vol_checker_tw_since_date)
+
+
+def run_hv1y_check(config: Config, user_config: UserConfiguration) -> None:
+    """
+    Run HV1YChecker once per configured timeframe. Independent of
+    hve_pre_process/hve_post_process -- gated only by hv1y_enable, since a
+    rolling-window recompute doesn't depend on either the baseline rebuild
+    or the incremental checker having run.
+    """
+    timeframes = user_config.timeframes if hasattr(user_config, 'timeframes') and user_config.timeframes else ['daily']
+    for timeframe in timeframes:
+        checker = HV1YChecker(config, user_config, timeframe=timeframe)
+        checker.run()
+
+
 def process_timeframe(
     config: Config,
     user_config: UserConfiguration,
@@ -135,86 +171,47 @@ def process_timeframe(
         # Setup output directories
         output_base = setup_output_directories(config, timeframe)
 
-        # Initialize HVE Screener with user configuration
+        # Initialize HVE Screener with user configuration.
+        # date_range_mode is always 'fixed': start_date/end_date (end blank =
+        # latest available date) fully describe the scan window -- there's no
+        # separate rolling-N-years mode exposed in config anymore.
         hve_screener = HVEScreener(
-            limit_hist_years=user_config.hve_limit_years,
             min_price=user_config.hve_min_price,
             min_volume=user_config.hve_min_volume,
             hv1y_enabled=user_config.hv1y_enable,
             hv1y_window_days=user_config.hv1y_window_days,
-            date_range_mode=user_config.hve_date_range_mode,
+            date_range_mode='fixed',
             start_date=user_config.hve_start_date,
             end_date=user_config.hve_end_date
         )
 
-        # Initialize HVD Screener with user configuration
+        # Initialize HVD Screener with user configuration (same date window as HVE)
         hvd_screener = HVDScreener(
-            limit_hist_years=user_config.hve_limit_years,  # Use same date filters as HVE for consistency
             min_price=user_config.hve_min_price,
             min_volume=user_config.hve_min_volume,
             max_events=user_config.hvd_historical_max_events,
-            date_range_mode=user_config.hve_date_range_mode,
+            date_range_mode='fixed',
             start_date=user_config.hve_start_date,
             end_date=user_config.hve_end_date
         )
 
         # Initialize DataReader
         print(f"\n📖 Initializing DataReader for {timeframe}...")
-        data_reader = DataReader(config, timeframe, batch_size=user_config.batch_size)
+        # Pre-process is the authoritative baseline rebuild -- source only
+        # from the slow/vetted pipeline (archive/current), not the fast
+        # market_data_batch/ overlay, so its cutoff date is deterministic.
+        data_reader = DataReader(config, timeframe, batch_size=user_config.batch_size,
+                                  include_batch_overlay=False)
 
         # Print data summary
         print_data_summary(data_reader, timeframe)
 
 
-        # ================================================================
-        # PRELOAD BASELINE LOADING
-        # ================================================================
-        # Load pre-computed HVE/HVD max volumes as baselines
-        # This enables incremental detection: only volumes EXCEEDING
-        # historical maxes will be recorded as new HVE events
-        # ================================================================
+        # Always full-scan mode: the on-disk preload feature was retired in
+        # favor of results/pre/historical/ + VolChecker's incremental
+        # checker, so this dict stays empty and hve_screener always
+        # detects HVE events from scratch here.
         baseline_hve_volumes = {}  # Dict of ticker -> max_volume
-        baseline_hvd_volumes = {}  # Dict of ticker -> max_volume
-        
-        if user_config.preload_hve:
-            print(f"\n📥 Loading preload baselines for {timeframe}...")
-            
-            # Load HVE preload and extract baselines
-            if user_config.hve_enable and user_config.preload_hve_file:
-                try:
-                    from src.hve_preloader import load_hve_preload_data, get_preload_max_volumes
-                    preload_hve_df = load_hve_preload_data(user_config.preload_hve_file, timeframe)
-                    
-                    if not preload_hve_df.empty:
-                        baseline_hve_volumes = get_preload_max_volumes(preload_hve_df)
-                        print(f"   ✓ Loaded baselines for {len(baseline_hve_volumes)} tickers")
-                        print(f"   ℹ️  Will detect only NEW HVE events exceeding historical maxes")
-                    else:
-                        print(f"   ⚠️  No HVE preload baselines found for {timeframe}")
-                        
-                except FileNotFoundError:
-                    print(f"   ⚠️  HVE preload file not found: {user_config.preload_hve_file}")
-                except Exception as e:
-                    print(f"   ⚠️  Failed to load HVE preload baselines: {e}")
-                    logger.error(f"HVE preload error: {e}", exc_info=True)
-                    
-            # Load HVD preload and extract baselines (for future use)
-            if user_config.hvd_historical_export and user_config.preload_hvd_file:
-                try:
-                    from src.hve_preloader import load_hvd_preload_data, get_preload_max_volumes
-                    preload_hvd_df = load_hvd_preload_data(user_config.preload_hvd_file, timeframe)
-                    
-                    if not preload_hvd_df.empty:
-                        baseline_hvd_volumes = get_preload_max_volumes(preload_hvd_df)
-                        print(f"   ✓ Loaded HVD baselines for {len(baseline_hvd_volumes)} tickers")
-                    else:
-                        print(f"   ⚠️  No HVD preload baselines found for {timeframe}")
-                        
-                except FileNotFoundError:
-                    print(f"   ⚠️  HVD preload file not found: {user_config.preload_hvd_file}")
-                except Exception as e:
-                    print(f"   ⚠️  Failed to load HVD preload baselines: {e}")
-                    logger.error(f"HVD preload error: {e}", exc_info=True)
 
         # Process ALL tickers (don't skip any - we use baselines to filter instead)
         total_tickers = len(ticker_list)
@@ -252,7 +249,7 @@ def process_timeframe(
                 print(f"✅ Loaded {len(batch_data)} valid tickers from batch {batch_count}")
 
                 # Screen for HVE events (with baseline filtering for incremental detection)
-                if user_config.hve_enable:
+                if user_config.hve_pre_process:
                     print(f"\n🔍 Screening for HVE events...")
                     
                     # Pass baseline volumes to filter for only NEW events exceeding historical maxes
@@ -295,7 +292,7 @@ def process_timeframe(
                             print(f"⚠️  No HVE events found in batch {batch_count}")
 
                 # Screen for HVD events (top volume days by magnitude)
-                if user_config.hvd_historical_export:  # Only run if HVD export is enabled
+                if user_config.hve_pre_process:
                     print(f"\n🔍 Screening for HVD events (top volume days)...")
                     hvd_batch_results = hvd_screener.screen_batch(batch_data, timeframe)
 
@@ -326,7 +323,7 @@ def process_timeframe(
             combined_hve_results = combined_hve_results.sort_values('days_since_hve')
 
             # Save HVE results
-            hve_results_file = output_base / f'hve_results_{timeframe}.csv'
+            hve_results_file = output_base / f'HVE_{timeframe}.csv'
             combined_hve_results.to_csv(hve_results_file, index=False)
             
             print(f"\n✅ Saved {len(combined_hve_results)} NEW HVE results to {hve_results_file}")
@@ -355,7 +352,7 @@ def process_timeframe(
             combined_hvd_results = combined_hvd_results.sort_values('days_since_hvd')
 
             # Save HVD results
-            hvd_results_file = output_base / f'hvd_results_{timeframe}.csv'
+            hvd_results_file = output_base / f'HVD_{timeframe}.csv'
             combined_hvd_results.to_csv(hvd_results_file, index=False)
             
             print(f"\n✅ Saved {len(combined_hvd_results)} HVD results to {hvd_results_file}")
@@ -391,7 +388,7 @@ def process_timeframe(
                 combined_hv1y_results = combined_hv1y_results.sort_values('days_since_hv1y')
 
             # Save to separate HV1Y file
-            hv1y_results_file = output_base / f'hv1y_results_{timeframe}.csv'
+            hv1y_results_file = output_base / f'HV1Y_{timeframe}.csv'
             combined_hv1y_results.to_csv(hv1y_results_file, index=False)
             
             print(f"\n✅ Saved {len(combined_hv1y_results)} HV1Y results to {hv1y_results_file}")
@@ -427,23 +424,17 @@ def process_timeframe(
 # ============================================================================
 CONFIG_PRESETS = {
     'preprocess': {
-        'hve_enable':            True,
-        'hvd_historical_export': True,
-        'hve_historical_export': True,
-        'vol_checker_enable':    False,
+        'hve_pre_process':  True,
+        'hve_post_process': False,
     },
     'preprocess_full': {           # same but forces full universe
-        'hve_enable':            True,
-        'hvd_historical_export': True,
-        'hve_historical_export': True,
-        'vol_checker_enable':    False,
-        'ticker_choice':         '0',
+        'hve_pre_process':  True,
+        'hve_post_process': False,
+        'ticker_choice':    '0',
     },
     'postprocess': {
-        'hve_enable':            False,
-        'hvd_historical_export': False,
-        'hve_historical_export': False,
-        'vol_checker_enable':    True,
+        'hve_pre_process':  False,
+        'hve_post_process': True,
     },
 }
 
@@ -466,7 +457,7 @@ Examples:
   python main.py --preset preprocess_full
   python main.py --preset postprocess --ticker-choice 2
   python main.py --preset postprocess --ticker-choice 2 --since-date 2026-05-21
-  python main.py --ticker-choice 2 --no-vol-checker
+  python main.py --ticker-choice 2 --no-post-process
 
 Ticker choice values:
   0: TradingView Universe (~6348 tickers)
@@ -487,20 +478,15 @@ Ticker choice values:
     parser.add_argument('--ticker-choice', type=str, dest='ticker_choice',
                         help='Ticker group (e.g. "2" for NASDAQ 100, "1-2" for S&P500+NASDAQ100)')
 
-    parser.add_argument('--hve', dest='hve_enable', action='store_true',
-                        help='Enable HVE pre-processor')
-    parser.add_argument('--no-hve', dest='hve_enable', action='store_false',
-                        help='Disable HVE pre-processor')
+    parser.add_argument('--pre-process', dest='hve_pre_process', action='store_true',
+                        help='Enable HVE/HVD pre-processor (full scan + historical export)')
+    parser.add_argument('--no-pre-process', dest='hve_pre_process', action='store_false',
+                        help='Disable HVE/HVD pre-processor')
 
-    parser.add_argument('--hvd-export', dest='hvd_historical_export', action='store_true',
-                        help='Enable HVD historical export')
-    parser.add_argument('--no-hvd-export', dest='hvd_historical_export', action='store_false',
-                        help='Disable HVD historical export')
-
-    parser.add_argument('--vol-checker', dest='vol_checker_enable', action='store_true',
-                        help='Enable VOL daily checker')
-    parser.add_argument('--no-vol-checker', dest='vol_checker_enable', action='store_false',
-                        help='Disable VOL daily checker')
+    parser.add_argument('--post-process', dest='hve_post_process', action='store_true',
+                        help='Enable incremental checker (VolChecker, one per configured timeframe)')
+    parser.add_argument('--no-post-process', dest='hve_post_process', action='store_false',
+                        help='Disable daily incremental checker')
 
     parser.add_argument('--since-date', type=str, dest='vol_checker_tw_since_date',
                         help='Force VOL checker to reprocess TW files since YYYY-MM-DD')
@@ -509,14 +495,12 @@ Ticker choice values:
 
     # Only include args that were explicitly provided on the command line
     flag_to_dest = {
-        '--ticker-choice':   'ticker_choice',
-        '--hve':             'hve_enable',
-        '--no-hve':          'hve_enable',
-        '--hvd-export':      'hvd_historical_export',
-        '--no-hvd-export':   'hvd_historical_export',
-        '--vol-checker':     'vol_checker_enable',
-        '--no-vol-checker':  'vol_checker_enable',
-        '--since-date':      'vol_checker_tw_since_date',
+        '--ticker-choice':     'ticker_choice',
+        '--pre-process':       'hve_pre_process',
+        '--no-pre-process':    'hve_pre_process',
+        '--post-process':      'hve_post_process',
+        '--no-post-process':   'hve_post_process',
+        '--since-date':        'vol_checker_tw_since_date',
     }
     provided = {flag_to_dest[a] for a in sys.argv[1:] if a in flag_to_dest}
     cli_dict = {k: v for k, v in vars(args).items() if k != 'preset' and k in provided}
@@ -570,7 +554,7 @@ def main(config_override=None, preset=None):
 
     Args:
         config_override (dict): Key/value overrides for Colab usage, e.g.
-            main(config_override={'ticker_choice': '2', 'vol_checker_enable': True})
+            main(config_override={'ticker_choice': '2', 'hve_post_process': True})
         preset (str): Named preset — 'preprocess', 'preprocess_full', 'postprocess'.
     """
     print("="*60)
@@ -598,20 +582,21 @@ def main(config_override=None, preset=None):
         print("   ✓ Configuration loaded")
         print(f"   ✓ Ticker choice: {user_config.ticker_choice}")
         print(f"   ✓ Batch size: {user_config.batch_size}")
-        print(f"   ✓ HVE limit years: {user_config.hve_limit_years}")
+        print(f"   ✓ HVE date range: {user_config.hve_start_date} to {_display_end_date(user_config.hve_end_date)}")
         print(f"   ✓ HVE min price: ${user_config.hve_min_price}")
         print(f"   ✓ HV1Y enabled: {user_config.hv1y_enable}")
         if user_config.hv1y_enable:
             print(f"   ✓ HV1Y window: {user_config.hv1y_window_days} days")
 
-        # Check if HVE is enabled
-        if not user_config.hve_enable:
-            print("\n⚠️  HVE processing is disabled — skipping to VOL checker")
-            if user_config.vol_checker_enable:
-                checker = VolDailyChecker(config, user_config)
-                checker.run(since_date_override=user_config.vol_checker_tw_since_date)
+        # Check if pre-processing is enabled
+        if not user_config.hve_pre_process:
+            print("\n⚠️  HVE pre-processing is disabled — skipping to VOL checker")
+            if user_config.hve_post_process:
+                run_post_process(config, user_config)
             else:
-                print("⏭️  Vol daily checker also disabled (VOL_checker_enable=FALSE)")
+                print("⏭️  Post-process also disabled (HVE_post_process=FALSE)")
+            if user_config.hv1y_enable:
+                run_hv1y_check(config, user_config)
             return
 
         # Generate ticker files
@@ -664,7 +649,8 @@ def main(config_override=None, preset=None):
             print("GENERATING TICKER CARDS")
             print("="*60)
 
-            card_generator = TickerCardGenerator(user_config.hve_output_dir)
+            # ticker_cards/ is a sibling of pre/ and post/, not nested under either
+            card_generator = TickerCardGenerator(str(Path(user_config.hve_output_dir).parent))
             cards_generated = card_generator.generate_all_cards(all_hve_results)
 
             print(f"\n✅ Generated {cards_generated} ticker cards")
@@ -673,29 +659,20 @@ def main(config_override=None, preset=None):
             # ================================================================
             # HISTORICAL VOLUME EXPORT - HVE AND HVD
             # ================================================================
-            # Two distinct export methods, independently configurable:
-            #
-            # 1. HVE (Highest Volume Ever) - Temporal milestones
-            #    - Progressive all-time volume highs
-            #    - Tracks when new records were set
-            #    - Use: Breakout detection, momentum analysis
-            #    - Config: HVE_historical_export (TRUE/FALSE)
-            #
-            # 2. HVD (Highest Volume Days) - Magnitude ranking
-            #    - Top N volume days, any time period
-            #    - Pure volume sorting, no temporal constraint
-            #    - Use: Liquidity analysis, volatility assessment
-            #    - Config: HVD_historical_export (TRUE/FALSE)
-            #
-            # Both exports can run simultaneously or independently
+            # Both HVE (temporal milestones) and HVD (magnitude ranking) are
+            # exported together whenever hve_pre_process is TRUE -- there's
+            # no separate per-metric toggle.
             # ================================================================
-            
-            output_dir = Path(user_config.hve_output_dir)
-            
+
+            # Accumulated multi-run baselines (HVD/HVE_historical_*.csv,
+            # baseline_metadata.json) live in their own subfolder, separate
+            # from the per-run daily/weekly/monthly outputs and ticker cards.
+            output_dir = Path(user_config.hve_output_dir) / 'historical'
+
             # ----------------------------------------------------------
             # HVE Historical Export (temporal milestones)
             # ----------------------------------------------------------
-            if user_config.hve_historical_export and all_hve_results:
+            if user_config.hve_pre_process and all_hve_results:
                 print("\n" + "="*60)
                 print("EXPORTING HISTORICAL HVE FORMAT")
                 print("="*60)
@@ -708,16 +685,14 @@ def main(config_override=None, preset=None):
 
                 print(f"\n✅ Exported {hve_exported} HVE (Highest Volume Ever) files")
                 print(f"   Events per ticker: {user_config.hve_historical_max_events}")
-                print(f"   Date range: {user_config.hve_start_date} to {user_config.hve_end_date}")
-            elif user_config.hve_historical_export:
-                print("\n⚠️  HVE historical export enabled but no HVE results found")
-            else:
-                print("\n⏭️  HVE historical export disabled (HVE_historical_export=FALSE)")
+                print(f"   Date range: {user_config.hve_start_date} to {_display_end_date(user_config.hve_end_date)}")
+            elif user_config.hve_pre_process:
+                print("\n⚠️  HVE pre-process enabled but no HVE results found")
 
             # ----------------------------------------------------------
             # HVD Historical Export (top volume days by magnitude)
             # ----------------------------------------------------------
-            if user_config.hvd_historical_export and all_hvd_results:
+            if user_config.hve_pre_process and all_hvd_results:
                 print("\n" + "="*60)
                 print("EXPORTING HISTORICAL HVD FORMAT")
                 print("="*60)
@@ -730,27 +705,30 @@ def main(config_override=None, preset=None):
 
                 print(f"\n✅ Exported {hvd_exported} HVD (Highest Volume Days) files")
                 print(f"   Top events per ticker: {user_config.hvd_historical_max_events}")
-                print(f"   Date range: {user_config.hve_start_date} to {user_config.hve_end_date}")
-            elif user_config.hvd_historical_export:
-                print("\n⚠️  HVD historical export enabled but no HVD results found")
-            else:
-                print("\n⏭️  HVD historical export disabled (HVD_historical_export=FALSE)")
+                print(f"   Date range: {user_config.hve_start_date} to {_display_end_date(user_config.hve_end_date)}")
+            elif user_config.hve_pre_process:
+                print("\n⚠️  HVD pre-process enabled but no HVD results found")
         else:
             print("\n⚠️  No results to generate ticker cards")
 
         # ================================================================
-        # VOL DAILY CHECKER
+        # VOL CHECKER (post-process)
         # ================================================================
-        # Reads HVD_historical_daily.csv baseline + TW bulk files.
-        # Flags tickers whose new volume enters the top-N positions.
-        # Runs independently from the HVD pipeline above — no data
-        # download required, no data merging on disk.
+        # Reads the frozen HVE/HVD baseline from results/pre/historical/
+        # + only new data since each timeframe's own cutoff. Runs
+        # independently from the pre-process pipeline above -- no
+        # full-history rescan, no data download required.
         # ================================================================
-        if user_config.vol_checker_enable:
-            checker = VolDailyChecker(config, user_config)
-            checker.run(since_date_override=user_config.vol_checker_tw_since_date)
+        if user_config.hve_post_process:
+            run_post_process(config, user_config)
         else:
-            print("\n⏭️  Vol daily checker disabled (VOL_checker_enable=FALSE)")
+            print("\n⏭️  Post-process disabled (HVE_post_process=FALSE)")
+
+        # ================================================================
+        # HV1Y CHECKER (independent of pre/post -- see run_hv1y_check())
+        # ================================================================
+        if user_config.hv1y_enable:
+            run_hv1y_check(config, user_config)
 
         # Final summary
         print("\n" + "="*60)

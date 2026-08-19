@@ -4,7 +4,7 @@ Build a TradingView watchlist (.txt import format) from HVE results: every
 ticker that had an HVE (all-time volume record) in the last N days, grouped
 into ###Large Cap / ###Mid Cap / ###Small Cap sections.
 
-Source: results/hve_results/daily/hve_results_daily.csv (must already have
+Source: results/pre/daily/HVE_daily.csv (must already have
 a market_cap column -- run scripts/add_market_cap.py first if missing).
 
 Cap tiers match add_market_cap.py's:
@@ -32,9 +32,9 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).parent.parent
-HVE_DAILY_FILE = ROOT / 'results' / 'hve_results' / 'daily' / 'hve_results_daily.csv'
+HVE_DAILY_FILE = ROOT / 'results' / 'pre' / 'daily' / 'HVE_daily.csv'
 UNIVERSE_FILE = ROOT / '..' / 'downloadData_v1' / 'user_input' / 'tradingview_universe.csv'
-OUTPUT_DIR = ROOT / 'results' / 'hve_results'
+OUTPUT_DIR = ROOT / 'results'  # sibling of pre/, post/, ticker_cards/ -- not nested under either
 
 LARGE_MIN = 10_000_000_000
 MID_MIN = 2_000_000_000

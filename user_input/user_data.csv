@@ -11,7 +11,7 @@ POST_PROCESS,FALSE,Execute post-processing (disabled for now)
 ,,
 # TICKER SELECTION,,
 # ----------------,,
-ticker_choice,2,"Ticker combination choice (0-8 or combinations like ""1-2"")"
+ticker_choice,0,"Ticker combination choice (0-8 or combinations like ""1-2"")"
 BATCH_SIZE,200,Number of tickers to process in each batch
 MAX_WORKERS,4,Maximum number of parallel workers for processing
 TIMEFRAMES,"daily,weekly,monthly",Timeframes to process (comma-separated: daily weekly monthly)
@@ -56,45 +56,36 @@ YF_daily_data,TRUE,Process daily timeframe
 YF_weekly_data,TRUE,Process weekly timeframe
 YF_monthly_data,TRUE,Process monthly timeframe
 ,,
-# Historical Volume Export Configuration,,
-# Two independent export methods:,,
-# - HVE (Highest Volume Ever): Temporal milestones when volume set new records,,
-# - HVD (Highest Volume Days): Top N volume days by magnitude (any period),,
-# Set to TRUE to enable, FALSE to disable. Both can run simultaneously.,
-#Pre-load HVE data,,
-preload_HVE,FALSE,
-# LOCAL paths (relative to project root),,
-file preload_HVE_local,HVE_data_for_preload/HVE_historical_*.csv,Local: path to HVE preload files
-file preload_HVD_local,HVE_data_for_preload/HVD_historical_*.csv,Local: path to HVD preload files
-# COLAB paths (absolute Google Drive paths),,
-file preload_HVE_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume/HVE_data_for_preload/HVE_historical_*.csv,Colab: path to HVE preload files
-file preload_HVD_colab,/content/drive/MyDrive/_invest2024_py_run/run_python/metaVolume/HVE_data_for_preload/HVD_historical_*.csv,Colab: path to HVD preload files
-# HVE SPECIFIC SETTINGS,,
-# ----------------------,,
-HVE_enable,TRUE,Enable HVE calculation
-HVE_output_dir,results/hve_results,HVE results output directory
-HVE_limit_years,4,Limit historical search to N years
+# HVE/HVD PRE-PROCESS SETTINGS,,
+# -----------------------------,,
+# Step 1 (expensive -- full history scan): finds HVE (all-time volume,,
+# records) and HVD (top-20 volume days) for every ticker over the date,,
+# window below, and writes the frozen baseline that post-process reads.,
+# Run this rarely -- once to bootstrap, then ~yearly after year-end data,
+# rolls in (or via --preset preprocess_full for a full-universe rebuild).,,
+HVE_pre_process,FALSE,Enable HVE+HVD pre-processor (full scan + historical baseline export)
+HVE_output_dir,results/pre,Pre-process (HVE+HVD) output directory
 HVE_min_volume,0,Minimum volume threshold (0=no filter)
 HVE_min_price,2,Minimum price threshold (0.0=no filter)
-HVE_date_range_mode,fixed,Date range mode: 'rolling' (from now) or 'fixed' (specific dates)
-HVE_start_date,2020-01-02,Start date for fixed range mode (YYYY-MM-DD)
-HVE_end_date,,End date for fixed range mode (YYYY-MM-DD) - leave empty to use latest available date
+HVE_start_date,2020-01-02,Scan window start date (YYYY-MM-DD)
+HVE_end_date,,Scan window end date (YYYY-MM-DD) - leave empty to use latest available date
 HVE_historical_max_events,10,Number of most recent HVE events to export in historical format
-HVE_historical_export,TRUE,Enable HVE historical format export (TRUE/FALSE)
-HVD_historical_export,TRUE,Enable HVD (Top Volume Days) historical format export (TRUE/FALSE)
 HVD_historical_max_events,20,Maximum number of top volume events to export in historical format
 ,,
-# VOL DAILY CHECKER SETTINGS,,
-# ---------------------------,,
-# Step 2: compare TW bulk files against stored HVD baseline,,
-# Run independently from main HVD pipeline (no data download needed),,
-VOL_checker_enable,FALSE,Enable daily volume checker
+# HVE/HVD POST-PROCESS SETTINGS,,
+# ------------------------------,,
+# Step 2 (cheap -- incremental check, one run per TIMEFRAMES entry above):,
+# compares only new data since each timeframe's own last-checked date,,
+# against the frozen baseline. Reads current/ (this year's rows only),,
+# never the full multi-year history. Safe to leave TRUE always -- this,,
+# is the part meant to run every day. Yahoo per-ticker data directory is,,
+# resolved from YF_daily/weekly/monthly_data_files_local/colab above --,,
+# no separate setting needed here.,,
+HVE_post_process,TRUE,Enable incremental HVE/HVD checker (one per configured timeframe)
 VOL_checker_top_n_flag,6,Flag tickers whose new volume enters this many top positions
-VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/,Path to TradingView bulk CSV files directory
+VOL_checker_tw_files_dir,../downloadData_v1/data/tw_files/daily/,Path to TradingView bulk CSV files directory (daily only)
 VOL_checker_tw_since_date,2026-05-21,Process TW files since this date YYYY-MM-DD (blank=auto from state file)
-VOL_checker_data_source,yahoo,Data source for vol checker: tradingview or yahoo
-VOL_checker_yahoo_data_dir_local,../downloadData_v1/data/market_data/daily/,Local path to Yahoo per-ticker daily CSV files
-VOL_checker_yahoo_data_dir_colab,,Colab path to Yahoo per-ticker daily CSV files (full absolute path)
+VOL_checker_data_source,yahoo,Data source for daily checker: tradingview or yahoo (weekly/monthly always use yahoo)
 ,,
 # HV1Y SPECIFIC SETTINGS,,
 # -----------------------,,

@@ -21,7 +21,7 @@ downloadData_v1/
   [PRE-PROCESSOR]  (run once, ticker_choice=0 recommended)
           │
           ▼
-  results/hve_results/
+  results/pre/
     HVD_historical_daily.csv       ← read-only baseline (VOL checker reads this)
     HVE_historical_daily.csv
     HVE_historical_weekly.csv
@@ -36,7 +36,7 @@ downloadData_v1/
   [POST-PROCESSOR / VOL DAILY CHECKER]  (run every trading day)
           │
           ▼
-  results/vol_top20/
+  results/post/
     HVD_incremental.csv            ← new events since baseline (safe to delete)
     daily_log.csv                  ← every monitored ticker, hit=0/1 per day
     vol_check_results.csv          ← cumulative hits log
@@ -70,11 +70,12 @@ metaVolume/
 │   ├── vol_daily_checker.py         ← daily volume checker (TradingView or Yahoo source)
 │   └── ticker_card_generator.py     ← text summary cards per ticker
 ├── results/
-│   ├── hve_results/                 ← pre-processor output (baseline lives here)
-│   └── vol_top20/                   ← post-processor output
-├── data/
-│   └── tickers/                     ← generated combined_tickers_*.csv files
-└── HVE_data_for_preload/            ← preload input files (copied from hve_results after baseline run)
+│   ├── pre/                         ← pre-processor output (HVE+HVD together)
+│   │   └── historical/              ← frozen HVE/HVD baseline (read by vol_daily_checker.py)
+│   ├── post/                        ← post-processor (daily checker) output
+│   └── ticker_cards/                ← per-ticker text summary cards
+└── data/
+    └── tickers/                     ← generated combined_tickers_*.csv files
 ```
 
 ---
@@ -131,48 +132,113 @@ The baseline covers all tickers, so the daily checker can filter to any subset w
 
 | Setting | Value |
 |---|---|
-| `HVE_enable` | TRUE |
-| `HVD_historical_export` | TRUE |
-| `HVE_historical_export` | TRUE |
-| `VOL_checker_enable` | FALSE |
+| `HVE_pre_process` | TRUE |
+| `HVE_post_process` | FALSE |
 | `ticker_choice` | **0** (full universe — do this once and save the file) |
+
+Equivalent shortcut: `python main.py --preset preprocess_full`
 
 Output (authoritative baseline, read-only after this):
 ```
-results/hve_results/HVD_historical_daily.csv   ← VOL checker reads THIS file
-results/hve_results/HVE_historical_daily.csv
-results/hve_results/HVE_historical_weekly.csv
-results/hve_results/HVE_historical_monthly.csv
-results/hve_results/baseline_metadata.json     ← written automatically, records cutoff date
+results/pre/historical/HVD_historical_daily.csv   ← VOL checker reads THIS file
+results/pre/historical/HVE_historical_daily.csv
+results/pre/historical/HVE_historical_weekly.csv
+results/pre/historical/HVE_historical_monthly.csv
+results/pre/historical/baseline_metadata.json     ← written automatically, records cutoff date
 ```
 
-> **Note:** Copy the `results/hve_results/` CSV files to `HVE_data_for_preload/` if you want to use them as preload input in future runs.
+> **Note:** `results/pre/historical/` is the baseline `vol_daily_checker.py` reads directly — no copying elsewhere needed. Rebuild it (rerun `preprocess_full`) once a year after the new year's data rolls in.
 
 ---
 
-### Mode 2: Daily checker only (post-processor only)
+### Mode 2: Incremental checker only (post-processor only)
 
-Run every trading day. Choose between TradingView or Yahoo as the data source.
+Run every day. Runs once per entry in `TIMEFRAMES` (default `daily,weekly,monthly`)
+— each timeframe tracks its own baseline, its own cutoff date, and its own
+`current/` data source independently (see "Why per-timeframe cutoffs matter"
+below). Daily can use TradingView or Yahoo; weekly/monthly always use Yahoo
+(there's no weekly/monthly TradingView bulk-file concept in this codebase).
 
 | Setting | Value |
 |---|---|
-| `HVE_enable` | FALSE |
-| `HVD_historical_export` | FALSE |
-| `HVE_historical_export` | FALSE |
-| `VOL_checker_enable` | TRUE |
-| `VOL_checker_data_source` | `tradingview` or `yahoo` |
+| `HVE_pre_process` | FALSE |
+| `HVE_post_process` | TRUE |
+| `VOL_checker_data_source` | `tradingview` or `yahoo` (daily only) |
 | `ticker_choice` | any (2 = NASDAQ-100, 1 = S&P500, 0 = full universe, etc.) |
 
-Output:
+Equivalent shortcut: `python main.py --preset postprocess`
+
+Output (per timeframe, under `results/post/{daily,weekly,monthly}/`):
 ```
-results/vol_top20/HVD_incremental.csv    ← new events only, safe to delete and replay
-results/vol_top20/daily_log.csv          ← all monitored tickers, hit=0/1 per day
-results/vol_top20/vol_check_results.csv  ← cumulative hits log
-results/vol_top20/daily/                 ← one snapshot file per trading day
+results/post/daily/HVD_incremental.csv    ← new events only, safe to delete and replay
+results/post/daily/daily_log.csv          ← all monitored tickers, hit=0/1 per period
+results/post/daily/vol_check_results.csv  ← cumulative hits log
+results/post/daily/snapshots/             ← one snapshot file per period
+results/post/weekly/  (same files)
+results/post/monthly/ (same files)
 ```
 
 To force reprocess a date: set `VOL_checker_tw_since_date,YYYY-MM-DD` (one day before the target).
 Reset to blank after a successful run.
+
+#### Why per-timeframe cutoffs matter
+
+`baseline_metadata.json`'s `baseline_as_of_date` is a dict keyed by
+timeframe, not one shared date. A monthly bar for the currently-open month
+naturally carries the latest trading day within that month — so monthly's
+true cutoff is often weeks ahead of daily's. Pooling them into a single
+cutoff would let monthly's more-current date mask real gaps in daily's
+coverage (daily days would look "already covered" when they weren't).
+Each `VolChecker` instance only ever reads its own timeframe's cutoff.
+
+#### How pre and post compare and evolve (important)
+
+`pre` and `post` are read fresh from disk **every single post run** — `pre`'s
+baseline is never "seeded once" into post and then forgotten about; it's
+re-read every time, it just doesn't change between reads.
+
+At the start of every `VolChecker.run()`:
+1. `load_hve_baseline()` re-reads `results/pre/historical/HVE_historical_{timeframe}.csv`
+   — `pre`'s output, **read-only**, never written to by post.
+2. `load_hve_incremental()` re-reads `results/post/{timeframe}/HVE_incremental.csv`
+   — post's own ledger, growing across every previous post run.
+
+For each new day's volume, the comparison is:
+```
+combined_max = max(pre's stored record, everything post has found since the last pre rebuild)
+new_vol > combined_max  →  new HVE hit
+```
+A hit gets appended in memory to `hve_incremental_dict`, and at the end of
+the run `save_hve_incremental()` writes the whole updated set back to
+`HVE_incremental.csv` (a full overwrite each time, not an on-disk append —
+but since the file is loaded back in at the start of the next run, it
+behaves as an accumulating ledger).
+
+**Concretely, across runs:**
+- **Run 1** (right after a `pre` rebuild): `HVE_incremental.csv` is empty,
+  so the comparison is effectively "new data vs. `pre`'s baseline alone."
+- **Run 2**: loads `pre`'s baseline again (unchanged) **and** Run 1's
+  discoveries → a ticker that set a new record in Run 1 must now beat
+  *that* record, not fall back to `pre`'s older one.
+- **Run N**: same pattern — `pre` stays frozen, `HVE_incremental.csv` keeps
+  growing, the effective threshold per ticker is always the max of both.
+
+**`pre` never absorbs what `post` finds.** They only reconverge when you
+manually rerun `preprocess_full` — a completely independent full rescan of
+the underlying market data (not a merge of `pre` + `HVE_incremental.csv`)
+that overwrites `HVE_historical_{timeframe}.csv` from scratch. At that
+point `HVE_incremental.csv` is redundant (its discoveries are already
+baked into the fresh baseline), so **after every `preprocess_full` rebuild,
+clear each timeframe's `results/post/{timeframe}/HVD_incremental.csv`,
+`HVE_incremental.csv`, and `last_processed.txt`** — otherwise stale entries
+linger uselessly (harmless, since they'd never win a `max()` comparison
+against the fresh baseline, but they bloat the incremental files for no
+reason). This is still a manual step, not automated.
+
+`HVE_{timeframe}.csv` (the per-ticker summary — see "Output Files
+Reference") follows the identical logic for display: per ticker, whichever
+is more current, `pre`'s stored record or the newest `HVE_incremental.csv`
+entry.
 
 ---
 
@@ -207,15 +273,15 @@ One file per ticker (`AAPL.csv`, `MSFT.csv`, …) with one row per trading day.
 
 **Key design:** all ticker files are opened once and all pending dates are extracted in a single pass — efficient even on Colab/Google Drive.
 
-**Cutoff protection:** the checker reads `baseline_metadata.json` (written automatically after every HVD export) to determine the last date already covered by the baseline. It refuses to process any date on or before that cutoff, preventing double-counting of historical data. If metadata is missing it falls back to scanning `HVD_historical_daily.csv` for the maximum date.
+**Cutoff protection:** the checker reads `baseline_metadata.json` (written automatically after every HVD export) to determine the last date already covered by *that timeframe's* baseline. It refuses to process any date on or before that cutoff, preventing double-counting of historical data. If metadata is missing it falls back to scanning `HVD_historical_{timeframe}.csv` for the maximum date.
 
 **Market cap:** the `marketCap` column in Yahoo per-ticker files is a snapshot taken at download time, replicated across all rows. It reflects the current cap rather than the historical cap at the event date — adequate for large-company filtering, labeled `market_cap` in output.
+
+**Directory:** resolved via the same `YF_daily_data_files_local` / `YF_weekly_data_files_local` / `YF_monthly_data_files_local` (and `_colab`) settings the pre-processor already uses — no separate vol-checker path setting.
 
 **Config keys:**
 ```
 VOL_checker_data_source,yahoo
-VOL_checker_yahoo_data_dir_local,../downloadData_v1/data/market_data/daily/
-VOL_checker_yahoo_data_dir_colab,/content/drive/MyDrive/.../downloadData_v1/data/market_data/daily/
 ```
 
 ---
@@ -355,14 +421,14 @@ drive.mount('/content/drive')
 import pandas as pd
 
 # Today's hits — filter large caps and sort by rank
-hits = pd.read_csv('results/vol_top20/vol_check_results.csv')
+hits = pd.read_csv('results/post/daily/vol_check_results.csv')
 big = hits[hits['entered_top_n'] == True].copy()
 if 'market_cap' in big.columns:
     big = big.sort_values(['market_cap', 'rank'], ascending=[False, True])
 print(big.tail(20).to_string())
 
 # Full daily log (all monitored tickers, hit=0/1)
-log = pd.read_csv('results/vol_top20/daily_log.csv')
+log = pd.read_csv('results/post/daily/daily_log.csv')
 print(log[log['hit'] == 1].tail(20).to_string())
 ```
 
@@ -370,28 +436,32 @@ print(log[log['hit'] == 1].tail(20).to_string())
 
 ## Output Files Reference
 
+Paths below are shown for `daily`; the identical set exists under
+`results/post/weekly/` and `results/post/monthly/` for those timeframes.
+
 | File | Updated by | Purpose |
 |---|---|---|
-| `results/hve_results/HVD_historical_daily.csv` | Pre-processor | HVD baseline — top-N volume days per ticker. **Read-only** during daily runs |
-| `results/hve_results/HVE_historical_*.csv` | Pre-processor | HVE milestones per ticker per timeframe |
-| `results/hve_results/baseline_metadata.json` | Pre-processor | Cutoff date for Yahoo source cutoff protection |
-| `results/vol_top20/HVD_incremental.csv` | Daily checker | New events since baseline. Safe to delete |
-| `results/vol_top20/daily_log.csv` | Daily checker | All monitored tickers per day, `hit` column |
-| `results/vol_top20/vol_check_results.csv` | Daily checker | Cumulative hits (beat threshold) |
-| `results/vol_top20/daily/vol_check_YYYY-MM-DD.csv` | Daily checker | Hits for a single day |
-| `results/vol_top20/last_processed.txt` | Daily checker | State: last processed date |
+| `results/pre/historical/HVD_historical_{timeframe}.csv` | Pre-processor | HVD baseline — top-N volume days per ticker. **Read-only** during checker runs |
+| `results/pre/historical/HVE_historical_*.csv` | Pre-processor | HVE milestones per ticker per timeframe |
+| `results/pre/historical/baseline_metadata.json` | Pre-processor | Per-timeframe cutoff dates for cutoff protection |
+| `results/post/daily/HVD_incremental.csv` | Checker | New events since baseline. Safe to delete |
+| `results/post/daily/daily_log.csv` | Checker | All monitored tickers per period, `hit` column |
+| `results/post/daily/vol_check_results.csv` | Checker | Cumulative hits (beat threshold) |
+| `results/post/daily/snapshots/vol_check_YYYY-MM-DD.csv` | Checker | Hits for a single period |
+| `results/post/daily/last_processed.txt` | Checker | State: last processed date |
 
 ---
 
 ## Recovering from a Bad Run
 
-If the daily checker produced wrong results (wrong ticker_choice, bug, etc.):
+If the checker produced wrong results (wrong ticker_choice, bug, etc.), for
+whichever timeframe was affected:
 
 1. Delete the incremental file (baseline is untouched):
    ```bash
-   rm results/vol_top20/HVD_incremental.csv
-   rm results/vol_top20/vol_check_results.csv
-   rm results/vol_top20/daily_log.csv
+   rm results/post/daily/HVD_incremental.csv
+   rm results/post/daily/vol_check_results.csv
+   rm results/post/daily/daily_log.csv
    ```
 
 2. Force reprocess by setting `VOL_checker_tw_since_date` one day before the target date in `user_data.csv`, then re-run.
@@ -401,7 +471,7 @@ If the daily checker produced wrong results (wrong ticker_choice, bug, etc.):
    python main.py --preset postprocess --ticker-choice 2 --since-date 2026-05-21
    ```
 
-The HVD baseline (`results/hve_results/HVD_historical_daily.csv`) is **never modified** by the daily checker — it is always safe.
+The HVD baseline (`results/pre/historical/HVD_historical_{timeframe}.csv`) is **never modified** by the checker — it is always safe.
 
 ---
 

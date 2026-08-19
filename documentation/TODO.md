@@ -12,23 +12,35 @@
 
 ## metaVolume
 
-- [ ] Update `DataReader.read_stock_data()` to support two read modes:
-      mode='tw_only'  → read only market_data_tw/ (fast; enough for volume top-10 check
-                        because the baseline is already stored — only today's bar needed)
-      mode='stitched' → read YF full history + TW rows newer than last YF date,
-                        concat + sort in memory → single gapless DataFrame
-                        (required for HVE, HV1Y, moving averages, RS, or any
-                        calculation that needs continuous multi-year history)
-      Rule: no third folder, no disk write, both source files stay pure.
-      Screener picks the mode based on what it computes, not a global config.
+- [x] Fast read mode for the daily checker — superseded by a different (better)
+      mechanism than originally planned here: `downloadData_v1` already splits
+      each ticker's file into `archive/` (frozen, through last Dec 31) and
+      `current/` (this year only). `vol_daily_checker.py`'s Yahoo path now
+      reads only `current/` via `yahoo_daily_adapter._ticker_csv_path()`
+      instead of the full multi-year per-ticker file. HVE/HV1Y/multi-year
+      calculations still go through `DataReader`, which reads archive+current
+      combined — unchanged, no third folder, no disk write.
 
 ## Pipeline (new)
 
-- [ ] Write `daily_run.py` orchestration script that chains:
-      1. downloadData_v1 TW update
-      2. metaVolume incremental run (data_source=tw, preload_HVE=TRUE)
-      3. Copy updated HVD_historical_daily.csv → HVE_data_for_preload/
+- [x] Daily incremental run — implemented directly in `vol_daily_checker.py`
+      rather than a separate orchestration script: `VolDailyChecker` now
+      checks both HVD (top-N) and HVE (all-time record) against the frozen
+      baseline in `results/hve_results/historical/`, reading only `current/`.
+      Run via `python main.py --preset postprocess`. The old plan (a
+      `preload_HVE` flag + a `HVE_data_for_preload/` folder manually kept in
+      sync) was removed — the baseline is read straight from
+      `results/hve_results/historical/`, no copy step.
 
-- [ ] Write `bootstrap.py` one-time setup script:
-      1. downloadData_v1 YF full download (5k tickers, 5 years)
-      2. metaVolume full run (data_source=yf, preload_HVE=FALSE) to build initial baseline
+- [ ] Yearly maintenance runbook (still manual): after `downloadData_v1`'s
+      own archive/current rollover for Dec 31 data, rerun
+      `python main.py --preset preprocess_full` to rebuild
+      `HVE_historical_{timeframe}.csv` / `HVD_historical_{timeframe}.csv`
+      for all timeframes, then clear each
+      `results/post/{timeframe}/HVE_incremental.csv` /
+      `HVD_incremental.csv` / `last_processed.txt` since their discoveries
+      are now baked into the fresh baseline. See README.md's "How pre and
+      post compare and evolve" section for why this matters.
+
+- [ ] Extend the same current/-only incremental pattern to weekly/monthly
+      (currently daily-only).
