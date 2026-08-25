@@ -39,6 +39,8 @@ import logging
 from typing import Dict, List, Optional, Tuple
 from datetime import datetime, timedelta
 
+from src.staleness import exclude_stale
+
 logger = logging.getLogger(__name__)
 
 
@@ -292,6 +294,11 @@ class HVDScreener:
 
         if results:
             results_df = pd.DataFrame(results)
+            # Exclude tickers whose latest_date lags the batch's majority
+            # date (see src/staleness.py) - days_since_hvd is computed
+            # relative to each ticker's OWN last row, so a stale ticker's
+            # old event would otherwise sort as if it were current.
+            results_df = exclude_stale(results_df)
             # Sort by days since HVD (most recent first)
             results_df = results_df.sort_values('days_since_hvd')
             logger.info(f"Found {len(results_df)} tickers with HVD data")
