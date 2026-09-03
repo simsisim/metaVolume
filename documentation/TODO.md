@@ -44,3 +44,46 @@
 
 - [ ] Extend the same current/-only incremental pattern to weekly/monthly
       (currently daily-only).
+
+## Weekly data corruption — cleanup after downloadData_v1 rebuild
+
+Context: `downloadData_v1`'s weekly bars were mislabelled one week early (the
+fetch passed a non-Monday `start` to yfinance). Code fixed + committed in
+`downloadData_v1` on 2026-09-03 (commit f1e11e4); the on-disk weekly history
+still needs a one-time re-download — see
+`downloadData_v1/WEEKLY_MONTHLY_REBUILD.md`. Monthly was unaffected.
+
+Everything in `results/*/weekly/` was computed from the shifted data. **After**
+the downloadData_v1 weekly rebuild is done and verified:
+
+- [ ] Rebuild the weekly HVE/HVD baseline:
+      `python main.py --preset preprocess_full`
+      (the pre-processor and HV1Y read archive+current combined, so
+      `results/pre/historical/HVD_historical_weekly.csv`,
+      `HVE_historical_weekly*.csv` and the weekly `HV1Y_*` / `HVD_*` / `HVE_*`
+      files are all currently wrong). Daily/monthly are fine but
+      `preprocess_full` does all timeframes in one pass.
+
+- [ ] Clear the weekly incremental ledger (its discoveries are now in the fresh
+      baseline, and some are bogus partial-week hits):
+      ```
+      rm -f results/post/weekly/HVD_incremental.csv \
+            results/post/weekly/HVE_incremental.csv \
+            results/post/weekly/last_processed.txt
+      ```
+
+- [ ] Delete the bad partial-week rows already recorded this session — a
+      `postprocess` run on 2026-09-03 processed the still-open week `2026-08-31`
+      and logged 659 HVD + 48 HVE hits against 2–3 days of volume:
+      - `results/post/weekly/snapshots/vol_check_2026-08-31.csv`
+      - `results/post/weekly/snapshots/HVE_check_2026-08-31.csv`
+      - rows dated `2026-08-31` in `results/post/weekly/vol_check_results.csv`
+        and `HVE_check_results.csv` (if not already cleared above)
+
+- [ ] (optional, defense-in-depth) Add a `period_calendar`-style gate to
+      `VolChecker._run_yahoo` for weekly/monthly: refuse to process a period
+      that isn't closed as of the daily store's leading edge. Not required once
+      downloadData_v1 is fixed + rebuilt (it only ever writes closed bars), but
+      cheap insurance against a future regression / partial Colab sync. Port the
+      pure module from `downloadData_v1/src/period_calendar.py` (independent
+      copy, per the staleness-guard precedent).
